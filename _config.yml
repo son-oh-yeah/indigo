@@ -1,9 +1,9 @@
 # main text of home
-name: John Doe
-bio: A Man who travels the world eating noodles
+name: Kim Dinh Son
+bio: I'm UX Designer live in Hanoi, VN
 
 # twitter summary info
-description: A blog about technology and stuff related
+description: My portfolio.
 
 # if it's an external image, update below for true
 # better with square images
@@ -14,9 +14,9 @@ picture: assets/images/profile.jpg
 # and specify source (external or local).
 resume: true
 resume-external: true
-resume-url: https://google.com/?q=my+resume
+resume-url: https://www.linkedin.com/in/franciscokimson
 
-url: https://koppl.in/indigo
+url: https://son-oh-yeah.github.io
 # your url: http://USERNAME.github.io
 
 permalink: /:title/
@@ -30,42 +30,36 @@ permalink: /:title/
 
 # if you don't want comments in your posts, leave categories empty
 disqus:
-  shortname: mydisqus # enter this from your disqus account
+  shortname: https-son-oh-yeah-github-io # enter this from your disqus account
   categories: [blog, project] # only show disqus for posts that have these categories
 
 # if you don't have any of social below, comment the line
-facebook: myfacebook
-twitter: mytwitter
+facebook: sonkd.uxdesign
+twitter: KevinSonkd
 # google: mygoogle
 # instagram: myinstagram
 # pinterest: mypinterest
-# linkedin: mylinkedin
+# linkedin: franciscokimson
 # youtube: myyoutube
 # spotify: myspotify
-github: mygithub
+github: son-oh-yeah
 # gitlab: mygitlab
 # lastfm: mylastfm
 # stackoverflow: 7044681/mystackoverflow
 # quora: userquora
 # reddit: username
-medium: medium
+medium: sonohyeah
 # vimeo: myvimeo
 # lanyrd: mylanyrd
-email: myemail@gmail.com
+email: sonkdbk@gmail.com
 
 authors:
-    johndoe:
-        name: John Doe
-        bio: A Man who travels the world eating noodles
+    sonkd:
+        name: Kim Dinh Son
+        bio: I'm UX Designer live in Hanoi, VN
         external-image: false
         picture: assets/images/profile.jpg
-        twitter: johndoe
-    jamesfoster:
-        name: James Foster
-        bio: A Man who develops software with coffee
-        external-image: false
-        picture: assets/images/james.jpg
-        twitter: jamesfoster
+        twitter: Franciscokimson
 
 # do you want a larger site? change the option below
 # options: [normal, large] | default: normal
@@ -75,6 +69,9 @@ width: normal
 # if you don't need pagination, comment the *paginate* configs below
 # paginate: 5
 # paginate_path: "blog/:num/"
+
+# if you don't need icorner, comment the *icorner* configs below
+# icorner: true
 
 # if you don't need projects, comment the *projects* configs below
 projects: true
