@@ -4,43 +4,51 @@ layout: page
 ---
 ![Profile Image]({{ site.url }}/{{ site.picture }})
 
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+<p>Là một UX Design có kinh nghiệm, thiết kế linh hoạt. Khả năng R&D và học hỏi tốt. 
+Cung cấp các giải pháp thiết kế tối ưu và sáng tạo.</p>
 
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+<p>Từng được làm việc với những dự án phát triển từ khâu sản xuất sản phẩm đến giai đoạn đóng gói, 
+phát hành. Những dự án đòi hỏi sự phối hợp nhiều đội ngũ và bộ phận phát triển, đảm bảo tất cả các công 
+việc là có hiệu quả, phù hợp với lượng thời gian theo kế hoạch.</p>
 
-<h2>Skills</h2>
+<p>Có khả năng tương tác với bộ phận dev back-end và fron-end, thiết kế đồ họa, viết tài 
+liệu thiết kế, kỹ năng tính toán và phân tích dữ liệu.</p>
 
+<h2>Mốc thời gian</h2>
+(2010)      Tốt nghiệp lớp Toán, THPT Chuyên Vĩnh Phúc<br>
+(2015)      Tốt nghiệp ĐHBK Hà Nội, chuyên ngành Khoa học máy tính<br>
+
+(2012-2013) UX/UI Designer tại lovebook.vn<br>
+(2013-2015) R&D Product tại VTC Intecom<br>
+(2015-2017) Game Production tại Game studio<br>
+(-Hiện tại)  Product Management tại ELCOM Corp
+
+<h2>Kỹ năng</h2>
+
+<h4>Chuyên môn</h4>
 <ul class="skill-list">
-	<li>HTML - Jade - Haml - Erb</li>
-	<li>Responsive (Mobile First)</li>
-	<li>CSS (Stylus, Sass, Less)</li>
-	<li>Css Frameworks (Bootstrap, Foundation)</li>
-	<li>Javascript (Design Patterns, Testes)</li>
-	<li>NodeJS</li>
-	<li>AngularJS - ReactJS</li>
-	<li>Grunt - Gulp - Yeoman</li>
-	<li>Git</li>
-	<li>PHP</li>
-	<li>Python</li>
-	<li>MySQL - MongoDB</li>
-	<li>Scrum and Kanban</li>
-	<li>TDD e Continuous Integration</li>
+	<li>Scrum, Agile và Kanban</li>
+	<li>Qui trình phát triển Lean</li>
+	<li>Graphic design, Hand drawing</li>
+	<li>Web, App, CMS design</li>
+	<li>Saas</li>
 </ul>
 
-<h2>Projects</h2>
+<h4>Kiến thức và công cụ sử dụng</h4>
+<ul class="skill-list">
+	<li>HTML</li>
+	<li>CSS, Bootstrap</li>
+	<li>Responsive</li>	
+	<li>Wordpress</li>
+	<li>Java (OOP)</li>
+	<li>Adobe XD, Sketch, Figma</li>
+	<li>Axure RP, Balsamiq, Visio, Vẽ tay và Digital</li>
+	<li>Photoshop, Illustrator, After Effects</li>
+</ul>
+
+<h2>Dự án riêng</h2>
 
 <ul>
-	<li><a href="https://github.com/">Lorem Lorem</a></li>
-	<li><a href="https://github.com/">Ipsum Dolor</a></li>
-	<li><a href="https://github.com/">Dolor Lorem</a></li>
+	<li><a href="https://www.behance.net/gallery/40587745/Daily-UI-009-Music-Player">Daily UI/009 Music Player</a></li>
+	<li><a href="https://www.behance.net/gallery/23519075/SOICT-Logo">Logo</a></li>
 </ul>
