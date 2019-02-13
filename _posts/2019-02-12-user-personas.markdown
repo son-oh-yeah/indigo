@@ -37,7 +37,7 @@ description: ""
 
 	function showInfo(data) {
 		for (var i = 0; i <= data.length; i++) {
-			document.getElementById("user").innerHTML += i + "- <strong>"+ [data[i].Name] + ": </strong> <br>" + [data[i].Age, data[i].Sex ].join(", ")+"<br><br>";
+			document.getElementById("user").innerHTML += (i+1) + "- <strong>"+ [data[i].Name] + ": </strong> <br>" + [data[i].Age, data[i].Sex ].join(", ")+"<br><br>";
 		};
 
 		console.log(data);
