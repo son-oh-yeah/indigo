@@ -16,7 +16,7 @@ description: ""
 ---
 
 
-<p>TEST GET DATA</p>
+<p>USER PERSONAS</p>
 
 <p id="user"></p>
 <script type="text/javascript" src="{{site.url}}/src/tabletop.min.js"></script>
