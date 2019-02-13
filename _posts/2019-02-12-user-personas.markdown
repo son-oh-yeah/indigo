@@ -36,9 +36,24 @@ description: ""
 	window.addEventListener('DOMContentLoaded', init);
 
 	function showInfo(data) {
-		for (var i = 0; i <= data.length; i++) {
-			document.getElementById("user").innerHTML += (i+1) + "- <strong>"+ [data[i].Name] + ": </strong> <br>" + [data[i].Age, data[i].Sex ].join(", ")+"<br><br>";
-		};
+        for (var i = 0; i <= data.length; i++) {
+        	document.getElementById("user").innerHTML += "<br>"+(i+1) + "- <strong>" + ": </strong> <br><br>"+
+        	"<table border = '1'>" +
+        	'<tr>' +
+        	'<th>'+[data[i].Name]+'</th>' +
+        	'<th>'+"Wants & Needs <br><br>"+[data[i].Wants_Needs]+'</th>' +
+        	'<th>'+"Wants & Needs <br><br>"+[data[i].Frustrations]+'</th>' +
+        	'</tr>' +
+        	'<tr>' +
+        	'<td>'+"Demographics <br><br>"+"Age: "+[data[i].Age]+"<br>Sex: "+[data[i].Sex]+"<br>"+[data[i].Bio]+'</td>' +
+        	'<td>'+'</td>' +
+        	'<td>'+'</td>' +
+        	'</tr>' +
+        	'<td>'+[data[i].Tools]+'</td>' +
+        	'<td>'+"Favorite Brands"+[data[i].Brands]+'</td>' +
+        	'<td>'+"Tech skill <br><br>"+[data[i].Tech_skill]+'</td>' +
+        	'</tr>'
+        };
 
 		console.log(data);
 	}       
