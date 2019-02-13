@@ -21,7 +21,7 @@ liệu thiết kế, kỹ năng tính toán và phân tích dữ liệu.</p>
 (2012-2013) UX/UI Designer tại lovebook.vn<br>
 (2013-2015) R&D Product tại VTC Intecom<br>
 (2015-2017) Game Production tại Game studio<br>
-(-Hiện tại)  Product Management tại ELCOM Corp
+(2017-2018) Product Management tại ELCOM Corp
 
 <h2>Kỹ năng</h2>
 
