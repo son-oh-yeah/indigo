@@ -48,7 +48,7 @@ description: ""
         	               '<td>'+"Demographics <br><br>"+"Age: "+[data[i].Age]+"<br>Sex: "+[data[i].Sex]+"<br>"+[data[i].Bio]+'</td>' +
         	       '</tr>' +
                        '<tr>' +
-        	               '<td>'+[data[i].Tools]+'</td>' +
+        	               '<td>'+"Tools & Applications <br><br>"+[data[i].Tools]+'</td>' +
         	               '<td>'+"Favorite Brands <br><br>"+[data[i].Brands]+'</td>' +
         	               '<td>'+"Tech skill <br><br>"+[data[i].Tech_skill]+'</td>' +
         	       '</tr>'+
