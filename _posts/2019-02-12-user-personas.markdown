@@ -41,8 +41,8 @@ description: ""
         	"<table border = '1'>" +
         	'<tr>' +
         	'<th>'+[data[i].Name]+'</th>' +
-        	'<td colspan = "2">'+"Wants & Needs <br><br>"+[data[i].Wants_Needs]+'</th>' +
-        	'<td colspan = "2">'+"Frustrations <br><br>"+[data[i].Frustrations]+'</th>' +
+        	'<td rowspan = "2">'+"Wants & Needs <br><br>"+[data[i].Wants_Needs]+'</th>' +
+        	'<td rowspan = "2">'+"Frustrations <br><br>"+[data[i].Frustrations]+'</th>' +
         	'</tr>' +
         	'<tr>' +
         	'<td>'+"Demographics <br><br>"+"Age: "+[data[i].Age]+"<br>Sex: "+[data[i].Sex]+"<br>"+[data[i].Bio]+'</td>' +
