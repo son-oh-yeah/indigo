@@ -41,16 +41,14 @@ description: ""
         	"<table border = '1'>" +
         	'<tr>' +
         	'<th>'+[data[i].Name]+'</th>' +
-        	'<th>'+"Wants & Needs <br><br>"+[data[i].Wants_Needs]+'</th>' +
-        	'<th>'+"Wants & Needs <br><br>"+[data[i].Frustrations]+'</th>' +
+        	'<td colspan = "2">'+"Wants & Needs <br><br>"+[data[i].Wants_Needs]+'</th>' +
+        	'<td colspan = "2">'+"Frustrations <br><br>"+[data[i].Frustrations]+'</th>' +
         	'</tr>' +
         	'<tr>' +
         	'<td>'+"Demographics <br><br>"+"Age: "+[data[i].Age]+"<br>Sex: "+[data[i].Sex]+"<br>"+[data[i].Bio]+'</td>' +
-        	'<td>'+'</td>' +
-        	'<td>'+'</td>' +
         	'</tr>' +
         	'<td>'+[data[i].Tools]+'</td>' +
-        	'<td>'+"Favorite Brands"+[data[i].Brands]+'</td>' +
+        	'<td>'+"Favorite Brands <br><br>"+[data[i].Brands]+'</td>' +
         	'<td>'+"Tech skill <br><br>"+[data[i].Tech_skill]+'</td>' +
         	'</tr>'
         };
