@@ -1,7 +1,7 @@
 
-<nav class="{% if page.title == "Home" %}nav-home{% else%}{%if page.title == "Design System" %}navbar navbar-expand-lg navbar-light bg-light justify-content-end{% else%}nav-page{% endif %}{% endif %}">
+<nav class="{% if page.title == "Home" %}nav-home{% else%}{%if page.title == "Design System" %}navbar navbar-expand-lg navbar-light bg-light justify-content-end{% else %}nav-page{% endif %}{% endif %}">
     {% if page.title == "Design System" %}<div class="collapse navbar-collapse">{% endif %}
-        <ul class="list">
+        {% if page.title == " Design System" %} <ul class="navbar-nav mr-auto">{% else %} <ul class="list"> {% endif %}
             {% if page.title != "Home" %}
             <li class="item">
                 <a class="link" href="{{ site.url }}/">Home</a>
