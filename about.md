@@ -14,15 +14,6 @@ việc là có hiệu quả, phù hợp với lượng thời gian theo kế ho�
 <p>Có khả năng tương tác với bộ phận dev back-end và fron-end, thiết kế đồ họa, viết tài 
 liệu thiết kế, kỹ năng tính toán và phân tích dữ liệu.</p>
 
-<h2>Mốc thời gian</h2>
-(2010)      Tốt nghiệp lớp Toán, THPT Chuyên Vĩnh Phúc<br>
-(2015)      Tốt nghiệp ĐHBK Hà Nội, chuyên ngành Khoa học máy tính<br>
-
-(2012-2013) UX/UI Designer tại lovebook.vn<br>
-(2013-2015) R&D Product tại VTC Intecom<br>
-(2015-2017) Game Production tại Game studio<br>
-(2017-2018) Product Management tại ELCOM Corp
-
 <h2>Kỹ năng</h2>
 
 <h4>Chuyên môn</h4>
@@ -44,11 +35,4 @@ liệu thiết kế, kỹ năng tính toán và phân tích dữ liệu.</p>
 	<li>Adobe XD, Sketch, Figma</li>
 	<li>Axure RP, Balsamiq, Visio, Vẽ tay và Digital</li>
 	<li>Photoshop, Illustrator, After Effects</li>
-</ul>
-
-<h2>Dự án riêng</h2>
-
-<ul>
-	<li><a href="https://www.behance.net/gallery/40587745/Daily-UI-009-Music-Player">Daily UI/009 Music Player</a></li>
-	<li><a href="https://www.behance.net/gallery/23519075/SOICT-Logo">Logo</a></li>
 </ul>
