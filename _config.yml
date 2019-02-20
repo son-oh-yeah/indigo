@@ -20,9 +20,6 @@ url: https://son-oh-yeah.github.io
 # your url: http://USERNAME.github.io
 
 permalink: /:title/
-#use bootstrap
-sass:
-    sass_dir: css
 
 # To enable google analytics, supply your token below
 # analytics-google: 'UA-MYANALYTICS'
