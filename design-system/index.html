@@ -33,32 +33,29 @@ title: Design System
 </head>
 
 <body>
-    <div class="container-fluid">
+    <header class="navbar navbar-expand nav-dark bd-navbar">
         {% include nav.html %}
-    </div>
+    </header>
 
     <div class="container-fluid">
-        <div class="col">
-            <div class="col col-2 col-md-3 col-sm-12 sidebar" id="menu">
-                <ul class="nav">
-                    <li class="nav-item">Test A</li>
-                    <li class="nav-item">Test B</li>
-                    <li class="nav-item">Test C</li>
-                    <li class="nav-item">Test D</li>
-                    <li class="nav-item">Test E</li>
+        <div class="row flex-xl-nowrap">
+            <div class="col-12 col-md-3 col-xl-2 bd-sidebar" id="menu">
+                <ul class="collapse bd-links" id="bd-categories-nav">
+                    <li class="bd-toc-item active"><a class="bd-toc-link" href="#">Test A</a></li>
+                    <li class="bd-toc-item active"><a class="bd-toc-link" href="#">Test B</a></li>
+                    <li class="bd-toc-item active"><a class="bd-toc-link" href="#">Test C</a></li>
+                    <li class="bd-toc-item active"><a class="bd-toc-link" href="#">Test D</a></li>
+                    <li class="bd-toc-item active"><a class="bd-toc-link" href="#">Test E</a></li>
                 </ul>
             </div>
 
-            <div class="col col-10 col-md3 col-sm-12 sidebar main-content">
+            <main class="col-12 col-md-9 col-xl-10 sidebar main-content py-md-3 pl-md-5 bd-content" role="main">
                 <div class="designs-system-content">
                     TEST TEST TEST
                 </div>
-            </div>
+            </main>
         </div>
     </div>
-
-
-
 
     <!-- JS -->
     <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js" integrity="sha384-SlE991lGASHoBfWbelyBPLsUlwY1GwNDJo3jSJO04KZ33K2bwfV9YBauFfnzvynJ" crossorigin="anonymous"></script>
