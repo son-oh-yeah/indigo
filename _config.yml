@@ -20,6 +20,8 @@ url: https://son-oh-yeah.github.io
 # your url: http://USERNAME.github.io
 
 permalink: /:title/
+sass:
+    sass_dir: css
 
 # To enable google analytics, supply your token below
 # analytics-google: 'UA-MYANALYTICS'
@@ -77,7 +79,7 @@ width: normal
 projects: true
 
 # if you don't need design_system, comment the *design_system* configs below
-design_system: true
+design-system: true
 
 # if you don't need "about" or "blog", comment them out below
 about: true
