@@ -21,9 +21,6 @@ url: https://son-oh-yeah.github.io
 
 permalink: /:title/
 
-sass:
-  sass_dir: css
-
 # To enable google analytics, supply your token below
 # analytics-google: 'UA-MYANALYTICS'
 
