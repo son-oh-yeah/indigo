@@ -1,7 +1,48 @@
 
-<nav class="{% if page.title == "Home" %}nav-home{% else%}{%if page.title == "Design System" %}navbar navbar-expand-lg navbar-light bg-light justify-content-end{% else %}nav-page{% endif %}{% endif %}">
-    {% if page.title == "Design System" %}<div class="collapse navbar-collapse">{% endif %}
-        {% if page.title == " Design System" %} <ul class="navbar-nav mr-auto">{% else %} <ul class="list"> {% endif %}
+{% if page.title == "Design System" %}
+<nav class="navbar navbar-expand-lg navbar-light bg-light justify-content-end">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse">
+        <ul class="navbar-nav mr-auto">
+            {% if page.title != "Home" %}
+            <li class="item">
+                <a class="link" href="{{ site.url }}/">Home</a>
+            </li>
+            {% endif %}
+
+            {% if site.blog == true %}
+            {% if page.title != "Blog" %}
+            <li class="item">
+                <a class="link" href="{{ site.url }}/blog">Blog</a>
+            </li>
+            {% endif %}
+            {% endif %}
+
+            {% if site.projects == true %}
+            {% if page.title != "Projects" %}
+            <li class="item">
+                <a class="link" href="{{ site.url }}/projects">Projects</a>
+            </li>
+            {% endif %}
+            {% endif %}
+
+            {% if site.about == true %}
+            {% if page.title != "About" %}
+            <li class="item">
+                <a class="link" href="{{ site.url }}/about">About</a>
+            </li>
+            {% endif %}
+            {% endif %}
+        </ul>
+    </div>
+
+</nav>
+{% else %}
+<nav class="{% if page.title == "Home" %}nav-home{% else %}nav-page{% endif %}">     
+        <ul class="list">
             {% if page.title != "Home" %}
             <li class="item">
                 <a class="link" href="{{ site.url }}/">Home</a>
@@ -48,6 +89,6 @@
             {% endif %}
         -->
     </ul>
-    {% if page.title == "Design System" %}</div>{% endif %}
 </nav>
+{% endif %}
 
