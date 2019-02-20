@@ -1,5 +1,5 @@
 
-<nav class="{% if page.title == "Home" %}nav-home{% else%}{%if page.title == "Design System" %}nav-page justify-content-end{% else%}nav-page{% endif %}{% endif %}">
+<nav class="{% if page.title == "Home" %}nav-home{% else%}{%if page.title == "Design System" %}navbar navbar-expand-lg navbar-light bg-light justify-content-end{% else%}nav-page{% endif %}{% endif %}">
     <ul class="list">
         {% if page.title != "Home" %}
         <li class="item">
