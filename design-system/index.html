@@ -33,18 +33,23 @@ title: Design System
 </head>
 
 <body>
-    {% include nav.html %}
+    
+    <header class="navbar navbar-expand navbar-dark flex-column flex-md-row bd-navbar">
+        <div class="navbar-nav-scroll">
+            {% include nav.html %}
+        </div>
+    </header>
 
     <div class="container-fluid">
         <div class="row flex-xl-nowrap">
             <div class="col-12 col-md-3 col-xl-2 bd-sidebar" id="menu">
-                <ul class="collapse bd-links" id="bd-categories-nav">
-                    <li class="bd-toc-item active"><a class="bd-toc-link" href="#">Test A</a></li>
-                    <li class="bd-toc-item active"><a class="bd-toc-link" href="#">Test B</a></li>
-                    <li class="bd-toc-item active"><a class="bd-toc-link" href="#">Test C</a></li>
-                    <li class="bd-toc-item active"><a class="bd-toc-link" href="#">Test D</a></li>
-                    <li class="bd-toc-item active"><a class="bd-toc-link" href="#">Test E</a></li>
-                </ul>
+                <nav class="collapse bd-links" id="bd-categories-nav">
+                    <div class="bd-toc-item active"><a class="bd-toc-link" href="#">Test A</a></div>
+                    <div class="bd-toc-item "><a class="bd-toc-link" href="#">Test B</a></div>
+                    <div class="bd-toc-item "><a class="bd-toc-link" href="#">Test C</a></div>
+                    <div class="bd-toc-item "><a class="bd-toc-link" href="#">Test D</a></div>
+                    <div class="bd-toc-item "><a class="bd-toc-link" href="#">Test E</a></div>
+                </nav>
             </div>
 
             <main class="col-12 col-md-9 col-xl-10 sidebar main-content py-md-3 pl-md-5 bd-content" role="main">
