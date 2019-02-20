@@ -22,7 +22,7 @@ liệu thiết kế, kỹ năng tính toán và phân tích dữ liệu.</p>
 	<li>Qui trình phát triển Lean</li>
 	<li>Graphic design, Hand drawing</li>
 	<li>Web, App, CMS design</li>
-	<li>Saas</li>
+	<li>SaaS</li>
 </ul>
 
 <h4>Kiến thức và công cụ sử dụng</h4>
