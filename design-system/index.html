@@ -33,13 +33,13 @@ title: Design System
 </head>
 
 <body>
-    <header>
+    <div class="container-fluid">
         {% include nav.html %}
-    </header>
+    </div>
 
-    <div class="design-system">
-        <div class="columns">
-            <div class="column col-2 col-md-3 col-sm-12 sidebar" id="menu">
+    <div class="container-fluid">
+        <div class="col">
+            <div class="col col-2 col-md-3 col-sm-12 sidebar" id="menu">
                 <ul class="nav">
                     <li class="nav-item">Test A</li>
                     <li class="nav-item">Test B</li>
@@ -49,7 +49,7 @@ title: Design System
                 </ul>
             </div>
 
-            <div class="column col-10 col-md3 col-sm-12 sidebar main-content">
+            <div class="col col-10 col-md3 col-sm-12 sidebar main-content">
                 <div class="designs-system-content">
                     TEST TEST TEST
                 </div>
