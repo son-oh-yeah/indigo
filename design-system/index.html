@@ -11,20 +11,33 @@ title: Design System
     <div class="container-fluid">
         <div class="row flex-md-nowrap">
             <div class="col-12 col-md-3 col-xl-2 bg-light py-md-3 pl-md-5 sidebar" id="menu">
-                <!-- Menu item -->
+
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#menuSidebar" aria-controls="menuSidebar" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
                 <nav class="collapse bd-links" id="menuSidebar">
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#menuSidebar" aria-controls="menuSidebar" aria-expanded="true" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <ul class="nav flex-column nav-pills">
-                        <li class="nav-item"><a class="nav-link active" href="#"> Meu 1</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#"> Meu 1</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#"> Meu 2</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#"> Meu 3</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#"> Meu 4</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#"> Meu 5</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#"> Meu 6</a></li>
-                    </ul>
+
+                    <!-- Menu item -->
+                    <div class="collapse" id="menuSidebar">
+                        <div class="bd-toc-item">
+                            <a class="bd-toc-item" href="#">Menu 1</a>
+                            <ul class="nav bd-sidenav">
+                                <li class="nav-item"><a class="nav-link active" href="#"> Meu 1</a></li>
+                                <li class="nav-item"><a class="nav-link" href="#"> Meu 1</a></li>
+                                <li class="nav-item"><a class="nav-link" href="#"> Meu 2</a></li>
+                                <li class="nav-item"><a class="nav-link" href="#"> Meu 3</a></li>
+                                <li class="nav-item"><a class="nav-link" href="#"> Meu 4</a></li>
+                                <li class="nav-item"><a class="nav-link" href="#"> Meu 5</a></li>
+                                <li class="nav-item"><a class="nav-link" href="#"> Meu 6</a></li>
+                            </ul>
+                        </div>
+                        <div class="bd-toc-item">
+                            <a class="bd-toc-item" href="#">Menu 1</a>
+                        </div>
+                        
+                    </div>
+                    
                 </nav>
             </div>
 
