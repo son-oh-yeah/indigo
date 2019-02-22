@@ -36,9 +36,10 @@ description: ""
 	window.addEventListener('DOMContentLoaded', init);
 
 	function showInfo(data) {
+		var index = 0;
         for (var i = 0; i <= data.length; i++) {
 			if ([data[i].Show]=="Yes"){
-        		document.getElementById("user").innerHTML += "<br>"+(i+1) + "- <strong>" + ": </strong> <br><br>"+
+        		document.getElementById("user").innerHTML += "<br>"+"<strong>" + (index+1) + ": </strong> <br><br>"+
         		"<table border = '1'>" +
         	       '<tr>' +
         	               '<th>'+[data[i].Name]+'</th>' +
