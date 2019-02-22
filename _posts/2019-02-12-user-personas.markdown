@@ -37,8 +37,9 @@ description: ""
 
 	function showInfo(data) {
         for (var i = 0; i <= data.length; i++) {
-        	document.getElementById("user").innerHTML += "<br>"+(i+1) + "- <strong>" + ": </strong> <br><br>"+
-        	"<table border = '1'>" +
+			if ([data[i].Name]=="Yes"){
+        		document.getElementById("user").innerHTML += "<br>"+(i+1) + "- <strong>" + ": </strong> <br><br>"+
+        		"<table border = '1'>" +
         	       '<tr>' +
         	               '<th>'+[data[i].Name]+'</th>' +
         	               '<td rowspan = "2">'+"Wants & Needs <br><br>"+[data[i].Wants_Needs]+'</th>' +
@@ -53,6 +54,7 @@ description: ""
         	               '<td>'+"Tech skill <br><br>"+[data[i].Tech_skill]+'</td>' +
         	       '</tr>'+
                 "</table>"
+			}
         };
 
 		console.log(data);
