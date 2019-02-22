@@ -40,7 +40,7 @@ description: ""
         	document.getElementById("user").innerHTML += "<br>"+(i+1) + "- <strong>" + ": </strong> <br><br>"+
         	"<table border = '1'>" +
         	       '<tr>' +
-        	               '<th>'+[data[i][0]+'</th>' +
+        	               '<th>'+[data[i].Name+'</th>' +
         	               '<td rowspan = "2">'+"Wants & Needs <br><br>"+[data[i].Wants_Needs]+'</th>' +
         	               '<td rowspan = "2">'+"Frustrations <br><br>"+[data[i].Frustrations]+'</th>' +
         	       '</tr>' +
