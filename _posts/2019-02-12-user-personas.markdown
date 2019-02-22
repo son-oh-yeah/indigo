@@ -37,7 +37,7 @@ description: ""
 
 	function showInfo(data) {
         for (var i = 0; i <= data.length; i++) {
-			if ([data[i].Name]=="Yes"){
+			if ([data[i].Show]=="Yes"){
         		document.getElementById("user").innerHTML += "<br>"+(i+1) + "- <strong>" + ": </strong> <br><br>"+
         		"<table border = '1'>" +
         	       '<tr>' +
