@@ -20,18 +20,24 @@ title: Design System
                     <!-- Menu sidebar -->
                     <div class="navbar-collapse collapse" id="menu-sidebar">
                         <ul class="nav flex-column">
-                            <li class="nav-title">Nav Title</li>
-                            <li class="nav-item"><a class="nav-link" href="#">Nav1</a></li>
-                            <li class="nav-item"><a class="nav-link" href="#">Nav2</a></li>
-                            <li class="nav-item"><a class="nav-link" href="#">Nav3</a></li>
+
+
+    {% for page-design-system in site.design-system %}
+        {% if page-design-system.isNav %}
+            <li class="nav-item"><a class="nav-link" href="#">
+                <a class="url" href="{{ site.url }}{{ page-design-system.url }}">{{ page-design-system.title }}</a>
+            </li>
+        {% else %}
+            <li class="nav-title">{{ page-design-system.title }}</li>
+        {% endif %}       
+    {% endfor %}
                         </ul>
 
                     </div>
                 </div>
             </div>
 
-            <main class="col-12 col-md-9 col-xl-10 sidebar main-content py-md-3 pl-md-5 bd-content" role="main">
-                
+            <main class="col-12 col-md-9 col-xl-10 sidebar main-content py-md-3 pl-md-5 bd-content" role="main">               
                 <div main-content="Nav1.html"></div>
             </main>
         </div>
