@@ -23,13 +23,15 @@ title: Design System
 
 
     {% for page-design-system in site.design-system %}
-        {% if page-design-system.isNav %}
+            <!-- {% if page-design-system.isNav %} -->
             <li class="nav-item"><a class="nav-link" href="#">
                 <a class="url" href="{{ site.url }}{{ page-design-system.url }}">{{ page-design-system.title }}</a>
             </li>
+            <!-- 
         {% else %}
             <li class="nav-title">{{ page-design-system.title }}</li>
-        {% endif %}       
+        {% endif %}
+            -->       
     {% endfor %}
                         </ul>
 
