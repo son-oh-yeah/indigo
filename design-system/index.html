@@ -35,7 +35,11 @@ isNav: false
             </div>
 
             <main class="col-12 col-md-9 col-xl-10 sidebar main-content py-md-3 pl-md-5 bd-content" role="main">
-                <div main-content="{% if post.externalLink %}{{ post.externalLink }}{% else %}{{ site.url }}{{ post.url }}{% endif %}"></div>
+                {% for post in site.posts %}
+                    {% if post.category == 'design-system' %}
+                        <div main-content="{% if post.externalLink %}{{ post.externalLink }}{% else %}{{ site.url }}{{ post.url }}{% endif %}"></div>
+                    {% endif %}
+                {% endfor %}            
             </main>
         </div>
     </div>
