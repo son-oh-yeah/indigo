@@ -38,6 +38,7 @@ isNav: false
                 {% for post in site.posts %}
                     {% if post.category == 'design-system' %}
                         <div class="tab-pane fade show active" id="{{ post.id }}" role="tabpanel" aria-labelledby="{{ post.id }}-tab">
+                            {{ post.url }}
                             <div main-content="{% if post.externalLink %}{{ post.externalLink }}{% else %}{{ site.url }}{{ post.url }}{% endif %}"></div>
                         </div>
                        
