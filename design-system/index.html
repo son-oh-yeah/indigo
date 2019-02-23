@@ -23,10 +23,11 @@ isNav: false
                     <div class="navbar-collapse collapse" id="menu-sidebar">
                         <ul class="nav flex-column">
                             <li class="nav-title">Nav Title</li>
-                            <li class="nav-item"><a class="nav-link" href="#">Nav1</a></li>
-                            <li class="nav-item"><a class="nav-link" href="#">Nav2</a></li>
-                            <li class="nav-item"><a class="nav-link" href="#">Nav3</a></li>
-
+                            {% for post in site.posts %}
+                                {% if post.category == 'design-system' %}
+                                    <li class="nav-item"><a class="nav-link" href="#">{{ post.title }}</a></li>
+                                {% endif %}
+                            {% endfor %}
                         </ul>
 
                     </div>
