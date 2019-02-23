@@ -1,6 +1,6 @@
 ---
 title: "Nav 2"
-layout: post
+layout: page-design-system
 
 tag:
 - design system
