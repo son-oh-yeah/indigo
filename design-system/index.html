@@ -1,5 +1,7 @@
 ---
 title: Design System
+
+isNav: false
 ---
 {% include header-design-system.html %}
 <body>
@@ -24,12 +26,10 @@ title: Design System
                             <li class="nav-item"><a class="nav-link" href="#">Nav1</a></li>
                             <li class="nav-item"><a class="nav-link" href="#">Nav2</a></li>
                             <li class="nav-item"><a class="nav-link" href="#">Nav3</a></li>
-                            {% for post in site.posts %}
-                                {% if post.category == 'blog' %}
-                                    {% if post.hidden != true %}
-                                        <li class="nav-item"><a class="nav-link" href="#">{{ post.title }}</a></li>
-                                    {% endif %}
-                                {% endif %}
+                            {% for page in site.design-system %}
+                                {% if page.isNav %}
+                                <li class="nav-item"><a class="nav-link" href="#">{{ post.title }}</a></li>
+                                
                             {% endfor %}
                         </ul>
 
@@ -38,8 +38,7 @@ title: Design System
             </div>
 
             <main class="col-12 col-md-9 col-xl-10 sidebar main-content py-md-3 pl-md-5 bd-content" role="main">
-
-                <div>{% include Nav1.html %}</div>
+                {% include Nav1.html %}
             </main>
         </div>
     </div>
