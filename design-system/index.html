@@ -21,27 +21,36 @@ isNav: false
 
                     <!-- Menu sidebar -->
                     <div class="navbar-collapse collapse" id="menu-sidebar">
-                        <ul class="nav flex-column">
-                            <li class="nav-title">Nav Title</li>
-                            {% for post in site.posts %}
-                                {% if post.category == 'design-system' %}
-                                    <li class="nav-item"><a class="nav-link" href="#">{{ post.title }}</a></li>
-                                {% endif %}
-                            {% endfor %}
-                        </ul>
-
+                        <nav>
+                            <ul class="nav flex-column">
+                                <li class="nav-title">Nav Title</li>
+                                {% for post in site.posts %}
+                                    {% if post.category == 'design-system' %}
+                                        <li class="nav-item"><a class="nav-link" href="{% if post.externalLink %}{{ post.externalLink }}{% else %}{{ site.url }}{{ post.url }}{% endif %}">{{ post.title }}</a></li>
+                                    {% endif %}
+                                {% endfor %}
+                            </ul>
+                        </nav>
                     </div>
                 </div>
             </div>
 
-            <main class="col-12 col-md-9 col-xl-10 sidebar main-content py-md-3 pl-md-5 bd-content" role="main">
+        <main class="col-12 col-md-9 col-xl-10 sidebar py-md-3 pl-md-5 bd-content" id="page-warp" role="main">
+
+            <section id="main-content">
+                <div id="guts">
+                    <div main-content="{{ site.url }}/posts/2019-02-22-design-system-nav1.markdown"></div>
+                </div>
+            </section>
+<!-- 
                 {% for post in site.posts %}
                     {% if post.category == 'design-system' %}
                         <div main-content="{% if post.externalLink %}{{ post.externalLink }}{% else %}{{ site.url }}{{ post.url }}{% endif %}"></div>
                     {% endif %}
-                {% endfor %}            
-            </main>
-        </div>
+                {% endfor %}  
+            -->          
+        </main>
     </div>
+</div>
 
-    {% include footer-design-system.html %}
+{% include footer-design-system.html %}
