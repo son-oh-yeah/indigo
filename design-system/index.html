@@ -22,11 +22,11 @@ title: Design System
                         <ul class="nav flex-column">
 
 
-    {% for page-design-system in site.design-system %}
+    {% for post in site.posts %}
             <!-- {% if page-design-system.isNav %} -->
             <li class="nav-item">
                 <a class="nav-link" href="{{ site.url }}{{ page-design-system.url }}">
-                    {{ page-design-system.title }}
+                    {{ post.title }}
                 </a>
             </li>
             <!-- 
