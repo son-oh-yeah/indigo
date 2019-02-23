@@ -25,7 +25,7 @@ isNav: false
                             <li class="nav-title">Nav Title</li>
                             {% for post in site.posts %}
                                 {% if post.category == 'design-system' %}
-                                    <li class="nav-item"><a class="nav-link" href="{% if post.externalLink %}{{ post.externalLink }}{% else %}{{ site.url }}{{ post.url }}{% endif %}">{{ post.title }}</a></li>
+                                    <li class="nav-item"><a class="nav-link">{{ post.title }}</a></li>
                                 {% endif %}
                             {% endfor %}
                         </ul>
@@ -35,7 +35,7 @@ isNav: false
             </div>
 
             <main class="col-12 col-md-9 col-xl-10 sidebar main-content py-md-3 pl-md-5 bd-content" role="main">
-                <div main-content="Nav1.html"></div>
+                <div main-content="{% if post.externalLink %}{{ post.externalLink }}{% else %}{{ site.url }}{{ post.url }}{% endif %}"></div>
             </main>
         </div>
     </div>
