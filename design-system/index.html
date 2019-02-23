@@ -21,36 +21,30 @@ isNav: false
 
                     <!-- Menu sidebar -->
                     <div class="navbar-collapse collapse" id="menu-sidebar">
-                        <nav>
-                            <ul class="nav flex-column">
-                                <li class="nav-title">Nav Title</li>
-                                {% for post in site.posts %}
-                                    {% if post.category == 'design-system' %}
-                                        <li class="nav-item"><a class="nav-link" href="{% if post.externalLink %}{{ post.externalLink }}{% else %}{{ site.url }}{{ post.url }}{% endif %}">{{ post.title }}</a></li>
-                                    {% endif %}
-                                {% endfor %}
-                            </ul>
-                        </nav>
+                        <ul class="nav flex-column">
+                            <li class="nav-title">Nav Title</li>
+                            {% for post in site.posts %}
+                                {% if post.category == 'design-system' %}
+                                    <li class="nav-item"><a class="nav-link active" id="{{ post.id }}-tab" data-toggle="tab" href="#{{ post.id }}" role="tab" aria-controls="{{ post.id }}" aria-selected="true">{{ post.title }}</a></li>
+                                {% endif %}
+                            {% endfor %}
+                        </ul>
+
                     </div>
                 </div>
             </div>
 
-        <main class="col-12 col-md-9 col-xl-10 sidebar py-md-3 pl-md-5 bd-content" id="page-warp" role="main">
-
-            <section id="main-content">
-                <div id="guts">
-                    <div main-content="{{ site.url }}/posts/2019-02-22-design-system-nav1.markdown"></div>
-                </div>
-            </section>
-<!-- 
+            <main class="col-12 col-md-9 col-xl-10 sidebar py-md-3 pl-md-5 bd-content" role="main">
                 {% for post in site.posts %}
                     {% if post.category == 'design-system' %}
-                        <div main-content="{% if post.externalLink %}{{ post.externalLink }}{% else %}{{ site.url }}{{ post.url }}{% endif %}"></div>
+                        <div class="tab-pane fade show active" id="{{ post.id }}" role="tabpanel" aria-labelledby="{{ post.id }}-tab">
+                            <div main-content="{% if post.externalLink %}{{ post.externalLink }}{% else %}{{ site.url }}{{ post.url }}{% endif %}"></div>
+                        </div>
+                       
                     {% endif %}
-                {% endfor %}  
-            -->          
-        </main>
+                {% endfor %}            
+            </main>
+        </div>
     </div>
-</div>
 
-{% include footer-design-system.html %}
+    {% include footer-design-system.html %}
