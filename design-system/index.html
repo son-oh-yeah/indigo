@@ -40,6 +40,7 @@ isNav: false
                     {% if post.category == 'design-system' %}
                         <div class="tab-pane fade show active" id="{{ post.id }}" role="tabpanel" aria-labelledby="{{ post.id }}-tab">
                             <div main-content="{{ site.url }}{{ post.url }}">{{ post.title }}</div>
+                            <div>{{ post.title }}</div>
                         </div>
                        
                     {% endif %}
