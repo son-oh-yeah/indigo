@@ -12,19 +12,6 @@ isNav: false
 
     <div class="container-fluid">
 
-<nav>
-            <div class="nav nav-tabs" id="nav-tab" role="tablist">
-                <a class="nav-item nav-link active" id="nav-home-tab" data-toggle="tab" href="#nav-home" role="tab" aria-controls="nav-home" aria-selected="true">Home</a>
-                <a class="nav-item nav-link" id="nav-profile-tab" data-toggle="tab" href="#nav-profile" role="tab" aria-controls="nav-profile" aria-selected="false">Profile</a>
-                <a class="nav-item nav-link" id="nav-contact-tab" data-toggle="tab" href="#nav-contact" role="tab" aria-controls="nav-contact" aria-selected="false">Contact</a>
-            </div>
-        </nav>
-        <div class="tab-content" id="nav-tabContent">
-          <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">...ABCDDDDDDd</div>
-          <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">...ABSAFAFAFAFAc</div>
-          <div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab">...q938ryhdqibjkd</div>
-        </div>
-
         <div class="row flex-xl-nowrap">
             <div class="col-12 col-md-3 col-xl-2 py-md-3 pl-md-5 sidebar">
                 <div class="navbar navbar-expand-md">
@@ -52,7 +39,7 @@ isNav: false
                 {% for post in site.posts %}
                     {% if post.category == 'design-system' %}
                         <div class="tab-pane fade show active" id="{{ post.id }}" role="tabpanel" aria-labelledby="{{ post.id }}-tab">
-                            <div main-content="{{ site.url }}{{ post.url }}"></div>
+                            <div main-content="{{ site.url }}{{ post.url }}">{{ post.title }}</div>
                         </div>
                        
                     {% endif %}
