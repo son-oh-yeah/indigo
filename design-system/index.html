@@ -36,15 +36,19 @@ isNav: false
             </div>
 
             <main class="col-12 col-md-9 col-xl-10 sidebar main-content py-md-3 pl-md-5 bd-content" role="main">
-                {% for post in site.posts %}
-                    {% if post.category == 'design-system' %}
-                        <div class="tab-pane fade show active" id="{{ post.id }}" role="tabpanel" aria-labelledby="{{ post.id }}-tab">
-                            <div main-content="{{ site.url }}{{ post.url }}">{{ post.title }}</div>
-                            <div>{{ post.id }}</div>
-                        </div>
-                       
-                    {% endif %}
-                {% endfor %}            
+
+                <div class="tab-content" id="nav-tabContent">
+                    <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">...</div>
+                    
+                    {% for post in site.posts %}
+                        {% if post.category == 'design-system' %}
+                    <div class="tab-pane fade show active" id="{{ post.id }}" role="tabpanel" aria-labelledby="{{ post.id }}-tab">
+                        <p main-content="{{ site.url }}{{ post.url }}">{{ post.title }}</p>
+                    </div>      
+                        {% endif %}
+                    {% endfor %}
+                    
+                </div>        
             </main>
 
   </div>
