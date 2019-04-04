@@ -12,6 +12,28 @@ isNav: false
 
     <div class="container-fluid">
 
+        <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+
+            {% for post in site.posts %}
+                {% if post.category == 'design-system' %}
+            <a class="nav-link active" id="{{ post.id }}-tab" data-toggle="pill" href="#{{ post.id }}" role="tab" aria-controls="{{ post.id }}" aria-selected="false">{{ post.title }}</a>
+                {% endif %}
+            {% endfor %}
+
+        </div>
+        <div class="tab-content" id="v-pills-tabContent">
+
+            {% for post in site.posts %}
+                {% if post.category == 'design-system' %}
+            <div class="tab-pane fade show active" id="{{ post.id }}" role="tabpanel" aria-labelledby="{{ post.id }}-tab">
+                <p>{{ post.title }}</p>
+            </div>      
+                {% endif %}
+            {% endfor %}
+  
+        </div>
+
+
         <div class="row flex-xl-nowrap">
             <div class="col-12 col-md-3 col-xl-2 py-md-3 pl-md-5 sidebar">
                 <div class="navbar navbar-expand-md">
