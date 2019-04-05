@@ -24,9 +24,9 @@ isNav: false
                     </button>
                 </form>
                 <!-- Menu sidebar -->
-                <nav class="collapse nav-collapse flex-column pt-4" id="menu-sidebar">
+                <div class="collapse nav-collapse pt-4" id="menu-sidebar">
                     <h6>Nav Title</h6>
-                    <ul class="nav flex-column-reverse">
+                    <ul class="nav navbar-nav flex-column-reverse">
                         {% for post in site.posts %}
                             {% if post.category == 'design-system' %}
                                 {% if post.id == '/design-system-introduction' %}
@@ -38,7 +38,7 @@ isNav: false
                         {% endfor %}
                     </ul>
 
-                </nav>
+                </div>
                 <hr>
             </div>
 
