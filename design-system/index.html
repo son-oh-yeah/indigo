@@ -14,7 +14,7 @@ isNav: false
 
         <div class="row flex-xl-nowrap">
             <div class="col-12 col-md-3 col-xl-2 py-md-3 pl-md-5 sidebar">
-                <form class="form-inline d-flex flex-row align-items-center pt-3 mx-2">
+                    <form class="form-inline d-flex flex-row align-items-center pt-3 mx-2">
                         
                         <span class="algolia-autocomplete algolia-autocomplete-left" style="position: relative; display: inline-block; direction: ltr;">
                             <input type="search" class="form-control ds-input" id="search-input" placeholder="Search..." autocomplete="off" spellcheck="false" role="combobox" aria-autocomplete="list" aria-expanded="false" aria-owns="algolia-autocomplete-listbox-0" dir="auto" style="position: relative; vertical-align: top;">
@@ -28,9 +28,9 @@ isNav: false
                
                     
                     <!-- Menu sidebar -->
-                    <nav class="navbar navbar-expand-md navbar-collapse collapse flex-column-reverse pt-3" id="menu-sidebar">
-                        <h6>Nav Title</h6>
-                       
+                    <h6>Nav Title</h6>
+                    <nav class="collapse flex-column-reverse pt-3" id="menu-sidebar">
+                                               
                             {% for post in site.posts %}
                                 {% if post.category == 'design-system' %}
                                     {% if post.id == '/design-system-introduction' %}
