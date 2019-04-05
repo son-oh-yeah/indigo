@@ -15,7 +15,7 @@ isNav: false
         <div class="row flex-xl-nowrap">
             <div class="col-12 col-md-3 col-xl-2 py-md-3 pl-md-5 sidebar">
                 <div class="navbar navbar-expand-md d-flex flex-column justify-content-start">
-                    <form class="form-inline d-flex flex-row align-items-center">
+                    <form class="form-inline d-flex flex-row align-items-center pt-3 mx-2">
                         
                         <span class="algolia-autocomplete algolia-autocomplete-left" style="position: relative; display: inline-block; direction: ltr;">
                             <input type="search" class="form-control ds-input" id="search-input" placeholder="Search..." autocomplete="off" spellcheck="false" role="combobox" aria-autocomplete="list" aria-expanded="false" aria-owns="algolia-autocomplete-listbox-0" dir="auto" style="position: relative; vertical-align: top;">
@@ -25,9 +25,8 @@ isNav: false
                             <i class="fas fa-bars bg-light"></i>
                         </button>
                     </form>
-                    <br>
                     <!-- Menu sidebar -->
-                    <div class="navbar-collapse collapse flex-column" id="menu-sidebar">
+                    <div class="navbar-collapse collapse flex-column pt-1" id="menu-sidebar">
                         <h5>Nav Title</h5>
                         <ul class="nav flex-column-reverse">
                             {% for post in site.posts %}
