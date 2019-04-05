@@ -47,11 +47,11 @@ isNav: false
                         {% if post.category == 'design-system' %}
                             {% if post.id == '/design-system-introduction' %}
                     <div class="tab-pane fade show active" id="{{ post.id }}" role="tabpanel" aria-labelledby="{{ post.id }}-tab">
-                        <p>{{ page.content }}</p>
+                        <p>{{ post.content }}</p>
                     </div> 
                             {% else %}
                     <div class="tab-pane fade" id="{{ post.id }}" role="tabpanel" aria-labelledby="{{ post.id }}-tab">
-                        <p>{{ page.content }}</p>
+                        <p>{{ post.content }}</p>
                     </div>   
                             {% endif %}   
                         {% endif %}
