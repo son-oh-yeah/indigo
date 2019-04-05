@@ -1,11 +1,8 @@
 
 {% if page.title == "Design System" %}
 <nav class="navbar navbar-expand-md navbar-dark bd-navbar bg-dark shadow">
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mainMenu" aria-controls="mainMenu" aria-expanded="true" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="navbar-collapse collapse" id="mainMenu">
-        <ul class="navbar-nav mr-auto">
+    <div class="navbar-nav-scroll" id="mainMenu">
+        <ul class="navbar-nav mr-auto flex-row">
             {% if page.title != "Home" %}
             <li class="nav-item">
                 <a class="nav-link" href="{{ site.url }}/">Home</a>
