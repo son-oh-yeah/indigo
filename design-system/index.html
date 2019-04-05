@@ -13,8 +13,8 @@ isNav: false
     <div class="container-fluid">
 
         <div class="row flex-xl-nowrap">
-            <div class="col-12 col-md-3 col-xl-2 py-md-3 pl-md-5 sidebar">
-                <nav class="navbar navbar-expand-md d-flex flex-column justify-content-start">
+            <div class="col-12 col-md-3 col-xl-2">
+                <nav class="navbar-expand-md d-flex flex-column justify-content-start">
                     <form class="form-inline d-flex flex-row align-items-center pt-3 mx-2">
                         
                         <span class="algolia-autocomplete algolia-autocomplete-left" style="position: relative; display: inline-block; direction: ltr;">
@@ -45,7 +45,7 @@ isNav: false
                 <hr>
             </div>
 
-            <main class="col-12 col-md-9 col-xl-10 sidebar main-content py-md-3 pl-md-5 bd-content" role="main">
+            <main class="col-12 col-md-9 col-xl-10 main-content py-md-3 pl-md-5 bd-content" role="main">
                 <div class="tab-content" id="nav-tabContent">
                     
                     {% for post in site.posts %}
