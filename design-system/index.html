@@ -28,19 +28,19 @@ isNav: false
                
                     
                     <!-- Menu sidebar -->
-                    <nav class="navbar navbar-expand-md navbar-collapse collapse flex-column pt-2" id="menu-sidebar">
+                    <nav class="navbar navbar-expand-md navbar-collapse collapse flex-column-reverse pt-3" id="menu-sidebar">
                         <h6>Nav Title</h6>
-                        <ul class="nav flex-column-reverse">
+                       
                             {% for post in site.posts %}
                                 {% if post.category == 'design-system' %}
                                     {% if post.id == '/design-system-introduction' %}
-                            <li class="nav-item"><a class="nav-link" id="{{ post.id }}-tab" data-toggle="tab" href="#{{ post.id }}" role="tab" aria-controls="{{ post.id }}" aria-selected="true">{{ post.title }}</a></li>
+                            <div class="nav-item"><a class="nav-link" id="{{ post.id }}-tab" data-toggle="tab" href="#{{ post.id }}" role="tab" aria-controls="{{ post.id }}" aria-selected="true">{{ post.title }}</a></div>
                                     {% else %}
-                            <li class="nav-item"><a class="nav-link" id="{{ post.id }}-tab" data-toggle="tab" href="#{{ post.id }}" role="tab" aria-controls="{{ post.id }}" aria-selected="false">{{ post.title }}</a></li>
+                            <div class="nav-item"><a class="nav-link" id="{{ post.id }}-tab" data-toggle="tab" href="#{{ post.id }}" role="tab" aria-controls="{{ post.id }}" aria-selected="false">{{ post.title }}</a></div>
                                     {% endif %}
                                 {% endif %}
                             {% endfor %}
-                        </ul>
+                      
 
                     </nav>
                 
