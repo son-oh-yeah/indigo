@@ -24,20 +24,17 @@ isNav: false
                         </button>
                     </form>
                     <!-- Menu sidebar -->
-                    <div class="navbar-collapse collapse" id="menu-sidebar">
-                        <ul class="nav flex-column">
-                            {% for post in site.posts %}
-                                {% if post.category == 'design-system' %}
-                                    {% if post.id == '/design-system-introduction' %}
-                            <li class="nav-item"><a class="nav-link" id="{{ post.id }}-tab" data-toggle="tab" href="#{{ post.id }}" role="tab" aria-controls="{{ post.id }}" aria-selected="true">{{ post.title }}</a></li>
-                                    {% else %}
-                            <li class="nav-item"><a class="nav-link" id="{{ post.id }}-tab" data-toggle="tab" href="#{{ post.id }}" role="tab" aria-controls="{{ post.id }}" aria-selected="false">{{ post.title }}</a></li>
-                                    {% endif %}
+                    <nav class="collapse" id="menu-sidebar">
+                        {% for post in site.posts %}
+                            {% if post.category == 'design-system' %}
+                                {% if post.id == '/design-system-introduction' %}
+                        <div class="nav-item active"><a class="nav-link" id="{{ post.id }}-tab" data-toggle="tab" href="#{{ post.id }}" role="tab" aria-controls="{{ post.id }}" aria-selected="true">{{ post.title }}</a></div>
+                                {% else %}
+                        <div class="nav-item"><a class="nav-link" id="{{ post.id }}-tab" data-toggle="tab" href="#{{ post.id }}" role="tab" aria-controls="{{ post.id }}" aria-selected="false">{{ post.title }}</a></div>
                                 {% endif %}
-                            {% endfor %}
-                        </ul>
-
-                    </div>
+                            {% endif %}
+                        {% endfor %}
+                    </nav>
                 </div>
             </div>
 
