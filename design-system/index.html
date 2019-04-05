@@ -25,8 +25,8 @@ isNav: false
                     </form>
                     <!-- Menu sidebar -->
                     <div class="navbar-collapse collapse flex-column pt-3" id="menu-sidebar">
-                        <h6>Nav Title</h6>
-                        <ul class="nav flex-column-reverse">
+                        <h6 class="mr-auto">Nav Title</h6>
+                        <ul class="nav flex-column-reverse mr-auto">
                             {% for post in site.posts %}
                                 {% if post.category == 'design-system' %}
                                     {% if post.id == '/design-system-introduction' %}
