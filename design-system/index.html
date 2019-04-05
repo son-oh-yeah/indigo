@@ -12,29 +12,31 @@ isNav: false
 
     <div class="container-fluid">
 
-        <div class="row flex-xl-nowrap wrapper">
+        <div class="row flex-xl-nowrap">
             <div class="col-12 col-md-3 col-xl-2 py-md-3 pl-md-5 sidebar">
                 <div class="navbar navbar-expand-md">
                     <form class="form-inline d-flex align-items-center">
-                        <span class="algolia-autocomplete algolia-autocomplete-left" style="position: relative; display: inline-block; direction: ltr;">
-                            <input class="form-control ds-input" id="search-input" type="search" placeholder="Search" aria-label="Search">
-                        </span>
-                        <button class="navbar-toggler bg-light d-md-none p-0 ml-3" type="button" data-toggle="collapse" data-target="#menu-sidebar" aria-controls="menu-sidebar" aria-expanded="false" aria-label="Toggle navigation">
-                            <span class="navbar-toggler-icon"></span>
-                        </button>
+                        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="navbar-toggler bg-light" type="button" data-toggle="collapse" data-target="#menu-sidebar" aria-controls="menu-sidebar" aria-expanded="false" aria-label="Toggle navigation">
+                        <i class="fas fa-bookmark"></i>
+                    </button>
                     </form>
                     <!-- Menu sidebar -->
-                    <nav class="collapse" id="menu-sidebar">
-                        {% for post in site.posts %}
-                            {% if post.category == 'design-system' %}
-                                {% if post.id == '/design-system-introduction' %}
-                        <div class="nav-item active"><a class="nav-link" id="{{ post.id }}-tab" data-toggle="tab" href="#{{ post.id }}" role="tab" aria-controls="{{ post.id }}" aria-selected="true">{{ post.title }}</a></div>
-                                {% else %}
-                        <div class="nav-item"><a class="nav-link" id="{{ post.id }}-tab" data-toggle="tab" href="#{{ post.id }}" role="tab" aria-controls="{{ post.id }}" aria-selected="false">{{ post.title }}</a></div>
+                    <div class="navbar-collapse collapse" id="menu-sidebar">
+                        <ul class="nav flex-column">
+                            <li class="nav-title">Nav Title</li>
+                            {% for post in site.posts %}
+                                {% if post.category == 'design-system' %}
+                                    {% if post.id == '/design-system-introduction' %}
+                            <li class="nav-item"><a class="nav-link" id="{{ post.id }}-tab" data-toggle="tab" href="#{{ post.id }}" role="tab" aria-controls="{{ post.id }}" aria-selected="true">{{ post.title }}</a></li>
+                                    {% else %}
+                            <li class="nav-item"><a class="nav-link" id="{{ post.id }}-tab" data-toggle="tab" href="#{{ post.id }}" role="tab" aria-controls="{{ post.id }}" aria-selected="false">{{ post.title }}</a></li>
+                                    {% endif %}
                                 {% endif %}
-                            {% endif %}
-                        {% endfor %}
-                    </nav>
+                            {% endfor %}
+                        </ul>
+
+                    </div>
                 </div>
             </div>
 
