@@ -12,10 +12,15 @@ isNav: false
 
     <div class="container-fluid">
 
-        <div class="row flex-xl-nowrap">
+        <div class="row flex-xl-nowrap wrapper">
             <div class="col-12 col-md-3 col-xl-2 py-md-3 pl-md-5 sidebar">
                 <div class="navbar navbar-expand-md">
-
+                    <form class="form-inline d-flex align-items-center">
+                        <input class="form-control ds-input" id="search-input" type="search" placeholder="Search" aria-label="Search">
+                        <button class="navbar-toggler bg-light" type="button" data-toggle="collapse" data-target="#menu-sidebar" aria-controls="menu-sidebar" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                    </form>
                     <!-- Menu sidebar -->
                     <div class="navbar-collapse collapse" id="menu-sidebar">
                         <ul class="nav flex-column">
@@ -36,10 +41,6 @@ isNav: false
             </div>
 
             <main class="col-12 col-md-9 col-xl-10 sidebar main-content py-md-3 pl-md-5 bd-content" role="main">
-                <button class="navbar-toggler bg-secondary" type="button" data-toggle="collapse" data-target="#menu-sidebar" aria-controls="menu-sidebar" aria-expanded="false" aria-label="Toggle navigation">
-                    <i class="fas fa-bookmark"></i>
-                </button>
-                <hr>
 
                 <div class="tab-content" id="nav-tabContent">
                     
