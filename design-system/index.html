@@ -14,31 +14,31 @@ isNav: false
 
         <div class="row flex-xl-nowrap">
             <div class="col-12 col-md-3 col-xl-2 sidebar">
-                    <form class="form-inline d-flex flex-row align-items-center pt-3">   
-                        <span class="algolia-autocomplete algolia-autocomplete-left" style="position: relative; display: inline-block; direction: ltr;">
-                            <input type="search" class="form-control ds-input" id="search-input" placeholder="Search..." autocomplete="off" spellcheck="false" role="combobox" aria-autocomplete="list" aria-expanded="false" aria-owns="algolia-autocomplete-listbox-0" dir="auto" style="position: relative; vertical-align: top;">
-                        </span>
+                <form class="form-inline d-flex flex-row align-items-center pt-3">   
+                    <span class="algolia-autocomplete algolia-autocomplete-left" style="position: relative; display: inline-block; direction: ltr;">
+                        <input type="search" class="form-control ds-input" id="search-input" placeholder="Search..." autocomplete="off" spellcheck="false" role="combobox" aria-autocomplete="list" aria-expanded="false" aria-owns="algolia-autocomplete-listbox-0" dir="auto" style="position: relative; vertical-align: top;">
+                    </span>
 
-                        <button class="navbar-toggler d-md-none p-0 ml-3" type="button" data-toggle="collapse" data-target="#menu-sidebar" aria-controls="menu-sidebar" aria-expanded="false" aria-label="Toggle navigation">
-                            <i class="fas fa-bars bg-light"></i>
-                        </button>
-                    </form>
-                    <!-- Menu sidebar -->
-                    <nav class="collapse flex-column pt-4" id="menu-sidebar">
-                        <h6>Nav Title</h6>
-                        <ul class="nav flex-column-reverse">
-                            {% for post in site.posts %}
-                                {% if post.category == 'design-system' %}
-                                    {% if post.id == '/design-system-introduction' %}
-                            <li class="nav-item"><a class="nav-link" id="{{ post.id }}-tab" data-toggle="tab" href="#{{ post.id }}" role="tab" aria-controls="{{ post.id }}" aria-selected="true">{{ post.title }}</a></li>
-                                    {% else %}
-                            <li class="nav-item"><a class="nav-link" id="{{ post.id }}-tab" data-toggle="tab" href="#{{ post.id }}" role="tab" aria-controls="{{ post.id }}" aria-selected="false">{{ post.title }}</a></li>
-                                    {% endif %}
+                    <button class="navbar-toggler d-md-none p-0 ml-3" type="button" data-toggle="collapse" data-target="#menu-sidebar" aria-controls="menu-sidebar" aria-expanded="false" aria-label="Toggle navigation">
+                        <i class="fas fa-bars bg-light"></i>
+                    </button>
+                </form>
+                <!-- Menu sidebar -->
+                <nav class="collapse flex-column pt-4" id="menu-sidebar">
+                    <h6>Nav Title</h6>
+                    <ul class="nav flex-column-reverse">
+                        {% for post in site.posts %}
+                            {% if post.category == 'design-system' %}
+                                {% if post.id == '/design-system-introduction' %}
+                        <li class="nav-item"><a class="nav-link" id="{{ post.id }}-tab" data-toggle="tab" href="#{{ post.id }}" role="tab" aria-controls="{{ post.id }}" aria-selected="true">{{ post.title }}</a></li>
+                                {% else %}
+                        <li class="nav-item"><a class="nav-link" id="{{ post.id }}-tab" data-toggle="tab" href="#{{ post.id }}" role="tab" aria-controls="{{ post.id }}" aria-selected="false">{{ post.title }}</a></li>
                                 {% endif %}
-                            {% endfor %}
-                        </ul>
+                            {% endif %}
+                        {% endfor %}
+                    </ul>
 
-                    </nav>
+                </nav>
                 <hr>
             </div>
 
