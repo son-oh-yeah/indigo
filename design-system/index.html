@@ -13,20 +13,18 @@ isNav: false
     <div class="container-fluid">
 
         <div class="row flex-xl-nowrap">
-            <div class="col-12 col-md-3 col-xl-2 py-md-3 pl-md-5 sidebar">
-                <div class="navbar navbar-expand-md d-flex flex-column justify-content-start">
-                    <form class="form-inline d-flex flex-row align-items-center pt-3 mx-2">
-                        
+            <div class="col-12 col-md-3 col-xl-2 sidebar">
+                    <form class="form-inline d-flex flex-row align-items-center pt-3">   
                         <span class="algolia-autocomplete algolia-autocomplete-left" style="position: relative; display: inline-block; direction: ltr;">
                             <input type="search" class="form-control ds-input" id="search-input" placeholder="Search..." autocomplete="off" spellcheck="false" role="combobox" aria-autocomplete="list" aria-expanded="false" aria-owns="algolia-autocomplete-listbox-0" dir="auto" style="position: relative; vertical-align: top;">
                         </span>
 
-                        <button class="navbar-toggler p-0 ml-3" type="button" data-toggle="collapse" data-target="#menu-sidebar" aria-controls="menu-sidebar" aria-expanded="false" aria-label="Toggle navigation">
+                        <button class="navbar-toggler d-md-none p-0 ml-3" type="button" data-toggle="collapse" data-target="#menu-sidebar" aria-controls="menu-sidebar" aria-expanded="false" aria-label="Toggle navigation">
                             <i class="fas fa-bars bg-light"></i>
                         </button>
                     </form>
                     <!-- Menu sidebar -->
-                    <div class="navbar-collapse collapse flex-column pt-3" id="menu-sidebar">
+                    <nav class="collapse flex-column pt-4" id="menu-sidebar">
                         <h6>Nav Title</h6>
                         <ul class="nav flex-column-reverse">
                             {% for post in site.posts %}
@@ -40,8 +38,7 @@ isNav: false
                             {% endfor %}
                         </ul>
 
-                    </div>
-                </div>
+                    </nav>
                 <hr>
             </div>
 
