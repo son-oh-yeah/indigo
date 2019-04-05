@@ -16,7 +16,7 @@ isNav: false
             <div class="col-12 col-md-3 col-xl-2 py-md-3 pl-md-5 sidebar">
                 <div class="navbar navbar-expand-md">
                     <form class="form-inline d-flex align-items-center">
-                        <span class="algolia-autocomplete algolia-autocomplete-left">
+                        <span class="algolia-autocomplete algolia-autocomplete-left" style="position: relative; display: inline-block; direction: ltr;">
                             <input class="form-control ds-input" id="search-input" type="search" placeholder="Search" aria-label="Search">
                         </span>
                         <button class="navbar-toggler bg-light d-md-none p-0 ml-3" type="button" data-toggle="collapse" data-target="#menu-sidebar" aria-controls="menu-sidebar" aria-expanded="false" aria-label="Toggle navigation">
@@ -26,7 +26,6 @@ isNav: false
                     <!-- Menu sidebar -->
                     <div class="navbar-collapse collapse" id="menu-sidebar">
                         <ul class="nav flex-column">
-                            <li class="nav-title">Nav Title</li>
                             {% for post in site.posts %}
                                 {% if post.category == 'design-system' %}
                                     {% if post.id == '/design-system-introduction' %}
