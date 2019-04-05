@@ -14,8 +14,8 @@ isNav: false
 
         <div class="row flex-xl-nowrap">
             <div class="col-12 col-md-3 col-xl-2 py-md-3 pl-md-5 sidebar">
-                <div class="navbar navbar-expand-md">
-                    <form class="form-inline d-flex align-items-center">
+                <div class="navbar navbar-expand-md d-flex flex-column">
+                    <form class="form-inline d-flex flex-row align-items-center">
                         <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
                         <button class="navbar-toggler bg-light" type="button" data-toggle="collapse" data-target="#menu-sidebar" aria-controls="menu-sidebar" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
@@ -23,7 +23,7 @@ isNav: false
                     </form>
                     <!-- Menu sidebar -->
                     <div class="navbar-collapse collapse" id="menu-sidebar">
-                        <ul class="nav flex-column">
+                        <ul class="nav flex-column-reverse">
                             <li class="nav-title">Nav Title</li>
                             {% for post in site.posts %}
                                 {% if post.category == 'design-system' %}
