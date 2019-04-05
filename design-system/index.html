@@ -16,10 +16,6 @@ isNav: false
             <div class="col-12 col-md-3 col-xl-2 py-md-3 pl-md-5 sidebar">
                 <div class="navbar navbar-expand-md">
 
-                    <button class="navbar-toggler bg-secondary" type="button" data-toggle="collapse" data-target="#menu-sidebar" aria-controls="menu-sidebar" aria-expanded="false" aria-label="Toggle navigation">
-                       <i class="fas fa-bookmark"></i>
-                    </button> 
-
                     <!-- Menu sidebar -->
                     <div class="navbar-collapse collapse" id="menu-sidebar">
                         <ul class="nav flex-column">
@@ -40,23 +36,22 @@ isNav: false
             </div>
 
             <main class="col-12 col-md-9 col-xl-10 sidebar main-content py-md-3 pl-md-5 bd-content" role="main">
+                <button class="navbar-toggler bg-secondary" type="button" data-toggle="collapse" data-target="#menu-sidebar" aria-controls="menu-sidebar" aria-expanded="false" aria-label="Toggle navigation">
+                    <i class="fas fa-bookmark"></i>
+                </button>
+                <hr>
 
                 <div class="tab-content" id="nav-tabContent">
-                    
-                    <div class="tab-pane fade" id="{{ post.id }}" role="tabpanel" aria-labelledby="{{ post.id }}-tab">
-                        <p main-content="{{ site.url }}{{ post.url }}">{{ post.title }}</p>
-                        <p>{{ post.title }}</p>
-                    </div> 
                     
                     {% for post in site.posts %}
                         {% if post.category == 'design-system' %}
                             {% if post.id == '/design-system-introduction' %}
                     <div class="tab-pane fade show active" id="{{ post.id }}" role="tabpanel" aria-labelledby="{{ post.id }}-tab">
-                        <p>{{ post.id }}</p>
+                        <p>{{ page.content }}</p>
                     </div> 
                             {% else %}
                     <div class="tab-pane fade" id="{{ post.id }}" role="tabpanel" aria-labelledby="{{ post.id }}-tab">
-                        <p>{{ post.id }}</p>
+                        <p>{{ page.content }}</p>
                     </div>   
                             {% endif %}   
                         {% endif %}
