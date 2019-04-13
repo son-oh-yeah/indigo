@@ -13,7 +13,9 @@ isNav: false
     <div class="container-fluid">
 
         <div class="row flex-xl-nowrap">
-            <div class="col-12 col-md-3 col-xl-2">
+
+            <!-- bein: Sidebar -->
+            <div class="col-12 col-md-3 col-xl-2 bg-light border-right">
                 <nav class="navbar-expand-md d-flex flex-column justify-content-start">
                     <form class="form-inline d-flex flex-row align-items-center pt-3">
                         
@@ -42,11 +44,12 @@ isNav: false
                 </nav>
                 <hr>
             </div>
+            <!-- end: Sidebar -->
 
             <!-- begin: Page content -->
-            <main class="col-12 col-md-9 col-xl-10 main-content py-md-3 pl-md-5 bd-content" role="main">
+            <main class="col-12 col-md-9 col-xl-10 main-content bd-content" role="main">
                 {% include nav.html %}
-                <div class="tab-content" id="nav-tabContent">
+                <div class="tab-content container-fluid mt-4" id="nav-tabContent">
                     
                     {% for post in site.posts %}
                         {% if post.category == 'design-system' %}
