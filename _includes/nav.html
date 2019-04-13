@@ -6,14 +6,14 @@
 
         <ul class="navbar-nav ml-auto flex-row d-flex">
             {% if page.title != "Home" %}
-            <li class="nav-item">
+            <li class="nav-item pr-2">
                 <a class="nav-link" href="{{ site.url }}/">Home</a>
             </li>
             {% endif %}
 
             {% if site.blog == true %}
             {% if page.title != "Blog" %}
-            <li class="nav-item">
+            <li class="nav-item pr-2">
                 <a class="nav-link" href="{{ site.url }}/blog">Blog</a>
             </li>
             {% endif %}
@@ -21,7 +21,7 @@
 
             {% if site.projects == true %}
             {% if page.title != "Projects" %}
-            <li class="nav-item">
+            <li class="nav-item pr-2">
                 <a class="nav-link" href="{{ site.url }}/projects">Projects</a>
             </li>
             {% endif %}
@@ -29,7 +29,7 @@
 
             {% if site.about == true %}
             {% if page.title != "About" %}
-            <li class="nav-item">
+            <li class="nav-item pr-2">
                 <a class="nav-link" href="{{ site.url }}/about">About</a>
             </li>
             {% endif %}
