@@ -7,7 +7,7 @@ isNav: false
 <body>
 
     <header>
-        {% include nav.html %}
+        
     </header>
 
     <div class="container-fluid">
@@ -43,7 +43,9 @@ isNav: false
                 <hr>
             </div>
 
+            <!-- begin: Page content -->
             <main class="col-12 col-md-9 col-xl-10 main-content py-md-3 pl-md-5 bd-content" role="main">
+                {% include nav.html %}
                 <div class="tab-content" id="nav-tabContent">
                     
                     {% for post in site.posts %}
@@ -62,6 +64,7 @@ isNav: false
 
                 </div>        
             </main>
+            <!-- end: Page content-->
 
   </div>
 </div>
