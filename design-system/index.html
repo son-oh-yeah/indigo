@@ -14,7 +14,7 @@ isNav: false
 
         <!-- bein: Sidebar -->
 
-        <div class="col-12 col-md-3 col-xl-2 min-vh-100 px-3 bg-light border-right">
+        <div class="col-12 col-md-3 col-xl-2 min-vh-100 px-3 bg-light h-100 border-right">
             <nav class="navbar-expand-md d-flex flex-column">
                 <form class="bd-search d-flex align-items-center m-3 py-3">
 
@@ -25,15 +25,15 @@ isNav: false
 
                 </form>
                 <!-- Menu sidebar -->
-                <div class="navbar-collapse collapse flex-column pt-3" id="menu-sidebar">
+                <div class="navbar-collapse collapse flex-column" id="menu-sidebar">
                     <div class="sidebar-heading"> Bootstrap </div>
                     <ul class="nav flex-column-reverse nav-pills mr-auto" role="tablist" aria-orientation="vertical">
                         {% for post in site.posts %}
                         {% if post.category == 'design-system' %}
                         {% if post.id == '/design-system-introduction' %}
-                        <li class="nav-item active min-vh-100"><a class="nav-link" id="{{ post.id }}-tab" data-toggle="pill" href="#{{ post.id }}" role="tab" aria-controls="{{ post.id }}" aria-selected="true">{{ post.title }}</a></li>
+                        <li class="nav-item active"><a class="nav-link" id="{{ post.id }}-tab" data-toggle="pill" href="#{{ post.id }}" role="tab" aria-controls="{{ post.id }}" aria-selected="true">{{ post.title }}</a></li>
                         {% else %}
-                        <li class="nav-item min-vh-100"><a class="nav-link" id="{{ post.id }}-tab" data-toggle="pill" href="#{{ post.id }}" role="tab" aria-controls="{{ post.id }}" aria-selected="false">{{ post.title }}</a></li>
+                        <li class="nav-item"><a class="nav-link" id="{{ post.id }}-tab" data-toggle="pill" href="#{{ post.id }}" role="tab" aria-controls="{{ post.id }}" aria-selected="false">{{ post.title }}</a></li>
                         {% endif %}
                         {% endif %}
                         {% endfor %}
