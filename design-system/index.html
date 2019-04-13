@@ -13,17 +13,19 @@ isNav: false
     <div class="row flex-xl-nowrap">
 
         <!-- bein: Sidebar -->
-        <div class="col-12 col-md-3 col-xl-2 bg-light border-right" id="sidebar-wrapper">
+        <div class="col-12 col-md-3 col-xl-2 bg-dark border-right" id="sidebar-wrapper">
+            <a class="navbar-brand" href="#" aria-label="Desgin System"><i class="fas fa-pencil-ruler" style="width:3rem; height: 3rem"></i>SOY's UI</a>
+
             <div class="sidebar-heading">Start Bootstrap </div>
             <div class="list-group list-group-flush">
                 {% for post in site.posts %}
-                {% if post.category == 'design-system' %}
-                {% if post.id == '/design-system-introduction' %}
-                <a href="#" class="list-group-item list-group-item-action bg-light" id="{{ post.id }}-tab" data-toggle="pill" href="#{{ post.id }}" role="tab" aria-controls="{{ post.id }}" aria-selected="true">{{ post.title }}</a>
-                {% else %}
-                <a href="#" class="list-group-item list-group-item-action bg-light" id="{{ post.id }}-tab" data-toggle="pill" href="#{{ post.id }}" role="tab" aria-controls="{{ post.id }}" aria-selected="false">{{ post.title }}</a>
-                {% endif %}
-                {% endif %}
+                    {% if post.category == 'design-system' %}
+                        {% if post.id == '/design-system-introduction' %}
+                <a href="#" class="list-group-item list-group-item-action bg-dark" id="{{ post.id }}-tab" data-toggle="pill" href="#{{ post.id }}" role="tab" aria-controls="{{ post.id }}" aria-selected="true">{{ post.title }}</a>
+                        {% else %}
+                <a href="#" class="list-group-item list-group-item-action bg-dark" id="{{ post.id }}-tab" data-toggle="pill" href="#{{ post.id }}" role="tab" aria-controls="{{ post.id }}" aria-selected="false">{{ post.title }}</a>
+                        {% endif %}
+                    {% endif %}
                 {% endfor %}
             </div>
         </div>
@@ -36,17 +38,17 @@ isNav: false
             <div class="tab-content container-fluid mt-4" id="nav-tabContent">
 
                 {% for post in site.posts %}
-                {% if post.category == 'design-system' %}
-                {% if post.id == '/design-system-introduction' %}
+                    {% if post.category == 'design-system' %}
+                        {% if post.id == '/design-system-introduction' %}
                 <div class="tab-pane fade show active" id="{{ post.id }}" role="tabpanel" aria-labelledby="{{ post.id }}-tab">
                     <p>{{ post.content }}</p>
                 </div> 
-                {% else %}
+                        {% else %}
                 <div class="tab-pane fade" id="{{ post.id }}" role="tabpanel" aria-labelledby="{{ post.id }}-tab">
                     <p>{{ post.content }}</p>
                 </div>   
-                {% endif %}   
-                {% endif %}
+                        {% endif %}   
+                    {% endif %}
                 {% endfor %}
 
             </div>        
