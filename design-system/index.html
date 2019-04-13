@@ -10,66 +10,64 @@ isNav: false
         
     </header>
 
-    <div class="container-fluid">
+    <div class="row flex-xl-nowrap">
 
-        <div class="row flex-xl-nowrap">
-
-            <!-- bein: Sidebar -->
-            <div class="col-12 col-md-3 col-xl-2 bg-light border-right">
-                <nav class="navbar-expand-md d-flex flex-column justify-content-start">
-                    <form class="form-inline d-flex flex-row align-items-center pt-3">
-                        
-                        <input type="search" class="form-control" id="search-input" placeholder="Search..." autocomplete="off" spellcheck="false">
-
-                        <button class="navbar-toggler py-sm-3 ml-auto" type="button" data-toggle="collapse" data-target="#menu-sidebar" aria-controls="menu-sidebar" aria-expanded="false" aria-label="Toggle navigation">
-                            <i class="fas fa-bars bg-light"></i>
-                        </button>
-                    </form>
-                    <!-- Menu sidebar -->
-                    <div class="navbar-collapse collapse flex-column pt-3" id="menu-sidebar">
-                        <h6 class="mr-auto">Nav Title</h6>
-                        <ul class="nav flex-column-reverse nav-pills mr-auto" role="tablist" aria-orientation="vertical">
-                            {% for post in site.posts %}
-                                {% if post.category == 'design-system' %}
-                                    {% if post.id == '/design-system-introduction' %}
-                            <li class="nav-item active"><a class="nav-link" id="{{ post.id }}-tab" data-toggle="pill" href="#{{ post.id }}" role="tab" aria-controls="{{ post.id }}" aria-selected="true">{{ post.title }}</a></li>
-                                    {% else %}
-                            <li class="nav-item"><a class="nav-link" id="{{ post.id }}-tab" data-toggle="pill" href="#{{ post.id }}" role="tab" aria-controls="{{ post.id }}" aria-selected="false">{{ post.title }}</a></li>
-                                    {% endif %}
-                                {% endif %}
-                            {% endfor %}
-                        </ul>
-
-                    </div>
-                </nav>
-                <hr>
-            </div>
-            <!-- end: Sidebar -->
-
-            <!-- begin: Page content -->
-            <main class="col-12 col-md-9 col-xl-10 main-content bd-content" role="main">
-                {% include nav.html %}
-                <div class="tab-content container-fluid mt-4" id="nav-tabContent">
+        <!-- bein: Sidebar -->
+        <div class="col-12 col-md-3 col-xl-2 bg-light border-right full-hight">
+            <nav class="navbar-expand-md d-flex flex-column justify-content-start">
+                <form class="form-inline d-flex flex-row align-items-center pt-3">
                     
-                    {% for post in site.posts %}
+                    <input type="search" class="form-control" id="search-input" placeholder="Search..." autocomplete="off" spellcheck="false">
+
+                    <button class="navbar-toggler py-sm-3 ml-auto" type="button" data-toggle="collapse" data-target="#menu-sidebar" aria-controls="menu-sidebar" aria-expanded="false" aria-label="Toggle navigation">
+                        <i class="fas fa-bars bg-light"></i>
+                    </button>
+                </form>
+                <!-- Menu sidebar -->
+                <div class="navbar-collapse collapse flex-column pt-3" id="menu-sidebar">
+                    <h6 class="mr-auto">Nav Title</h6>
+                    <ul class="nav flex-column-reverse nav-pills mr-auto" role="tablist" aria-orientation="vertical">
+                        {% for post in site.posts %}
                         {% if post.category == 'design-system' %}
-                            {% if post.id == '/design-system-introduction' %}
-                    <div class="tab-pane fade show active" id="{{ post.id }}" role="tabpanel" aria-labelledby="{{ post.id }}-tab">
-                        <p>{{ post.content }}</p>
-                    </div> 
-                            {% else %}
-                    <div class="tab-pane fade" id="{{ post.id }}" role="tabpanel" aria-labelledby="{{ post.id }}-tab">
-                        <p>{{ post.content }}</p>
-                    </div>   
-                            {% endif %}   
+                        {% if post.id == '/design-system-introduction' %}
+                        <li class="nav-item active"><a class="nav-link" id="{{ post.id }}-tab" data-toggle="pill" href="#{{ post.id }}" role="tab" aria-controls="{{ post.id }}" aria-selected="true">{{ post.title }}</a></li>
+                        {% else %}
+                        <li class="nav-item"><a class="nav-link" id="{{ post.id }}-tab" data-toggle="pill" href="#{{ post.id }}" role="tab" aria-controls="{{ post.id }}" aria-selected="false">{{ post.title }}</a></li>
                         {% endif %}
-                    {% endfor %}
+                        {% endif %}
+                        {% endfor %}
+                    </ul>
 
-                </div>        
-            </main>
-            <!-- end: Page content-->
+                </div>
+            </nav>
+            <hr>
+        </div>
+        <!-- end: Sidebar -->
 
-  </div>
-</div>
+        <!-- begin: Page content -->
+        <main class="col-12 col-md-9 col-xl-10 main-content bd-content pl-0 pr-0" role="main">
+            {% include nav.html %}
+            <div class="tab-content container-fluid mt-4" id="nav-tabContent">
+                
+                {% for post in site.posts %}
+                {% if post.category == 'design-system' %}
+                {% if post.id == '/design-system-introduction' %}
+                <div class="tab-pane fade show active" id="{{ post.id }}" role="tabpanel" aria-labelledby="{{ post.id }}-tab">
+                    <p>{{ post.content }}</p>
+                </div> 
+                {% else %}
+                <div class="tab-pane fade" id="{{ post.id }}" role="tabpanel" aria-labelledby="{{ post.id }}-tab">
+                    <p>{{ post.content }}</p>
+                </div>   
+                {% endif %}   
+                {% endif %}
+                {% endfor %}
+
+            </div>        
+        </main>
+        <!-- end: Page content-->
+
+    </div>
+
 
     {% include footer-design-system.html %}
