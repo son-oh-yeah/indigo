@@ -7,7 +7,7 @@ isNav: false
 <body>
 
     <header>
-
+        {% include nav.html %}
     </header>
 
     <div class="row flex-xl-nowrap" id="wrapper">
@@ -43,21 +43,20 @@ isNav: false
 
         <!-- begin: Page content -->
         <main class="col-12 col-md-9 col-xl-10 main-content bd-content pl-0 pr-0" role="main">
-            {% include nav.html %}
             <div class="tab-content container-fluid mt-4" id="nav-tabContent">
 
                 {% for post in site.posts %}
-                    {% if post.category == 'design-system' %}
-                        {% if post.id == '/design-system-introduction' %}
+                {% if post.category == 'design-system' %}
+                {% if post.id == '/design-system-introduction' %}
                 <div class="tab-pane fade show active" id="{{ post.id }}" role="tabpanel" aria-labelledby="{{ post.id }}-tab">
                     <p>{{ post.content }}</p>
                 </div> 
-                        {% else %}
+                {% else %}
                 <div class="tab-pane fade" id="{{ post.id }}" role="tabpanel" aria-labelledby="{{ post.id }}-tab">
                     <p>{{ post.content }}</p>
                 </div>   
-                        {% endif %}   
-                    {% endif %}
+                {% endif %}   
+                {% endif %}
                 {% endfor %}
 
             </div>        
