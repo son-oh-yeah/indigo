@@ -13,11 +13,13 @@ isNav: false
     <div class="row flex-xl-nowrap" id="wrapper">
 
         <!-- bein: Sidebar -->
-        <div class="col-12 col-md-3 col-xl-2 bg-dark border-right" id="sidebar-wrapper">
-            <a class="navbar-brand" href="#" aria-label="Desgin System"><i class="fas fa-pencil-ruler" style="width:3rem; height: 3rem"></i>SOY's UI</a>
-
+        <div class="col-12 col-md-3 col-xl-2 min-vh-100 bg-dark border-right" id="sidebar-wrapper">
+            <div class="">
+                <a class="navbar-brand" href="#" aria-label="Desgin System"><i class="fas fa-pencil-ruler" style="width:3rem; height: 3rem"></i>SOY's UI</a>
+            </div>
+            
             <div class="sidebar-heading">Start Bootstrap </div>
-            <div class="list-group list-group-flush">
+            <div class="list-group list-group-flush flex-column-reverse">
                 {% for post in site.posts %}
                     {% if post.category == 'design-system' %}
                         {% if post.id == '/design-system-introduction' %}
