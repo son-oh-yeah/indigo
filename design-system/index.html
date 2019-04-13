@@ -7,16 +7,16 @@ isNav: false
 <body>
 
     <header>
-        
+
     </header>
 
     <div class="row flex-xl-nowrap">
 
         <!-- bein: Sidebar -->
-        <div class="col-12 col-md-3 col-xl-2 bg-light border-right full-hight">
+        <div class="col-12 col-md-3 col-xl-2 pl-2 pr-2 bg-light border-right full-hight">
             <nav class="navbar-expand-md d-flex flex-column justify-content-start">
                 <form class="form-inline d-flex flex-row align-items-center pt-3">
-                    
+
                     <input type="search" class="form-control" id="search-input" placeholder="Search..." autocomplete="off" spellcheck="false">
 
                     <button class="navbar-toggler py-sm-3 ml-auto" type="button" data-toggle="collapse" data-target="#menu-sidebar" aria-controls="menu-sidebar" aria-expanded="false" aria-label="Toggle navigation">
@@ -48,7 +48,7 @@ isNav: false
         <main class="col-12 col-md-9 col-xl-10 main-content bd-content pl-0 pr-0" role="main">
             {% include nav.html %}
             <div class="tab-content container-fluid mt-4" id="nav-tabContent">
-                
+
                 {% for post in site.posts %}
                 {% if post.category == 'design-system' %}
                 {% if post.id == '/design-system-introduction' %}
