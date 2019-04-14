@@ -34,7 +34,7 @@ description: ""
 		</div>
 	</div>
 	<!--  begin: Section nav -->
-	<div class="d-none d-xl-block col-xl-2 bd-toc">
+	<div class="d-none d-xl-block col-xl-2 bd-toc border-left">
 		<ul class="section-nav">
 			<li class="toc-entry toc-h2"><a href="#examples">Examples</a>
 				<ul>

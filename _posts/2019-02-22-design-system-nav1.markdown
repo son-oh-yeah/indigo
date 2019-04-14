@@ -45,20 +45,19 @@ description: ""
 			</section>
 	</div>
 	<!--  begin: Section nav -->
-	<div class="d-none d-xl-block col-xl-2 bd-toc">
+	<div class="d-none d-xl-block col-xl-2 bd-toc border-left">
 		<ul class="section-nav">
-			<li class="toc-entry toc-h2"><a href="#examples">Examples</a>
+			<li class="toc-entry toc-h2"><a href="#sec__1">Examples</a>
 				<ul>
-					<li class="toc-entry toc-h3"><a href="#link-color">Link color</a></li>
-					<li class="toc-entry toc-h3"><a href="#additional-content">Additional content</a></li>
-					<li class="toc-entry toc-h3"><a href="#dismissing">Dismissing</a></li>
+					<li class="toc-entry toc-h3"><a href="#sec__2">Link color</a></li>
+					<li class="toc-entry toc-h3"><a href="#sec__3">Additional content</a></li>
+					<li class="toc-entry toc-h3"><a href="#sec__4">Dismissing</a></li>
 				</ul>
 			</li>
-			<li class="toc-entry toc-h2"><a href="#javascript-behavior">JavaScript behavior</a>
+			<li class="toc-entry toc-h2"><a href="#sec__5">JavaScript behavior</a>
 				<ul>
-					<li class="toc-entry toc-h3"><a href="#triggers">Triggers</a></li>
-					<li class="toc-entry toc-h3"><a href="#methods">Methods</a></li>
-					<li class="toc-entry toc-h3"><a href="#events">Events</a></li>
+					<li class="toc-entry toc-h3"><a href="#sec__6">Triggers</a></li>
+					<li class="toc-entry toc-h3"><a href="#sec__1">Methods</a></li>
 				</ul>
 			</li>
 		</ul>
