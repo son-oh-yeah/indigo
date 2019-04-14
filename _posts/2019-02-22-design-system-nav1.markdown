@@ -13,8 +13,8 @@ description: ""
 
 
 <div class="row">
-		<!--  begin: Section nav -->
-	<div class="d-none d-xl-block col-xl-2 bd-toc border-left position-sticky">
+	<!--  begin: Section nav -->
+	<div class="d-none d-xl-block col-xl-2 bd-toc border-left order-2 sticky-top">
 		<ul class="section-nav">
 			<li class="toc-entry toc-h2"><a href="#sec__1">Examples</a>
 				<ul>
