@@ -12,7 +12,7 @@ description: ""
 ---
 
 
-<h1> Introduction </h1>
+<h1> NAV 1 </h1>
 TEST Nav1 <br>
 
 <ul class="nav nav-tabs" id="myTab" role="tablist">
