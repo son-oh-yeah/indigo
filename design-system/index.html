@@ -14,33 +14,33 @@ isNav: false
 
         <!-- bein: Sidebar -->
 
-        <div class="col-12 col-md-3 col-xl-2 px-3 bg-light h-100 border-right">
-            <nav class="navbar-expand-md d-flex flex-column">
+        <div class="col-12 col-md-3 col-xl-2 bg-light bd-search border-right">
+            <!-- <nav class="navbar-expand-md d-flex flex-column"> -->
                 <form class="bd-search d-flex align-items-center m-3 py-3">
 
-                    <input type="search" class="form-control" id="search-input" placeholder="Search..." autocomplete="off" spellcheck="false">
+                    <input type="search" class="form-control bd-search" id="search-input" placeholder="Search..." autocomplete="off" spellcheck="false">
                     <button class="navbar-toggler py-sm-3 ml-auto" type="button" data-toggle="collapse" data-target="#menu-sidebar" aria-controls="menu-sidebar" aria-expanded="false" aria-label="Toggle navigation">
                         <i class="fas fa-bars bg-light"></i>
                     </button>
 
                 </form>
                 <!-- Menu sidebar -->
-                <div class="navbar-collapse collapse flex-column" id="menu-sidebar">
+                <nav class="collapse bd-links" id="menu-sidebar">
                     <div class="sidebar-heading"> Bootstrap </div>
                     <ul class="nav flex-column-reverse nav-pills mr-auto" role="tablist" aria-orientation="vertical">
                         {% for post in site.posts %}
                         {% if post.category == 'design-system' %}
                         {% if post.id == '/design-system-introduction' %}
-                        <li class="nav-item active"><a class="nav-link" id="{{ post.id }}-tab" data-toggle="pill" href="#{{ post.id }}" role="tab" aria-controls="{{ post.id }}" aria-selected="true">{{ post.title }}</a></li>
+                        <li class="nav-item active"><a class="bd-toc-link" id="{{ post.id }}-tab" data-toggle="pill" href="#{{ post.id }}" role="tab" aria-controls="{{ post.id }}" aria-selected="true">{{ post.title }}</a></li>
                         {% else %}
-                        <li class="nav-item"><a class="nav-link" id="{{ post.id }}-tab" data-toggle="pill" href="#{{ post.id }}" role="tab" aria-controls="{{ post.id }}" aria-selected="false">{{ post.title }}</a></li>
+                        <li class="bd-toc-item"><a class="bd-toc-link" id="{{ post.id }}-tab" data-toggle="pill" href="#{{ post.id }}" role="tab" aria-controls="{{ post.id }}" aria-selected="false">{{ post.title }}</a></li>
                         {% endif %}
                         {% endif %}
                         {% endfor %}
                     </ul>
 
-                </div>
-            </nav>
+                </nav>
+            <!-- </nav> -->
         </div>
         <!-- end: Sidebar -->
 
