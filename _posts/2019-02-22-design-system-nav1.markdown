@@ -12,10 +12,10 @@ description: ""
 ---
 
 
-<div class="row">
+<div class="row" data-spy="scroll" data-target="#sidebar-right">
 	<!--  begin: Section nav -->
-	<div class="d-none d-xl-block col-xl-2 bd-toc border-left order-2 sticky-top">
-		<ul class="section-nav">
+	<div class="d-none d-xl-block col-xl-2 bd-toc border-left order-2 sticky-top" id="sidebar-right">
+		<ul class="section-nav" data-spy="affix">
 			<li class="toc-entry toc-h2"><a href="#sec__1">Examples</a>
 				<ul>
 					<li class="toc-entry toc-h3"><a href="#sec__2">Link color</a></li>
@@ -26,7 +26,7 @@ description: ""
 			<li class="toc-entry toc-h2"><a href="#sec__5">JavaScript behavior</a>
 				<ul>
 					<li class="toc-entry toc-h3"><a href="#sec__6">Triggers</a></li>
-					<li class="toc-entry toc-h3"><a href="#sec__1">Methods</a></li>
+					<li class="toc-entry toc-h3"><a href="#sec__7">Methods</a></li>
 				</ul>
 			</li>
 		</ul>
