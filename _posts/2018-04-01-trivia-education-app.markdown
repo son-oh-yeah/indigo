@@ -21,7 +21,7 @@ externalLink: false
 
 ---
 
-> Dự án đang triển khai.
+Website: https://giaido.vn
 
 
 
