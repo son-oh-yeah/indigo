@@ -15,8 +15,6 @@ externalLink: false
 
 <p>Là một website quản trị nhằm theo dõi và giám sát các hoạt động cảnh bảo SOS từ người dùng thiết bị theo dõi sức khoẻ của nhà mạng <a href="https://www.vodafone.com/content/index.html">Vodafont</a></p> 
 
-<p>Việc xác định mục tiêu của app nhanh chóng và không mất nhiều thời gian. Qua mỗi bản MVP, các tính năng dần được bổ sung và cải thiện. Giao diện thiết kế UI cũng linh hoạt với những thay đổi liên tục.</p>
-
 ![Picture 1](https://mir-s3-cdn-cf.behance.net/project_modules/fs/235cb579112683.5cb8c4fd7c9e3.png)
 
 <h2> Các công việc thực hiện</h2>
