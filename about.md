@@ -18,20 +18,20 @@ liệu thiết kế, kỹ năng tính toán và phân tích dữ liệu.</p>
 
 <h4>Chuyên môn</h4>
 <ul class="skill-list">
-	<li>Scrum, Agile và Kanban</li>
+	<li>Agile, Scrum</li>
 	<li>Qui trình phát triển Lean</li>
 	<li>Graphic design, Hand drawing</li>
-	<li>Web, App, CMS design</li>
+	<li>Web, App (CMS, Admin, Product)</li>
 	<li>SaaS</li>
 </ul>
 
 <h4>Kiến thức và công cụ sử dụng</h4>
 <ul class="skill-list">
-	<li>HTML</li>
-	<li>CSS, Bootstrap</li>
-	<li>Responsive</li>	
+	<li>HTML, CSS</li>
+	<li>Responsive</li>
+	<li>Design System</li>	
 	<li>Wordpress</li>
-	<li>Java (OOP)</li>
+	<li>Invison, Zeplin, Confluence, Jira</li>
 	<li>Adobe XD, Sketch, Figma</li>
 	<li>Axure RP, Balsamiq, Visio, Vẽ tay và Digital</li>
 	<li>Photoshop, Illustrator, After Effects</li>
