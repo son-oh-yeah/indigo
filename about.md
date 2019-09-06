@@ -33,6 +33,6 @@ liệu thiết kế, kỹ năng tính toán và phân tích dữ liệu.</p>
 	<li>Wordpress</li>
 	<li>Invison, Zeplin, Confluence, Jira</li>
 	<li>Adobe XD, Sketch, Figma</li>
-	<li>Axure RP, Balsamiq, Visio, Vẽ tay và Digital</li>
+	<li>Whimsical, Axure RP, Balsamiq, Visio, Vẽ tay và Digital</li>
 	<li>Photoshop, Illustrator, After Effects</li>
 </ul>
