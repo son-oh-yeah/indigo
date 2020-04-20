@@ -18,8 +18,7 @@ liệu thiết kế, kỹ năng tính toán và phân tích dữ liệu.</p>
 
 <h4>Chuyên môn</h4>
 <ul class="skill-list">
-	<li>Agile, Scrum</li>
-	<li>Qui trình phát triển Lean</li>
+	<li>Qui trình phát triển Lean, Agile, Scrum<</li>
 	<li>Graphic design, Hand drawing</li>
 	<li>Web, App (CMS, Admin, Product)</li>
 	<li>SaaS</li>
