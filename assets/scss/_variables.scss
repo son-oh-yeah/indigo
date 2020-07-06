@@ -1,11 +1,7 @@
 // Local docs variables
-$bd-brown:		   #deb887 !default;
-$bd-brown-bright:  lighten(saturate($bd-brown, 5%), 15%) !default;
-$bd-brown-light:   lighten(saturate($bd-brown, 5%), 45%) !default;
-
-$bd-purple:        #563d7c;
-$bd-purple-bright: lighten(saturate($bd-purple, 5%), 15%);
-$bd-purple-light:  lighten(saturate($bd-purple, 5%), 45%);
+$bd-purple:        #563d7c !default;
+$bd-purple-bright: lighten(saturate($bd-purple, 5%), 15%) !default;
+$bd-purple-light:  lighten(saturate($bd-purple, 5%), 45%) !default;
 $bd-dark:          #2a2730 !default;
 $bd-download:      #ffe484 !default;
 $bd-info:          #5bc0de !default;
