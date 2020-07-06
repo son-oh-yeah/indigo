@@ -101,9 +101,6 @@ show-author: true
 # do you want some animations?
 animation: true
 
-sass:
-  sass_dir: css
-
 plugins:
   - jekyll-seo-tag
   - jekyll-gist
