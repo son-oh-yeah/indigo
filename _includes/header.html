@@ -23,12 +23,11 @@
 
         {% include social-links.html %}
     </header>
-    {% include nav.html %}
+    
     {% endif %}
     
-    {% if page.title == "Blog" or page.title == "Projects" %}
-    <header class="sticky-top">
-        {% include nav.html %}
-    </header>
-    
 {% endif %}
+
+<div class="sticky-top">
+    {% include nav.html %}
+</div>
