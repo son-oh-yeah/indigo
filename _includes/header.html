@@ -19,6 +19,13 @@
 
         {% include social-links.html %}
     </header>
+    {% include nav.html %}
+
+{% else %}
+    <div class="sticky-top backgroud-color:white">
+        {% include nav.html %}
+    </div>
 {% endif %}
 
-{% include nav.html %}
+
+
