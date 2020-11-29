@@ -24,12 +24,11 @@
         {% include social-links.html %}
     </header>
     {% include nav.html %}
-    {% endif %}
-    
-    {% if page.title == "Blog" or page.title == "Projects" %}
+
+    {% else %}
     <header class="sticky-top">
         {% include nav.html %}
-        <h1 class="title">{{ page.title }}</h1>
+        <h1 >{{% page.title %}}</h1>
     </header>
     {% endif %}
 {% endif %}
