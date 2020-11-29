@@ -39,7 +39,7 @@ twitter: KevinSonkd
 # google: mygoogle
 # instagram: myinstagram
 # pinterest: mypinterest
-linkedin: franciscokimson
+linkedin: kevinsonkd
 # youtube: myyoutube
 # spotify: myspotify
 github: son-oh-yeah
@@ -48,7 +48,7 @@ github: son-oh-yeah
 # stackoverflow: 7044681/mystackoverflow
 # quora: userquora
 # reddit: username
-medium: sonohyeah
+medium: sonkd
 # vimeo: myvimeo
 # lanyrd: mylanyrd
 email: sonkdbk@gmail.com
@@ -56,10 +56,10 @@ email: sonkdbk@gmail.com
 authors:
     sonkd:
         name: Kim Dinh Son
-        bio: I'm a UX Designer living in Hanoi, VN
+        bio: I'm a UX Designer and living in Hanoi, VN
         external-image: false
         picture: assets/images/profile.jpg
-        twitter: Franciscokimson
+        twitter: KevinSonkd
 
 # do you want a larger site? change the option below
 # options: [normal, large] | default: normal
