@@ -6,7 +6,6 @@
 %}{% assign showHeader = true %}{% endif %}
 
 {% if showHeader == true %}
-    {% if page.title == "Home"}
     <header class="header-home {% if site.animation %}animated{% endif %}">
         {% if site.about %}
             <a class="link" href="{{ site.url }}/about">
@@ -19,11 +18,10 @@
         {% endif %}
 
         <h1 class="title">{{ site.name }}</h1>
-        <h2 class="description">{{ site.authors.sonkd.bio }}</h2>
+        <h2 class="description">{{ site.bio }}</h2>
 
         {% include social-links.html %}
     </header>
-    
 {% endif %}
 
 {% include nav.html %}
