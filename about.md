@@ -4,8 +4,10 @@ layout: page
 ---
 ![Profile Image]({{ site.url }}/{{ site.picture }})
 
-<h1 class="title">About me</h1>
-{% include social-links.html %}
+<div class="d-flex justify-content-center">
+	<h2">About me</h2>
+	{% include social-links.html %}
+</div>
 
 <p>Là một UX Design có kinh nghiệm, thiết kế linh hoạt. Cung cấp các giải pháp thiết kế tối ưu và sáng tạo.</p>
 
