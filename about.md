@@ -18,9 +18,8 @@ liệu thiết kế, kỹ năng tính toán và phân tích dữ liệu.</p>
 
 <h4>Chuyên môn</h4>
 <ul class="skill-list">
-	<li>Qui trình phát triển Lean, Agile, Scrum</li>
-	<li>Design Thinking</li>
-	<li>Graphic design, Hand drawing</li>
+	<li>Qui trình phát triển Lean, Agile, Design Thinking</li>
+	<li>Bank / Fintech</li>
 	<li>Web, Mobile app (CMS, Admin, Product)</li>
 	<li>SaaS</li>
 </ul>
@@ -31,8 +30,8 @@ liệu thiết kế, kỹ năng tính toán và phân tích dữ liệu.</p>
 	<li>Responsive</li>
 	<li>Design System</li>	
 	<li>Wordpress</li>
-	<li>Invison, Zeplin, Confluence, Jira</li>
-	<li>Adobe XD, Sketch, Figma</li>
-	<li>Whimsical, Axure RP, Balsamiq, Visio, Vẽ tay và Digital</li>
+	<li>Confluence, Jira</li>
+	<li>Sketch, Figma, Adobe XD, Invison, Zeplin </li>
+	<li>Whimsical, Axure RP, Balsamiq, Visio, Digital handrawing</li>
 	<li>Photoshop, Illustrator, After Effects</li>
 </ul>
