@@ -27,9 +27,8 @@ liệu thiết kế, kỹ năng tính toán và phân tích dữ liệu.</p>
 <h4>Kiến thức và công cụ sử dụng</h4>
 <ul class="skill-list">
 	<li>HTML, CSS</li>
-	<li>Responsive</li>
+	<li>Flex-box, Responsive, Wordpress</li>
 	<li>Design System</li>	
-	<li>Wordpress</li>
 	<li>Confluence, Jira</li>
 	<li>Sketch, Figma, Adobe XD, Invison, Zeplin </li>
 	<li>Whimsical, Axure RP, Balsamiq, Visio, Digital handrawing</li>
