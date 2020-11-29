@@ -24,6 +24,7 @@
 
 </nav>
 {% else %}
+<div class="sticky-header">
 <nav class="{% if page.title == "Home" %}nav-home{% else %}nav-page{% endif %}">     
     <ul class="list">
         {% if page.title != "Home" %}
@@ -73,5 +74,6 @@
         -->
     </ul>
 </nav>
+</div>
 {% endif %}
 
