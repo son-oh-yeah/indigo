@@ -16,8 +16,6 @@ việc là có hiệu quả, phù hợp với lượng thời gian theo kế ho�
 <p>Có khả năng tương tác với bộ phận dev back-end và fron-end, thiết kế đồ họa, viết tài 
 liệu thiết kế, kỹ năng tính toán và phân tích dữ liệu.</p>
 
-<h2>Kỹ năng</h2>
-
 <h4>Chuyên môn</h4>
 <ul class="skill-list">
 	<li>Qui trình phát triển Lean, Agile, Design Thinking</li>
