@@ -5,7 +5,7 @@ layout: page
 ![Profile Image]({{ site.url }}/{{ site.picture }})
 
 <div class="d-flex justify-content-center">
-	<h2">About me</h2>
+	<h2>About me</h2>
 	{% include social-links.html %}
 </div>
 
