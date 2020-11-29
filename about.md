@@ -4,7 +4,7 @@ layout: page
 ---
 ![Profile Image]({{ site.url }}/{{ site.picture }})
 
-<h1 class="title">{{ page.title }}</h1>
+<h1 class="title">About me</h1>
 
 <p>Là một UX Design có kinh nghiệm, thiết kế linh hoạt. Cung cấp các giải pháp thiết kế tối ưu và sáng tạo.</p>
 
