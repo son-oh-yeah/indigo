@@ -6,8 +6,7 @@ layout: page
 
 <h1 class="title">{{ page.title }}</h1>
 
-<p>Là một UX Design có kinh nghiệm, thiết kế linh hoạt. Khả năng R&D và học hỏi tốt. 
-Cung cấp các giải pháp thiết kế tối ưu và sáng tạo.</p>
+<p>Là một UX Design có kinh nghiệm, thiết kế linh hoạt. Cung cấp các giải pháp thiết kế tối ưu và sáng tạo.</p>
 
 <p>Từng được làm việc với những dự án phát triển từ khâu sản xuất sản phẩm đến giai đoạn đóng gói, 
 phát hành. Những dự án đòi hỏi sự phối hợp nhiều đội ngũ và bộ phận phát triển, đảm bảo tất cả các công 
