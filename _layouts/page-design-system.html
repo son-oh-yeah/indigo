@@ -1,9 +1,21 @@
----
-layout: default
----
-
+<!DOCTYPE html>
+<html lang="en">
 {% include header-design-system.html %}
 
-{{content}}
+<body>
 
-{% include footer-design-system.html %}
+    <div class="">
+
+            {% if showHeader != true %}
+            <div class="page {{ page.title | downcase }}">
+            {% else %}
+            <div class="{{ page.title | downcase }}">
+            {% endif %}
+            {{ content }}
+            </div>
+        {% include icons.html %}
+        {% include footer-design-system.html %}
+    </div>
+
+</body>
+</html>
