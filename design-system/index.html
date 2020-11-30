@@ -4,66 +4,68 @@ layout: page-design-system
 isNav: false
 ---
 
-<body>
+<div class="row flex-xl-nowrap" id="wrapper">
 
-    <header class="sticky-top">
-        {% include nav.html %}
-    </header>
+    <!-- bein: Sidebar -->
 
-    <div class="row flex-xl-nowrap" id="wrapper">
+    <div class="col-12 col-md-3 col-xl-2 bg-light border-right position-sticky">
+        <nav class="navbar-expand-md d-flex flex-column m-3">
+            <form class="bd-search d-flex align-items-center">
 
-        <!-- bein: Sidebar -->
+                <input type="search" class="form-control" id="search-input" placeholder="Search..." autocomplete="off"
+                    spellcheck="false">
+                <button class="navbar-toggler py-sm-3 ml-auto" type="button" data-toggle="collapse"
+                    data-target="#menu-sidebar" aria-controls="menu-sidebar" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <i class="fas fa-bars bg-light"></i>
+                </button>
 
-        <div class="col-12 col-md-3 col-xl-2 bg-light border-right position-sticky">
-            <nav class="navbar-expand-md d-flex flex-column m-3">
-                <form class="bd-search d-flex align-items-center">
+            </form>
+            <!-- Menu sidebar -->
+            <div class="navbar-collapse collapse flex-column" id="menu-sidebar">
 
-                    <input type="search" class="form-control" id="search-input" placeholder="Search..." autocomplete="off" spellcheck="false">
-                    <button class="navbar-toggler py-sm-3 ml-auto" type="button" data-toggle="collapse" data-target="#menu-sidebar" aria-controls="menu-sidebar" aria-expanded="false" aria-label="Toggle navigation">
-                        <i class="fas fa-bars bg-light"></i>
-                    </button>
+                <ul class="nav flex-column-reverse nav-pills mr-auto" role="tablist" aria-orientation="vertical">
+                    {% for post in site.posts %}
+                    {% if post.category == 'design-system' %}
+                    {% if post.id == '/design-system-introduction' %}
+                    <li class="nav-item active"><a class="nav-link" id="{{ post.id }}-tab" data-toggle="pill"
+                            href="#{{ post.id }}" role="tab" aria-controls="{{ post.id }}"
+                            aria-selected="true">{{ post.title }}</a></li>
+                    {% else %}
+                    <li class="nav-item"><a class="nav-link" id="{{ post.id }}-tab" data-toggle="pill"
+                            href="#{{ post.id }}" role="tab" aria-controls="{{ post.id }}"
+                            aria-selected="false">{{ post.title }}</a></li>
+                    {% endif %}
+                    {% endif %}
+                    {% endfor %}
+                </ul>
 
-                </form>
-                <!-- Menu sidebar -->
-                <div class="navbar-collapse collapse flex-column" id="menu-sidebar">
-                    
-                    <ul class="nav flex-column-reverse nav-pills mr-auto" role="tablist" aria-orientation="vertical">
-                        {% for post in site.posts %}
-                        {% if post.category == 'design-system' %}
-                        {% if post.id == '/design-system-introduction' %}
-                        <li class="nav-item active"><a class="nav-link" id="{{ post.id }}-tab" data-toggle="pill" href="#{{ post.id }}" role="tab" aria-controls="{{ post.id }}" aria-selected="true">{{ post.title }}</a></li>
-                        {% else %}
-                        <li class="nav-item"><a class="nav-link" id="{{ post.id }}-tab" data-toggle="pill" href="#{{ post.id }}" role="tab" aria-controls="{{ post.id }}" aria-selected="false">{{ post.title }}</a></li>
-                        {% endif %}
-                        {% endif %}
-                        {% endfor %}
-                    </ul>
-
-                </div>
-            </nav>
-        </div>
-        <!-- end: Sidebar -->
-
-        <!-- begin: Page content -->
-        <main class="col-12 col-md-9 col-xl-10 main-content bd-content px-3" role="main">
-            <div class="tab-content container-fluid mt-4" id="nav-tabContent">
-
-                {% for post in site.posts %}
-                {% if post.category == 'design-system' %}
-                {% if post.id == '/design-system-introduction' %}
-                <div class="tab-pane fade show active" id="{{ post.id }}" role="tabpanel" aria-labelledby="{{ post.id }}-tab">
-                    <p>{{ post.content }}</p>
-                </div> 
-                {% else %}
-                <div class="tab-pane fade" id="{{ post.id }}" role="tabpanel" aria-labelledby="{{ post.id }}-tab">
-                    <p>{{ post.content }}</p>
-                </div>   
-                {% endif %}   
-                {% endif %}
-                {% endfor %}
-
-            </div>        
-        </main>
-        <!-- end: Page content-->
-
+            </div>
+        </nav>
     </div>
+    <!-- end: Sidebar -->
+
+    <!-- begin: Page content -->
+    <main class="col-12 col-md-9 col-xl-10 main-content bd-content px-3" role="main">
+        <div class="tab-content container-fluid mt-4" id="nav-tabContent">
+
+            {% for post in site.posts %}
+            {% if post.category == 'design-system' %}
+            {% if post.id == '/design-system-introduction' %}
+            <div class="tab-pane fade show active" id="{{ post.id }}" role="tabpanel"
+                aria-labelledby="{{ post.id }}-tab">
+                <p>{{ post.content }}</p>
+            </div>
+            {% else %}
+            <div class="tab-pane fade" id="{{ post.id }}" role="tabpanel" aria-labelledby="{{ post.id }}-tab">
+                <p>{{ post.content }}</p>
+            </div>
+            {% endif %}
+            {% endif %}
+            {% endfor %}
+
+        </div>
+    </main>
+    <!-- end: Page content-->
+
+</div>
