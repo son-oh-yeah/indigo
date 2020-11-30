@@ -1,9 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
-{% include header-design-system.html %}
 
 <body>
-
+    {% include header-design-system.html %}
     <div class="">
 
             {% if showHeader != true %}
@@ -14,8 +13,8 @@
             {{ content }}
             </div>
         {% include icons.html %}
-        {% include footer-design-system.html %}
+        
     </div>
-
+    {% include footer-design-system.html %}
 </body>
 </html>
