@@ -10,7 +10,7 @@ tag:
 - ux/ui
 - web application
 star: true
-category: blog
+category: good-stories
 author: sonohyeah
 description: ""
 ---

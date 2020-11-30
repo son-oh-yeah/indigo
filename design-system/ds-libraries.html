@@ -1,12 +1,13 @@
 ---
 layout: page-design-system
 title: Design System Libraries
+isNav: false
 ---
 
 <h1 class="title">{{ page.title }}</h1>
 <section class="list">
     {% for post in site.posts.design-system %}
-        {% if post.projects %}
+        {% if post.design-system %}
             <div class="item {% if post.star %}star{% endif %}">
                 <a class="url" href="{% if post.externalLink %}{{ post.externalLink }}{% else %}{{ site.url }}{{ post.url }}{% endif %}">
                     <aside><time datetime="{{ post.date | date:"%d-%m-%Y" }}">{{ post.date | date: "%b %d %Y" }}</time></aside>
