@@ -6,25 +6,29 @@
     <div class="navbar-nav-scroll ml-md-auto flex-row pr-3" id="mainMenu">
 
         <ul class="navbar-nav flex-row d-md-flex">
+            {% if site.blog == true %}
+                {% if page.title != "Design System Libraries" %}
             <li class="nav-item pr-2">
                 <a class="nav-link" href="{{ site.url }}/design-system/ds-libraries">Design System Libraries</a>
             </li>
+                {% endif %}
+            {% endif %}
+
+            {% if site.blog == true %}
+                {% if page.title != "Good Stories" %}
             <li class="nav-item pr-2">
                 <a class="nav-link" href="{{ site.url }}/design-system/good-stories">Good Stories</a>
             </li>
-            {% if page.title != "Home" %}
+                {% endif %}
+            {% endif %}
+
             <li class="nav-item pr-2">
                 <a class="nav-link" href="{{ site.url }}/">My portfolio</a>
             </li>
-            {% endif %}
 
-            {% if site.about == true %}
-            {% if page.title != "About" %}
             <li class="nav-item">
                 <a class="nav-link" href="{{ site.url }}/about">About me</a>
             </li>
-            {% endif %}
-            {% endif %}
         </ul>
     </div>
 

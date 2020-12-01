@@ -19,7 +19,7 @@ isNav: false
 		{% include pagination.html%}
     {% else %}
 
-        {% for post in site.posts.design-system %}
+        {% for post in site.posts %}
             {% if post.category == 'good-stories' %}
                 {% if post.hidden != true %}
                     <div class="item {% if post.star %}star{% endif %}">

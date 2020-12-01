@@ -6,7 +6,7 @@ layout: page-design-system
 tag:
 - design system
 - ux/ui
-category: design-system
+category: design-system-list
 author: sonohyeah
 description: ""
 ---

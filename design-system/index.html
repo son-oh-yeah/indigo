@@ -26,17 +26,17 @@ isNav: false
 
                 <ul class="nav flex-column-reverse nav-pills mr-auto" role="tablist" aria-orientation="vertical">
                     {% for post in site.posts %}
-                    {% if post.category == 'design-system' %}
-                    {% if post.id == '/design-system-introduction' %}
+                        {% if post.category == 'design-system' %}
+                            {% if post.id == '/design-system-introduction' %}
                     <li class="nav-item active"><a class="nav-link" id="{{ post.id }}-tab" data-toggle="pill"
                             href="#{{ post.id }}" role="tab" aria-controls="{{ post.id }}"
                             aria-selected="true">{{ post.title }}</a></li>
-                    {% else %}
+                            {% else %}
                     <li class="nav-item"><a class="nav-link" id="{{ post.id }}-tab" data-toggle="pill"
                             href="#{{ post.id }}" role="tab" aria-controls="{{ post.id }}"
                             aria-selected="false">{{ post.title }}</a></li>
-                    {% endif %}
-                    {% endif %}
+                            {% endif %}
+                        {% endif %}
                     {% endfor %}
                 </ul>
 
@@ -50,18 +50,18 @@ isNav: false
         <div class="tab-content container-fluid mt-4" id="nav-tabContent">
 
             {% for post in site.posts %}
-            {% if post.category == 'design-system' %}
-            {% if post.id == '/design-system-introduction' %}
+                {% if post.category == 'design-system' %}
+                    {% if post.id == '/design-system-introduction' %}
             <div class="tab-pane fade show active" id="{{ post.id }}" role="tabpanel"
                 aria-labelledby="{{ post.id }}-tab">
                 <p>{{ post.content }}</p>
             </div>
-            {% else %}
+                    {% else %}
             <div class="tab-pane fade" id="{{ post.id }}" role="tabpanel" aria-labelledby="{{ post.id }}-tab">
                 <p>{{ post.content }}</p>
             </div>
-            {% endif %}
-            {% endif %}
+                    {% endif %}
+                {% endif %}
             {% endfor %}
 
         </div>
