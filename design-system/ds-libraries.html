@@ -10,9 +10,12 @@ isNav: false
         {% if post.category == 'design-system-list' %}
             {% if post.hidden != true %}
             <div class="item {% if post.star %}star{% endif %}">
+                <hr>
                 <a class="url" href="{% if post.externalLink %}{{ post.externalLink }}{% else %}{{ site.url }}{{ post.url }}{% endif %}">
                     <aside><time datetime="{{ post.date | date:"%d-%m-%Y" }}">{{ post.date | date: "%b %d %Y" }}</time></aside>
+                    {{ post.sub-title }}
                     <h3 class="title">{{ post.title }}</h3>
+                    {{ post.description }}
                 </a>
             </div>
             <hr>

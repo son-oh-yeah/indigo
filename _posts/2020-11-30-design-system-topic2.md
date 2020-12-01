@@ -1,14 +1,18 @@
 ---
-title: "Introduction"
-id: intro
 layout: page-design-system
+
+category: design-system-list
+author: sonohyeah
+id: intro
+
+title: "Introduction"
+sub-titile: Atlassian
+description: "ABDFGDFGDFHG"
 
 tag:
 - design system
 - ux/ui
-category: design-system-list
-author: sonohyeah
-description: ""
+
 ---
 
 
