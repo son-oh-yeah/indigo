@@ -31,7 +31,7 @@ permalink: /:title/
 # if you don't want comments in your posts, leave categories empty
 disqus:
   shortname: https-son-oh-yeah-github-io # enter this from your disqus account
-  categories: [blog, project] # only show disqus for posts that have these categories
+  categories: [good-stories, project] # only show disqus for posts that have these categories
 
 # if you don't have any of social below, comment the line
 facebook: sonkd.uxdesign
@@ -79,9 +79,11 @@ projects: true
 # if you don't need design_system, comment the *design-system* configs below
 design-system: true
 
-# if you don't need "about" or "blog", comment them out below
+# if you don't need "about","blog","ds-libraries" or "good-stories", comment them out below
 about: true
 blog: true
+ds-libraries: true
+good-stories: true
 
 # do you want to show the "read time" of the posts?
 read-time: true
@@ -93,7 +95,7 @@ show-tags: true
 related: true
 
 # Display links for next and previous posts for the specified categories
-post-advance-links: [blog]
+post-advance-links: [blog, good-stories]
 
 # show author block at the end of a post ?
 show-author: true
