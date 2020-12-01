@@ -3,11 +3,11 @@
 <nav class="navbar navbar-expand navbar-dark flex-column flex-md-row bg-dark bd-navbar border-bottom d-flex">
     
     <a class="navbar-brand mr-0 mr-md-2" href="#" aria-label="Desgin System"><i class="fas fa-pencil-ruler" style="width:3rem; height: 3rem"></i></a>
-    <div class="navbar-nav-scroll ml-md-auto flex-row pr-3" id="mainMenu">
+    <div class="navbar-nav-scroll ml-md-auto flex-row" id="mainMenu">
 
         <ul class="navbar-nav flex-row d-md-flex">
             <li class="nav-item pr-2">
-                <a class="nav-link" href="{{ site.url }}/design-system">Design System</a>
+                <a class="nav-link {% if site.design-system =="true" %} active {% endif %}" href="{{ site.url }}/design-system">Design System</a>
             </li>
             {% if site.ds-libraries == true %}
                 {% if page.title != "Libraries" %}
