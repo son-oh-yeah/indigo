@@ -4,11 +4,11 @@ layout: page
 ---
 ![Profile Image]({{ site.url }}/{{ site.picture }})
 
-<div class="mx-auto">
+<div class="mx-auto" style="width: 500px;">
 	<h2>About me</h2>
 	{% include social-links.html %}
 </div>
-
+<hr>
 <p>Là một UX Design có kinh nghiệm, thiết kế linh hoạt. Cung cấp các giải pháp thiết kế tối ưu và sáng tạo.</p>
 
 <p>Từng được làm việc với những dự án phát triển từ khâu sản xuất sản phẩm đến giai đoạn đóng gói, 
