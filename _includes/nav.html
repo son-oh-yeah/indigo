@@ -1,20 +1,20 @@
 
 {% if page.title == "Design System" or page.title == "Good Stories" or page.title == "Libraries" %}
-<nav class="navbar sticky-top navbar-expand navbar-light bd-navbar border-bottom" style="background-color: #DEB887">
+<nav class="navbar sticky-top navbar-expand navbar-light flex-column flex-md-row bd-navbar bd-navbar" style="background-color: #DEB887">
     
     <a class="navbar-brand mr-0 mr-md-2" href="#" aria-label="Desgin System"><i class="fas fa-pencil-ruler" style="width:3rem; height: 3rem"></i></a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mainMenu" aria-controls="mainMenu" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
     </button>
 
-    <div class="collapse navbar-collapse" id="mainMenu">
-        <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-            <li class="nav-item pr-2">
+    <div class="navbar-nav-scroll" id="mainMenu">
+        <ul class="navbar-nav navbar-nav bd-navbar-nav flex-row">
+            <li class="nav-item">
                 <a class="nav-link {% if page.title =="Design System" %} active {% endif %}" href="{{ site.url }}/design-system">Design System</a>
             </li>
             {% if site.ds-libraries == true %}
                 {% if page.title != "Libraries" %}
-            <li class="nav-item pr-2">
+            <li class="nav-item">
                 <a class="nav-link" href="{{ site.url }}/design-system/ds-libraries">Libraries</a>
             </li>
                 {% endif %}
@@ -22,13 +22,13 @@
 
             {% if site.good-stories == true %}
                 {% if page.title != "Good Stories" %}
-            <li class="nav-item pr-2">
+            <li class="nav-item">
                 <a class="nav-link" href="{{ site.url }}/design-system/good-stories">Good Stories</a>
             </li>
                 {% endif %}
             {% endif %}
 
-            <li class="nav-item pr-2">
+            <li class="nav-item">
                 <a class="nav-link" href="{{ site.url }}/">My portfolio</a>
             </li>
         </ul>
