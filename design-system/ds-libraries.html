@@ -4,7 +4,7 @@ title: Libraries
 isNav: false
 ---
 
-<h1 class="title text-center py-2">{{ page.title }}</h1>
+<h1 class="title text-center py-5">{{ page.title }}</h1>
 <br>
 <section class="list">
     <div class="container">
@@ -12,7 +12,7 @@ isNav: false
             {% for post in site.posts %}
             {% if post.category == 'design-system-list' %}
             {% if post.hidden != true %}
-            <div class="col-sm-12 col-md-6 mx-1">
+            <div class="col-12 col-md-6 mx-1">
                 <div class="card text-white bg-dark mb-3">
                     <img src="{{ post.img-thumb }}" class="card-img-top" alt="...">
                     <div class="card-body">
