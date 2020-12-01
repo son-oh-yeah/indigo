@@ -8,6 +8,7 @@ id: intro
 title: "Introduction"
 sub-titile: Atlassian
 description: "ABDFGDFGDFHG"
+img-thumb: https://miro.medium.com/max/1250/1*2rNtNQBnUVqAYZMZeExl4w.png
 
 tag:
 - design system
