@@ -6,7 +6,7 @@
     <div class="navbar-nav-scroll ml-md-auto flex-row pr-3" id="mainMenu">
 
         <ul class="navbar-nav flex-row d-md-flex">
-            {% if site.ds-libraries == true %}
+            {% if site.design-system.ds-libraries == true %}
                 {% if page.title != "Design System Libraries" %}
             <li class="nav-item pr-2">
                 <a class="nav-link" href="{{ site.url }}/design-system/ds-libraries">Design System Libraries</a>
@@ -14,7 +14,7 @@
                 {% endif %}
             {% endif %}
 
-            {% if site.good-stories == true %}
+            {% if site.design-system.good-stories == true %}
                 {% if page.title != "Good Stories" %}
             <li class="nav-item pr-2">
                 <a class="nav-link" href="{{ site.url }}/design-system/good-stories">Good Stories</a>
