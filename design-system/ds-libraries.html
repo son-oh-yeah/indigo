@@ -8,11 +8,19 @@ isNav: false
 <br>
 <section class="list">
     <div class="container">
-        <div class="d-flex flex-wrap">
-            {% for post in site.posts %}
+        
+        {% assign count = 0 %}
+        {% for post in site.posts %}
+            {% if count == 2 %}
+                {% assign count = 0 %}
+            {% endif %}
+            {% if count == 0 %}                          
+        <div class="d-flex flex-fill mb-2">
+            {% endif %}
             {% if post.category == 'design-system-list' %}
-            {% if post.hidden != true %}
-            <div class="card bg-light mb-3">
+                {% if post.hidden != true %}        
+                {% count | plus: 1.0 %}
+            <div class="card bg-light mb-2 w-50 mx-2">
                 <img src="{{ post.img-thumb }}" class="card-img-top" alt="...">
                 <div class="card-body">
                     <h6 class="card-subtitle mb-2 text-muted text-uppercase">{{ post.sub-title }}</h6>
@@ -21,10 +29,15 @@ isNav: false
                     <a href="{% if post.externalLink %}{{ post.externalLink }}{% else %}{{ site.url }}{{ post.url }}{% endif %}"
                             class="btn btn-outline-primary">View Details</a>
                 </div>
-            </div>
+            </div>            
+                {% endif %}
             {% endif %}
-            {% endif %}
-            {% endfor %}
+
+            {% if count == 0 %}
         </div>
+            {% endif %}
+
+        {% endfor %}
+        
     </div>
 </section>

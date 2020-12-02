@@ -21,6 +21,6 @@ tag:
 <h5 class="card-subtitle mb-2 text-muted text-uppercase">{{ sub-title }}</h5>
 <h2 class="card-title">{{ title }}</h2>
 
-![Picture 1](/assets/images/design-system/atlassian-homepage@2x.png) 
+<!-- ![Picture 1](/assets/images/design-system/atlassian-homepage@2x.png) -->
 
 {{ description }}
