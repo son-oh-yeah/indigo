@@ -10,7 +10,7 @@ sub-title: Atlassian
 description: "Design, develop, deliver <br>
 Use Atlassian’s end-to-end design language to create simple, intuitive and beautiful experiences."
 img-thumb: /assets/images/design-system/atlassian-homepage@2x.png
-video-thumb: https://www.carbondesignsystem.com/static/carbon-8b67681879a5cc95df2c3f476a0d1984.mp4
+video-thumb: 
 
 tag:
 - design system

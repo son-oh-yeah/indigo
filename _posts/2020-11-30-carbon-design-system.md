@@ -9,6 +9,7 @@ title: "Carbon Design System"
 sub-title: IBM
 description: "Carbon is IBM’s open source design system for products and digital experiences. With the IBM Design Language as its foundation, the system consists of working code, design tools and resources, human interface guidelines, and a vibrant community of contributors."
 img-thumb: /assets/images/design-system/poster-carbon-design-system.jpg
+video-thumb: https://www.carbondesignsystem.com/static/carbon-8b67681879a5cc95df2c3f476a0d1984.mp4
 
 tag:
 - design system
