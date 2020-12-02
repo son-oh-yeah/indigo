@@ -3,12 +3,12 @@ layout: page-design-system
 ---
 
 <div class="container">
-    <button type="button" class="btn btn-outline-primary py-3">
+    <button type="button" class="btn btn-outline-primary my-3">
         <a onclick="window.history.back()">← Back</a>
     </button>
     
-    {% if page.image-thumb and page.headerImage %}
-        <img class="title-image" src="{{ page.image-thumb }}" alt="{{ page.title }}">
+    {% if page.img-thumb and page.headerImage %}
+        <img class="title-image" src="{{ page.img-thumb }}" alt="{{ page.title }}">
     {% endif %}
     
     <h3 class="text-muted text-uppercase">{{ page.sub-title }}</h3>
