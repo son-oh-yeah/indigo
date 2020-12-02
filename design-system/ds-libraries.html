@@ -17,7 +17,7 @@ isNav: false
                     <img src="{{ post.img-thumb }}" class="card-img-top" alt="...">
                     <div class="card-body">
                         <h6 class="card-subtitle mb-2 text-muted text-uppercase">{{ post.sub-title }}</h6>
-                        <h5 class="card-title">{{ post.title }}</h5>
+                        <h3 class="card-title">{{ post.title }}</h3>
                         <p class="card-text">{{ post.description }}</p>
                         <a href="{% if post.externalLink %}{{ post.externalLink }}{% else %}{{ site.url }}{{ post.url }}{% endif %}"
                             class="btn btn-outline-primary">View Details</a>

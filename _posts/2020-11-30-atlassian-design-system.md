@@ -3,7 +3,7 @@ layout: page-design-system
 
 category: design-system-list
 author: sonohyeah
-id: intro
+id: atlassian
 
 title: "Atlassian Design System"
 sub-title: Atlassian
@@ -25,4 +25,4 @@ headerImage: true
 
 ![Picture 1](https://son-oh-yeah.github.io/assets/images/footy-background.jpg) 
 
-<p class="card-text">{{ post.description }}</p>
+{{ post.description }}
