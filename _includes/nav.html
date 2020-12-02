@@ -1,38 +1,4 @@
 
-{% if page.title == "Design System" or page.title == "Good Stories" or page.title == "Libraries" %}
-<nav class="navbar sticky-top navbar-expand navbar-light flex-column flex-md-row bd-navbar bd-navbar bg-primary">
-    
-    <a class="navbar-brand mr-0 mr-md-2" href="#" aria-label="Desgin System"><i class="fas fa-pencil-ruler" style="width:2.5rem; height: 2.5rem"></i></a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mainMenu" aria-controls="mainMenu" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-    </button>
-
-    <div class="navbar-nav-scroll" id="mainMenu">
-        <ul class="navbar-nav navbar-nav bd-navbar-nav flex-row font-weight-normal">
-            <li class="nav-item">
-                <a class="nav-link {% if page.title =="Design System" %} active {% endif %}" href="{{ site.url }}/design-system">Design System</a>
-            </li>
-            {% if site.ds-libraries == true %}
-                {% if page.title != "Libraries" %}
-            <li class="nav-item">
-                <a class="nav-link" href="{{ site.url }}/design-system/ds-libraries">Libraries</a>
-            </li>
-                {% endif %}
-            {% endif %}
-
-            {% if site.good-stories == true %}
-                {% if page.title != "Good Stories" %}
-            <li class="nav-item ">
-                <a class="nav-link" href="{{ site.url }}/design-system/good-stories">Good Stories</a>
-            </li>
-                {% endif %}
-            {% endif %}
-
-        </ul>
-    </div>
-
-</nav>
-{% else %}
 <nav class="{% if page.title == "Home" %}nav-home{% else %}nav-page {% endif %}">     
     <ul class="list">
         {% if page.title != "Home" %}
@@ -82,5 +48,4 @@
         -->
     </ul>
 </nav>
-{% endif %}
 
