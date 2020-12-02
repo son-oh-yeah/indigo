@@ -18,7 +18,7 @@ tag:
 
 
 <h5 class="card-subtitle mb-2 text-muted text-uppercase">IBM</h5>
-<h2 class="card-title">{Carbon Design System</h2>
+<h2 class="card-title">Carbon Design System</h2>
 
 ![Picture 1](/assets/images/design-system/poster-carbon-design-system.jpg)
 
