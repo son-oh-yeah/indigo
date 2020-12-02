@@ -8,9 +8,10 @@ layout: page-design-system
     </button>
     
     {% if page.image and page.headerImage %}
-        <img class="title-image" src="{{ page.image }}" alt="{{ page.title }}">
+        <img class="title-image" src="{{ page.image-thumb }}" alt="{{ page.title }}">
     {% endif %}
     
+    <h3 class="">{{ page.sub-title }}</h3>
     <h1 class="title">{{ page.title }}</h1>
     
     {% if site.show-tags %}
@@ -20,6 +21,8 @@ layout: page-design-system
             {% endfor %}
         </div>
     {% endif %}
+
+    > {{ page.description }}
     
     {{content}}
     

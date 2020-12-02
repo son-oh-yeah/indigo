@@ -18,6 +18,5 @@ tag:
 ---
 
 
-<h5 class="card-subtitle mb-2 text-muted text-uppercase">IBM</h5>
-<h2 class="card-title">Carbon Design System</h2>
+HAGSAGAGG
 
