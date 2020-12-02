@@ -3,12 +3,11 @@ layout: page-design-system
 
 category: design-system-list
 author: sonohyeah
-id: atlassian
+id: carbon-ibm
 
-title: "Atlassian Design System"
-sub-title: Atlassian
-description: "Design, develop, deliver <br>
-Use Atlassian’s end-to-end design language to create simple, intuitive and beautiful experiences."
+title: "Carbon Design System"
+sub-title: IBM
+description: "Carbon is IBM’s open source design system for products and digital experiences. With the IBM Design Language as its foundation, the system consists of working code, design tools and resources, human interface guidelines, and a vibrant community of contributors."
 img-thumb: https://son-oh-yeah.github.io/assets/images/footy-background.jpg
 
 tag:
