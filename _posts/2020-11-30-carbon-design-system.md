@@ -8,7 +8,7 @@ id: carbon-ibm
 title: "Carbon Design System"
 sub-title: IBM
 description: "Carbon is IBM’s open source design system for products and digital experiences. With the IBM Design Language as its foundation, the system consists of working code, design tools and resources, human interface guidelines, and a vibrant community of contributors."
-img-thumb: https://son-oh-yeah.github.io/assets/images/footy-background.jpg
+img-thumb: /assets/images/design-system/poster-carbon-design-system.jpg
 
 tag:
 - design system
@@ -17,9 +17,9 @@ tag:
 ---
 
 
-<h5 class="card-subtitle mb-2 text-muted text-uppercase">{{ md sub-title }}</h5>
-<h2 class="card-title">{{ md title }}</h2>
+<h5 class="card-subtitle mb-2 text-muted text-uppercase">{{ sub-title }}</h5>
+<h2 class="card-title">{{ title }}</h2>
 
 <!-- ![Picture 1](/assets/images/design-system/atlassian-homepage@2x.png) -->
 
-{{ md description }}
+{{ description }}
