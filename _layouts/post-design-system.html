@@ -3,7 +3,7 @@ layout: page-design-system
 ---
 
 <div class="container">
-    <button type="button" class="btn btn-outline-primary">
+    <button type="button" class="btn btn-outline-primary py-3">
         <a onclick="window.history.back()">← Back</a>
     </button>
     
@@ -11,7 +11,7 @@ layout: page-design-system
         <img class="title-image" src="{{ page.image-thumb }}" alt="{{ page.title }}">
     {% endif %}
     
-    <h3 class="">{{ page.sub-title }}</h3>
+    <h3 class="text-muted text-uppercase">{{ page.sub-title }}</h3>
     <h1 class="title">{{ page.title }}</h1>
     
     {% if site.show-tags %}
@@ -22,7 +22,11 @@ layout: page-design-system
         </div>
     {% endif %}
 
-    > {{ page.description }}
+    <blockquote class="blockquote">
+        <p class="mb-0">
+            {{ page.description }}
+        </p>
+    </blockquote>
     
     {{content}}
     
