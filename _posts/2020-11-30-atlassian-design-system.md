@@ -9,7 +9,7 @@ title: "Atlassian Design System"
 sub-title: Atlassian
 description: "Design, develop, deliver <br>
 Use Atlassian’s end-to-end design language to create simple, intuitive and beautiful experiences."
-img-thumb: son-oh-yeah.github.io/assets/images/design-system/atlassian-homepage@2x.png
+img-thumb: https://son-oh-yeah.github.io/assets/images/design-system/atlassian-homepage@2x.png
 video-thumb: 
 
 tag:
@@ -18,9 +18,10 @@ tag:
 
 ---
 
-<h5 class="card-subtitle mb-2 text-muted text-uppercase">{{ sub-title }}</h5>
-<h2 class="card-title">{{ title }}</h2>
+<h5 class="mb-2 text-muted text-uppercase">Atlassian</h5>
+<h2 class="">Atlassian Design System</h2>
 
-<!-- ![Picture 1](/assets/images/design-system/atlassian-homepage@2x.png) -->
+![Picture 1](/assets/images/design-system/atlassian-homepage@2x.png)
 
-{{ description }}
+Design, develop, deliver <br>
+Use Atlassian’s end-to-end design language to create simple, intuitive and beautiful experiences."
