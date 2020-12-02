@@ -13,7 +13,7 @@ isNav: false
             {% if post.category == 'design-system-list' %}
                 {% if post.hidden != true %}        
             <div class="card bg-light mb-2 w-50 mx-2">
-                {% if post.video-thumb != "" %}
+                {% if post.video-thumb != '' %}
                 <video poster="{{ post.img-thumb }}" autoplay="" playsinline="" loop=""><source src="https://www.carbondesignsystem.com/static/carbon-8b67681879a5cc95df2c3f476a0d1984.mp4" type="video/mp4"></video>
                 {% else %}
                 <img src="{{ post.img-thumb }}" class="card-img-top" alt="...">
