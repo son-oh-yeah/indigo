@@ -1,5 +1,5 @@
 ---
-layout: page-design-system
+layout: post-design-system
 
 category: design-system-list
 author: sonohyeah
@@ -16,6 +16,8 @@ tag:
 ---
 
 
+<div class="container">
+</div>
 <h5 class="card-subtitle mb-2 text-muted text-uppercase">Gojek</h5>
 <h2 class="card-title">Asphalt</h2>
 
