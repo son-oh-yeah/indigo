@@ -8,28 +8,20 @@ isNav: false
 <br>
 <section class="list">
     <div class="container">
-        <div class="row justify-content-md-center">
-            {% assign count = 0 %}
+        <div class="d-flex flex-wrap">
             {% for post in site.posts %}
             {% if post.category == 'design-system-list' %}
             {% if post.hidden != true %}
-            {% assign count = count+1 %}
-            <div class="col-12 col-sm-12 col-md-6 mx-1">
-                <div class="card bg-light mb-3">
-                    <img src="{{ post.img-thumb }}" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h6 class="card-subtitle mb-2 text-muted text-uppercase">{{ post.sub-title }}</h6>
-                        <h3 class="card-title">{{ post.title }}</h3>
-                        <p class="card-text">{{ post.description }}</p>
-                        <a href="{% if post.externalLink %}{{ post.externalLink }}{% else %}{{ site.url }}{{ post.url }}{% endif %}"
+            <div class="card bg-light mb-3">
+                <img src="{{ post.img-thumb }}" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h6 class="card-subtitle mb-2 text-muted text-uppercase">{{ post.sub-title }}</h6>
+                    <h3 class="card-title">{{ post.title }}</h3>
+                    <p class="card-text">{{ post.description }}</p>
+                    <a href="{% if post.externalLink %}{{ post.externalLink }}{% else %}{{ site.url }}{{ post.url }}{% endif %}"
                             class="btn btn-outline-primary">View Details</a>
-                    </div>
                 </div>
             </div>
-            {% endif %}
-            {% if count == 2 %}
-            {% assign count = 0 %}
-            <div class="w-100"></div>
             {% endif %}
             {% endif %}
             {% endfor %}
