@@ -1,5 +1,5 @@
 ---
-layout: page-design-system
+layout: post-design-system
 
 category: design-system-list
 author: sonohyeah
@@ -9,8 +9,8 @@ title: "Atlassian Design System"
 sub-title: Atlassian
 description: "Design, develop, deliver <br>
 Use Atlassian’s end-to-end design language to create simple, intuitive and beautiful experiences."
+headerImage: true
 img-thumb: https://son-oh-yeah.github.io/assets/images/design-system/atlassian-homepage@2x.png
-video-thumb: 
 
 tag:
 - design system
