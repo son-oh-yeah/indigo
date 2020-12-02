@@ -12,10 +12,10 @@ layout: page-design-system
     {% endif %}
     
     <div class="text-center py-5">
-        <h6 class="text-muted text-uppercase">{{ page.sub-title }}</h3>
+        <h5 class="text-muted text-uppercase">{{ page.sub-title }}</h5>
         <h1 class="title">{{ page.title }}</h1>
         {% if site.show-tags %}
-        <div class="post-tags py-3">
+        <div class="post-tags py-2">
             {% for tag in page.tags %}
                 <a class="text-uppercase font-weight-normal text-muted mx-3" href="{{ site.url }}/tags/#{{ tag | slugify }}">{{ tag }}</a>
             {% endfor %}
@@ -23,7 +23,7 @@ layout: page-design-system
     {% endif %}
     </div>
 
-    <blockquote class="blockquote pt-3">
+    <blockquote class="blockquote p-3">
         <p class="mb-0">
             {{ page.description }}
         </p>
