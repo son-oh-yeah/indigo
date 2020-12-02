@@ -2,7 +2,9 @@
 layout: page
 ---
 
-<a onclick="window.history.back()">← Back</a>
+<button>
+    <a onclick="window.history.back()">← Back</a>
+</button>
 
 {% if page.image and page.headerImage %}
     <img class="title-image" src="{{ page.image }}" alt="{{ page.title }}">
