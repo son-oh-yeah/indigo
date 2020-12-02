@@ -8,18 +8,10 @@ isNav: false
 <br>
 <section class="list">
     <div class="container">
-        
-        {% assign count = 0 %}
-        {% for post in site.posts %}
-            {% if count == 2 %}
-                {% assign count = 0 %}
-            {% endif %}
-            {% if count == 0 %}                          
-        <div class="d-flex flex-fill mb-2">
-            {% endif %}
+        <div class="d-flex flex-fill mb-2">   
+        {% for post in site.posts %}                           
             {% if post.category == 'design-system-list' %}
                 {% if post.hidden != true %}        
-                {% count | plus: 1.0 %}
             <div class="card bg-light mb-2 w-50 mx-2">
                 <img src="{{ post.img-thumb }}" class="card-img-top" alt="...">
                 <div class="card-body">
@@ -31,13 +23,8 @@ isNav: false
                 </div>
             </div>            
                 {% endif %}
-            {% endif %}
-
-            {% if count == 0 %}
-        </div>
-            {% endif %}
-
+            {% endif %}       
         {% endfor %}
-        
+        </div>       
     </div>
 </section>
