@@ -6,7 +6,7 @@ author: sonohyeah
 id: carbon-ibm
 
 title: "Cardbon"
-sub-titile: IBM
+sub-title: IBM
 description: "TEST DESC"
 img-thumb: https://miro.medium.com/max/1250/1*2rNtNQBnUVqAYZMZeExl4w.png
 
