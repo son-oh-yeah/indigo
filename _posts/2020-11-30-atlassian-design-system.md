@@ -9,7 +9,7 @@ title: "Atlassian Design System"
 sub-title: Atlassian
 description: "Design, develop, deliver <br>
 Use Atlassian’s end-to-end design language to create simple, intuitive and beautiful experiences."
-img-thumb: /assets/images/design-system/atlassian-homepage@2x.png
+img-thumb: son-oh-yeah.github.io/assets/images/design-system/atlassian-homepage@2x.png
 video-thumb: 
 
 tag:
