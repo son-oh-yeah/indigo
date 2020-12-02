@@ -12,137 +12,55 @@ description: ""
 ---
 
 
-<div class="row">
-	<div class="col-9">
-		<section id="sec__1">
-			The line at the very bottom of the frame is the echo area. It is used to display small amounts of text for various purposes.
-
-			The echo area is so-named because one of the things it is used for is echoing, which means displaying the characters of a multi-character command as you type. Single-character commands are not echoed. Multi-character commands (see Keys) are echoed if you pause for more than a second in the middle of a command. Emacs then echoes all the characters of the command so far, to prompt you for the rest. Once echoing has started, the rest of the command echoes immediately as you type it. This behavior is designed to give confident users fast response, while giving hesitant users maximum feedback.
-
-			The echo area is also used to display an error message when a command cannot do its job. Error messages may be accompanied by beeping or by flashing the screen.
-
-			Some commands display informative messages in the echo area to tell you what the command has done, or to provide you with some specific information. These informative messages, unlike error messages, are not accompanied with a beep or flash. For example, C-x = (hold down Ctrl and type x, then let go of Ctrl and type =) displays a message describing the character at point, its position in the buffer, and its current column in the window. Commands that take a long time often display messages ending in ‘...’ while they are working (sometimes also indicating how much progress has been made, as a percentage), and add ‘done’ when they are finished.
-
-			Informative echo area messages are saved in a special buffer named *Messages*. (We have not explained buffers yet; see Buffers, for more information about them.) If you miss a message that appeared briefly on the screen, you can switch to the *Messages* buffer to see it again. The *Messages* buffer is limited to a certain number of lines, specified by the variable message-log-max. (We have not explained variables either; see Variables, for more information about them.) Beyond this limit, one line is deleted from the beginning whenever a new message line is added at the end.
-
-			The echo area is so-named because one of the things it is used for is echoing, which means displaying the characters of a multi-character command as you type. Single-character commands are not echoed. Multi-character commands (see Keys) are echoed if you pause for more than a second in the middle of a command. Emacs then echoes all the characters of the command so far, to prompt you for the rest. Once echoing has started, the rest of the command echoes immediately as you type it. This behavior is designed to give confident users fast response, while giving hesitant users maximum feedback.
-
-			The echo area is also used to display an error message when a command cannot do its job. Error messages may be accompanied by beeping or by flashing the screen.
-
-			Some commands display informative messages in the echo area to tell you what the command has done, or to provide you with some specific information. These informative messages, unlike error messages, are not accompanied with a beep or flash. For example, C-x = (hold down Ctrl and type x, then let go of Ctrl and type =) displays a message describing the character at point, its position in the buffer, and its current column in the window. Commands that take a long time often display messages ending in ‘...’ while they are working (sometimes also indicating how much progress has been made, as a percentage), and add ‘done’ when they are finished.
-
-			Informative echo area messages are saved in a special buffer named *Messages*. (We have not explained buffers yet; see Buffers, for more information about them.) If you miss a message that appeared briefly on the screen, you can switch to the *Messages* buffer to see it again. The *Messages* buffer is limited to a certain number of lines, specified by the variable message-log-max. (We have not explained variables either; see Variables, for more information about them.) Beyond this limit, one line is deleted from the beginning whenever a new message line is added at the end.
-
-			The echo area is so-named because one of the things it is used for is echoing, which means displaying the characters of a multi-character command as you type. Single-character commands are not echoed. Multi-character commands (see Keys) are echoed if you pause for more than a second in the middle of a command. Emacs then echoes all the characters of the command so far, to prompt you for the rest. Once echoing has started, the rest of the command echoes immediately as you type it. This behavior is designed to give confident users fast response, while giving hesitant users maximum feedback.
-
-			The echo area is also used to display an error message when a command cannot do its job. Error messages may be accompanied by beeping or by flashing the screen.
-
-			Some commands display informative messages in the echo area to tell you what the command has done, or to provide you with some specific information. These informative messages, unlike error messages, are not accompanied with a beep or flash. For example, C-x = (hold down Ctrl and type x, then let go of Ctrl and type =) displays a message describing the character at point, its position in the buffer, and its current column in the window. Commands that take a long time often display messages ending in ‘...’ while they are working (sometimes also indicating how much progress has been made, as a percentage), and add ‘done’ when they are finished.
-
-			Informative echo area messages are saved in a special buffer named *Messages*. (We have not explained buffers yet; see Buffers, for more information about them.) If you miss a message that appeared briefly on the screen, you can switch to the *Messages* buffer to see it again. The *Messages* buffer is limited to a certain number of lines, specified by the variable message-log-max. (We have not explained variables either; see Variables, for more information about them.) Beyond this limit, one line is deleted from the beginning whenever a new message line is added at the end.
-
-			The echo area is so-named because one of the things it is used for is echoing, which means displaying the characters of a multi-character command as you type. Single-character commands are not echoed. Multi-character commands (see Keys) are echoed if you pause for more than a second in the middle of a command. Emacs then echoes all the characters of the command so far, to prompt you for the rest. Once echoing has started, the rest of the command echoes immediately as you type it. This behavior is designed to give confident users fast response, while giving hesitant users maximum feedback.
-
-			The echo area is also used to display an error message when a command cannot do its job. Error messages may be accompanied by beeping or by flashing the screen.
-
-			Some commands display informative messages in the echo area to tell you what the command has done, or to provide you with some specific information. These informative messages, unlike error messages, are not accompanied with a beep or flash. For example, C-x = (hold down Ctrl and type x, then let go of Ctrl and type =) displays a message describing the character at point, its position in the buffer, and its current column in the window. Commands that take a long time often display messages ending in ‘...’ while they are working (sometimes also indicating how much progress has been made, as a percentage), and add ‘done’ when they are finished.
-
-			Informative echo area messages are saved in a special buffer named *Messages*. (We have not explained buffers yet; see Buffers, for more information about them.) If you miss a message that appeared briefly on the screen, you can switch to the *Messages* buffer to see it again. The *Messages* buffer is limited to a certain number of lines, specified by the variable message-log-max. (We have not explained variables either; see Variables, for more information about them.) Beyond this limit, one line is deleted from the beginning whenever a new message line is added at the end.
-
-			The echo area is so-named because one of the things it is used for is echoing, which means displaying the characters of a multi-character command as you type. Single-character commands are not echoed. Multi-character commands (see Keys) are echoed if you pause for more than a second in the middle of a command. Emacs then echoes all the characters of the command so far, to prompt you for the rest. Once echoing has started, the rest of the command echoes immediately as you type it. This behavior is designed to give confident users fast response, while giving hesitant users maximum feedback.
-
-			The echo area is also used to display an error message when a command cannot do its job. Error messages may be accompanied by beeping or by flashing the screen.
-
-			Some commands display informative messages in the echo area to tell you what the command has done, or to provide you with some specific information. These informative messages, unlike error messages, are not accompanied with a beep or flash. For example, C-x = (hold down Ctrl and type x, then let go of Ctrl and type =) displays a message describing the character at point, its position in the buffer, and its current column in the window. Commands that take a long time often display messages ending in ‘...’ while they are working (sometimes also indicating how much progress has been made, as a percentage), and add ‘done’ when they are finished.
-
-			Informative echo area messages are saved in a special buffer named *Messages*. (We have not explained buffers yet; see Buffers, for more information about them.) If you miss a message that appeared briefly on the screen, you can switch to the *Messages* buffer to see it again. The *Messages* buffer is limited to a certain number of lines, specified by the variable message-log-max. (We have not explained variables either; see Variables, for more information about them.) Beyond this limit, one line is deleted from the beginning whenever a new message line is added at the end.
-
-			The echo area is so-named because one of the things it is used for is echoing, which means displaying the characters of a multi-character command as you type. Single-character commands are not echoed. Multi-character commands (see Keys) are echoed if you pause for more than a second in the middle of a command. Emacs then echoes all the characters of the command so far, to prompt you for the rest. Once echoing has started, the rest of the command echoes immediately as you type it. This behavior is designed to give confident users fast response, while giving hesitant users maximum feedback.
-
-			The echo area is also used to display an error message when a command cannot do its job. Error messages may be accompanied by beeping or by flashing the screen.
-
-			Some commands display informative messages in the echo area to tell you what the command has done, or to provide you with some specific information. These informative messages, unlike error messages, are not accompanied with a beep or flash. For example, C-x = (hold down Ctrl and type x, then let go of Ctrl and type =) displays a message describing the character at point, its position in the buffer, and its current column in the window. Commands that take a long time often display messages ending in ‘...’ while they are working (sometimes also indicating how much progress has been made, as a percentage), and add ‘done’ when they are finished.
-
-			Informative echo area messages are saved in a special buffer named *Messages*. (We have not explained buffers yet; see Buffers, for more information about them.) If you miss a message that appeared briefly on the screen, you can switch to the *Messages* buffer to see it again. The *Messages* buffer is limited to a certain number of lines, specified by the variable message-log-max. (We have not explained variables either; see Variables, for more information about them.) Beyond this limit, one line is deleted from the beginning whenever a new message line is added at the end.
-
-			The echo area is so-named because one of the things it is used for is echoing, which means displaying the characters of a multi-character command as you type. Single-character commands are not echoed. Multi-character commands (see Keys) are echoed if you pause for more than a second in the middle of a command. Emacs then echoes all the characters of the command so far, to prompt you for the rest. Once echoing has started, the rest of the command echoes immediately as you type it. This behavior is designed to give confident users fast response, while giving hesitant users maximum feedback.
-
-			The echo area is also used to display an error message when a command cannot do its job. Error messages may be accompanied by beeping or by flashing the screen.
-
-			Some commands display informative messages in the echo area to tell you what the command has done, or to provide you with some specific information. These informative messages, unlike error messages, are not accompanied with a beep or flash. For example, C-x = (hold down Ctrl and type x, then let go of Ctrl and type =) displays a message describing the character at point, its position in the buffer, and its current column in the window. Commands that take a long time often display messages ending in ‘...’ while they are working (sometimes also indicating how much progress has been made, as a percentage), and add ‘done’ when they are finished.
-
-			Informative echo area messages are saved in a special buffer named *Messages*. (We have not explained buffers yet; see Buffers, for more information about them.) If you miss a message that appeared briefly on the screen, you can switch to the *Messages* buffer to see it again. The *Messages* buffer is limited to a certain number of lines, specified by the variable message-log-max. (We have not explained variables either; see Variables, for more information about them.) Beyond this limit, one line is deleted from the beginning whenever a new message line is added at the end.
-
-			The echo area is so-named because one of the things it is used for is echoing, which means displaying the characters of a multi-character command as you type. Single-character commands are not echoed. Multi-character commands (see Keys) are echoed if you pause for more than a second in the middle of a command. Emacs then echoes all the characters of the command so far, to prompt you for the rest. Once echoing has started, the rest of the command echoes immediately as you type it. This behavior is designed to give confident users fast response, while giving hesitant users maximum feedback.
-
-			The echo area is also used to display an error message when a command cannot do its job. Error messages may be accompanied by beeping or by flashing the screen.
-
-			Some commands display informative messages in the echo area to tell you what the command has done, or to provide you with some specific information. These informative messages, unlike error messages, are not accompanied with a beep or flash. For example, C-x = (hold down Ctrl and type x, then let go of Ctrl and type =) displays a message describing the character at point, its position in the buffer, and its current column in the window. Commands that take a long time often display messages ending in ‘...’ while they are working (sometimes also indicating how much progress has been made, as a percentage), and add ‘done’ when they are finished.
-
-			Informative echo area messages are saved in a special buffer named *Messages*. (We have not explained buffers yet; see Buffers, for more information about them.) If you miss a message that appeared briefly on the screen, you can switch to the *Messages* buffer to see it again. The *Messages* buffer is limited to a certain number of lines, specified by the variable message-log-max. (We have not explained variables either; see Variables, for more information about them.) Beyond this limit, one line is deleted from the beginning whenever a new message line is added at the end.
-
-			The echo area is so-named because one of the things it is used for is echoing, which means displaying the characters of a multi-character command as you type. Single-character commands are not echoed. Multi-character commands (see Keys) are echoed if you pause for more than a second in the middle of a command. Emacs then echoes all the characters of the command so far, to prompt you for the rest. Once echoing has started, the rest of the command echoes immediately as you type it. This behavior is designed to give confident users fast response, while giving hesitant users maximum feedback.
-
-			The echo area is also used to display an error message when a command cannot do its job. Error messages may be accompanied by beeping or by flashing the screen.
-
-			Some commands display informative messages in the echo area to tell you what the command has done, or to provide you with some specific information. These informative messages, unlike error messages, are not accompanied with a beep or flash. For example, C-x = (hold down Ctrl and type x, then let go of Ctrl and type =) displays a message describing the character at point, its position in the buffer, and its current column in the window. Commands that take a long time often display messages ending in ‘...’ while they are working (sometimes also indicating how much progress has been made, as a percentage), and add ‘done’ when they are finished.
-
-			Informative echo area messages are saved in a special buffer named *Messages*. (We have not explained buffers yet; see Buffers, for more information about them.) If you miss a message that appeared briefly on the screen, you can switch to the *Messages* buffer to see it again. The *Messages* buffer is limited to a certain number of lines, specified by the variable message-log-max. (We have not explained variables either; see Variables, for more information about them.) Beyond this limit, one line is deleted from the beginning whenever a new message line is added at the end.
-
-			The echo area is so-named because one of the things it is used for is echoing, which means displaying the characters of a multi-character command as you type. Single-character commands are not echoed. Multi-character commands (see Keys) are echoed if you pause for more than a second in the middle of a command. Emacs then echoes all the characters of the command so far, to prompt you for the rest. Once echoing has started, the rest of the command echoes immediately as you type it. This behavior is designed to give confident users fast response, while giving hesitant users maximum feedback.
-
-			The echo area is also used to display an error message when a command cannot do its job. Error messages may be accompanied by beeping or by flashing the screen.
-
-			Some commands display informative messages in the echo area to tell you what the command has done, or to provide you with some specific information. These informative messages, unlike error messages, are not accompanied with a beep or flash. For example, C-x = (hold down Ctrl and type x, then let go of Ctrl and type =) displays a message describing the character at point, its position in the buffer, and its current column in the window. Commands that take a long time often display messages ending in ‘...’ while they are working (sometimes also indicating how much progress has been made, as a percentage), and add ‘done’ when they are finished.
-
-			Informative echo area messages are saved in a special buffer named *Messages*. (We have not explained buffers yet; see Buffers, for more information about them.) If you miss a message that appeared briefly on the screen, you can switch to the *Messages* buffer to see it again. The *Messages* buffer is limited to a certain number of lines, specified by the variable message-log-max. (We have not explained variables either; see Variables, for more information about them.) Beyond this limit, one line is deleted from the beginning whenever a new message line is added at the end.
-
-			See Display Custom, for options that control how Emacs uses the echo area.
-
-The echo area is also used to display the minibuffer, a special window where you can input arguments to commands, such as the name of a file to be edited. When the minibuffer is in use, the text displayed in the echo area begins with a prompt string, and the active cursor appears within the minibuffer, which is temporarily considered the selected window. You can always get out of the minibuffer by typing C-g. See Minibuffer.
-			</section>
-			<section id="sec__2">
-			Set the direction of flex items in a flex container with direction utilities. In most cases you can omit the horizontal class here as the browser default is row. However, you may encounter situations where you needed to explicitly set this value (like responsive layouts).
-			Use .flex-row to set a horizontal direction (the browser default), or .flex-row-reverse to start the horizontal direction from the opposite side.
-			</section>
-			<section id="sec__3">
-			Set the direction of flex items in a flex container with direction utilities. In most cases you can omit the horizontal class here as the browser default is row. However, you may encounter situations where you needed to explicitly set this value (like responsive layouts).
-			Use .flex-row to set a horizontal direction (the browser default), or .flex-row-reverse to start the horizontal direction from the opposite side.
-			</section>
-			<section id="sec__4">
-			Set the direction of flex items in a flex container with direction utilities. In most cases you can omit the horizontal class here as the browser default is row. However, you may encounter situations where you needed to explicitly set this value (like responsive layouts).
-			Use .flex-row to set a horizontal direction (the browser default), or .flex-row-reverse to start the horizontal direction from the opposite side.
-			</section>
-			<section id="sec__5">
-			Set the direction of flex items in a flex container with direction utilities. In most cases you can omit the horizontal class here as the browser default is row. However, you may encounter situations where you needed to explicitly set this value (like responsive layouts).
-			Use .flex-row to set a horizontal direction (the browser default), or .flex-row-reverse to start the horizontal direction from the opposite side.
-			</section>
-			<section id="sec__6">
-			Set the direction of flex items in a flex container with direction utilities. In most cases you can omit the horizontal class here as the browser default is row. However, you may encounter situations where you needed to explicitly set this value (like responsive layouts).
-			Use .flex-row to set a horizontal direction (the browser default), or .flex-row-reverse to start the horizontal direction from the opposite side.
-			</section>
-			<section id="sec__7">
-			Content G
-			</section>
-	</div>
-	<!--  begin: Section nav -->
-	<div class="d-none d-xl-block col-xl-2 bd-toc border-left position-sticky">
-		<ul class="section-nav">
-			<li class="toc-entry toc-h2"><a href="#examples">Examples</a>
-				<ul>
-					<li class="toc-entry toc-h3"><a href="#link-color">Link color</a></li>
-					<li class="toc-entry toc-h3"><a href="#additional-content">Additional content</a></li>
-					<li class="toc-entry toc-h3"><a href="#dismissing">Dismissing</a></li>
-				</ul>
-			</li>
-			<li class="toc-entry toc-h2"><a href="#javascript-behavior">JavaScript behavior</a>
-				<ul>
-					<li class="toc-entry toc-h3"><a href="#triggers">Triggers</a></li>
-					<li class="toc-entry toc-h3"><a href="#methods">Methods</a></li>
-					<li class="toc-entry toc-h3"><a href="#events">Events</a></li>
-				</ul>
-			</li>
-		</ul>
-	</div>
-	<!-- end: Section nav -->
-</div>
+  <div class="d-flex" id="wrapper">
+  	<!-- Sidebar  -->
+    <div class="bg-light border-right" id="sidebar-wrapper">
+      <div class="sidebar-heading">Start Bootstrap </div>
+      <div class="list-group list-group-flush">
+        <a href="#" class="list-group-item list-group-item-action bg-light">Dashboard</a>
+        <a href="#" class="list-group-item list-group-item-action bg-light">Shortcuts</a>
+        <a href="#" class="list-group-item list-group-item-action bg-light">Overview</a>
+        <a href="#" class="list-group-item list-group-item-action bg-light">Events</a>
+        <a href="#" class="list-group-item list-group-item-action bg-light">Profile</a>
+        <a href="#" class="list-group-item list-group-item-action bg-light">Status</a>
+      </div>
+    </div>
+    <!-- /#sidebar-wrapper -->
+    <!-- Page Content -->
+	<div id="page-content-wrapper">
+		<nav class="navbar navbar-expand-lg navbar-light bg-light border-bottom">
+        	<button class="btn btn-primary" id="menu-toggle">Toggle Menu</button>
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          		<span class="navbar-toggler-icon"></span>
+        	</button>
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+          		<ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+            		<li class="nav-item active">
+              			<a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            		</li>
+            		<li class="nav-item">
+              			<a class="nav-link" href="#">Link</a>
+            		</li>
+            		<li class="nav-item dropdown">
+             			<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+               				Dropdown
+              			</a>
+              			<div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
+                			<a class="dropdown-item" href="#">Action</a>
+                			<a class="dropdown-item" href="#">Another action</a>
+                			<div class="dropdown-divider"></div>
+                			<a class="dropdown-item" href="#">Something else here</a>
+              			</div>
+            		</li>
+         		 </ul>
+        	</div>
+    	</nav>
+		<div class="container-fluid">
+        	<h1 class="mt-4">Simple Sidebar</h1>
+        	<p>The starting state of the menu will appear collapsed on smaller screens, and will appear non-collapsed on larger screens. When toggled using the button below, the menu will change.</p>
+        	<p>Make sure to keep all page content within the <code>#page-content-wrapper</code>. The top navbar is optional, and just for demonstration. Just create an element with the <code>#menu-toggle</code> ID which will toggle the menu when clicked.</p>
+      	</div>
+    </div>
+	<!-- /#page-content-wrapper -->
+  </div>
+  <!-- /#wrapper -->
