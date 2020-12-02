@@ -11,16 +11,18 @@ layout: page-design-system
         <img class="img-fluid w-100" style="height: 30rem;" src="{{ page.img-thumb }}" alt="{{ page.title }}">
     {% endif %}
     
-    <h3 class="text-muted text-uppercase">{{ page.sub-title }}</h3>
-    <h1 class="title">{{ page.title }}</h1>
-    
-    {% if site.show-tags %}
-        <div class="post-tags">
+    <div class="text-center">
+        <h6 class="text-muted text-uppercase">{{ page.sub-title }}</h3>
+        <h1 class="title">{{ page.title }}</h1>
+        {% if site.show-tags %}
+        <div class="post-tags py-5">
             {% for tag in page.tags %}
-                <a class="text-uppercase font-weight-normal text-muted mr-2" href="{{ site.url }}/tags/#{{ tag | slugify }}">{{ tag }}</a>
+                <a class="text-uppercase font-weight-normal text-muted mx-3" href="{{ site.url }}/tags/#{{ tag | slugify }}">{{ tag }}</a>
             {% endfor %}
         </div>
     {% endif %}
+    </div>
+    
 
     <blockquote class="blockquote pt-3">
         <p class="mb-0">
