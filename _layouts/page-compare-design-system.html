@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        {% if site.analytics-google %}
+        {% include analytics-google.html %}
+        {% endif %}
+        <!-- Claim your website from Pinterest -->
+        <meta name="p:domain_verify" content="48b884840784be0ab90ffeb3f3e9bebd"/>
+    
+        <meta charset="utf-8">
+        <meta http-equiv=X-UA-Compatible content="IE=edge,chrome=1">
+        <meta name=viewport content="width=device-width, initial-scale=1">
+    
+        <meta name=description content="{{ site.bio }}">
+        <meta name=author content="{{ site.name }}">
+    
+        {% seo %}
+        
+        {% include favicon.html %}
+    
+        <!-- Boostrap core CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <link rel="stylesheet" type="text/css" href="custom.css">
+
+        <link rel="canonical" href="{{ site.url }}{{ page.url | replace:'index.html','' }}">
+        <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ site.url }}{{ "/feed.xml" }}" />
+    
+        <style>
+        {% capture scss_sheet %}{% include style.scss %}{% endcapture %}
+        {{ scss_sheet | scssify }}
+        </style>
+    
+        <script defer src="https://use.fontawesome.com/releases/v5.8.1/js/all.js" integrity="sha384-g5uSoOSBd7KkhAMlnQILrecXvzst9TdC09/VM+pjDTCM+1il8RHz5fKANTFFb+gQ" crossorigin="anonymous"></script>
+    
+    </head>
+<body>
+    {% include header-design-system.html %}
+    
+    {{ content }}
+
+    {% include icons.html %}
+        
+    {% include footer-design-system.html %}
+</body>
+</html>
