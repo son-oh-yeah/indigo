@@ -14,13 +14,6 @@ layout: page-design-system
     <div class="text-center py-5">
         <h5 class="text-muted text-uppercase">{{ page.sub-title }}</h5>
         <h1 class="title">{{ page.title }}</h1>
-        {% if site.show-tags %}
-        <div class="post-tags py-2">
-            {% for tag in page.tags %}
-                <a class="text-uppercase font-weight-normal text-muted mx-3" href="{{ site.url }}/tags/#{{ tag | slugify }}">{{ tag }}</a>
-            {% endfor %}
-        </div>
-    {% endif %}
     </div>
 
     <blockquote class="blockquote p-3">
@@ -28,6 +21,13 @@ layout: page-design-system
             {{ page.description }}
         </p>
     </blockquote>
+    {% if site.show-tags %}
+        <div class="post-tags py-2">
+            {% for tag in page.tags %}
+                <a class="text-uppercase font-weight-normal text-muted mx-3" href="{{ site.url }}/tags/#{{ tag | slugify }}">{{ tag }}</a>
+            {% endfor %}
+        </div>
+    {% endif %}
     
     {{content}}
     
