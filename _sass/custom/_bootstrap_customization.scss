@@ -19,6 +19,7 @@
         column-count: 2;
     }
 }
+
 // End card style
 
 
@@ -27,74 +28,94 @@
 //
 
 .bd-navbar {
-  min-height: 4rem;
-  background-color: $bd-purple-bright;
-  box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .05), inset 0 -1px 0 rgba(0, 0, 0, .1);
+    min-height: 4rem;
+    background-color: $bd-purple-bright;
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .05), inset 0 -1px 0 rgba(0, 0, 0, .1);
 
-  @include media-breakpoint-down(md) {
-    padding-right: .5rem;
-    padding-left: .5rem;
+    @include media-breakpoint-down(md) {
+        padding-right: .5rem;
+        padding-left: .5rem;
 
-    .navbar-nav-scroll {
-      max-width: 100%;
-      height: 2.5rem;
-      margin-top: .25rem;
-      overflow: hidden;
+        .navbar-nav-scroll {
+            max-width: 100%;
+            height: 2.5rem;
+            margin-top: .25rem;
+            overflow: hidden;
 
-      .navbar-nav {
-        padding-bottom: 2rem;
-        overflow-x: auto;
-        white-space: nowrap;
-        -webkit-overflow-scrolling: touch;
-      }
+            .navbar-nav {
+                padding-bottom: 2rem;
+                overflow-x: auto;
+                white-space: nowrap;
+                -webkit-overflow-scrolling: touch;
+            }
+        }
     }
-  }
 
-  @include media-breakpoint-up(md) {
-    @supports (position: sticky) {
-      position: sticky;
-      top: 0;
-      z-index: 1071; // over everything in bootstrap
+    @include media-breakpoint-up(md) {
+        @supports (position: sticky) {
+            position: sticky;
+            top: 0;
+            z-index: 1071; // over everything in bootstrap
+        }
     }
-  }
 
-  .navbar-nav {
-    .nav-link {
-      padding-right: .5rem;
-      padding-left: .5rem;
-      color: rgba($white, .85);
+    .navbar-nav {
+        .nav-link {
+            padding-right: .5rem;
+            padding-left: .5rem;
+            color: rgba($white, .85);
 
-      &.active,
-      &:hover {
-        color: $white;
-        background-color: transparent;
-      }
+            &.active,
+            &:hover {
+                color: $white;
+                background-color: transparent;
+            }
 
-      &.active {
+            &.active {
+                font-weight: 600;
+            }
+        }
+    }
+
+    .navbar-nav-svg {
+        display: inline-block;
+        width: 1rem;
+        height: 1rem;
+        vertical-align: text-top;
+    }
+
+    .dropdown-menu {
+        @include font-size(.875rem);
+    }
+
+    .dropdown-item.active {
         font-weight: 600;
-      }
+        color: $gray-900;
+        background: escape-svg($dropdown-active-icon) no-repeat .4rem .6rem/.75rem .75rem;
     }
-  }
+}
+// End main navbar
 
-  .navbar-nav-svg {
-    display: inline-block;
-    width: 1rem;
-    height: 1rem;
-    vertical-align: text-top;
-  }
-
-  .dropdown-menu {
-    @include font-size(.875rem);
-  }
-
-  .dropdown-item.active {
-    font-weight: 600;
-    color: $gray-900;
-    background: escape-svg($dropdown-active-icon) no-repeat .4rem .6rem/.75rem .75rem;
-  }
+// All levels of nav
+.bd-sidebar .nav > li > a {
+  display: block;
+  padding: .25rem 1.5rem;
+  @include font-size(90%);
+  color: rgba(0, 0, 0, .65);
 }
 
-// End main navbar
+.bd-sidebar .nav > li > a:hover {
+  color: rgba(0, 0, 0, .85);
+  text-decoration: none;
+  background-color: transparent;
+}
+
+.bd-sidebar .nav > .active > a,
+.bd-sidebar .nav > .active:hover > a {
+  font-weight: 600;
+  color: rgba(0, 0, 0, .85);
+  background-color: transparent;
+}
 
 /*
 *   Table style
@@ -188,3 +209,5 @@ table th {
 }
 
 // End table style
+
+
