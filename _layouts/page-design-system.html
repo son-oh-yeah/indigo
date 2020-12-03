@@ -35,18 +35,11 @@
     </head>
 <body>
     {% include header-design-system.html %}
-    <div class="">
+    
+    {{ content }}
 
-            {% if showHeader != true %}
-            <div class="page {{ page.title | downcase }}">
-            {% else %}
-            <div class="{{ page.title | downcase }}">
-            {% endif %}
-            {{ content }}
-            </div>
-        {% include icons.html %}
+    {% include icons.html %}
         
-    </div>
     {% include footer-design-system.html %}
 </body>
 </html>
