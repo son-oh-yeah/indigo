@@ -76,7 +76,7 @@ width: normal
 # if you don't need projects, comment the *projects* configs below
 projects: true
 
-# if you don't need design_system, comment the *design-system* configs below
+# if you don't need design-system, comment the *design-system* configs below
 design-system: true
 
 # if you don't need "about","blog","ds-libraries" or "good-stories", comment them out below
