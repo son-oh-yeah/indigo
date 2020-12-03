@@ -10,6 +10,7 @@ isNav: false
 <br>
 
 <section class="list">
+    <div class="container">
     {% if site.posts.size == 0 %}
         <p class="text-center">Nothing published yet!</p>
     {% elsif site.paginate %}
@@ -37,4 +38,5 @@ isNav: false
             {% endif %}
         {% endfor %}
     {% endif %}
+    </div>
 </section>
