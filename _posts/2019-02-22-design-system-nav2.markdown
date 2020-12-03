@@ -11,56 +11,59 @@ author: sonohyeah
 description: ""
 ---
 
-
-  <div class="d-flex" id="wrapper">
-  	<!-- Sidebar  -->
-    <div class="bg-light border-right" id="sidebar-wrapper">
-      <div class="sidebar-heading">Start Bootstrap </div>
-      <div class="list-group list-group-flush">
-        <a href="#" class="list-group-item list-group-item-action bg-light">Dashboard</a>
-        <a href="#" class="list-group-item list-group-item-action bg-light">Shortcuts</a>
-        <a href="#" class="list-group-item list-group-item-action bg-light">Overview</a>
-        <a href="#" class="list-group-item list-group-item-action bg-light">Events</a>
-        <a href="#" class="list-group-item list-group-item-action bg-light">Profile</a>
-        <a href="#" class="list-group-item list-group-item-action bg-light">Status</a>
-      </div>
+<div class="row flex-xl-nowrap" id="wrapper">
+    <!-- bein: Sidebar -->
+    <div class="col-12 col-md-3 col-xl-2 bg-light border-right position-sticky">
+        <nav class="navbar-expand-md d-flex flex-column m-3">
+            <form class="bd-search d-flex align-items-center">
+                <input type="search" class="form-control" id="search-input" placeholder="Search..." autocomplete="off"
+                    spellcheck="false">
+                <button class="navbar-toggler py-sm-3 ml-auto" type="button" data-toggle="collapse"
+                    data-target="#menu-sidebar" aria-controls="menu-sidebar" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <i class="fas fa-bars bg-light"></i>
+                </button>
+            </form>
+            <!-- Menu sidebar -->
+    <div class="navbar-collapse collapse flex-column" id="menu-sidebar">
+<ul class="nav flex-column-reverse nav-pills mr-auto" role="tablist" aria-orientation="vertical">
+                    {% for post in site.posts %}
+                        {% if post.category == 'design-system' %}
+                            {% if post.id == '/design-system-introduction' %}
+                    <li class="nav-item active"><a class="nav-link" id="{{ post.id }}-tab" data-toggle="pill"
+                            href="#{{ post.id }}" role="tab" aria-controls="{{ post.id }}"
+                            aria-selected="true">{{ post.title }}</a></li>
+                            {% else %}
+                    <li class="nav-item"><a class="nav-link" id="{{ post.id }}-tab" data-toggle="pill"
+                            href="#{{ post.id }}" role="tab" aria-controls="{{ post.id }}"
+                            aria-selected="false">{{ post.title }}</a></li>
+                            {% endif %}
+                        {% endif %}
+                    {% endfor %}
+                </ul>
+            </div>
+        </nav>
     </div>
-    <!-- /#sidebar-wrapper -->
-    <!-- Page Content -->
-	<div id="page-content-wrapper">
-		<nav class="navbar navbar-expand-lg navbar-light bg-light border-bottom">
-        	<button class="btn btn-primary" id="menu-toggle">Toggle Menu</button>
-				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          		<span class="navbar-toggler-icon"></span>
-        	</button>
-			<div class="collapse navbar-collapse" id="navbarSupportedContent">
-          		<ul class="navbar-nav ml-auto mt-2 mt-lg-0">
-            		<li class="nav-item active">
-              			<a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-            		</li>
-            		<li class="nav-item">
-              			<a class="nav-link" href="#">Link</a>
-            		</li>
-            		<li class="nav-item dropdown">
-             			<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-               				Dropdown
-              			</a>
-              			<div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
-                			<a class="dropdown-item" href="#">Action</a>
-                			<a class="dropdown-item" href="#">Another action</a>
-                			<div class="dropdown-divider"></div>
-                			<a class="dropdown-item" href="#">Something else here</a>
-              			</div>
-            		</li>
-         		 </ul>
-        	</div>
-    	</nav>
-		<div class="container-fluid">
-        	<h1 class="mt-4">Simple Sidebar</h1>
-        	<p>The starting state of the menu will appear collapsed on smaller screens, and will appear non-collapsed on larger screens. When toggled using the button below, the menu will change.</p>
-        	<p>Make sure to keep all page content within the <code>#page-content-wrapper</code>. The top navbar is optional, and just for demonstration. Just create an element with the <code>#menu-toggle</code> ID which will toggle the menu when clicked.</p>
-      	</div>
-    </div>
-	<!-- /#page-content-wrapper -->
-  </div>
-  <!-- /#wrapper -->
+<!-- end: Sidebar -->
+<!-- begin: Page content -->
+<main class="col-12 col-md-9 col-xl-10 main-content bd-content px-3" role="main">
+        <div class="tab-content container-fluid mt-4" id="nav-tabContent">
+{% for post in site.posts %}
+                {% if post.category == 'design-system' %}
+                    {% if post.id == '/design-system-introduction' %}
+            <div class="tab-pane fade show active" id="{{ post.id }}" role="tabpanel"
+                aria-labelledby="{{ post.id }}-tab">
+                <p>{{ post.content }}</p>
+            </div>
+                    {% else %}
+            <div class="tab-pane fade" id="{{ post.id }}" role="tabpanel" aria-labelledby="{{ post.id }}-tab">
+                <p>{{ post.content }}</p>
+            </div>
+                    {% endif %}
+                {% endif %}
+            {% endfor %}
+        </div>
+    </main>
+    
+<!-- end: Page content-->
+</div>
