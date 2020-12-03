@@ -25,8 +25,8 @@ description: ""
                 </button>
             </form>
             <!-- Menu sidebar -->
-    <div class="navbar-collapse collapse flex-column" id="menu-sidebar">
-<ul class="nav flex-column-reverse nav-pills mr-auto" role="tablist" aria-orientation="vertical">
+    		<div class="navbar-collapse collapse flex-column" id="menu-sidebar">
+				<ul class="nav flex-column-reverse nav-pills mr-auto" role="tablist" aria-orientation="vertical">
                     {% for post in site.posts %}
                         {% if post.category == 'design-system' %}
                             {% if post.id == '/design-system-introduction' %}
@@ -44,11 +44,11 @@ description: ""
             </div>
         </nav>
     </div>
-<!-- end: Sidebar -->
-<!-- begin: Page content -->
-<main class="col-12 col-md-9 col-xl-10 main-content bd-content px-3" role="main">
+	<!-- end: Sidebar -->
+	<!-- begin: Page content -->
+	<main class="col-12 col-md-9 col-xl-10 main-content bd-content px-3" role="main">
         <div class="tab-content container-fluid mt-4" id="nav-tabContent">
-{% for post in site.posts %}
+			{% for post in site.posts %}
                 {% if post.category == 'design-system' %}
                     {% if post.id == '/design-system-introduction' %}
             <div class="tab-pane fade show active" id="{{ post.id }}" role="tabpanel"
