@@ -11,6 +11,8 @@ description: "Email and marketing automation service MailChimp features a well-e
 headerImage: true
 img-thumb: https://son-oh-yeah.github.io/assets/images/design-system/mailchimp.png
 
+externalLink: https://mailchimp.com/design
+
 tag:
 - design system
 - ux/ui
