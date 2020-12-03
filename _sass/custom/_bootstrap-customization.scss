@@ -117,9 +117,9 @@ table th {
 // Main navbar
 //
 
-.bd-navbar {
+.ds-navbar {
     min-height: 4rem;
-    background-color: $bd-purple-bright;
+    background-color: $ds-purple-bright;
     box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .05), inset 0 -1px 0 rgba(0, 0, 0, .1);
   
     @include media-breakpoint-down(md) {

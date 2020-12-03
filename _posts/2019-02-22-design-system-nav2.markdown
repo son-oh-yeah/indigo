@@ -15,7 +15,7 @@ description: ""
     <!-- bein: Sidebar -->
     <div class="col-12 col-md-3 col-xl-2 bg-light border-right position-sticky">
         <nav class="navbar-expand-md d-flex flex-column m-3">
-            <form class="bd-search d-flex align-items-center">
+            <form class="ds-search d-flex align-items-center">
                 <input type="search" class="form-control" id="search-input" placeholder="Search..." autocomplete="off"
                     spellcheck="false">
                 <button class="navbar-toggler py-sm-3 ml-auto" type="button" data-toggle="collapse"
@@ -46,7 +46,7 @@ description: ""
     </div>
 	<!-- end: Sidebar -->
 	<!-- begin: Page content -->
-	<main class="col-12 col-md-9 col-xl-10 main-content bd-content px-3" role="main">
+	<main class="col-12 col-md-9 col-xl-10 main-content ds-content px-3" role="main">
         <div class="tab-content container-fluid mt-4" id="nav-tabContent">
 			{% for post in site.posts %}
                 {% if post.category == 'design-system' %}
