@@ -144,6 +144,16 @@ table th {
         }
     }
 
+    ul {
+        li {
+            line-height: 1.5rem;
+            font-weight: 400;
+            font-size: medium;
+            color: $alpha;
+        }
+    }
+}
+
     /*
     @include media-breakpoint-up(md) {
         @supports (position: sticky) {
@@ -196,16 +206,6 @@ table th {
     }
 
     */
-
-    ul {
-        li {
-            line-height: 1.5rem;
-            font-weight: 400;
-            font-size: medium;
-            color: $alpha;
-        }
-    }
-}
 
 
 /*
