@@ -144,6 +144,7 @@ table th {
         }
     }
 
+    /*
     @include media-breakpoint-up(md) {
         @supports (position: sticky) {
             position: sticky;
@@ -152,7 +153,7 @@ table th {
         }
     }
 
-    /*
+
 
     .navbar-nav {
         .nav-link {
