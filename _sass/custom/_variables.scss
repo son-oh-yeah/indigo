@@ -1,4 +1,10 @@
-$primary: #DEB887;
+$primary: $ds-brown;
+
+$font-family-sans-serif: "Helvetica Neue", Helvetica, Arial, sans-serif;
+$font-family-monospace: "Consolas", Liberation Mono, Menlo, Courier, monospace;
+
+$navbar-dark-color: $primary;
+$navbar-dark-hover-color: rgba($primary, .5);
 
 $ds-brown:        #deb887 !default;
 $ds-brown-bright: lighten(saturate($ds-purple, 5%), 15%) !default;
@@ -8,11 +14,5 @@ $ds-download:      #721597 !default;
 $ds-info:          #7accf1 !default;
 $ds-warning:       #e49930 !default;
 $ds-danger:        #f03f39 !default;
-
-$font-family-sans-serif: "Helvetica Neue", Helvetica, Arial, sans-serif;
-$font-family-monospace: "Consolas", Liberation Mono, Menlo, Courier, monospace;
-
-$navbar-dark-color: $primary;
-$navbar-dark-hover-color: rgba($primary, .5);
 
   
