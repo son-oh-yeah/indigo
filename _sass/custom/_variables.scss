@@ -5,3 +5,13 @@ $font-family-monospace: "Consolas", Liberation Mono, Menlo, Courier, monospace;
 
 $navbar-dark-color: $primary;
 $navbar-dark-hover-color: rgba($primary, .5);
+
+
+$ds-brown:        #deb887;
+$ds-brown-bright: lighten(saturate($ds-brown, 5%), 15%);
+$ds-brown-light:  lighten(saturate($ds-brown, 5%), 45%);
+$ds-dark:          #302a27;
+$ds-download:      #721597;
+$ds-info:          #7accf1; 
+$ds-warning:       #e49930;
+$ds-danger:        #f03f39;
