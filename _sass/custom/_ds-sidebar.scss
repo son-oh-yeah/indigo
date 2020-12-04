@@ -97,7 +97,8 @@
 
     .form-control:focus {
         border-color: $ds-brown-bright;
-        box-shadow: 0 0 0 3px rgba($ds-brown-bright, .25);
+        //box-shadow: 0 0 0 3px rgba($ds-brown-bright, .25);
+        box-shadow: 0 0 0 3px rgba($primary, .25);
     }
 }
 
