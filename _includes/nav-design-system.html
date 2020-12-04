@@ -1,33 +1,41 @@
 
 <nav class="navbar sticky-top navbar-expand navbar-light flex-column flex-md-row ds-navbar">
+    <div class="d-flex justify-content-between">
+        <div>
+            <a class="navbar-brand mr-0 mr-md-2" href="#" aria-label="Desgin System"><i class="fas fa-pencil-ruler" style="width:2.5rem; height: 2.5rem"></i></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mainMenu" aria-controls="mainMenu" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        </div>
+        <div class="navbar-nav-scroll mx-auto" id="mainMenu">
+            <ul class="navbar-nav navbar-nav ds-navbar-nav flex-row font-weight-normal">
+                <li class="nav-item">
+                    <a class="nav-link {% if page.title =="Design System" %} active {% endif %}" href="{{ site.url }}/design-system">Design System</a>
+                </li>
+                {% if site.ds-libraries == true %}
+                    {% if page.title != "Libraries" %}
+                <li class="nav-item">
+                    <a class="nav-link" href="{{ site.url }}/design-system/ds-libraries">Libraries</a>
+                </li>
+                    {% endif %}
+                {% endif %}
     
-    <a class="navbar-brand mr-0 mr-md-2" href="#" aria-label="Desgin System"><i class="fas fa-pencil-ruler" style="width:2.5rem; height: 2.5rem"></i></a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mainMenu" aria-controls="mainMenu" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-    </button>
-
-    <div class="navbar-nav-scroll mx-auto" id="mainMenu">
-        <ul class="navbar-nav navbar-nav ds-navbar-nav flex-row font-weight-normal">
-            <li class="nav-item">
-                <a class="nav-link {% if page.title =="Design System" %} active {% endif %}" href="{{ site.url }}/design-system">Design System</a>
-            </li>
-            {% if site.ds-libraries == true %}
-                {% if page.title != "Libraries" %}
-            <li class="nav-item">
-                <a class="nav-link" href="{{ site.url }}/design-system/ds-libraries">Libraries</a>
-            </li>
+                {% if site.good-stories == true %}
+                    {% if page.title != "Good Stories" %}
+                <li class="nav-item ">
+                    <a class="nav-link" href="{{ site.url }}/design-system/good-stories">Good Stories</a>
+                </li>
+                    {% endif %}
                 {% endif %}
-            {% endif %}
-
-            {% if site.good-stories == true %}
-                {% if page.title != "Good Stories" %}
-            <li class="nav-item ">
-                <a class="nav-link" href="{{ site.url }}/design-system/good-stories">Good Stories</a>
-            </li>
-                {% endif %}
-            {% endif %}
-
-        </ul>
+    
+            </ul>
+        </div>
+        <div>
+            <!-- empty-->
+        </div>
     </div>
+    
+
+    
 
 </nav>
