@@ -151,4 +151,13 @@ table th {
             z-index: 1071; // over everything in bootstrap
         }
     }
+
+    ul {
+        li {
+            line-height: 1.5rem;
+            font-weight: 400;
+            font-size: medium;
+            color: $alpha
+        }
+    }
 }
