@@ -161,10 +161,11 @@ table th {
 
     .navbar-nav {
         .nav-link {
-            padding-right: .75rem;
-            padding-left: .75rem;
+            padding-right: .5rem;
+            padding-left: .5rem;
             color: $ds-brown-light;
 
+            &.active,
             &:hover {
                 color: #fff;
                 background-color: transparent;
