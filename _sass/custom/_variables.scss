@@ -1,4 +1,4 @@
-$primary: #deb887;
+$primary: #987654;
 
 $font-family-sans-serif: "Helvetica Neue", Helvetica, Arial, sans-serif;
 $font-family-monospace: "Consolas", Liberation Mono, Menlo, Courier, monospace;
@@ -7,7 +7,7 @@ $navbar-dark-color: $primary;
 $navbar-dark-hover-color: rgba($primary, .5);
 
 
-$ds-brown:        #deb887;
+$ds-brown:        #987654;
 $ds-brown-bright: lighten(saturate($ds-brown, 5%), 15%);
 $ds-brown-light:  lighten(saturate($ds-brown, 5%), 45%);
 $ds-dark:          #302a27;
