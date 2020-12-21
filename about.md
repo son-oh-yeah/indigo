@@ -4,7 +4,7 @@ layout: page
 ---
 ![Profile Image]({{ site.url }}/{{ site.picture }})
 
-<div class="mx-auto text-center" style="width: 500px;">
+<div class="mx-auto text-center">
 	<h2>About me</h2>
 	{% include social-links.html %}
 </div>

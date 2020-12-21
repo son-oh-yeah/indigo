@@ -23,14 +23,6 @@
         {% endif %}
         {% endif %}
 
-        {% if site.design-system == true %}
-        {% if page.title != "Design System" %}
-        <li class="item">
-            <a class="link" href="{{ site.url }}/design-system">Design System</a>
-        </li>
-        {% endif %}
-        {% endif %}
-
         {% if site.about == true %}
         {% if page.title != "About" %}
         <li class="item">
@@ -38,6 +30,10 @@
         </li>
         {% endif %}
         {% endif %}
+
+        <li class="item">
+            <a class="link" href="{{ site.url }}/design-system">❇️Design System</a>
+        </li>
 
         <!--
             {% if site.resume == true %}
