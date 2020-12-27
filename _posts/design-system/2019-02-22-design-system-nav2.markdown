@@ -1,7 +1,7 @@
 ---
 title: "Nav 2"
 id: nav-2
-layout: page-design-system
+layout: design-system/page-design-system
 
 tag:
 - design system

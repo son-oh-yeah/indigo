@@ -1,5 +1,5 @@
 ---
-layout: post-design-system
+layout: design-system/post-design-system
 
 category: design-system-list
 author: sonohyeah

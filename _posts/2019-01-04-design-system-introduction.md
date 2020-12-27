@@ -1,7 +1,7 @@
 ---
 title: "Introduction"
 id: intro
-layout: page-design-system
+layout: design-system/page-design-system
 
 tag:
 - design system

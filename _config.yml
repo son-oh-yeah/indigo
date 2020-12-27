@@ -105,6 +105,14 @@ show-author: true
 # do you want some animations?
 animation: true
 
+collections:
+  design-system:
+    docs:
+      - core-components: true
+      - design-language: true
+      - design-tokens: true
+
+
 # add default values to specific pages or layouts
 defaults:
   - scope:
