@@ -1,5 +1,5 @@
 ---
-title: "🎮 Reminder for bill payment"
+title: "Reminder for bill payment"
 layout: post
 date: 2021-02-05 12:06
 tag: [remminder,concept, ui, mobile, bill, payment]
@@ -7,7 +7,7 @@ image:
 headerImage: true
 projects: true
 hidden: false # count this post in blog pagination
-description: 
+description:
 "- They do not know when their bill will be due, they can miss them through other channels such as email or SMS.
 - They were feeling in lost control when their bill was paid without a reminder."
 category: blog
