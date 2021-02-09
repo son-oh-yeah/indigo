@@ -10,7 +10,7 @@ hidden: false # count this post in blog pagination
 description:
 "- They do not know when their bill will be due, they can miss them through other channels such as email or SMS.
 - They were feeling in lost control when their bill was paid without a reminder."
-category: blog
+category: blog,good-stories
 author: sonohyeah
 externalLink: false
 ---
