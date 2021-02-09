@@ -13,7 +13,6 @@ pagination:
 -->
 
 <section class="list">
-	test
 	{% if site.posts.size == 0 %}
 		<p class="text-center">Nothing published yet!</p>
 	{% elsif site.paginatation.enabled %}
@@ -30,6 +29,7 @@ pagination:
 		{% for post in site.posts %}
 			{% if post.category == 'blog' %}
 				{% if post.hidden != true %}
+	test
 					{% include blog-post.html %}
 				{% endif %}
 			{% endif %}
