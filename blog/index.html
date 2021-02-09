@@ -19,6 +19,7 @@ pagination:
 		{% for post in paginator.posts %}
 			{% if post.category == 'blog' %}
 				{% if post.hidden != true %}
+	test 234
 					{% include blog-post.html %}
 				{% endif %}
 			{% endif %}
@@ -29,7 +30,6 @@ pagination:
 		{% for post in site.posts %}
 			{% if post.category == 'blog' %}
 				{% if post.hidden != true %}
-	test 234
 					{% include blog-post.html %}
 				{% endif %}
 			{% endif %}
