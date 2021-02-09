@@ -36,14 +36,14 @@ externalLink: false
 - Suggest user register reminder at the success screen after payment
 - User can change the day to remind monthly
 
-[https://www.figma.com/embed?embed_host=notion&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FRUq8PKD1QoJFDNvMBB2Yq9%2FPS1_WS3-Bill-payment%3Fnode-id%3D46%253A9873%26scaling%3Dmin-zoom](https://www.figma.com/embed?embed_host=notion&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FRUq8PKD1QoJFDNvMBB2Yq9%2FPS1_WS3-Bill-payment%3Fnode-id%3D46%253A9873%26scaling%3Dmin-zoom)
+[Register after payment](https://www.figma.com/embed?embed_host=notion&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FRUq8PKD1QoJFDNvMBB2Yq9%2FPS1_WS3-Bill-payment%3Fnode-id%3D46%253A9873%26scaling%3Dmin-zoom)
 
 ### Update and turn-off reminder
 
 - Change the day to remind
 - Turn Off reminder
  
-[Register after payment](https://www.figma.com/embed?embed_host=notion&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FRUq8PKD1QoJFDNvMBB2Yq9%2FPS1_WS3-Bill-payment%3Fnode-id%3D98%253A323%26viewport%3D551%252C602%252C0.18934981524944305%26scaling%3Dmin-zoom)
+[Uodate and turn off](https://www.figma.com/embed?embed_host=notion&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FRUq8PKD1QoJFDNvMBB2Yq9%2FPS1_WS3-Bill-payment%3Fnode-id%3D98%253A323%26viewport%3D551%252C602%252C0.18934981524944305%26scaling%3Dmin-zoom)
 
 ### Push notification
 
@@ -51,7 +51,7 @@ externalLink: false
 - User can make payment at this screen or go to My payees list
 - If the user cancels (just view and does not anything), take user go to the dashboard screen.
 
-[Update and turn-off](https://www.figma.com/embed?embed_host=notion&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FRUq8PKD1QoJFDNvMBB2Yq9%2FPS1_WS3-Bill-payment%3Fnode-id%3D46%253A4720%26scaling%3Dmin-zoom)
+[Push notification](https://www.figma.com/embed?embed_host=notion&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FRUq8PKD1QoJFDNvMBB2Yq9%2FPS1_WS3-Bill-payment%3Fnode-id%3D46%253A4720%26scaling%3Dmin-zoom)
 
 Push notification for a bill payment
 
