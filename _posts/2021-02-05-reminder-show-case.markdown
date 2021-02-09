@@ -42,8 +42,8 @@ externalLink: false
 
 - Change the day to remind
 - Turn Off reminder
-
-[https://www.figma.com/embed?embed_host=notion&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FRUq8PKD1QoJFDNvMBB2Yq9%2FPS1_WS3-Bill-payment%3Fnode-id%3D98%253A323%26viewport%3D551%252C602%252C0.18934981524944305%26scaling%3Dmin-zoom](https://www.figma.com/embed?embed_host=notion&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FRUq8PKD1QoJFDNvMBB2Yq9%2FPS1_WS3-Bill-payment%3Fnode-id%3D98%253A323%26viewport%3D551%252C602%252C0.18934981524944305%26scaling%3Dmin-zoom)
+ 
+[Register after payment](https://www.figma.com/embed?embed_host=notion&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FRUq8PKD1QoJFDNvMBB2Yq9%2FPS1_WS3-Bill-payment%3Fnode-id%3D98%253A323%26viewport%3D551%252C602%252C0.18934981524944305%26scaling%3Dmin-zoom)
 
 ### Push notification
 
@@ -51,11 +51,11 @@ externalLink: false
 - User can make payment at this screen or go to My payees list
 - If the user cancels (just view and does not anything), take user go to the dashboard screen.
 
-[https://www.figma.com/embed?embed_host=notion&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FRUq8PKD1QoJFDNvMBB2Yq9%2FPS1_WS3-Bill-payment%3Fnode-id%3D46%253A4720%26scaling%3Dmin-zoom](https://www.figma.com/embed?embed_host=notion&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FRUq8PKD1QoJFDNvMBB2Yq9%2FPS1_WS3-Bill-payment%3Fnode-id%3D46%253A4720%26scaling%3Dmin-zoom)
+[Update and turn-off](https://www.figma.com/embed?embed_host=notion&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FRUq8PKD1QoJFDNvMBB2Yq9%2FPS1_WS3-Bill-payment%3Fnode-id%3D46%253A4720%26scaling%3Dmin-zoom)
 
 Push notification for a bill payment
 
-[https://www.figma.com/embed?embed_host=notion&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FRUq8PKD1QoJFDNvMBB2Yq9%2FPS1_WS3-Bill-payment%3Fnode-id%3D164%253A11026%26viewport%3D802%252C459%252C0.1478731781244278%26scaling%3Dmin-zoom](https://www.figma.com/embed?embed_host=notion&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FRUq8PKD1QoJFDNvMBB2Yq9%2FPS1_WS3-Bill-payment%3Fnode-id%3D164%253A11026%26viewport%3D802%252C459%252C0.1478731781244278%26scaling%3Dmin-zoom)
+[Push notification](https://www.figma.com/embed?embed_host=notion&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FRUq8PKD1QoJFDNvMBB2Yq9%2FPS1_WS3-Bill-payment%3Fnode-id%3D164%253A11026%26viewport%3D802%252C459%252C0.1478731781244278%26scaling%3Dmin-zoom)
 
 Push notification for multiple bills payment
 
@@ -65,8 +65,8 @@ Push notification for multiple bills payment
 - User can make payment or view detailed message.
 - If the user cancels (just view and does not anything), take user go to the dashboard screen.
 
-[https://www.figma.com/embed?embed_host=notion&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FRUq8PKD1QoJFDNvMBB2Yq9%2FPS1_WS3-Bill-payment%3Fnode-id%3D196%253A109%26viewport%3D513%252C463%252C0.2954351007938385%26scaling%3Dmin-zoom](https://www.figma.com/embed?embed_host=notion&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FRUq8PKD1QoJFDNvMBB2Yq9%2FPS1_WS3-Bill-payment%3Fnode-id%3D196%253A109%26viewport%3D513%252C463%252C0.2954351007938385%26scaling%3Dmin-zoom)
+[IAM](https://www.figma.com/embed?embed_host=notion&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FRUq8PKD1QoJFDNvMBB2Yq9%2FPS1_WS3-Bill-payment%3Fnode-id%3D196%253A109%26viewport%3D513%252C463%252C0.2954351007938385%26scaling%3Dmin-zoom)
 
 ### Reminder on Website
 
-[https://www.figma.com/embed?embed_host=notion&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FRUq8PKD1QoJFDNvMBB2Yq9%2FPS1_WS3-Bill-payment%3Fnode-id%3D111%253A11729%26viewport%3D1001%252C435%252C0.12228555977344513%26scaling%3Dscale-down](https://www.figma.com/embed?embed_host=notion&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FRUq8PKD1QoJFDNvMBB2Yq9%2FPS1_WS3-Bill-payment%3Fnode-id%3D111%253A11729%26viewport%3D1001%252C435%252C0.12228555977344513%26scaling%3Dscale-down)
+[Website](https://www.figma.com/embed?embed_host=notion&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FRUq8PKD1QoJFDNvMBB2Yq9%2FPS1_WS3-Bill-payment%3Fnode-id%3D111%253A11729%26viewport%3D1001%252C435%252C0.12228555977344513%26scaling%3Dscale-down)
