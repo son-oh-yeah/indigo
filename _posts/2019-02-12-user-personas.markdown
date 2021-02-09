@@ -10,12 +10,12 @@ tag:
 - ux/ui
 - web application
 star: true
-category: good-stories,blog
+category: good-stories
 author: sonohyeah
 description: ""
 ---
 
-Test
+Testing
 
 <p><a href="https://docs.google.com/forms/d/e/1FAIpQLSdFk9D5u3Tfkyppo3H8StSvXDi_tPo4CHsFAXmrIXt_MvyHtQ/viewform">SURVEY FORM</a></p>
 
