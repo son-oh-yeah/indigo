@@ -18,7 +18,7 @@ isNav: false
                         {% if post.hidden != true %}
                         <div class="card bg-light mb-4 mx-2 {% if post.star %}star{% endif %}">
                             <div class="card-body">
-                                <a href="{% if post.externalLink %}{{ post.externalLink }}{% else %}{{ site.url }}{{ post.url }}{% endif %}">                           
+                                <a href="{% if post.externalLink %}{{ post.externalLink }}{% else %}{{ site.url }}{{ post.url }}{% endif %}" style="text-decoration: none;">                           
                                     <h6>{{ post.author }}</h6>
                                     <h3 class="card-title">{{ post.title }}</h2>
                                     <p class="card-text">{{ post.description }}</p>
@@ -37,7 +37,7 @@ isNav: false
                         {% if post.hidden != true %}
                         <div class="card bg-light mb-4 mx-2 {% if post.star %}star{% endif %}">
                             <div class="card-body">
-                                <a href="{% if post.externalLink %}{{ post.externalLink }}{% else %}{{ site.url }}{{ post.url }}{% endif %}">                           
+                                <a href="{% if post.externalLink %}{{ post.externalLink }}{% else %}{{ site.url }}{{ post.url }}{% endif %} "style="text-decoration: none;">                           
                                     <h6>{{ post.author }}</h6>
                                     <h3 class="card-title">{{ post.title }}</h2>
                                     <p class="card-text">{{ post.description }}</p>
