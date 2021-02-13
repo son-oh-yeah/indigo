@@ -7,7 +7,7 @@ group :jekyll_plugins do
     gem 'jekyll-gist'
     gem 'jekyll-feed'
     gem 'jemoji'
-    gem "jekyll-paginate-v2", "~> 2.0"
+    gem "jekyll-paginate-v2"
     gem "html-proofer"
 end
-gem "webrick", "~> 1.7"
+gem "webrick"
