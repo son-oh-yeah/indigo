@@ -20,7 +20,6 @@ title: Blog
 						<time datetime="{{ post.date | date:"%d-%m-%Y" }}">{{ post.date | date: "%b %d %Y" }}</time><br>
                         <a class="url" href="{% if post.externalLink %}{{ post.externalLink }}{% else %}{{ site.url }}{{ post.url }}{% endif %}">
                             <h3 class="title">{{ post.title }}</h3>
-							<aside>{{ post.author }}</aside>
                         </a>
                     </div>
                     <hr>
@@ -36,7 +35,6 @@ title: Blog
 						<time datetime="{{ post.date | date:"%d-%m-%Y" }}">{{ post.date | date: "%b %d %Y" }}</time><br>
                         <a class="url" href="{% if post.externalLink %}{{ post.externalLink }}{% else %}{{ site.url }}{{ post.url }}{% endif %}">
                             <h3 class="title">{{ post.title }}</h3>
-							<aside>{{ post.author }}</aside>
                         </a>
                     </div>
                     <hr>
