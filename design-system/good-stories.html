@@ -18,8 +18,8 @@ isNav: false
                         {% if post.hidden != true %}
                         <div class="card bg-light mb-4 mx-2 {% if post.star %}star{% endif %}">
                             <div class="card-body">
-                                <a href="{% if post.externalLink %}{{ post.externalLink }}{% else %}{{ site.url }}{{ post.url }}{% endif %}" style="text-decoration: none;">                           
-                                    <h6>{{ post.author }}</h6>
+                                <a href="{% if post.externalLink %}{{ post.external_url }}{% else %}{{ site.url }}{{ post.url }}{% endif %}" style="text-decoration: none;">                           
+                                    <h6 class="card-subtitle mb-2 text-muted text-uppercase">{{ post.author }}</h6>
                                     <h3 class="card-title">{{ post.title }}</h2>
                                     <p class="card-text">{{ post.description }}</p>
                                     <hr>
@@ -37,8 +37,8 @@ isNav: false
                         {% if post.hidden != true %}
                         <div class="card bg-light mb-4 mx-2 {% if post.star %}star{% endif %}">
                             <div class="card-body">
-                                <a href="{% if post.externalLink %}{{ post.externalLink }}{% else %}{{ site.url }}{{ post.url }}{% endif %} "style="text-decoration: none;">                           
-                                    <h6>{{ post.author }}</h6>
+                                <a href="{% if post.externalLink %}{{ post.external_url }}{% else %}{{ site.url }}{{ post.url }}{% endif %} "style="text-decoration: none;">                           
+                                    <h6 class="card-subtitle mb-2 text-muted text-uppercase">{{ post.author }}</h6>
                                     <h3 class="card-title">{{ post.title }}</h2>
                                     <p class="card-text">{{ post.description }}</p>
                                     <hr>
