@@ -15,11 +15,12 @@ isNav: false
 		{% for post in paginator.posts %}
 		    {% if post.category == 'good-stories' %}
 			    {% if post.hidden != true %}
-				    <div class="item {% if post.star %}star{% endif %}">
-                        <time datetime="{{ post.date | date:"%d-%m-%Y" }}">{{ post.date | date: "%b %d %Y" }}</time><br>
+				    <div class="story-card {% if post.star %}star{% endif %}">
                         <a class="url" href="{% if post.externalLink %}{{ post.externalLink }}{% else %}{{ site.url }}{{ post.url }}{% endif %}">                           
-                            <h3 class="title">{{ post.title }}</h3>
-                            <aside>{{ post.author }}</aside>
+                            <h3>{{ post.author }}</h3>
+                            <h2 class="title">{{ post.title }}</h2>
+                            <p>{{ post.description }}</p>
+                            <time datetime="{{ post.date | date:"%d-%m-%Y" }}">{{ post.date | date: "%b %d %Y" }}</time>
                         </a>
                     </div>
                     <hr>
@@ -32,11 +33,12 @@ isNav: false
         {% for post in site.posts %}
             {% if post.category == 'good-stories' %}
                 {% if post.hidden != true %}
-                    <div class="item {% if post.star %}star{% endif %}">
-                        <time datetime="{{ post.date | date:"%d-%m-%Y" }}">{{ post.date | date: "%b %d %Y" }}</time><br>
+                    <div class="story-card {% if post.star %}star{% endif %}">                     
                         <a class="url" href="{% if post.externalLink %}{{ post.externalLink }}{% else %}{{ site.url }}{{ post.url }}{% endif %}">                           
-                            <h3 class="title">{{ post.title }}</h3>
-                            <aside>{{ post.author }}</aside>
+                            <h3>{{ post.author }}</h3>
+                            <h2 class="title">{{ post.title }}</h2>
+                            <p>{{ post.description }}</p>
+                            <time datetime="{{ post.date | date:"%d-%m-%Y" }}">{{ post.date | date: "%b %d %Y" }}</time>
                         </a>
                     </div>
                     <hr>
@@ -46,3 +48,12 @@ isNav: false
     {% endif %}
     </div>
 </section>
+
+<a href="https://medium.com/ryte/building-a-design-system-for-500-000-users-at-ryte-1a5ca8bda992" target="_blank" rel="nofollow noreferrer" class="block block-ds">
+    <div class="content">
+        <h3>Raphael Fleckenstein</h3>
+        <h2>Building a Design System for 500,000+ Users at Ryte</h2>
+        <p class="clamp">In this article we want to share the lessons we learned building our design system and how we dramatically increased the velocity of our design process with it by 8x.</p>
+        <span class="date">May 23, 2018</span>
+    </div>
+</a>
