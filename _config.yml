@@ -111,11 +111,10 @@ animation: true
 
 collections:
   design-system:
-    docs:
-      - core-components: true
-      - design-language: true
-      - design-tokens: true
-
+    - design-language.markdown
+    - design-token.markdown
+    - core-components.markdown
+    - management-n-development.markdown
 
 # add default values to specific pages or layouts
 defaults:
