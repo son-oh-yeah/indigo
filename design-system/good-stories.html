@@ -16,7 +16,7 @@ isNav: false
 		    {% if post.category == 'good-stories' %}
 			    {% if post.hidden != true %}
 				    <div class="item {% if post.star %}star{% endif %}">
-                        <time datetime="{{ post.date | date:"%d-%m-%Y" }}">{{ post.date | date: "%b %d %Y" }}</time>
+                        <time datetime="{{ post.date | date:"%d-%m-%Y" }}">{{ post.date | date: "%b %d %Y" }}</time><br>
                         <a class="url" href="{% if post.externalLink %}{{ post.externalLink }}{% else %}{{ site.url }}{{ post.url }}{% endif %}">                           
                             <h3 class="title">{{ post.title }}</h3>
                             <aside>{{ post.author }}</aside>
@@ -33,7 +33,7 @@ isNav: false
             {% if post.category == 'good-stories' %}
                 {% if post.hidden != true %}
                     <div class="item {% if post.star %}star{% endif %}">
-                        <time datetime="{{ post.date | date:"%d-%m-%Y" }}">{{ post.date | date: "%b %d %Y" }}</time>
+                        <time datetime="{{ post.date | date:"%d-%m-%Y" }}">{{ post.date | date: "%b %d %Y" }}</time><br>
                         <a class="url" href="{% if post.externalLink %}{{ post.externalLink }}{% else %}{{ site.url }}{{ post.url }}{% endif %}">                           
                             <h3 class="title">{{ post.title }}</h3>
                             <aside>{{ post.author }}</aside>
