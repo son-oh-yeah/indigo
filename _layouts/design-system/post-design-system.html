@@ -16,11 +16,6 @@ layout: design-system/page-design-system
         <h1 class="title">{{ page.title }}</h1>
     </div>
 
-    <blockquote class="blockquote pb-3">
-        <p class="mb-0">
-            {{ page.description }}
-        </p>
-    </blockquote>
     {% if site.show-tags %}
         <div class="post-tags pt-2 pb-5">
             {% for tag in page.tags %}

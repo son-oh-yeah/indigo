@@ -1,5 +1,5 @@
 ---
-title: "Nav 1"
+title: "Core components"
 id: nav-1
 layout: design-system/page-design-system
 

@@ -1,5 +1,5 @@
 ---
-title: "Nav 2"
+title: "Design token"
 id: nav-2
 layout: design-system/page-design-system
 

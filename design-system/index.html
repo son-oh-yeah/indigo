@@ -12,7 +12,13 @@ isNav: false
         <!-- Page Content -->
         <main class="col-md-9 col-xl-8 py-md-3 pl-md-5 ds-content" role="main">
             <div class="">
-                TEST TEST TEST
+                {% for doc in site.design-system.docs %}
+                <h2>
+                    <a href="{{ staff_member.url }}">
+                    {{ doc.title }}
+                    </a>
+                </h2>
+                {% endfor %}
             </div>
         </main>
         <!-- /#page-content-wrapper -->
