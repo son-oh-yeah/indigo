@@ -8,6 +8,9 @@ id: mailchimp
 title: "MailChimp Design System"
 sub-title: MailChimp
 description: "Email and marketing automation service MailChimp features a well-established design system, being available years before design systems sprouted fully. The design system is robust and keeps it simple and user-friendly."
+
+excerpt_separator: <!--end_excerpt-->
+
 headerImage: true
 img-thumb: https://son-oh-yeah.github.io/assets/images/design-system/mailchimp.png
 
@@ -19,4 +22,5 @@ tag:
 
 ---
 
-HAHA
+Email and marketing automation service MailChimp features a well-established design system, being available years before design systems sprouted fully. The design system is robust and keeps it simple and user-friendly.
+<!--end_excerpt-->
