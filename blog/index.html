@@ -12,9 +12,7 @@ title: Blog
 
 <section class="list">
     <div class="container">
-    {% if site.posts.size == 0 %}
-        <p class="text-center">Nothing published yet!</p>
-    {% elsif site.paginate %}
+    {% if site.paginate %}
 		{% for post in paginator.posts %}
 		    {% if post.category == 'blog' %}
 			    {% if post.hidden != true %}
@@ -29,13 +27,12 @@ title: Blog
 			    {% endif %}
 		    {% endif %}
 		{% endfor %}
-		{% include pagination.html%}
+		{% include pagination.html %}
     {% else %}
-
         {% for post in site.posts %}
             {% if post.category == 'blog' %}
                 {% if post.hidden != true %}
-                    <div class="item {% if post.star %}star{% endif %}">
+                <div class="item {% if post.star %}star{% endif %}">
 						<time datetime="{{ post.date | date:"%d-%m-%Y" }}">{{ post.date | date: "%b %d %Y" }}</time><br>
                         <a class="url" href="{% if post.externalLink %}{{ post.externalLink }}{% else %}{{ site.url }}{{ post.url }}{% endif %}">
                             <h3 class="title">{{ post.title }}</h3>

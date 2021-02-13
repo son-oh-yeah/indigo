@@ -13,29 +13,28 @@ isNav: false
     <div class="container">
         <div class="card-columns mb-2">
             {% if site.paginate %}
-            {% for post in paginator.posts %}
-                {% if post.category == 'good-stories' %}
-                    {% if post.hidden != true %}
-                    <div class="card bg-light mb-4 mx-2 {% if post.star %}star{% endif %}">
-                        <div class="card-body">
-                            <a href="{% if post.externalLink %}{{ post.externalLink }}{% else %}{{ site.url }}{{ post.url }}{% endif %}">                           
-                                <h6>{{ post.author }}</h6>
-                                <h3 class="card-title">{{ post.title }}</h2>
-                                <p class="card-text">{{ post.description }}</p>
-                                <hr>
-                                <time datetime="{{ post.date | date:"%d-%m-%Y" }}">{{ post.date | date: "%b %d %Y" }}</time>
-                            </a>
-                        </div>                     
-                    </div>
+                {% for post in paginator.posts %}
+                    {% if post.category == 'good-stories' %}
+                        {% if post.hidden != true %}
+                        <div class="card bg-light mb-4 mx-2 {% if post.star %}star{% endif %}">
+                            <div class="card-body">
+                                <a href="{% if post.externalLink %}{{ post.externalLink }}{% else %}{{ site.url }}{{ post.url }}{% endif %}">                           
+                                    <h6>{{ post.author }}</h6>
+                                    <h3 class="card-title">{{ post.title }}</h2>
+                                    <p class="card-text">{{ post.description }}</p>
+                                    <hr>
+                                    <time datetime="{{ post.date | date:"%d-%m-%Y" }}">{{ post.date | date: "%b %d %Y" }}</time>
+                                </a>
+                            </div>                     
+                        </div>
+                        {% endif %}
                     {% endif %}
-                {% endif %}
-            {% endfor %}
-            {% include pagination.html%}
-            {% else %}
-    
-            {% for post in site.posts %}
-                {% if post.category == 'good-stories' %}
-                    {% if post.hidden != true %}
+                {% endfor %}
+                {% include pagination.html %}
+            {% else %}    
+                {% for post in site.posts %}
+                    {% if post.category == 'good-stories' %}
+                        {% if post.hidden != true %}
                         <div class="card bg-light mb-4 mx-2 {% if post.star %}star{% endif %}">
                             <div class="card-body">
                                 <a href="{% if post.externalLink %}{{ post.externalLink }}{% else %}{{ site.url }}{{ post.url }}{% endif %}">                           
