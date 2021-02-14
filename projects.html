@@ -8,7 +8,7 @@ title: Projects
     {% for post in site.projects %}
         <div class="item {% if post.star %}star{% endif %}">
             <a class="url"
-                href="{% if post.externalLink %}{{ post.externalLink }}{% else %}{{ site.url }}{{ post.url }}{% endif %}">
+                href="{{ site.url }}{{ post.url }}">
                 <aside style="font-size:medium"><time
                         datetime="{{ post.date | date:"%Y-%d-%m" }}">{{ post.date | date: "%Y, %b %d" }}</time>
                 </aside>

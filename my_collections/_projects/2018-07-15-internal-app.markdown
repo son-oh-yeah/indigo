@@ -8,9 +8,8 @@ headerImage: true
 projects: true
 hidden: true # don't count this post in blog pagination
 description: ""
-category: project
+# category: project
 author: sonohyeah
-externalLink: false
 ---
 
 <p>Là một ứng dụng phục vụ cho quản lý nội bộ doanh nghiệp nên app tập trung vào những tính năng phục vụ công việc hằng ngày của nhân viên (chấm công, ăn trưa, ...)</p> 

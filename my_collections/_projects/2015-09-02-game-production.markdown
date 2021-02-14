@@ -8,9 +8,7 @@ headerImage: true
 projects: true
 hidden: true # don't count this post in blog pagination
 description: ""
-category: project
 author: sonohyeah
-externalLink: false
 ---
 
 Tôi có thời gian làm việc 3 năm tại Creative Art Studio chuyên sản xuất game.

@@ -8,9 +8,7 @@ headerImage: true
 projects: true
 hidden: true # don't count this post in blog pagination
 description: "Web lovebook.vn"
-category: project
 author: sonohyeah
-externalLink: false
 ---
 
 <p>Một dự án thiết kế website bán sách online. Chúng tôi đã rất thành công.</p> 

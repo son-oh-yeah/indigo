@@ -8,9 +8,8 @@ headerImage: true
 projects: true
 hidden: true # don't count this post in blog pagination
 description: "Ship Tracker"
-category: project
+# category: project
 author: sonohyeah
-externalLink: false
 ---
 
 <p>Là một phần mềm giải pháp giúp doanh nghiệp, tổ chức quản lý và theo dõi hoạt động tàu thuyền trên biển (tương tự <a href="https://www.marinetraffic.com/"> Marine Traffic </a>).</p> 

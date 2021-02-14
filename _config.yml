@@ -124,12 +124,6 @@ collections:
   libraries:
     output: true
     permalink: /:name
-  blogs:
-    output: true
-    permalink: /:name
-  stories:
-    output: true
-    permalink: /:name
 
 # add default values to specific pages or layouts
 defaults:

@@ -8,9 +8,8 @@ headerImage: true
 projects: true
 hidden: true # don't count this post in blog pagination
 description: ""
-category: project
+# category: project
 author: sonohyeah
-externalLink: false
 ---
 
 <p>Chúng tôi tạo ra một ứng dụng trắc nghiệm giải đố dựa trên kho dữ liệu câu hỏi kiến thức phong phú. Mọi người từ mọi lứa tuổi, công việc đều có thể tham gia giải trí với nhiều chủ đề hấp dẫn, hot trend. Người dùng có thể rèn luyện kiến thức học được qua từng chủ đề câu hỏi và giải trí thi đấu với bạn bè.</p> 

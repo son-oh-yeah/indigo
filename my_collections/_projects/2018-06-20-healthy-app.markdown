@@ -8,9 +8,8 @@ headerImage: true
 projects: true
 hidden: true # don't count this post in blog pagination
 description: ""
-category: project
+# category: project
 author: sonohyeah
-externalLink: false
 ---
 
 <p>Một ứng dụng hữu ích cho mọi người giúp họ quản lý sức khỏe cá nhân tốt hơn. Các chức năng cơ bản như: quản lý hồ sơ bệnh án, đơn thuốc, đo chu kì nguyệt san, ...</p>

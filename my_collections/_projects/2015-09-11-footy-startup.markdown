@@ -8,9 +8,7 @@ headerImage: true
 projects: true
 hidden: true # don't count this post in blog pagination
 description: ""
-category: project
 author: sonohyeah
-externalLink: false
 ---
 
 <p>Tôi có một khoảng thời gian tuyệt vời khi làm việc trong một nhóm startup non trẻ. Mặc dù chúng tôi hoạt động gần 1 năm và ngốn "một chút tiền" mà kết quả không nhiêu. Tuy nhiên, chúng tôi học hỏi được nhiều thứ, những bài học về cuộc sống bổ ích.</p>

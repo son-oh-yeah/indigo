@@ -8,9 +8,8 @@ headerImage: true
 projects: true
 hidden: true # don't count this post in blog pagination
 description: ""
-category: project
+# category: project
 author: sonohyeah
-externalLink: false
 ---
 
 Một dự án với mục đích tạo ra đấu trường chung cho các game casual. Tạo ra một nền tảng game esport trên mobile (Tương tự [Skillz](http://corp.skillz.com/))
