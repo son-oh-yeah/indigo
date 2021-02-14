@@ -1,5 +1,5 @@
 ---
-title: "Simplicable Encyclopedia "
+title: "Cross-field skillset là gì? Ứng dụng nó trên con đường tự do ý chí, tự do tài chính?"
 layout: post
 date: 2020-04-11 12:17
 
