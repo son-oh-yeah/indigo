@@ -10,7 +10,7 @@ permalink: /tags/
 <section id="page-title" class="list">
     <h1 class="title">Tags</h1>
         {% for tag in alltags %}
-            <a href="#{{ tag[0] | slugify }}" class="item">
+            <a href="#{{ tag.name | slugify }}" class="item">
                 {{ tag.name }}&nbsp;({{ tag.size }})
             </a>
         {% endfor %}
@@ -20,7 +20,7 @@ permalink: /tags/
 
 <section class="tag-list">
     {% for tag in alltags  %}
-    <h2 id="{{ tag[0] | slugify }}" class="linked-section">
+    <h2 id="{{ tag.name | slugify }}" class="linked-section">
         #{{ tag.name }}&nbsp;({{ tag.size }})
 	</h2>
 	<ul class="list">
