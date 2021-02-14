@@ -7,7 +7,7 @@ permalink: /tags/
 {% assign alldocs = site.documents | sort: 'date' | reverse | where_exp: "item", "item.includeonfeed == true" %}		
 {% assign grouptag =  alldocs | map: 'tags' | join: ','  | split: ','  | group_by: tag | sort: 'size' | reverse %}
 
-<section class="list">
+<section id="page-title" class="list">
     <h1 class="title">Tags</h1>
     {% if alldocs.first[0] == null %}
         {% for tag in grouptag %}
