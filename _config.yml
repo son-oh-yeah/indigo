@@ -113,6 +113,7 @@ collections:
   collections_dir: my_collections
   ds-docs:
     output: true
+    permalink: /:name
     order:
       - design-language.md
       - design-token.md
@@ -120,6 +121,7 @@ collections:
       - management-n-development.md
   libraries:
     output: true
+    permalink: /:name
 
 # add default values to specific pages or layouts
 defaults:
