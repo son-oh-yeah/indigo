@@ -18,13 +18,15 @@ permalink: /tags/
 
 <hr>
 
+{% assign alldocs  = site.documents %}
+
 <section class="tag-list">
     {% for tag in alltags  %}
     <h2 id="{{ tag.name | slugify }}" class="linked-section">
         #{{ tag.name }}&nbsp;({{ tag.size }})
 	</h2>
 	<ul class="list">
-		{% for document in alltags %}
+		{% for document in alldocs %}
 		{% if document.tags contains tag.name %}
             {% if document.title != null %}            
                     <li class="item">
@@ -49,3 +51,4 @@ permalink: /tags/
 </section>
 
 {% assign alltags = nil %}
+{% assign alldocs = nil %}
