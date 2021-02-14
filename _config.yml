@@ -121,16 +121,16 @@ collections:
       - management-n-development.md
   libraries:
     output: true
-    permalink: /:name
+    permalink: /libraries/:name
   my-projects:
     output: true
-    permalink: /:name
+    permalink: /my-projects/:name
   blogs:
     output: true
-    permalink: /:name
+    permalink: /blog/:name
   stories:
     output: true
-    permalink: /:name
+    permalink: /stories/:name
 
 # add default values to specific pages or layouts
 defaults:

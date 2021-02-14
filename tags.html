@@ -1,47 +1,56 @@
 ---
 layout: page
 title: Tags
+permalink: /tags/
 ---
+
+{% assign alldocs = site.documents | sort: 'date' | reverse | where_exp: "item", "item.includeonfeed == true" %}		
+{% assign grouptag =  alldocs | map: 'tags' | join: ','  | split: ','  | group_by: tag | sort: 'size' | reverse %}
+
 <section class="list">
     <h1 class="title">Tags</h1>
 
-    {% assign tags_list = site.stories %}
-    {% if tags_list.first[0] == null %}
-        {% for tag in tags_list %}
+    <!-- {% assign tags_list = site.tags %} -->
+    {% if grouptag.first[0] == null %}
+        {% for tag in grouptag %}
             <a class="item" href="#{{ tag | slugify }}">{{ tag }}</a>
         {% endfor %}
     {% else %}
-        {% for tag in tags_list %}
-            <a class="item" href="#{{ tag[0] | slugify }}">{{ tag[0] }}</a>
+        {% for tag in grouptag %}
+            <a href="#{{ tag.name }}" class="btn btn-primary">
+                {{ tag.name }}&nbsp;({{tag.size}})
+            </a>
         {% endfor %}
     {% endif %}
 
-    {% assign tags_list = nil %}
+    <!-- {% assign grouptag = nil %} -->
 </section>
 
 <hr>
 
 <section class="tag-list">
-    {% for tag in site.stories  %}
-    <h2 class="title" id="{{ tag[0] | slugify }}">#{{ tag[0] }}</h2>
-
-    <ul class="list">
-        {% assign pages_list = tag[1] %}
-        {% for post in pages_list reversed %}
-            {% if post.title != null %}
-                {% if group == null or group == post.group %}
-                    <li class="item">
-                        <a class="url" href="{{ site.url }}{{ post.url }}">
-                            <aside class="date"><time datetime="{{ post.date | date:"%d-%m-%Y" }}">{{ post.date | date: "%b %d %Y" }}</time></aside>
-                            <h3 class="title">{{ post.title }}</h3>
-                        </a>
-                    </li>
-                {% endif %}
-            {% endif %}
-        {% endfor %}
-        {% assign pages_list = nil %}
-        {% assign group = nil %}
-    </ul>
+    {% for tag in grouptag  %}
+    <h2 id="{{ tag.name }}" class="linked-section">
+        {{ tag.name }}&nbsp;({{tag.size}})
+	</h2>
+	<div class="post-list">
+		{% for document in alldocs %}
+		{% if document.tags contains tag.name %}
+		<div class="tag-entry">
+			<a href="{{ site.url }}{{ document.url }}">{{ document.title }}</a>
+			<div class="entry-date">
+				<time datetime="{{ document.date | date_to_xmlschema }}">{{ document.date | date: "%B %d, %Y" }}</time>
+			</div>
+		</div>
+		{% endif %}
+		{% endfor %}
+	</div>
+	<a href="#page-title"  class="tag-entry" style="display: block;
+				     font-size: 0.8em; text-align: right;
+				     text-transform: uppercase;
+				     text-decoration: none;">
+		Back to Top &uarr;
+	</a>
 
     <div class="breaker"></div>
     {% endfor %}
