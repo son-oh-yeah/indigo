@@ -109,11 +109,10 @@ show-author: true
 # do you want some animations?
 animation: true
 
-# collections_dir: my_collections
+collections_dir: my_collections
 # If collections_dir is a top-level key instead of being nested within collections object…
 # So, if your Gemfile is pointed towards the jekyll repo master, then change your config file to following and try again…
 collections:
-  collections_dir: my_collections
   ds-docs:
     output: true
     permalink: /:name
