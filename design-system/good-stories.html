@@ -16,7 +16,7 @@ isNav: false
                 {% for post in paginator.posts %}
                     {% if post.good-stories %}
                         {% if post.hidden != true %}                        
-                            <a class="card bg-light col-md-4 mb-2"
+                            <a class="card bg-light col-md-4"
                                 href="{% if post.externalLink %}{{ post.exrternalLink }}{% else %}{{ site.url }}{{ post.url }}{% endif %}"
                                 style="text-decoration: none;">
                                 <div class="card-body">
@@ -37,7 +37,7 @@ isNav: false
                 {% for post in site.posts %}
                     {% if post.good-stories %}
                         {% if post.hidden != true %}
-                            <a class="card bg-light col-md-4 mb-2"
+                            <a class="card bg-light col-md-4"
                                 href="{% if post.externalLink %}{{ post.exrternalLink }}{% else %}{{ site.url }}{{ post.url }}{% endif %}"
                                 style="text-decoration: none;">
                                 <div class="card-body">
