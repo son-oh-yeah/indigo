@@ -35,7 +35,6 @@ isNav: false
                 {% include pagination.html %}
             {% else %}    
                 {% for post in site.posts %}
-                    {% if post.good-stories %}
                         {% if post.hidden != true %}
                             <a class="card col-md-4"
                                 href="{% if post.externalLink %}{{ post.exrternalLink }}{% else %}{{ site.url }}{{ post.url }}{% endif %}"
@@ -51,7 +50,6 @@ isNav: false
                                 </div>
                             </a>
                     {% endif %}
-                {% endif %}
             {% endfor %}
             {% endif %}
         </div>   
