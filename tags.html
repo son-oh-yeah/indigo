@@ -9,7 +9,7 @@ permalink: /tags/
 <section id="page-title" class="list">
     <h1 class="title">Tags</h1>
         {% for tag in alltags %}
-            <a href="#{{ tag | slugify }}" class="item">
+            <a href="#{{ tag[0] | slugify }}" class="item">
                 {{ tag[0] }}&nbsp;({{ tag.size }})
             </a>
         {% endfor %}
@@ -19,21 +19,26 @@ permalink: /tags/
 
 <section class="tag-list">
     {% for tag in alltags  %}
-    <h2 id="{{ tag | slugify }}" class="linked-section">
+    <h2 id="{{ tag[0] | slugify }}" class="linked-section">
         #{{ tag[0] }}&nbsp;({{ tag.size }})
 	</h2>
 	<ul class="list">
-		{% for document in alltags %}
-		{% if document.tags contains tag.name %}
-		<li class="item">
-                        <a class="url" href="{{ site.url }}{{ document.url }}">
-                            <aside class="date"><time datetime="{{ document.date | date:"%d-%m-%Y" }}">{{ document.date | date: "%b %d %Y" }}</time></aside>
-                            <h3 class="title">{{ document.title }}</h3>
+        {% assign pages_list = tag[1] %}
+        {% for post in pages_list reversed %}
+            {% if post.title != null %}
+                {% if group == null or group == post.group %}
+                    <li class="item">
+                        <a class="url" href="{{ site.url }}{{ post.url }}">
+                            <aside class="date"><time datetime="{{ post.date | date:"%d-%m-%Y" }}">{{ post.date | date: "%b %d %Y" }}</time></aside>
+                            <h3 class="title">{{ post.title }}</h3>
                         </a>
-        </li>
-		{% endif %}
-		{% endfor %}
-	</ul>
+                    </li>
+                {% endif %}
+            {% endif %}
+        {% endfor %}
+        {% assign pages_list = nil %}
+        {% assign group = nil %}
+    </ul>
 	<a href="#page-title"  class="tag-entry" style="display: block;
 				     font-size: 0.8em; text-align: right;
 				     text-transform: uppercase;
@@ -44,3 +49,5 @@ permalink: /tags/
     <div class="breaker"></div>
     {% endfor %}
 </section>
+
+{% assign alltags = nil %}
