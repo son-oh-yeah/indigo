@@ -109,12 +109,16 @@ show-author: true
 # do you want some animations?
 animation: true
 
+collections_dir: my_collections
+
 collections:
   design-system:
-    - design-language.markdown
-    - design-token.markdown
-    - core-components.markdown
-    - management-n-development.markdown
+    output: true
+    order:
+      - design-language.md
+      - design-token.md
+      - core-components.md
+      - management-n-development.md
 
 # add default values to specific pages or layouts
 defaults:

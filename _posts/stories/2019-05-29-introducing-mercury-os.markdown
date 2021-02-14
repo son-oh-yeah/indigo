@@ -10,7 +10,7 @@ tag:
 - ux
 - ui
 - OS
-star: true
+
 category: good-stories
 author: Jason Yuan
 description: "A speculative vision of the operating system, driven by humane design principles.
