@@ -24,21 +24,18 @@ permalink: /tags/
         #{{ tag.name }}&nbsp;({{ tag.size }})
 	</h2>
 	<ul class="list">
-        {% assign pages_list = tag[1] %}
-        {% for post in pages_list reversed %}
-            {% if post.title != null %}
-                {% if group == null or group == post.group %}
+		{% for document in alltags %}
+		{% if document.tags contains tag.name %}
+            {% if document.title != null %}            
                     <li class="item">
-                        <a class="url" href="{{ site.url }}{{ post.url }}">
-                            <aside class="date"><time datetime="{{ post.date | date:"%d-%m-%Y" }}">{{ post.date | date: "%b %d %Y" }}</time></aside>
-                            <h3 class="title">{{ post.title }}</h3>
+                        <a class="url" href="{{ site.url }}{{ document.url }}">
+                            <aside class="date"><time datetime="{{ document.date | date:"%d-%m-%Y" }}">{{ document.date | date: "%b %d %Y" }}</time></aside>
+                            <h3 class="title">{{ document.title }}</h3>
                         </a>
                     </li>
-                {% endif %}
             {% endif %}
+        
         {% endfor %}
-        {% assign pages_list = nil %}
-        {% assign group = nil %}
     </ul>
 	<a href="#page-title"  class="tag-entry" style="display: block;
 				     font-size: 0.8em; text-align: right;
