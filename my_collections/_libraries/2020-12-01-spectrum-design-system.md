@@ -2,7 +2,6 @@
 layout: design-system/post-design-system
 
 category: design-system-list
-author: sonohyeah
 id: spectrum
 
 title: "Spectrum"
