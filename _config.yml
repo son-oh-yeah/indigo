@@ -118,7 +118,7 @@ collections:
       - design-token.md
       - core-components.md
       - management-n-development.md
-  blogs:
+  libraries:
     output: true
 
 # add default values to specific pages or layouts
