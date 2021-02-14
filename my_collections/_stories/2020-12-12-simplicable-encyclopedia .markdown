@@ -15,7 +15,7 @@ good-stories: true
 
 author: John Spacey
 
-description: ""
+description: "Simplicable guides about Business, Design and Technology"
 
 externalLink: https://simplicable.com/new/top
 ---
