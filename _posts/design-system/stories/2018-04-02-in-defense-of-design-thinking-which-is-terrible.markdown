@@ -15,6 +15,5 @@ category: good-stories
 author: Khoi Vinh
 description: "A speculative vision of the operating system, driven by humane design principles.
 "
-exrternalLink: true
-external_url: https://www.subtraction.com/2018/04/02/in-defense-of-design-thinking-which-is-terrible/
+exrternalLink: https://www.subtraction.com/2018/04/02/in-defense-of-design-thinking-which-is-terrible/
 ---

@@ -5,25 +5,15 @@ isNav: false
 ---
 
 <div class="container-fluid">
-    <aside class="ds-sidebar">
-    {% include design-system/docs-sidebar.html %}
-    </aside>
-    <div class="d-row flex-xl-nowrap" id="wrapper">
-        <!-- Page Content -->
-        <main class="col-md-9 col-xl-8 py-md-3 pl-md-5 ds-content" role="main">
-            <div class="">
-                TEST content
-                {% for doc in site.design-system %}
-                <h2>
-                    <a href=""{{ site.url }}{{ doc.url }}"">
-                    {{ doc.title }}
-                    </a>
-                </h2>
-                {% endfor %}
-            </div>
-        </main>
-        <!-- /#page-content-wrapper -->
+    <div>
+        TEST content
+        {% for doc in site.design-system %}
+        <h2>
+            <a href=""{{ site.url }}{{ doc.url }}"">
+            {{ doc.title }}
+            </a>
+        </h2>
+        {% endfor %}
     </div>
-    <!-- /#wrapper -->
 
 </div>

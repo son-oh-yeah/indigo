@@ -15,6 +15,5 @@ category: good-stories
 author: Jason Yuan
 description: "A speculative vision of the operating system, driven by humane design principles.
 "
-exrternalLink: true
-external_url: https://uxdesign.cc/introducing-mercury-os-f4de45a04289
+exrternalLink: https://uxdesign.cc/introducing-mercury-os-f4de45a04289
 ---
