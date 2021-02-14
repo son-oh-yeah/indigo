@@ -4,12 +4,12 @@ title: Tags
 permalink: /tags/
 ---
 
-{% assign alldocs = site.documents %}		
+{% assign alltags = site.documents %}		
 {% assign grouptag =  alldocs | map: 'tags' | uniq %}
 
 <section id="page-title" class="list">
     <h1 class="title">Tags</h1>
-    {% if alldocs.first[0] == null %}
+    {% if grouptag.first[0] == null %}
         {% for tag in grouptag %}
             <a class="item" href="#{{ tag | slugify }}">{{ tag }}</a>
         {% endfor %}
@@ -31,7 +31,7 @@ permalink: /tags/
         {{ tag.name }}&nbsp;({{tag.size}})
 	</h2>
 	<div class="post-list">
-		{% for document in alldocs %}
+		{% for document in alltags %}
 		{% if document.tags contains tag.name %}
 		<div class="tag-entry">
 			<a href="{{ site.url }}{{ document.url }}">{{ document.title }}</a>
