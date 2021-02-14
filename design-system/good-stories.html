@@ -11,23 +11,23 @@ isNav: false
 
 <section class="list">
     <div class="container">
-        <div class="card-deck mb-2">
+        <div class="card-deck">
             {% if site.paginate %}
                 {% for post in paginator.posts %}
                     {% if post.good-stories %}
-                        {% if post.hidden != true %}
-                        <a href="{% if post.externalLink %}{{ post.exrternalLink }}{% else %}{{ site.url }}{{ post.url }}{% endif %}" style="text-decoration: none;">                           
-                            <div class="card bg-light">
+                        {% if post.hidden != true %}                        
+                        <div class="card bg-light">
+                            <a href="{% if post.externalLink %}{{ post.exrternalLink }}{% else %}{{ site.url }}{{ post.url }}{% endif %}" style="text-decoration: none;">
                                 <div class="card-body">
                                     <h6 class="card-subtitle mb-2 text-muted text-uppercase">{{ post.author }}</h6>
                                     <h3 class="card-title">{{ post.title }}</h2>
-                                    <p class="card-text">{{ post.description }}</p>
-                                </div>   
+                                        <p class="card-text">{{ post.description }}</p>
+                                </div>
                                 <div class="card-footer">
                                     <time class="text-muted" datetime="{{ post.date | date:"%d-%m-%Y" }}">{{ post.date | date: "%b %d %Y" }}</time>
-                                </div>                   
-                            </div>
-                        </a>
+                                </div>
+                            </a>
+                        </div>
                         {% endif %}
                     {% endif %}
                 {% endfor %}
@@ -36,18 +36,18 @@ isNav: false
                 {% for post in site.posts %}
                     {% if post.good-stories %}
                         {% if post.hidden != true %}
-                        <a href="{% if post.externalLink %}{{ post.exrternalLink }}{% else %}{{ site.url }}{{ post.url }}{% endif %} " style="text-decoration: none;">                           
-                            <div class="card bg-light">
-                                <div class="card-body">                              
+                        <div class="card bg-light">
+                            <a href="{% if post.externalLink %}{{ post.exrternalLink }}{% else %}{{ site.url }}{{ post.url }}{% endif %}" style="text-decoration: none;">
+                                <div class="card-body">
                                     <h6 class="card-subtitle mb-2 text-muted text-uppercase">{{ post.author }}</h6>
                                     <h3 class="card-title">{{ post.title }}</h2>
-                                    <p class="card-text">{{ post.description }}</p>                              
-                                </div>    
+                                        <p class="card-text">{{ post.description }}</p>
+                                </div>
                                 <div class="card-footer">
                                     <time class="text-muted" datetime="{{ post.date | date:"%d-%m-%Y" }}">{{ post.date | date: "%b %d %Y" }}</time>
-                                </div>                  
-                            </div>
-                        </a>
+                                </div>
+                            </a>
+                        </div>
                     {% endif %}
                 {% endif %}
             {% endfor %}
