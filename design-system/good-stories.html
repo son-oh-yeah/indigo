@@ -6,17 +6,15 @@ isNav: false
 
 <div class="text-center py-5">
     <h1 class="title text-center">{{ page.title }}</h1>
+    {% assign tags = site.stories | map: 'tags' | join: ','  | split: ','  | group_by: tag | sort: 'size' | reverse %}
+    {% for tag in tags %}
+    <a class="item btn" href="{{ site.url }}/tags/#{{ tag.name | slugify }}">{{ tag.name }}</a>
+    {% endfor %}
 </div>
 <br>
 
-
-
 <section class="list">
     <div class="container">
-        {% assign tags = site.stories | map: 'tags' | join: ','  | split: ','  | group_by: tag | sort: 'size' | reverse %}
-        {% for tag in tags %}
-        <a class="item" href="{{ site.url }}/tags/#{{ tag.name | slugify }}">{{ tag.name }}</a>
-        {% endfor %}
         <div class="row">
             {% if site.paginate %}
                 {% for post in paginator.posts %}
