@@ -112,7 +112,7 @@ animation: true
 # collections_dir: my_collections
 
 collections:
-  design-system:
+  ds-docs:
     output: true
     order:
       - design-language.md

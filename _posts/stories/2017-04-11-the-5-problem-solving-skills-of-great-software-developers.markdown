@@ -11,7 +11,8 @@ tag:
 - software
 - skill
 
-category: good-stories
+good-stories: true
+
 author: Lorenzo Pasqualis
 description: "This post was first published on CoderHood as The 5 Problem-Solving Skills of Great Software Developers. CoderHood is a blog dedicated to the human dimension of software engineering."
 

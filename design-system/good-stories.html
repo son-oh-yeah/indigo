@@ -14,7 +14,7 @@ isNav: false
         <div class="card-deck mb-2">
             {% if site.paginate %}
                 {% for post in paginator.posts %}
-                    {% if post.category == 'good-stories' %}
+                    {% if post.good-stories %}
                         {% if post.hidden != true %}
                         <div class="card bg-light mb-4 mx-2">
                             <div class="card-body">
@@ -33,7 +33,7 @@ isNav: false
                 {% include pagination.html %}
             {% else %}    
                 {% for post in site.posts %}
-                    {% if post.category == 'good-stories' %}
+                    {% if post.good-stories %}
                         {% if post.hidden != true %}
                         <div class="card bg-light mb-4 mx-2 {% if post.star %}star{% endif %}">
                             <div class="card-body">

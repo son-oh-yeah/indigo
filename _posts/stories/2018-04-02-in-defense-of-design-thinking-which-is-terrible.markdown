@@ -10,7 +10,8 @@ tag:
 - ux
 - design
 
-category: good-stories
+good-stories: true
+
 author: Khoi Vinh
 description: "A speculative vision of the operating system, driven by humane design principles.
 "

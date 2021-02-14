@@ -10,7 +10,8 @@ tag:
 - ux/ui
 - web application
 star: true
-category: blog
+blog: true
+
 author: sonohyeah
 description: ""
 ---

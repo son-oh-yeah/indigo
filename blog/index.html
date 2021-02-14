@@ -14,7 +14,7 @@ title: Blog
     <div class="container">
     {% if site.paginate %}
 		{% for post in paginator.posts %}
-		    {% if post.category == 'blog' %}
+		    {% if post.blog %}
 			    {% if post.hidden != true %}
 				    <div class="item {% if post.star %}star{% endif %}">
 						<time datetime="{{ post.date | date:"%d-%m-%Y" }}">{{ post.date | date: "%b %d %Y" }}</time><br>
@@ -29,7 +29,7 @@ title: Blog
 		{% include pagination.html %}
     {% else %}
         {% for post in site.posts %}
-            {% if post.category == 'blog' %}
+            {% if post.blog %}
                 {% if post.hidden != true %}
                 <div class="item {% if post.star %}star{% endif %}">
 						<time datetime="{{ post.date | date:"%d-%m-%Y" }}">{{ post.date | date: "%b %d %Y" }}</time><br>

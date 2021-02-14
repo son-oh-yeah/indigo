@@ -5,10 +5,10 @@ date: 2021-02-05 12:06:05
 tag: [remminder,concept, ui, mobile, bill, payment]
 image: 
 headerImage: true
-projects: true
+
 description: "- They do not know when their bill will be due, they can miss them through other channels such as email or SMS.
 - They were feeling in lost control when their bill was paid without a reminder."
-category: blog
+blog: true
 author: sonohyeah
 
 ---

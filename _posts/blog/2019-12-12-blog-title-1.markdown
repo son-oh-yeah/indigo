@@ -9,7 +9,8 @@ tag:
 - user personas
 
 star: true
-category: blog
+blog: true
+
 author: sonohyeah
 description: ""
 ---
