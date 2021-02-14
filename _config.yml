@@ -109,7 +109,7 @@ show-author: true
 # do you want some animations?
 animation: true
 
-# collections_dir: my_collections
+collections_dir: my_collections
 
 collections:
   ds-docs:
