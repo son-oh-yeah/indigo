@@ -16,7 +16,7 @@ isNav: false
                 {% for post in paginator.posts %}
                     {% if post.good-stories %}
                         {% if post.hidden != true %}                        
-                            <a class="card bg-light col-md-4 mx-1 mb-2"
+                            <a class="card bg-light col-md-4 mb-2"
                                 href="{% if post.externalLink %}{{ post.exrternalLink }}{% else %}{{ site.url }}{{ post.url }}{% endif %}"
                                 style="text-decoration: none;">
                                 <div class="card-body">
@@ -24,7 +24,7 @@ isNav: false
                                     <h3 class="card-title">{{ post.title }}</h2>
                                         <p class="card-text">{{ post.description }}</p>
                                 </div>
-                                <div class="card-footer">
+                                <div class="card-footer bg-light">
                                     <time class="text-muted"
                                         datetime="{{ post.date | date:"%d-%m-%Y" }}">{{ post.date | date: "%b %d %Y" }}</time>
                                 </div>
@@ -37,7 +37,7 @@ isNav: false
                 {% for post in site.posts %}
                     {% if post.good-stories %}
                         {% if post.hidden != true %}
-                            <a class="card bg-light col-md-4 mx-1 mb-2"
+                            <a class="card bg-light col-md-4 mb-2"
                                 href="{% if post.externalLink %}{{ post.exrternalLink }}{% else %}{{ site.url }}{{ post.url }}{% endif %}"
                                 style="text-decoration: none;">
                                 <div class="card-body">
@@ -45,7 +45,7 @@ isNav: false
                                     <h3 class="card-title">{{ post.title }}</h2>
                                         <p class="card-text">{{ post.description }}</p>
                                 </div>
-                                <div class="card-footer">
+                                <div class="card-footer bg-light">
                                     <time class="text-muted"
                                         datetime="{{ post.date | date:"%d-%m-%Y" }}">{{ post.date | date: "%b %d %Y" }}</time>
                                 </div>
