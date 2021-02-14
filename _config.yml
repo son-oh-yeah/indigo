@@ -125,7 +125,7 @@ collections:
   libraries:
     output: true
     permalink: /:name
-  blog:
+  blogs:
     output: true
     permalink: /:name
   stories:
