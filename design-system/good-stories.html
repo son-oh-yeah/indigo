@@ -17,7 +17,7 @@ isNav: false
                     {% if post.good-stories %}
                         {% if post.hidden != true %}                        
                             <a class="card col-md-4"
-                                href="{% if post.externalLink %}{{ post.exrternalLink }}{% else %}{{ site.url }}{{ post.url }}{% endif %}"
+                                href="{% if post.externalLink %}{{ post.exrternal_url }}{% else %}{{ site.url }}{{ post.url }}{% endif %}"
                                 style="text-decoration: none;background-color:transparent;">
                                 <div class="card-body">
                                     <h6 class="card-subtitle mb-2 text-muted text-uppercase">{{ post.author }}</h6>
@@ -37,13 +37,12 @@ isNav: false
                 {% for post in site.stories %}
                         {% if post.hidden != true %}
                             <a class="card col-md-4"
-                                href="{% if post.externalLink %}{{ post.exrternalLink }}{% else %}{{ site.url }}{{ post.url }}{% endif %}"
+                                href="{% if post.externalLink %}{{ post.exrternal_url }}{% else %}{{ site.url }}{{ post.url }}{% endif %}"
                                 style="text-decoration: none;background-color:transparent;">
                                 <div class="card-body">
                                     <h6 class="card-subtitle mb-2 text-muted text-uppercase">{{ post.author }}</h6>
                                     <h3 class="card-title">{{ post.title }}</h2>
                                         <p class="card-text">{{ post.description }}</p>
-                                        {{ post.exrternalLink }} Test externalLink
                                 </div>
                                 <div class="card-footer" style="background-color:transparent;">
                                     <time class="text-muted"
