@@ -6,7 +6,7 @@ title: Tags
     <h1 class="title">Tags</h1>
 
     {% assign tags_list = site.tags %}
-
+    {{ tags_list.size }}
     {% if tags_list.first[0] == null %}
         {% for tag in tags_list %}
             <a class="item" href="#{{ tag | slugify }}">{{ tag }}</a>
