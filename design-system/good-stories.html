@@ -16,9 +16,9 @@ isNav: false
                 {% for post in paginator.posts %}
                     {% if post.good-stories %}
                         {% if post.hidden != true %}                        
-                            <a class="card bg-light col-md-4"
+                            <a class="card col-md-4"
                                 href="{% if post.externalLink %}{{ post.exrternalLink }}{% else %}{{ site.url }}{{ post.url }}{% endif %}"
-                                style="text-decoration: none;">
+                                style="text-decoration: none;background-color:transparent;">
                                 <div class="card-body">
                                     <h6 class="card-subtitle mb-2 text-muted text-uppercase">{{ post.author }}</h6>
                                     <h3 class="card-title">{{ post.title }}</h2>
@@ -37,9 +37,9 @@ isNav: false
                 {% for post in site.posts %}
                     {% if post.good-stories %}
                         {% if post.hidden != true %}
-                            <a class="card bg-light col-md-4"
+                            <a class="card col-md-4"
                                 href="{% if post.externalLink %}{{ post.exrternalLink }}{% else %}{{ site.url }}{{ post.url }}{% endif %}"
-                                style="text-decoration: none;">
+                                style="text-decoration: none;background-color:transparent;">
                                 <div class="card-body">
                                     <h6 class="card-subtitle mb-2 text-muted text-uppercase">{{ post.author }}</h6>
                                     <h3 class="card-title">{{ post.title }}</h2>
