@@ -5,7 +5,7 @@ title: Projects
 
 <h1 class="title">📦{{ page.title }}</h1>
 <section class="list">
-    {% for post in site.my-projects %}
+    {% for post in site.my-projects reversed %}
         <div class="item {% if post.star %}star{% endif %}">
             <a class="url"
                 href="{{ site.url }}{{ post.url }}">

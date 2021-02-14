@@ -64,3 +64,14 @@ Check the [FAQ](./FAQ.md) if you have any doubt or problem.
 ---
 
 [MIT](http://kopplin.mit-license.org/) License © Sérgio Kopplin
+
+## Tips
+
+Use this command to assign a collection
+# {% assign items = site.collection | sort: 'date' %}
+
+If collections_dir is a top-level key instead of being nested within collections object…
+So, if your Gemfile is pointed towards the jekyll repo master, then change your config file to following and try again…
+# collections_dir: my_collections
+# collections:
+#   ds-docs:

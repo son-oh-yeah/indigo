@@ -28,7 +28,7 @@ title: Blog
 		{% endfor %}
 		{% include pagination.html %}
     {% else %}
-        {% for post in site.blogs %}
+        {% for post in site.blogs reversed %}
                 {% if post.hidden != true %}
                 <div class="item {% if post.star %}star{% endif %}">
                     <time datetime="{{ post.date | date:"%d-%m-%Y" }}">{{ post.date | date: "%b %d %Y" }}</time><br>
