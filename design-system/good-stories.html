@@ -9,19 +9,14 @@ isNav: false
 </div>
 <br>
 
-{% assign tags = site.stories | map: 'tags' | join: ','  | split: ','  | group_by: tag | sort: 'size' | reverse 
-%}
 
-<section class="list">
-        {% for tag in tags %}
-            <a href="#{{ tag.name | slugify }}" class="item">
-                {{ tag.name }}&nbsp;({{ tag.size }})
-            </a>
-        {% endfor %}
-</section>
 
 <section class="list">
     <div class="container">
+        {% assign tags = site.stories | map: 'tags' | join: ','  | split: ','  | group_by: tag | sort: 'size' | reverse %}
+        {% for tag in tags %}
+        <a class="item" href="{{ site.url }}/tags/#{{ tag.name | slugify }}">{{ tag.name }}</a>
+        {% endfor %}
         <div class="row">
             {% if site.paginate %}
                 {% for post in paginator.posts %}
