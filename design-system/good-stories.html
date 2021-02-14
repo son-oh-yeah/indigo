@@ -4,6 +4,7 @@ title: Good Stories
 isNav: false
 ---
 
+<div class="container">
 <div class="text-center py-5">
     <h1 class="title text-center">{{ page.title }}</h1>
     {% assign tags = site.stories | map: 'tags' | join: ','  | split: ','  | group_by: tag | sort: 'size' | reverse %}
@@ -12,7 +13,8 @@ isNav: false
     {% endfor %}
 </div>
 <br>
-
+</div>
+    
 <section class="list">
     <div class="container">
         <div class="row">
