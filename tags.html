@@ -5,7 +5,7 @@ permalink: /tags/
 ---
 
 {% assign alldocs = site.documents %}		
-{% assign grouptag =  alldocs | map: 'tags' | join: ','  | split: ','  | group_by: tag | sort: 'size' | reverse %}
+{% assign grouptag =  alldocs | map: 'tags' | uniq %}
 
 <section id="page-title" class="list">
     <h1 class="title">Tags</h1>
