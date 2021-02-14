@@ -2,7 +2,7 @@
 layout: page
 ---
 
-<button type="button">
+<button type="button" onclick=goBack()>
     <a onclick="window.history.back()">← Back</a>
 </button>
 
@@ -51,3 +51,10 @@ layout: page
 {% if site.disqus.categories contains page.category %}
     {% include disqus.html %}
 {% endif %}
+
+
+<script>
+function goBack() {
+  window.history.back();
+}
+</script>
