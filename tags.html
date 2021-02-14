@@ -14,8 +14,8 @@ permalink: /tags/
         {% endfor %}
     {% else %}
         {% for tag in alltags %}
-            <a href="#{{ tag.name }}" class="btn btn-primary">
-                {{ tag.name }}&nbsp;({{ tag.size }})
+            <a href="#{{ tag[0] | slugify }}" class="btn btn-primary">
+                {{ tag.name }}&nbsp;({{ tag[0].size }})
             </a>
         {% endfor %}
     {% endif %}
