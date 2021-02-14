@@ -4,11 +4,10 @@ title: Tags
 permalink: /tags/
 ---
 
-{% assign alldocs = site.blogs | map: 'tags' | uniq %}
+{% assign alldocs = site.documents | map: 'tags' | uniq %}
 
 <section class="list">
     <h1 class="title">Tags</h1>
-{{ alldocs.size }}
     <!-- {% assign tags_list = site.tags %} -->
     {% if alldocs.first[0] == null %}
         {% for tag in alldocs %}
