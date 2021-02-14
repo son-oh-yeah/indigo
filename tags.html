@@ -4,7 +4,8 @@ title: Tags
 permalink: /tags/
 ---
 
-{% assign alltags = site.documents | map: 'tags' | uniq %}
+{% assign alltags = site.documents | map: 'tags' | join: ','  | split: ','  | group_by: tag | sort: 'size' | reverse 
+%}
 
 <section id="page-title" class="list">
     <h1 class="title">Tags</h1>
