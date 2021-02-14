@@ -1,5 +1,5 @@
 ---
-title: "Cross-field skillset là gì? Ứng dụng nó trên con đường tự do ý chí, tự do tài chính?"
+title: "The 5 Problem-Solving Skills of Great Software Developers"
 layout: post
 date: 2017-04-11 11:06
 

@@ -16,7 +16,7 @@ good-stories: true
 
 author: spiderum
 
-description: ""
+description: "Tự do là đích đến của loài người. Những công trình đại diện cho văn minh đều hướng đến lãnh địa tối cao của sự tự do. Tự do ý chí, tự do tài chính."
 
 exrternalLink: https://spiderum.com/bai-dang/Cross-field-skillset-la-gi-Ung-dung-no-tren-con-duong-tu-do-y-chi-tu-do-tai-chinh-nbi
 ---
