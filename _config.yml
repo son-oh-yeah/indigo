@@ -124,6 +124,9 @@ collections:
   libraries:
     output: true
     permalink: /:name
+  projects:
+    output: true
+    permalink: /:name
 
 # add default values to specific pages or layouts
 defaults:
