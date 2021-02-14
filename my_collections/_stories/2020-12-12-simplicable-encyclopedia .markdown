@@ -17,7 +17,7 @@ author: John Spacey
 
 description: ""
 
-exrternalLink: https://simplicable.com/new/top
+externalLink: https://simplicable.com/new/top
 ---
 
 
