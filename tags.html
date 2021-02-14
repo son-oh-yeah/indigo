@@ -9,8 +9,8 @@ permalink: /tags/
 <section id="page-title" class="list">
     <h1 class="title">Tags</h1>
         {% for tag in alltags %}
-            <a href="#{{ tag | slugify }}" class="btn btn-primary">
-                {{ tag.name }}&nbsp;({{ tag.size }})
+            <a href="#{{ tag | slugify }}" class="item">
+                {{ tag[0] }}&nbsp;({{ tag.size }})
             </a>
         {% endfor %}
 </section>
@@ -20,7 +20,7 @@ permalink: /tags/
 <section class="tag-list">
     {% for tag in alltags  %}
     <h2 id="{{ tag | slugify }}" class="linked-section">
-        {{ tag.name }}&nbsp;({{ tag.size }})
+        #{{ tag[0] }}&nbsp;({{ tag.size }})
 	</h2>
 	<ul class="list">
 		{% for document in alltags %}
@@ -33,7 +33,7 @@ permalink: /tags/
         </li>
 		{% endif %}
 		{% endfor %}
-	</div>
+	</ul>
 	<a href="#page-title"  class="tag-entry" style="display: block;
 				     font-size: 0.8em; text-align: right;
 				     text-transform: uppercase;
