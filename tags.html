@@ -4,19 +4,18 @@ title: Tags
 permalink: /tags/
 ---
 
-{% assign alldocs = site.tags | sort: 'date' | reverse | where_exp: "item", "item.includeonfeed == true" %}		
-{% assign grouptag =  alldocs | map: 'tags' | join: ','  | split: ','  | group_by: tag | sort: 'size' | reverse %}
+{% assign alldocs = site.blogs | map: 'tags' | uniq %}
 
 <section class="list">
     <h1 class="title">Tags</h1>
 
     <!-- {% assign tags_list = site.tags %} -->
-    {% if grouptag.first[0] == null %}
-        {% for tag in grouptag %}
+    {% if alldocs.first[0] == null %}
+        {% for tag in alldocs %}
             <a class="item" href="#{{ tag | slugify }}">{{ tag }}</a>
         {% endfor %}
     {% else %}
-        {% for tag in grouptag %}
+        {% for tag in alldocs %}
             TEST
             <a href="#{{ tag.name }}" class="btn btn-primary">
                 {{ tag.name }}&nbsp;({{tag.size}})
@@ -30,7 +29,7 @@ permalink: /tags/
 <hr>
 
 <section class="tag-list">
-    {% for tag in grouptag  %}
+    {% for tag in alldocs  %}
     <h2 id="{{ tag.name }}" class="linked-section">
         {{ tag.name }}&nbsp;({{tag.size}})
 	</h2>
