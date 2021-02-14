@@ -11,20 +11,20 @@ isNav: false
 
 <section class="list">
     <div class="container">
-        <div class="card-deck row mb-2">
+        <div class="card-deck mb-2">
             {% if site.paginate %}
                 {% for post in paginator.posts %}
                     {% if post.good-stories %}
                         {% if post.hidden != true %}
-                        <div class="card bg-light mb-4 mx-2 col-md-4">
+                        <div class="card bg-light mb-4 mx-2">
                             <div class="card-body">
                                 <a href="{% if post.externalLink %}{{ post.exrternalLink }}{% else %}{{ site.url }}{{ post.url }}{% endif %}" style="text-decoration: none;">                           
                                     <h6 class="card-subtitle mb-2 text-muted text-uppercase">{{ post.author }}</h6>
                                     <h3 class="card-title">{{ post.title }}</h2>
                                     <p class="card-text">{{ post.description }}</p>
-                                    <hr>
-                                    <time class="text-muted" datetime="{{ post.date | date:"%d-%m-%Y" }}">{{ post.date | date: "%b %d %Y" }}</time>
-                                </a>
+                                    <div class="card-footer">
+                                        <time class="text-muted" datetime="{{ post.date | date:"%d-%m-%Y" }}">{{ post.date | date: "%b %d %Y" }}</time>
+                                    </div>                                </a>
                             </div>                     
                         </div>
                         {% endif %}
@@ -35,14 +35,15 @@ isNav: false
                 {% for post in site.posts %}
                     {% if post.good-stories %}
                         {% if post.hidden != true %}
-                        <div class="card bg-light mb-4 mx-2 col-md-4">
+                        <div class="card bg-light mb-4 mx-2">
                             <div class="card-body">
                                 <a href="{% if post.externalLink %}{{ post.exrternalLink }}{% else %}{{ site.url }}{{ post.url }}{% endif %} " style="text-decoration: none;">                           
                                     <h6 class="card-subtitle mb-2 text-muted text-uppercase">{{ post.author }}</h6>
                                     <h3 class="card-title">{{ post.title }}</h2>
                                     <p class="card-text">{{ post.description }}</p>
-                                    <hr>
-                                    <time class="text-muted" datetime="{{ post.date | date:"%d-%m-%Y" }}">{{ post.date | date: "%b %d %Y" }}</time>
+                                    <div class="card-footer">
+                                        <time class="text-muted" datetime="{{ post.date | date:"%d-%m-%Y" }}">{{ post.date | date: "%b %d %Y" }}</time>
+                                    </div>                               
                                 </a>
                             </div>                     
                         </div>
