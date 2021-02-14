@@ -42,16 +42,5 @@ title: Blog
             {% endif %}
         {% endfor %}
     {% endif %}
-
-    {% for blog in site.blogs %}
-    <div class="item {% if blog.star %}star{% endif %}">
-        <time datetime="{{ blog.date | date:"%d-%m-%Y" }}">{{ blog.date | date: "%b %d %Y" }}</time><br>
-        <a class="url" href="{% if blog.externalLink %}{{ blog.externalLink }}{% else %}{{ site.url }}{{ blog.url }}{% endif %}">
-            <h3 class="title">{{ blog.title }}</h3>
-        </a>
-    </div>
-    <hr>
-    {% endfor %}
-
     </div>
 </section>

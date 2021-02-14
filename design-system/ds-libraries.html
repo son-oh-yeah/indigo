@@ -15,8 +15,7 @@ isNav: false
 <section class="list">
     <div class="container">
         <div class="card-columns mb-2">
-            {% for post in site.posts %}
-            {% if post.category == 'design-system-list' %}
+            {% for post in site.libraries %}
             {% if post.hidden != true %}
             <div class="card bg-light mb-4 mx-2">
                 <a href="{{ site.url }}{{ post.url }}">
@@ -29,7 +28,6 @@ isNav: false
                     <a href="{{ site.url }}{{ post.url }}" class="btn btn-outline-primary text-uppercase font-weight-normal">View Details</a>
                 </div>
             </div>
-            {% endif %}
             {% endif %}
             {% endfor %}
         </div>
