@@ -18,7 +18,7 @@ externalLink: https://mailchimp.com/design
 tag:
 - design system
 - ux/ui
-
+externalLink: https://ux.mailchimp.com/
 ---
 
 Email and marketing automation service MailChimp features a well-established design system, being available years before design systems sprouted fully. The design system is robust and keeps it simple and user-friendly.

@@ -16,7 +16,7 @@ img-thumb: https://son-oh-yeah.github.io/assets/images/design-system/spectrum_il
 tag:
 - design system
 - ux/ui
-
+externalLink: https://spectrum.adobe.com/
 ---
 
 Spectrum provides components and tools to help product teams work more efficiently, and to make Adobe’s applications more cohesive.

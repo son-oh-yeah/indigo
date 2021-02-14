@@ -16,7 +16,7 @@ img-thumb: https://son-oh-yeah.github.io/assets/images/design-system/hero-bkg.pn
 tag:
 - design system
 - ux/ui
-
+externalLink: https://www.lightningdesignsystem.com/
 ---
 
 The Lightning Design System reflects the patterns and components that underpin the Salesforce product. These patterns and components provide a unified language and consistent look and feel when designing apps and products within the Salesforce ecosystem.

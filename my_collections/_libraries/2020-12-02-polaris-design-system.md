@@ -16,7 +16,7 @@ img-thumb: https://son-oh-yeah.github.io/assets/images/design-system/polaris-sho
 tag:
 - design system
 - ux/ui
-
+externalLink: https://polaris.shopify.com/design/design
 ---
 
 Our design system helps us work together to build a great experience for all of Shopify’s merchants.

@@ -17,7 +17,7 @@ img-thumb: https://son-oh-yeah.github.io/assets/images/design-system/atlassian-h
 tag:
 - design system
 - ux/ui
-
+externalLink: https://atlassian.design/
 ---
 
 Design, develop, deliver <br>

@@ -16,7 +16,7 @@ img-thumb: https://son-oh-yeah.github.io/assets/images/design-system/poster-carb
 tag:
 - design system
 - ux/ui
-
+externalLink: https://www.carbondesignsystem.com/
 ---
 
 
