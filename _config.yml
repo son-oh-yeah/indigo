@@ -109,8 +109,8 @@ show-author: true
 # do you want some animations?
 animation: true
 
+collections_dir: my_collections
 collections:
-  collections_dir: my_collections
   ds-docs:
     output: true
     permalink: /:name
