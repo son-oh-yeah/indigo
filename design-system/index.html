@@ -21,13 +21,22 @@ isNav: false
             <div class="tab-content" id="v-pills-tabContent">
                 <div class="tab-pane fade active show" id="introduction" role="tabpanel"
                     aria-labelledby="introduction-tab">
-                    ![Design Systemm][/assets/images/design-system/system1.png]{: class="bigger-image" } 
-                    <p>Cillum ad ut irure tempor velit nostrud occaecat ullamco aliqua anim Lorem sint. Veniam sint duis
-                        incididunt do esse magna mollit excepteur laborum qui. Id id reprehenderit sit est eu aliqua
-                        occaecat quis et velit excepteur laborum mollit dolore eiusmod. Ipsum dolor in occaecat commodo
-                        et
-                        voluptate minim reprehenderit mollit pariatur. Deserunt non laborum enim et cillum eu deserunt
-                        excepteur ea incididunt minim occaecat.</p>
+                    <img src="{{site.url}}/assets/images/design-system/system1.png" class="img-fluid" alt="Design System">
+                    <p>
+                        Have you ever performed a UI audit and found you’re using a few dozen similar hues of blue, or permutations of the same button? Multiply this by every piece of UI in your app, and you begin to realize how inconsistent, incomplete, and difficult to maintain your design has become.
+                    </p>
+                    <h1>What is a design system?</h1>
+                    <p>
+                        Design systems enable teams to build better products faster by making design reusable—reusability makes scale possible. This is the heart and primary value of design systems. A design system is a collection of reusable components, guided by clear standards, that can be assembled together to build any number of applications.
+                    </p>
+                    <a href="https://www.designbetter.co/design-systems-handbook/introducing-design-systems">design-systems-handbook</a>
+                    
+                    <h1>Why is a design system important?</h1>                   
+                    <p>Having a solid design system can help to alleviate many issues that come from maintaining so many different applications. A design system can bring cohesion across your suite of applications and drastically reduce the engineering burden for each application.
+                        <br><br>
+                        The design system acts as a language that both designers and engineers can speak to align on how applications are built out. It also helps with onboarding new team members due to the documentation and examples outlined in your design system.
+                    </p>
+                    <a href="https://netflixtechblog.com/hawkins-diving-into-the-reasoning-behind-our-design-system-964a7357547">netflixtechblog</a>
                 </div>
                 {% for doc in site.ds-docs %}
                 <div class="tab-pane fade" id="{{doc.id}}" role="tabpanel" aria-labelledby="{{doc.id}}-tab">
