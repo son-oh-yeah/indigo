@@ -104,13 +104,13 @@ Số lượng tế bào cảm nhận ánh sáng là một chuyện, nhưng kể 
 Trong tiếng Việt, ta có thể kết hợp từ “Đỏ” ghép với từ ngữ khác nhau để miêu tả các sắc Đỏ khác nhau như đo đỏ, đỏ đậm, đỏ đun, đỏ đô, đỏ chót, đỏ au... Ta cũng có thể ghép “Đỏ” với các hình ảnh tượng trưng mang sắc đỏ để miêu tả như đỏ cờ, đỏ hoa hồng, đỏ lòng tôm, đỏ mận,...\
 Những từ ngữ này gợi ra trong bạn màu sắc nào? Liệu đỏ mận trong bạn và trong tôi có phải cùng một màu không? (H.3)
 
-![Color 3]((https://scontent-hkg4-2.xx.fbcdn.net/v/t1.0-9/128161425_3561288427324432_6737972336624949047_o.jpg?_nc_cat=110&ccb=3&_nc_sid=730e14&_nc_ohc=cjWUp-ir10kAX_DAw4F&_nc_ht=scontent-hkg4-2.xx&oh=7bbc29064a8b0faaf0376b8ad65c05e2&oe=604EAC7E)
+![Color 3](httpss://scontent-hkg4-2.xx.fbcdn.net/v/t1.0-9/128161425_3561288427324432_6737972336624949047_o.jpg?_nc_cat=110&ccb=3&_nc_sid=730e14&_nc_ohc=cjWUp-ir10kAX_DAw4F&_nc_ht=scontent-hkg4-2.xx&oh=7bbc29064a8b0faaf0376b8ad65c05e2&oe=604EAC7E)
 <figcaption class="caption">(H.3)</figcaption>
 
 Qua ví dụ về màu Đỏ bên trên, ta đã có thể thấy được giới hạn của việc sử dụng từ ngữ để miêu tả cùng một màu sắc.
 Đặc biệt, có những cụm từ chỉ màu sắc rất dễ gây nhầm lẫn mà ta có thể kể đến như xanh cổ vịt, xanh nước biển, xanh lam, xanh da trời,... (H.4)
 
-![Color 4]((https://scontent-hkg4-1.xx.fbcdn.net/v/t1.0-9/127716977_3561288450657763_2773435268552540878_o.jpg?_nc_cat=105&ccb=3&_nc_sid=730e14&_nc_ohc=WMTXbbgJQC8AX84DzGR&_nc_ht=scontent-hkg4-1.xx&oh=b26d689ec00e272cf418158e6bf46503&oe=605047BE)
+![Color 4](httpss://scontent-hkg4-1.xx.fbcdn.net/v/t1.0-9/127716977_3561288450657763_2773435268552540878_o.jpg?_nc_cat=105&ccb=3&_nc_sid=730e14&_nc_ohc=WMTXbbgJQC8AX84DzGR&_nc_ht=scontent-hkg4-1.xx&oh=b26d689ec00e272cf418158e6bf46503&oe=605047BE)
 <figcaption class="caption">(H.4)</figcaption>
 
 Với số lượng khoảng mười triệu màu mà con người có thể nhận thức, thì việc miêu tả màu sắc bằng ngôn ngữ trở nên gần như bất khả thi và cực kỳ kém hiệu quả.
@@ -146,13 +146,13 @@ Giải quyết được vấn đề này cũng đồng nghĩa với việc các 
 * **Lí do #8**: Cảm nhận màu sắc thay đổi theo ngữ cảnh xung quanh
 Mọi màu sắc mà ta nhận thức được bắt nguồn từ ánh sáng, đồng nghĩa với việc nếu không có ánh sáng = không có màu sắc. Điều này cũng có nghĩa là, với cùng một vật thể, trong những điều kiện sáng khác nhau, cho ta trải nghiệm màu hoàn toàn khác nhau. (H.5)
 
-![Color 5]((https://scontent-hkg4-2.xx.fbcdn.net/v/t1.0-9/128273152_3561288557324419_934132403910359911_o.jpg?_nc_cat=109&ccb=3&_nc_sid=730e14&_nc_ohc=TYhC5OC39BIAX9JYXFO&_nc_ht=scontent-hkg4-2.xx&oh=f02cc39a5ac5771b717b21235529c249&oe=604E4DB5)
+![Color 5](httpss://scontent-hkg4-2.xx.fbcdn.net/v/t1.0-9/128273152_3561288557324419_934132403910359911_o.jpg?_nc_cat=109&ccb=3&_nc_sid=730e14&_nc_ohc=TYhC5OC39BIAX9JYXFO&_nc_ht=scontent-hkg4-2.xx&oh=f02cc39a5ac5771b717b21235529c249&oe=604E4DB5)
 <figcaption class="caption">(H.5)</figcaption>
 
 Bên cạnh đó, vật liệu của vật thể cũng là một yếu tố tác động tới trải nghiệm màu sắc khác nhau. (H.5)
 Và điều đặc biệt kì dị là, với cùng một loại vật liệu và trong cùng một điều kiện ánh sáng, một màu vẫn có thể mang cho ta trải nghiệm khác nhau, dựa theo màu sắc đi cùng với nó. (H.6)
 
-![Color 6]((https://scontent-hkg4-2.xx.fbcdn.net/v/t1.0-9/128092977_3561288513991090_3617044210469552477_o.jpg?_nc_cat=104&ccb=3&_nc_sid=730e14&_nc_ohc=mp4Yi4iF1EcAX_mG-6o&_nc_ht=scontent-hkg4-2.xx&oh=fc2f095cde78d29c298bf827ac3269bc&oe=604F0F24)
+![Color 6](httpss://scontent-hkg4-2.xx.fbcdn.net/v/t1.0-9/128092977_3561288513991090_3617044210469552477_o.jpg?_nc_cat=104&ccb=3&_nc_sid=730e14&_nc_ohc=mp4Yi4iF1EcAX_mG-6o&_nc_ht=scontent-hkg4-2.xx&oh=fc2f095cde78d29c298bf827ac3269bc&oe=604F0F24)
 <figcaption class="caption">(H.6)</figcaption>
 
 * **Lí do #9**: Nhập nhằng giữa các luồng thông tin truyền thống với hiện đại
@@ -160,7 +160,7 @@ Và điều đặc biệt kì dị là, với cùng một loại vật liệu v�
 Câu hỏi nhanh:
 Đây là ba màu cơ bản có đúng không? (H.7)
 
-![Color 7]((https://scontent-hkg4-1.xx.fbcdn.net/v/t1.0-9/128777974_3561288620657746_1941262203267023819_o.jpg?_nc_cat=100&ccb=3&_nc_sid=730e14&_nc_ohc=TnwYk2D-NJQAX-Qvxqg&_nc_ht=scontent-hkg4-1.xx&oh=599ca79feb48c15156692a9e8a1c47ea&oe=60504197)
+![Color 7](httpss://scontent-hkg4-1.xx.fbcdn.net/v/t1.0-9/128777974_3561288620657746_1941262203267023819_o.jpg?_nc_cat=100&ccb=3&_nc_sid=730e14&_nc_ohc=TnwYk2D-NJQAX-Qvxqg&_nc_ht=scontent-hkg4-1.xx&oh=599ca79feb48c15156692a9e8a1c47ea&oe=60504197)
 <figcaption class="caption">(H.7)</figcaption>
 
 Nếu câu trả lời của bạn là đúng, và bạn quen thuộc với Bánh xe màu (Color Wheel) ở H.7 cùng ba cặp màu đối kinh điển Đỏ-Lục, Vàng-Tím, Cam-Lam
@@ -169,7 +169,7 @@ Có lẽ chúng ta đã có tuổi thơ được học kiến thức giống nha
 Bạn sẽ nói sao nếu ta thậm chí có 4 màu cơ bản và các cặp đối nhau không phải là Đỏ-Lục, Vàng-Tím, Cam-Lam? (H.8)
 Hoặc thậm chí số lượng màu cơ bản là 6 thì sao? (H.8)
 
-![Color 8]((https://scontent-hkg4-1.xx.fbcdn.net/v/t1.0-9/128062408_3561288407324434_5299822290740033234_o.jpg?_nc_cat=107&ccb=3&_nc_sid=730e14&_nc_ohc=9tfHiXvTPlsAX_p1WQg&_nc_ht=scontent-hkg4-1.xx&oh=e09c22d72986637845ca41c629b02b43&oe=60500F21)
+![Color 8](httpss://scontent-hkg4-1.xx.fbcdn.net/v/t1.0-9/128062408_3561288407324434_5299822290740033234_o.jpg?_nc_cat=107&ccb=3&_nc_sid=730e14&_nc_ohc=9tfHiXvTPlsAX_p1WQg&_nc_ht=scontent-hkg4-1.xx&oh=e09c22d72986637845ca41c629b02b43&oe=60500F21)
 <figcaption class="caption">(H.8)</figcaption>
 
 * **Lí do #10**: Sai lệch màu giữa các thiết bị và in ấn
@@ -204,7 +204,7 @@ Theo một số nhà tự nhiên học và sinh vật học, nhiều năm tiến
 
 Trong thế giới của con người, ta thấy mỗi ngày: *“Lục” = “Đi”, “Đỏ” = “Dừng”*, tránh chạm các vạch *“Trắng”*,... Nếu tôi miêu tả một nhóm thanh niên mặt mũi căng thẳng đang mặc quần áo sọc đen-trắng và xuất hiện trên các mặt báo, bạn sẽ liên tưởng đến nhóm đối tượng nào? (H.1)
 
-![Color 9]((https://scontent-hkg4-1.xx.fbcdn.net/v/t1.0-9/130007557_3582325421887399_7532186667939064718_o.jpg?_nc_cat=108&ccb=3&_nc_sid=730e14&_nc_ohc=g7lGEmoPBfgAX_tqCNF&_nc_ht=scontent-hkg4-1.xx&oh=812d2fe00aad6f03f31f40991040d003&oe=604E3E25)
+![Color 9](httpss://scontent-hkg4-1.xx.fbcdn.net/v/t1.0-9/130007557_3582325421887399_7532186667939064718_o.jpg?_nc_cat=108&ccb=3&_nc_sid=730e14&_nc_ohc=g7lGEmoPBfgAX_tqCNF&_nc_ht=scontent-hkg4-1.xx&oh=812d2fe00aad6f03f31f40991040d003&oe=604E3E25)
 <figcaption class="caption">(H.1)</figcaption>
 
 Không giống như trong tự nhiên, chúng ta - một xã hội - đã đưa ra các quyết định một cách có ý thức để sử dụng các màu sắc cho những ý nghĩa cụ thể. Ta có thể quyết định rằng “Đỏ” = “Đi”, “Lục” = “Dừng”, không như những loài vật trong tự nhiên, không thể quyết định được cách chúng xuất hiện với màu chúng muốn.
@@ -213,29 +213,29 @@ Vậy khi nhìn chung, trong cả thế giới tự nhiên và thế giới củ
 Dựa theo quan sát và nghiên cứu, ta có thể xếp cách các sinh vật sống sử dụng màu sắc nằm vào 4 nhóm:
 1. Orientation - Định hướng: Màu sắc được sử dụng để tìm ra thức ăn, chỗ ở, các sinh vật khác. Bướm biết tìm hoa, chim biết tìm bạn tình. (H.2)
 
-![Color 10]((https://scontent-hkg4-1.xx.fbcdn.net/v/t1.0-9/130145499_3582325408554067_3201122662986908006_o.jpg?_nc_cat=105&ccb=3&_nc_sid=730e14&_nc_ohc=AExWJ5ffk2sAX9igKUD&_nc_ht=scontent-hkg4-1.xx&oh=7117374cc3203c2d176c89b2cb5abb1e&oe=60504870)
+![Color 10](httpss://scontent-hkg4-1.xx.fbcdn.net/v/t1.0-9/130145499_3582325408554067_3201122662986908006_o.jpg?_nc_cat=105&ccb=3&_nc_sid=730e14&_nc_ohc=AExWJ5ffk2sAX9igKUD&_nc_ht=scontent-hkg4-1.xx&oh=7117374cc3203c2d176c89b2cb5abb1e&oe=60504870)
 <figcaption class="caption">(H.2)</figcaption>
 
 2. Warning - Cảnh báo: Trong tự nhiên, các sinh vật có độc không hề che giấu bản thân mà ngược lại, chúng bộc lộ một cách rõ ràng qua màu sắc đậm cùng các họa tiết, các nhà khoa học gọi đây là Aposematism - Tín hiệu xua đuổi. Các tín hiệu này để báo cho những kẻ-săn-mồi biết rằng chúng nên tìm bữa ăn ở một nơi khác.
 Vàng, Đỏ, Cam, Đen và Trắng là những màu mang tính phô trương - đây là những màu mang tính cảnh báo. Cũng là những màu được áp dụng trong thế giới loài người để cảnh báo. (H.3)
 
-![Color 11]((https://scontent-hkg4-1.xx.fbcdn.net/v/t1.0-9/130194074_3582325418554066_902690350148840808_o.jpg?_nc_cat=100&ccb=3&_nc_sid=730e14&_nc_ohc=9Oc0YBmL7rEAX_gAPNH&_nc_ht=scontent-hkg4-1.xx&oh=34d2290a2b7193efbb7ec8f4c6dd950d&oe=604E9CC0)
+![Color 11](httpss://scontent-hkg4-1.xx.fbcdn.net/v/t1.0-9/130194074_3582325418554066_902690350148840808_o.jpg?_nc_cat=100&ccb=3&_nc_sid=730e14&_nc_ohc=9Oc0YBmL7rEAX_gAPNH&_nc_ht=scontent-hkg4-1.xx&oh=34d2290a2b7193efbb7ec8f4c6dd950d&oe=604E9CC0)
 <figcaption class="caption">(H.3)</figcaption>
 
 3. Camouflage - Ngụy trang: Trong khi những loài sinh vật có độc bày màu sắc của mình ra một cách phô trương để cảnh báo những kẻ-săn-mồi, những loài không độc phải làm thế nào để tồn tại và sống sót?
 Câu trả lời là chúng được lập trình sử dụng màu sắc để ngụy trang lẩn trốn. (H.4a)
 
-![Color 12]((https://scontent-hkg4-2.xx.fbcdn.net/v/t1.0-9/130836903_3582325645220710_5696637301391658449_n.jpg?_nc_cat=110&ccb=3&_nc_sid=730e14&_nc_ohc=xF9_MbFwbMcAX9S7fo1&_nc_ht=scontent-hkg4-2.xx&oh=0f5719a883c49d5129e265a7d60899c0&oe=60508EF1)
+![Color 12](httpss://scontent-hkg4-2.xx.fbcdn.net/v/t1.0-9/130836903_3582325645220710_5696637301391658449_n.jpg?_nc_cat=110&ccb=3&_nc_sid=730e14&_nc_ohc=xF9_MbFwbMcAX9S7fo1&_nc_ht=scontent-hkg4-2.xx&oh=0f5719a883c49d5129e265a7d60899c0&oe=60508EF1)
 <figcaption class="caption">(H.4a)</figcaption>
 
 Ý tưởng tương tự cũng được áp dụng trong thế giới con người, đặc biệt thường thấy nhất ở lĩnh vực quân sự. (H.4b)
 
-![Color 13]((https://scontent-hkg4-1.xx.fbcdn.net/v/t1.0-9/130197950_3582325648554043_211814308627008604_n.jpg?_nc_cat=100&ccb=3&_nc_sid=730e14&_nc_ohc=yvHQOrO_i4gAX9QkHyI&_nc_ht=scontent-hkg4-1.xx&oh=4f5a52359fa993295909d11c103b6aa7&oe=604EF077)
+![Color 13](httpss://scontent-hkg4-1.xx.fbcdn.net/v/t1.0-9/130197950_3582325648554043_211814308627008604_n.jpg?_nc_cat=100&ccb=3&_nc_sid=730e14&_nc_ohc=yvHQOrO_i4gAX9QkHyI&_nc_ht=scontent-hkg4-1.xx&oh=4f5a52359fa993295909d11c103b6aa7&oe=604EF077)
 <figcaption class="caption">(H.4b)</figcaption>
 
 4. Identity - Tạo danh tính: Màu sắc tạo ra dấu ấn nhận dạng rất riêng biệt giữa các loài sinh vật. Áp dụng trong thế giới loài người, ta có nhiều từ ngữ khác để miêu tả đặc tính này như “phong cách”, “thời trang”, “văn hóa”, “thương hiệu”,... Nhưng đều để nhắm đến mục đích tạo những nhận dạng riêng biệt. (H.5)
 
-![Color 14]((https://scontent-hkg4-1.xx.fbcdn.net/v/t1.0-9/129979640_3582325661887375_1262177599222169213_o.jpg?_nc_cat=107&ccb=3&_nc_sid=730e14&_nc_ohc=Yi8XTpnTkWQAX_5oAfJ&_nc_ht=scontent-hkg4-1.xx&oh=c58a55312fc6488cdef139fd2278ff6c&oe=605112E2)
+![Color 14](httpss://scontent-hkg4-1.xx.fbcdn.net/v/t1.0-9/129979640_3582325661887375_1262177599222169213_o.jpg?_nc_cat=107&ccb=3&_nc_sid=730e14&_nc_ohc=Yi8XTpnTkWQAX_5oAfJ&_nc_ht=scontent-hkg4-1.xx&oh=c58a55312fc6488cdef139fd2278ff6c&oe=605112E2)
 <figcaption class="caption">(H.5)</figcaption>
 
 Từ tất cả các điều trên, điều ta có thể đưa ra là, theo lý thuyết, các sinh vật sống gán cho màu sắc ý nghĩa cả trong ý thức và tiềm thức. Màu sắc ta thấy trong thế giới xung quanh có hai dạng ý nghĩa:
@@ -287,7 +287,7 @@ OK, let’s gooo!
 
 ## QUÁ TRÌNH GIAO TIẾP - COMMUNICATION PROCESS (H.1)
 
-![Color 15]((https://scontent-hkg4-2.xx.fbcdn.net/v/t1.0-0/p526x296/131466953_3600628303390444_3713647602540741971_o.jpg?_nc_cat=110&ccb=3&_nc_sid=730e14&_nc_ohc=7DMNEBKMP_sAX9biiYQ&_nc_ht=scontent-hkg4-2.xx&tp=6&oh=13afc2ef5890168776a72875031c7ee2&oe=604E8DA5)
+![Color 15](httpss://scontent-hkg4-2.xx.fbcdn.net/v/t1.0-0/p526x296/131466953_3600628303390444_3713647602540741971_o.jpg?_nc_cat=110&ccb=3&_nc_sid=730e14&_nc_ohc=7DMNEBKMP_sAX9biiYQ&_nc_ht=scontent-hkg4-2.xx&tp=6&oh=13afc2ef5890168776a72875031c7ee2&oe=604E8DA5)
 <figcaption class="caption">(H.1)</figcaption>
 
 Giao tiếp là một quá trình động bắt đầu bằng việc lên ý tưởng từ người gửi, sau đó truyền thông điệp qua một kênh nào đó, và tới người nhận, người nhận sẽ đưa ra phản hồi dưới dạng một số thông điệp hoặc tín hiệu trong khung thời gian nhất định.
@@ -417,11 +417,11 @@ Tuy nhiên không phải ai cũng đồng ý với quan niệm này, các nhà t
 
 **Issac Newton** đã bắt đầu quan tâm tới vấn đề này khi còn là sinh viên trường Trinity College. Tại đây, ông học tập và nghiên cứu cuốn sách Les Météores (1637) của nhà triết gia vĩ đại người Pháp, René Descartes, qua đó bàn luận về việc cầu vồng được tạo ra nhờ các giọt nước trong không khí bẻ cong ánh sáng mặt trời, và có thể dùng một lăng kính tam giác tái tạo lại hiện tượng này (H.1). Không dừng lại ở đó, Newton tiếp tục nghiên cứu cuốn sách Experiments and Considerations Touching Colours (1664) bởi nhà thực nghiệm lỗi lạc người Anh Robert Boyle về mô hình lăng kính. (H.1)
 
-![Color 16]((https://scontent-hkg4-1.xx.fbcdn.net/v/t1.0-9/131762550_3617590781694196_925901482713506835_o.jpg?_nc_cat=100&ccb=3&_nc_sid=730e14&_nc_ohc=FDTWqUEvNUcAX_3FJZc&_nc_ht=scontent-hkg4-1.xx&oh=ecd19cfc2a3c3d2bb94842e8e71812de&oe=6051B578)
+![Color 16](httpss://scontent-hkg4-1.xx.fbcdn.net/v/t1.0-9/131762550_3617590781694196_925901482713506835_o.jpg?_nc_cat=100&ccb=3&_nc_sid=730e14&_nc_ohc=FDTWqUEvNUcAX_3FJZc&_nc_ht=scontent-hkg4-1.xx&oh=ecd19cfc2a3c3d2bb94842e8e71812de&oe=6051B578)
 <figcaption class="caption">(H.1)</figcaption>
 
 Dựa vào sự học tập, quan sát và nghiên cứu, Newton bắt đầu tiến hành thí nghiệm lăng kính năm 1672 (sau khoảng 30 năm từ lúc ông bắt đầu đọc cuốn *Les Météores* năm 1637). Khi thực hiện thí nghiệm lăng kính, Newton đã quan sát rằng khi ánh sáng trắng chiếu qua một lăng kính thủy tinh, các tia sáng khác nhau bị bẻ cong theo mức độ khác nhau, và vì thế các tia này xuất hiện thành nhiều màu sắc khác nhau. Newton gọi dải màu sắc ánh sáng này là Spectrum (Quang Phổ) (H.2)
-![Color 17]((https://scontent-hkg4-2.xx.fbcdn.net/v/t1.0-9/132089729_3617590751694199_757630113410086331_o.jpg?_nc_cat=104&ccb=3&_nc_sid=730e14&_nc_ohc=VdK5Zy2iGUMAX_xYyZp&_nc_ht=scontent-hkg4-2.xx&oh=209bae369dc95b4c2a84be64e1c95fd8&oe=6050789E)
+![Color 17](httpss://scontent-hkg4-2.xx.fbcdn.net/v/t1.0-9/132089729_3617590751694199_757630113410086331_o.jpg?_nc_cat=104&ccb=3&_nc_sid=730e14&_nc_ohc=VdK5Zy2iGUMAX_xYyZp&_nc_ht=scontent-hkg4-2.xx&oh=209bae369dc95b4c2a84be64e1c95fd8&oe=6050789E)
 <figcaption class="caption">(H.2)</figcaption>
 
 Trên Spectrum thường được cho là có bảy màu từ Red (Đỏ), Orange (Cam), Yellow (Vàng), Green (Lục), Blue (Lam), Indigo (Chàm), Violet (Tím), dải màu này được viết ngắn dưới dạng ROYGBIV.
@@ -431,18 +431,18 @@ Thí nghiệm lăng kính của Newton được tái dựng qua video: https://w
 Qua thí nghiệm, Newton cũng đã cho thấy rằng khi pha trộn các tia màu sắc này, sẽ tạo ra ánh sáng trắng một lần nữa.
 Sau thí nghiệm, Newton đã cô đọng và đóng góp Color Wheel đầu tiên trong lịch sử vào năm 1704 khi xuất bản cuốn Opticks: or, A treatise of the reflexions, refractions, inflexions and colours of light. (https://www.whipplelib.hps.cam.ac.uk/.../isaac-newton...) (H.3)
 
-![Color 18]((https://scontent-hkg4-2.xx.fbcdn.net/v/t1.0-9/131072282_3617590765027531_7967752782511704081_o.jpg?_nc_cat=110&ccb=3&_nc_sid=730e14&_nc_ohc=zlugiPTxVBYAX_iw-0o&_nc_ht=scontent-hkg4-2.xx&oh=4fdaf803d50893bdb926c153afbbc166&oe=604F9D5B)
+![Color 18](httpss://scontent-hkg4-2.xx.fbcdn.net/v/t1.0-9/131072282_3617590765027531_7967752782511704081_o.jpg?_nc_cat=110&ccb=3&_nc_sid=730e14&_nc_ohc=zlugiPTxVBYAX_iw-0o&_nc_ht=scontent-hkg4-2.xx&oh=4fdaf803d50893bdb926c153afbbc166&oe=604F9D5B)
 <figcaption class="caption">(H.3)</figcaption>
 
 Ý tưởng cốt lõi về việc tách biệt Hue thành một chiều độc lập của màu sắc, và biểu thị chiều Hue này theo dạng một vòng tròn liên tục lần đầu tiên được thực hiện bởi Newton. Mặc dù trước Newton đã có một số sơ đồ màu dạng hình tròn được vẽ từ thế kỷ XVII, nhưng tất cả chúng bao gồm đen và trắng (trộn lẫn với chiều Value/Lightness của màu sắc) (H.4)
 
-![Color 19]((https://scontent-hkg4-1.xx.fbcdn.net/v/t1.0-9/132037672_3617590885027519_1769286055282451935_o.jpg?_nc_cat=107&ccb=3&_nc_sid=730e14&_nc_ohc=CjdOxILWpb0AX9UeUXD&_nc_ht=scontent-hkg4-1.xx&oh=cc71c9277c1a2e8cc02f47bb90c540c9&oe=604FA113)
+![Color 19](httpss://scontent-hkg4-1.xx.fbcdn.net/v/t1.0-9/132037672_3617590885027519_1769286055282451935_o.jpg?_nc_cat=107&ccb=3&_nc_sid=730e14&_nc_ohc=CjdOxILWpb0AX9UeUXD&_nc_ht=scontent-hkg4-1.xx&oh=cc71c9277c1a2e8cc02f47bb90c540c9&oe=604FA113)
 <figcaption class="caption">(H.4)</figcaption>
 
 ## MÀU SẮC TỒN TẠI Ở ĐÂU?
 Newton cũng đã nói một điều rất kì lạ, ông nói rằng **“the rays to speak properly are not coloured”** (tạm dịch: Các tia nói cho đúng ra thì không có màu) (H.5). Đồng nghĩa với việc tự bản thân các tia ánh sáng này theo góc độ vật lý thuần túy thì không có màu.
 
-![Color 20]((https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Light_dispersion_conceptual_waves350px.gif/300px-Light_dispersion_conceptual_waves350px.gif)
+![Color 20](httpss://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Light_dispersion_conceptual_waves350px.gif/300px-Light_dispersion_conceptual_waves350px.gif)
 <figcaption class="caption">(H.5)</figcaption>
 
 - Vậy màu sắc ta cảm nhận thấy từ đâu? Theo quá trình như thế nào?
@@ -482,23 +482,23 @@ Trong thực nghiệm này, Maxwell sử dụng một chiếc đĩa gắn trên 
 
 Định nghĩa các màu Primary của ánh sáng là Red, Green, Blue, và với liều lượng pha trộn khác nhau có thể đạt được tất cả các màu sắc mà ta có thể nhận thức. (H1)
 
-![Color 21]((https://scontent-hkg4-1.xx.fbcdn.net/v/t1.0-9/133430015_3637290899724184_8454232082448133282_o.jpg?_nc_cat=102&ccb=3&_nc_sid=730e14&_nc_ohc=pQTwiwlVSxUAX8xTAg2&_nc_oc=AQkRukW2OTa9kSBVrC2Oa8vzYi6G8XkqGWCK1dwNU9wNoxDlNmV8fIt7FhuHiMxjKSsKN1rBe3OJ1WP_sPZbd3Cd&_nc_ht=scontent-hkg4-1.xx&oh=a2ba8618485003faed6ab75ec9ca5308&oe=6050215E)
+![Color 21](httpss://scontent-hkg4-1.xx.fbcdn.net/v/t1.0-9/133430015_3637290899724184_8454232082448133282_o.jpg?_nc_cat=102&ccb=3&_nc_sid=730e14&_nc_ohc=pQTwiwlVSxUAX8xTAg2&_nc_oc=AQkRukW2OTa9kSBVrC2Oa8vzYi6G8XkqGWCK1dwNU9wNoxDlNmV8fIt7FhuHiMxjKSsKN1rBe3OJ1WP_sPZbd3Cd&_nc_ht=scontent-hkg4-1.xx&oh=a2ba8618485003faed6ab75ec9ca5308&oe=6050215E)
 <figcaption class="caption">(H.1)</figcaption>
 
 Năm 1861, với sự giúp đỡ của Thomas Sutton - cha đẻ dòng camera SLR (Single Lens Reflex), Maxwell đã áp dụng lý thuyết của ông vào Photography (Nhiếp ảnh), chụp một dải ruy băng bằng camera đen-trắng ba lần, mỗi lần sử dụng một tấm lọc màu (R)ed hoặc (G)reen hoặc (B)lue. Kết quả là Max và Sutton đã tạo ra bức ảnh màu đầu tiên trên thế giới khi kết hợp 3 tấm ảnh RGB lại làm một, tạo tiền đề cho màu sắc trong nhiếp ảnh và hiển thị màu sắc trên màn hình cho tới tận ngày nay. Đây có thể nói chính là sự khai sinh của hình mẫu RGB (còn được gọi là hệ màu cộng (Additive Color) hay hệ màu của ánh sáng) (H2)
 
-![Color 22]((https://scontent-hkg4-2.xx.fbcdn.net/v/t1.0-9/133226035_3637290876390853_8068746640355852599_o.jpg?_nc_cat=109&ccb=3&_nc_sid=730e14&_nc_ohc=LrxDWIlu7KIAX_yH8QW&_nc_ht=scontent-hkg4-2.xx&oh=91988c6cbc7721dd6b60ba17cb1c49c7&oe=604DDB49)
+![Color 22](httpss://scontent-hkg4-2.xx.fbcdn.net/v/t1.0-9/133226035_3637290876390853_8068746640355852599_o.jpg?_nc_cat=109&ccb=3&_nc_sid=730e14&_nc_ohc=LrxDWIlu7KIAX_yH8QW&_nc_ht=scontent-hkg4-2.xx&oh=91988c6cbc7721dd6b60ba17cb1c49c7&oe=604DDB49)
 <figcaption class="caption">(H.2 Link video trực quan: https://www.youtube.com/watch?v=sghTX3Zc1sE)</figcaption>
 
 Quay lại Trichromatic theory, tất cả màu sắc là kết quả của 3 tế bào cảm quang Red, Green, Blue pha trộn với nhau theo liều lượng thay đổi. Sau này khoa học phát triển hơn, ta nhận dạng các tế bào cảm quang là Cone (tế bào hình nón, dựa trên hình dáng của chúng), mức độ phản ứng của Cones với các bước sóng được biểu hiện trong biểu đồ. (H3)
-![Color 23]((https://scontent-hkg4-2.xx.fbcdn.net/v/t1.0-9/134406419_3637290869724187_7275816377057652916_o.jpg?_nc_cat=109&ccb=3&_nc_sid=730e14&_nc_ohc=TeIhbzH0hVgAX9K0ZEO&_nc_ht=scontent-hkg4-2.xx&oh=3384eed3cfd2f532719d7ca6a7b5fa75&oe=604FEA83)
+![Color 23](httpss://scontent-hkg4-2.xx.fbcdn.net/v/t1.0-9/134406419_3637290869724187_7275816377057652916_o.jpg?_nc_cat=109&ccb=3&_nc_sid=730e14&_nc_ohc=TeIhbzH0hVgAX9K0ZEO&_nc_ht=scontent-hkg4-2.xx&oh=3384eed3cfd2f532719d7ca6a7b5fa75&oe=604FEA83)
 <figcaption class="caption">(H.3)</figcaption>
 
 Ánh sáng khi được tiếp nhận, sẽ kích hoạt xung thần kinh từ các Cone. Phụ thuộc vào tỉ lệ xung thần kinh được kích hoạt từ mỗi loại Cone, ta cảm nhận được những màu cụ thể khác nhau.
 
 Nói một cách khác, não bộ so sánh tỉ lệ phản ứng giữa S-M-L, từ đó cho ta kết quả là màu sắc. Khi S-M-L đều phản ứng giống nhau, ta thấy ánh sáng màu trắng. Khi tỉ lệ phản ứng giữa S-M-L không giống nhau, ta thấy những màu khác. (H4)
 
-![Color 24]((https://scontent-hkg4-1.xx.fbcdn.net/v/t1.0-9/133139526_3637290936390847_9035931386666926036_o.jpg?_nc_cat=100&ccb=3&_nc_sid=730e14&_nc_ohc=ElW5od7twv0AX9zJ42-&_nc_ht=scontent-hkg4-1.xx&oh=b6ea7827932ddf514f9844415066edd5&oe=604FD5DA)
+![Color 24](httpss://scontent-hkg4-1.xx.fbcdn.net/v/t1.0-9/133139526_3637290936390847_9035931386666926036_o.jpg?_nc_cat=100&ccb=3&_nc_sid=730e14&_nc_ohc=ElW5od7twv0AX9zJ42-&_nc_ht=scontent-hkg4-1.xx&oh=b6ea7827932ddf514f9844415066edd5&oe=604FD5DA)
 <figcaption class="caption">(H.4)</figcaption>
 
 Điều thú vị là não ta chỉ quan tâm so sánh tỉ lệ phản ứng giữa S-M-L với nhau, nghĩa là kể cả khi thông tin đầu vào khác nhau nhưng tỉ lệ giữa chúng tương đồng, thì ta vẫn có thể thấy kết quả cùng một màu.
@@ -512,7 +512,7 @@ Link ví dụ: https://www.youtube.com/watch?v=iPPYGJjKVco
 Họ sẽ thấy thế giới này theo những cách khác nhau, phụ thuộc vào loại tế bào nào bị thiếu. Ta thường gọi hiện tượng này là chứng mù màu.
 Một người mắc chứng mù màu có thể thiếu một loại Cone hoặc S hoặc M hoặc L, mỗi loại bị thiếu sẽ cho ra kết quả hình ảnh khác nhau. Khi thiếu 2 loại Cone, bộ não không thể so sánh tỉ lệ giữa các Cone, vì vậy có kết quả hình ảnh cho ra hoàn toàn màu xám. (H5)\
 
-![Color 25]((https://scontent-hkg4-1.xx.fbcdn.net/v/t1.0-9/133153882_3637290986390842_4600551341275826195_o.jpg?_nc_cat=102&ccb=3&_nc_sid=730e14&_nc_ohc=WyXrz4rslIwAX_59nan&_nc_ht=scontent-hkg4-1.xx&oh=2830ce6049410ddb41fdd49e67390e5f&oe=604FE85E)
+![Color 25](httpss://scontent-hkg4-1.xx.fbcdn.net/v/t1.0-9/133153882_3637290986390842_4600551341275826195_o.jpg?_nc_cat=102&ccb=3&_nc_sid=730e14&_nc_ohc=WyXrz4rslIwAX_59nan&_nc_ht=scontent-hkg4-1.xx&oh=2830ce6049410ddb41fdd49e67390e5f&oe=604FE85E)
 <figcaption class="caption">(H.5)</figcaption>
 
 ## KẾT
@@ -537,7 +537,7 @@ OK, let's goooo!
 ## HIỆN TƯỢNG LƯU ẢNH (AFTER IMAGE)?
 (Thí nghiệm tại H1)
 
-![Color 26]((https://scontent-hkg4-1.xx.fbcdn.net/v/t1.0-9/134924067_3649148638538410_2175526415901036820_o.jpg?_nc_cat=103&ccb=3&_nc_sid=730e14&_nc_ohc=jVwg8MqWw_YAX8abWDg&_nc_ht=scontent-hkg4-1.xx&oh=7d08bb7e9cd8f204ecf2dea84f30234b&oe=604E1828)
+![Color 26](httpss://scontent-hkg4-1.xx.fbcdn.net/v/t1.0-9/134924067_3649148638538410_2175526415901036820_o.jpg?_nc_cat=103&ccb=3&_nc_sid=730e14&_nc_ohc=jVwg8MqWw_YAX8abWDg&_nc_ht=scontent-hkg4-1.xx&oh=7d08bb7e9cd8f204ecf2dea84f30234b&oe=604E1828)
 <figcaption class="caption">(H.1)</figcaption>
 
 Sau khi nhìn chằm chằm vào màu sắc trong thời gian lâu, ta thấy tồn lại màu sắc kể cả khi đã nhìn ra nơi khác, nhưng màu tồn lại không giống với màu mà ta nhìn chằm chằm lúc đầu.
@@ -551,13 +551,13 @@ Qua đây cũng đã chứng minh được rằng Trichomatic theory không gi�
 Theo đó, opponent - process theory cho rằng hệ thống thị giác của con người diễn dịch thông tin về màu sắc bằng cách xử lý tín hiệu từ các Cone S-M-L, theo hình thức đối kháng (chỉ một trong hai cực chiếm ưu thế).
 Biểu đồ thể hiện mức độ phản ứng của các Cone với các bước sóng ánh sáng (H2)
 
-![Color 27]((https://scontent-hkg4-2.xx.fbcdn.net/v/t1.0-9/135774237_3649148668538407_8872162158268002017_o.jpg?_nc_cat=109&ccb=3&_nc_sid=730e14&_nc_ohc=Gkm3tC0LkOAAX9rn7Gi&_nc_ht=scontent-hkg4-2.xx&oh=7d334db287467cfedefac3de0dd7e093&oe=6050BF8D)
+![Color 27](httpss://scontent-hkg4-2.xx.fbcdn.net/v/t1.0-9/135774237_3649148668538407_8872162158268002017_o.jpg?_nc_cat=109&ccb=3&_nc_sid=730e14&_nc_ohc=Gkm3tC0LkOAAX9rn7Gi&_nc_ht=scontent-hkg4-2.xx&oh=7d334db287467cfedefac3de0dd7e093&oe=6050BF8D)
 <figcaption class="caption">(H.2)</figcaption>
 
 Những tín hiệu từ các Cone này không đi thẳng tới não bộ, mà trước đó qua một lớp filter lọc tín hiệu. Chính những filter này giải thích cho những bí ẩn mà ta có.
 Cụ thể, ta có ba loại filter (H3)
 
-![Color 28]((https://scontent-hkg4-1.xx.fbcdn.net/v/t1.0-9/134837656_3649148631871744_7135143358596540953_o.jpg?_nc_cat=107&ccb=3&_nc_sid=730e14&_nc_ohc=KZ_JvrepulgAX8Obsl9&_nc_ht=scontent-hkg4-1.xx&oh=86f74b085c403e29ea47a211e09dd237&oe=604E2F48)
+![Color 28](httpss://scontent-hkg4-1.xx.fbcdn.net/v/t1.0-9/134837656_3649148631871744_7135143358596540953_o.jpg?_nc_cat=107&ccb=3&_nc_sid=730e14&_nc_ohc=KZ_JvrepulgAX8Obsl9&_nc_ht=scontent-hkg4-1.xx&oh=86f74b085c403e29ea47a211e09dd237&oe=604E2F48)
 <figcaption class="caption">(H.3)</figcaption>
 
 1. Filter #01: tín hiệu L đối kháng M (tương đương R đối kháng G)
@@ -580,7 +580,7 @@ Kết quả là **Filter #02** cho ra kênh màu Yellow đối kháng với Blue
 Hay còn gọi là độ bright (sáng) hay độ luminance (chói) theo lý thuyết màu sắc.
 Dựa theo đó, Opponent - process theory về cơ bản chia tín hiệu nhận được từ ba loại Cone thành 3 kênh đối nghịch, liên kết với nhau tạo nên ba cặp màu đối nhau:
 
-![Color 29]((https://scontent-hkg4-1.xx.fbcdn.net/v/t1.0-9/135270915_3649148775205063_6155439691804411192_o.jpg?_nc_cat=106&ccb=3&_nc_sid=730e14&_nc_ohc=gwY4iBK2OhYAX-NUVJU&_nc_ht=scontent-hkg4-1.xx&oh=70b56a7b322ca4a3942603380702d4df&oe=604E6011)
+![Color 29](httpss://scontent-hkg4-1.xx.fbcdn.net/v/t1.0-9/135270915_3649148775205063_6155439691804411192_o.jpg?_nc_cat=106&ccb=3&_nc_sid=730e14&_nc_ohc=gwY4iBK2OhYAX-NUVJU&_nc_ht=scontent-hkg4-1.xx&oh=70b56a7b322ca4a3942603380702d4df&oe=604E6011)
 <figcaption class="caption">(H.4a) - (H.4b)</figcaption>
 
 * Red - Green (quyết định vật ta nhìn thấy có xu hướng Green hơn hay Red hơn) (H4.a)
@@ -589,14 +589,14 @@ Dựa theo đó, Opponent - process theory về cơ bản chia tín hiệu nhậ
 
 Khi khớp biểu đồ từ H4.a và H4.b, ta sẽ có H5, trông rất giống một dải Spectrum rồi phải không?
 
-![Color 1]((https://scontent-hkg4-2.xx.fbcdn.net/v/t1.0-9/135753231_3649148755205065_4772282030607731140_n.jpg?_nc_cat=104&ccb=3&_nc_sid=730e14&_nc_ohc=HuZEEUp5Q34AX_6Bdxj&_nc_ht=scontent-hkg4-2.xx&oh=b808790d256977bfa9d203b95c4481a8&oe=6050EB78)
+![Color 1](httpss://scontent-hkg4-2.xx.fbcdn.net/v/t1.0-9/135753231_3649148755205065_4772282030607731140_n.jpg?_nc_cat=104&ccb=3&_nc_sid=730e14&_nc_ohc=HuZEEUp5Q34AX_6Bdxj&_nc_ht=scontent-hkg4-2.xx&oh=b808790d256977bfa9d203b95c4481a8&oe=6050EB78)
 <figcaption class="caption">(H.5)</figcaption>
 
 Đây chính là tín hiệu mà ta có được sau khi Mắt tiếp nhận thông tin, tín hiệu này sẽ qua lớp Filter chuyển đến nhận thức tại vỏ não và điều chỉnh một lần sau cùng.
 
 Thông qua **opponent-process theory**, từ bốn tín hiệu màu sắc R-G,B-Y ta có thể tạo ra bất kỳ màu sắc nào khác (xét trên phương diện nhận thức). Từ đây, Ewald Hering đã cho ra đời một Color Wheel với 4 màu Primary dựa theo lý thuyết này, kéo theo đó là sự ứng dụng của chúng trong đời sống. (H6)
 
-![Color 30]((https://scontent-hkg4-2.xx.fbcdn.net/v/t1.0-9/135872258_3649148798538394_944751078131994666_o.jpg?_nc_cat=110&ccb=3&_nc_sid=730e14&_nc_ohc=le-ivuelA34AX-_J5oN&_nc_ht=scontent-hkg4-2.xx&oh=ebacca8532ca8332dc4ddac751521456&oe=604F5F33)
+![Color 30](httpss://scontent-hkg4-2.xx.fbcdn.net/v/t1.0-9/135872258_3649148798538394_944751078131994666_o.jpg?_nc_cat=110&ccb=3&_nc_sid=730e14&_nc_ohc=le-ivuelA34AX-_J5oN&_nc_ht=scontent-hkg4-2.xx&oh=ebacca8532ca8332dc4ddac751521456&oe=604F5F33)
 <figcaption class="caption">(H.6)</figcaption>
 
 ## KẾT
