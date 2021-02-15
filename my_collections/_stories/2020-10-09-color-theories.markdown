@@ -447,7 +447,8 @@ Sau khi nhìn chằm chằm vào màu sắc trong thời gian lâu, ta thấy t�
 Đây cũng là một trong các hiện tượng thị giác được ứng dụng để tạo ảo ảnh, ảo giác.
     - Vậy, từ đâu có hiện tượng này? Và ta giải thích nó bằng cách nào?
 Qua đây cũng đã chứng minh được rằng Trichomatic theory không giải thích hoàn chỉnh được cơ chế nhìn màu, cho tới khi Ewald Hering đưa ra lý thuyết xử lý đối nghịch (Opponent - process theory) vào năm 1892.
-OPPONENT - PROCESS THEORY
+
+## OPPONENT - PROCESS THEORY
 Theo đó, opponent - process theory cho rằng hệ thống thị giác của con người diễn dịch thông tin về màu sắc bằng cách xử lý tín hiệu từ các Cone S-M-L, theo hình thức đối kháng (chỉ một trong hai cực chiếm ưu thế)
 Biểu đồ thể hiện mức độ phản ứng của các Cone với các bước sóng ánh sáng (H2)
 ![Color 27][https://scontent-hkg4-2.xx.fbcdn.net/v/t1.0-9/135774237_3649148668538407_8872162158268002017_o.jpg?_nc_cat=109&ccb=3&_nc_sid=730e14&_nc_ohc=Gkm3tC0LkOAAX9rn7Gi&_nc_ht=scontent-hkg4-2.xx&oh=7d334db287467cfedefac3de0dd7e093&oe=6050BF8D]
