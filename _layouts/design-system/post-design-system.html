@@ -3,21 +3,19 @@ layout: design-system/page-design-system
 ---
 
 <div class="container">
-    <button type="button" class="btn btn-outline-primary my-3">
-        <a onclick="window.history.back()">← Back</a>
-    </button>
+    <button type="button" class="btn btn-outline-primary my-3" onclick=goStories()>Close</button>
     
     {% if page.img-thumb and page.headerImage %}
         <img class="img-fluid w-100" style="height: 30rem;" src="{{ page.img-thumb }}" alt="{{ page.title }}">
     {% endif %}
     
-    <div class="text-center py-5">
+    <div class="text-center py-2">
         <h5 class="text-muted text-uppercase">{{ page.sub-title }}</h5>
         <h1 class="title">{{ page.title }}</h1>
     </div>
 
     {% if site.show-tags %}
-        <div class="post-tags pt-2 pb-5">
+        <div class="post-tags py-2 text-center">
             {% for tag in page.tags %}
                 <a class="text-uppercase font-weight-normal text-muted mx-3" href="{{ site.url }}/tags/#{{ tag | slugify }}">{{ tag }}</a>
             {% endfor %}
@@ -47,3 +45,8 @@ layout: design-system/page-design-system
         {% include disqus.html %}
     {% endif %}    
 </div>
+<script>
+    function goStories() {
+        window.location.href = "{{ site.url }}/design-system/good-stories";
+    }
+</script>
