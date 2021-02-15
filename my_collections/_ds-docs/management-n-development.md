@@ -1,7 +1,7 @@
 ---
-title: "Management and Developmemnt"
+title: "Management and Developmemt"
 id: man-n-dev
-description: "Management and Developmemnt"
+
 ---
 
 # Management and Developmemnt
