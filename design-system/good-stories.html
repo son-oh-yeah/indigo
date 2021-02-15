@@ -28,7 +28,8 @@ isNav: false
                                 <div class="card-body">
                                     <h6 class="card-subtitle mb-2 text-muted text-uppercase">{{ post.author }}</h6>
                                     <h3 class="card-title">{{ post.title }}</h2>
-                                        <p class="card-text">{{ post.description }}</p>
+                                    {{ post.tag }}
+                                    <p class="card-text">{{ post.description }}</p>
                                 </div>
                                 <div class="card-footer" style="background-color:transparent;">
                                     <time class="text-muted"
@@ -48,7 +49,8 @@ isNav: false
                                 <div class="card-body">
                                     <h6 class="card-subtitle mb-2 text-muted text-uppercase">{{ post.author }}</h6>
                                     <h3 class="card-title">{{ post.title }}</h2>
-                                        <p class="card-text">{{ post.description }}</p>
+                                    <p class="card-text">{{ post.description }}</p>
+                                    {{ post.tag }}
                                 </div>
                                 <div class="card-footer" style="background-color:transparent;">
                                     <time class="text-muted"
