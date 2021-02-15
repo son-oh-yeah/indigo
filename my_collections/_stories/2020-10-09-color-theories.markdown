@@ -1,6 +1,6 @@
 ---
 title: "COLOR - MÀU SẮC"
-layout: post
+layout: design-system/post-design-system
 date: 2020-10-09 11:06
 
 tag:
