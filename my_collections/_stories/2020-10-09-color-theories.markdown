@@ -49,32 +49,33 @@ Tác giả: [HungDelnary](https://www.behance.net/HungDelnary/)
 
 
 ## 10 lí do làm ta thấy màu sắc không đơn giản:
-* Lí do #1: Màu sắc có nhiều khía cạnh tiếp nhận
+* **Lí do #1**: Màu sắc có nhiều khía cạnh tiếp nhận
 Màu sắc có thể được tiếp cận từ các khía cạnh:
+
  • Vật lý: Các bước sóng điện từ mà mắt ta nhận thức được, và diễn dịch thành các màu sắc khác nhau.
  • Hóa học: Thành phần cấu tạo của mỗi chất liệu tác động tới màu sắc mà mắt ta thấy.
  • Sinh lý học: Cách mà mắt cùng não bộ nhận thức thông tin màu. Cũng như cách màu sắc gây tác động tới cơ thể chúng ta.
  • Tâm lý học: Cách màu sắc gây tác động tới cảm giác, cảm xúc của chúng ta.
  • Văn hóa: Ý nghĩa màu sắc thay đổi theo các vùng miền ta sinh sống.
  Thời đại kỹ thuật số (Digital) thậm chí còn gây bối rối hơn, với các thông số kỹ thuật, các biểu đồ, các thiết bị và các công thức tính toán dữ liệu.
-* Lí do #2: Không rõ màu sắc để làm gì?
+* **Lí do #2**: Không rõ màu sắc để làm gì?
 Mở mắt thức dậy mỗi ngày, ta thấy màu sắc. Bước ra khỏi cửa nhà, ta thấy màu sắc. Tham gia giao thông, ta thấy tín hiệu màu sắc. Rảo bước trên vỉa hè, ta thấy các thương hiệu đầy màu sắc. Bước qua từng shop thời trang, ta thấy những bộ cánh màu sắc. Vào rừng đi dã ngoại, ta thấy những sinh vật đầy màu sắc. Nhìn chính mình trong gương, một bản thể đầy màu sắc,...
 Màu sắc có mục đích gì? Bản chất tự nhiên của màu sắc là gì? Khi nào thì ta có thể nói là ta sử dụng màu sắc được thuần thục?
 Không biết mục đích cũng như việc ta cầm cung bắn tên mà không biết bia ở đâu vậy. Ngày qua ngày luyện tập, ta có thể cầm cung chắc tay hơn, tư thế bắn chuẩn xác hơn, tên bắn ngày một mạnh mẽ và bay xa hơn, nhưng không bao giờ tới đích.
-* Lí do #3: Cấp độ và lộ trình
+* **Lí do #3**: Cấp độ và lộ trình
 Ta nên bắt đầu từ đâu? Theo các bước và trình tự như thế nào?
 Có các cấp độ (Levels) để tiếp cận học tập màu sắc không, và các cấp độ này như thế nào?
 Tương tự như khi ta bắt Grab, ta luôn cần biết ít nhất 2 điều:
-• A - Điểm đầu (Vạch xuất phát)
-• B - Điểm cuối (Đích)
+    * A - Điểm đầu (Vạch xuất phát)
+    * B - Điểm cuối (Đích)
 Đích đến của ta ở đâu? Mục đích ta cần đạt là gì?
 Hiện nay ta đang đứng ở đâu? Ở cấp độ nào?
 Làm sao từ nơi ta đứng (A) có thể đi nhanh nhất tới đích (B)?
 Nếu không biết mình đang ở level nào, level trên mức hiện tại là gì, thì bằng cách nào ta có thể "level up" được?
 Chính vì vậy, trước tiên điều cần làm là xác định A và B. Sau đó con đường cần đi và giá phải trả sẽ tự hiện dần để ta cân nhắc. Bên cạnh đó, việc có đích đến sẽ giúp bạn đi đúng đường, tránh vòng vèo lãng phí thời gian tiền bạc (như mình trước đây)
-* Lí do #4: Tài liệu tiếp nhận
+* **Lí do #4**: Tài liệu tiếp nhận
 Có một sự thật là việc tìm kiếm kiến thức màu sắc một cách có hệ thống không hề đơn giản, đặc biệt là tài liệu về lý thuyết màu hiện đại gần như bất khả thi. Phần lớn kết quả tốt nhất ta có thể tìm kiếm là ý nghĩa của các màu sắc cơ bản, bánh xe màu truyền thống cùng một số từ khóa liên quan tới nó, các color scheme (cách phối màu) cơ bản, một số nguồn tài liệu có đề cập tới các mô hình màu khác nhau như RGB, CMY, RYB,... hoặc là sự pha trộn lẫn lộn giữa các bánh xe truyền thống cùng hiện đại mà không kèm lời giải thích. Kết quả để lại là các tài liệu này là không thể giải thích cặn kẽ những hiện tượng thị giác của mắt, ứng dụng của màu trong nhiều ngành nghề, và những gì đang diễn ra trong thế giới hiện đại Digital (kỹ thuật số) cùng rất rất nhiều câu hỏi gây bối rối.
-* Lí do #5: Nhận thức màu mỗi cá nhân khác nhau
+* **Lí do #5**: Nhận thức màu mỗi cá nhân khác nhau
 Màu sắc tồn tại ở đâu?
 Dựa theo cấu tạo các tế bào tại mắt, một con người trung bình có ba loại tế bào tiếp nhận ánh sáng, từ đó có thể nhận thức khoảng mười triệu màu hoặc nhiều hơn. Một số lượng rất ít người đặc biệt có tới bốn loại tế bào, từ đó có thể nhận thức khoảng một trăm triệu màu hoặc cả tia cực tím. Thế nhưng cũng có những người mắc chứng mù màu với số lượng tế bào ít hơn ba, từ đó hạn chế khả năng phân biệt và nhận thức màu so với người bình thường.
 Số lượng tế bào cảm nhận ánh sáng là một chuyện, nhưng kể cả cách các tế bào này phân bố trong mắt cũng hoàn toàn khác nhau với mỗi cá nhân, dẫn tới một thực tế là không ai nhận thức màu sắc theo cùng một cách giống nhau. Chúng ta đều sống trong thực tại khác nhau.
@@ -115,10 +116,10 @@ Bạn có biết rằng trong một số ngôn ngữ như ngôn ngữ Wobé th�
 <iframe width="560" height="315" src="http://www.vidipedia.org/index.php?option=com_hwdmediashare&amp;task=get.embed&amp;id=166413&amp;width=560&amp;height=315&amp;Itemid=180" frameborder="0" scrolling="no"></iframe>
 
 Bản thân màu sắc đã là một loại ngôn ngữ, xin đừng học nó qua một lớp ngôn ngữ khác.
-* Lí do #7: Tiêu chuẩn và hệ thống giao tiếp chung
+* **Lí do #7**: Tiêu chuẩn và hệ thống giao tiếp chung
 Nếu việc dùng ngôn ngữ để giao tiếp màu sắc là không hiệu quả, vậy ta nên giao tiếp với nhau bằng cách nào? Làm sao để những người sử dụng màu sắc (thợ sơn, thợ nhuộm, thợ in, nhiếp ảnh gia, nhà thiết kế, họa sĩ,...) có thể giao tiếp với nhau một cách hiệu quả?
 Giải quyết được vấn đề này cũng đồng nghĩa với việc các ngành nghề khác nhau có thể có chung một bộ ngôn ngữ nền tảng và có thể đồng bộ màu sắc với nhau. Điều này cũng có nghĩa là giúp những người mới bắt đầu giảm bớt được thời gian tìm hiểu và có một vốn hiểu biết áp dụng đa dạng ngành nghề khác nhau.
-* Lí do #8: Cảm nhận màu sắc thay đổi theo ngữ cảnh xung quanh
+* **Lí do #8**: Cảm nhận màu sắc thay đổi theo ngữ cảnh xung quanh
 Mọi màu sắc mà ta nhận thức được bắt nguồn từ ánh sáng, đồng nghĩa với việc nếu không có ánh sáng = không có màu sắc. Điều này cũng có nghĩa là, với cùng một vật thể, trong những điều kiện sáng khác nhau, cho ta trải nghiệm màu hoàn toàn khác nhau. (H.5)
 
 ![Color 5][https://scontent-hkg4-2.xx.fbcdn.net/v/t1.0-9/128273152_3561288557324419_934132403910359911_o.jpg?_nc_cat=109&ccb=3&_nc_sid=730e14&_nc_ohc=TYhC5OC39BIAX9JYXFO&_nc_ht=scontent-hkg4-2.xx&oh=f02cc39a5ac5771b717b21235529c249&oe=604E4DB5]
@@ -129,7 +130,7 @@ Và điều đặc biệt kì dị là, với cùng một loại vật liệu v�
 ![Color 6][https://scontent-hkg4-2.xx.fbcdn.net/v/t1.0-9/128092977_3561288513991090_3617044210469552477_o.jpg?_nc_cat=104&ccb=3&_nc_sid=730e14&_nc_ohc=mp4Yi4iF1EcAX_mG-6o&_nc_ht=scontent-hkg4-2.xx&oh=fc2f095cde78d29c298bf827ac3269bc&oe=604F0F24]
 <figcaption class="caption">(H.6)</figcaption>
 
-* Lí do #9: Nhập nhằng giữa các luồng thông tin truyền thống với hiện đại
+* **Lí do #9**: Nhập nhằng giữa các luồng thông tin truyền thống với hiện đại
 Câu hỏi nhanh:
 Đây là ba màu cơ bản có đúng không? (H.7)
 ![Color 7][https://scontent-hkg4-1.xx.fbcdn.net/v/t1.0-9/128777974_3561288620657746_1941262203267023819_o.jpg?_nc_cat=100&ccb=3&_nc_sid=730e14&_nc_ohc=TnwYk2D-NJQAX-Qvxqg&_nc_ht=scontent-hkg4-1.xx&oh=599ca79feb48c15156692a9e8a1c47ea&oe=60504197]
@@ -142,7 +143,7 @@ Hoặc thậm chí số lượng màu cơ bản là 6 thì sao? (H.8)
 ![Color 8][https://scontent-hkg4-1.xx.fbcdn.net/v/t1.0-9/128062408_3561288407324434_5299822290740033234_o.jpg?_nc_cat=107&ccb=3&_nc_sid=730e14&_nc_ohc=9tfHiXvTPlsAX_p1WQg&_nc_ht=scontent-hkg4-1.xx&oh=e09c22d72986637845ca41c629b02b43&oe=60500F21]
 <figcaption class="caption">(H.8)</figcaption>
 
-* Lí do #10: Sai lệch màu giữa các thiết bị và in ấn
+* **Lí do #10**: Sai lệch màu giữa các thiết bị và in ấn
 “Mua màn chỗ X đi ở đấy cân màu màn free luôn”
 “Làm thiết kế thì nên dùng Mac cho chuẩn màu”
 “Sao chụp trên máy ảnh trông màu “đẹp” thế mà lên máy tính trông nhạt nhỉ?”
@@ -151,7 +152,7 @@ Hoặc thậm chí số lượng màu cơ bản là 6 thì sao? (H.8)
 Những câu trên có quen thuộc với bạn không?
 Ta sẽ giải thích những câu trên thế nào với lý thuyết màu truyền thống (traditional color theory)?
 
-Ok, bên trên là "10 lí do làm ta thấy màu sắc không đơn giản" do mình chém gió ra. Đây là những vấn đề mình thấy tồn tại theo năm tháng, đúc rút từ những người xung quanh, và từ kinh nghiệm thực tế của bản thân trong hơn 10 năm tiếp xúc với màu sắc, cũng như tổng hợp các tài liệu và báo cáo khoa học.
+Ok, bên trên là *"10 lí do làm ta thấy màu sắc không đơn giản"* do mình chém gió ra. Đây là những vấn đề mình thấy tồn tại theo năm tháng, đúc rút từ những người xung quanh, và từ kinh nghiệm thực tế của bản thân trong hơn 10 năm tiếp xúc với màu sắc, cũng như tổng hợp các tài liệu và báo cáo khoa học.
 Nếu bạn cũng kì dị như mình, tò mò và thèm khát với kiến thức về màu sắc, hãy cùng nhau trao đổi thảo luận nhé!
 
 <div class="breaker"></div>
