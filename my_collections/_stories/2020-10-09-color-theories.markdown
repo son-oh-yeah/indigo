@@ -18,7 +18,7 @@ externalLink: false
 
 Tác giả: [HungDelnary](https://www.behance.net/HungDelnary/)
 
-#### Table of content
+#### [Table of content](#table-of-content)
 - [Part 01 - TẠI SAO TA THẤY MÀU SẮC KHÔNG ĐƠN GIẢN?](#part-01)
 - [Part 02 - MỤC ĐÍCH CỦA MÀU SẮC LÀ GÌ?](#part-02)
 - [Part 03 - LỘ TRÌNH HỌC MÀU SẮC](#part-03)
@@ -191,6 +191,7 @@ Nếu bạn cũng kì dị như mình, tò mò và thèm khát với kiến th�
 <div class="breaker"></div>
 
 ### [Part 02]
+[Table of content](#table-of-content)
 
 ## Mục đích của màu sắc là gì?
 Bởi tính ra, trong số chúng ta có những người sinh ra với chứng mù màu, nhưng vẫn có thể sinh hoạt và lớn lên một cách hoàn toàn bình thường. Thực tế là phần lớn những người mắc chứng mù màu không thực sự nhận ra mình mắc chứng này cho tới lúc họ lớn lên và được biết tới nó.
@@ -252,6 +253,7 @@ Như vậy việc học về màu sắc đồng nghĩa là ta đang học về m
     Bạn thường dùng màu sắc cho những mục đích nào?
 
 ### [Part 03]
+[Table of content](#table-of-content)
 
 ## LỘ TRÌNH HỌC (TÌM HIỂU) MÀU SẮC
 Trước khi đi đến nội dung chính của part này, mình sẽ đưa ra một vài câu hỏi:
@@ -399,6 +401,7 @@ Hãy cứ tò mò, cứ vui chơi và khám phá loại ngôn ngữ này.
 Chúc bạn chơi vui nhé!
 
 ### [Part 04]
+[Table of content](#table-of-content)
 
 ## MÀU SẮC LÀ GÌ?
     - Color Wheel (Bánh xe màu) đầu tiên xuất hiện từ bao giờ?
@@ -454,6 +457,7 @@ Cụ thể hơn, nghĩa là với mỗi bước sóng dài ngắn khác nhau, k�
 - Ta tiếp nhận và xử lý màu sắc như thế nào? Hãy đón chờ số tiếp theo. 
     
 ### [Part 05]
+[Table of content](#table-of-content)
 
 ## CHÚNG TA TIẾP NHẬN VÀ XỬ LÝ MÀU SẮC TỪ ÁNH SÁNG NHƯ THẾ NÀO?
 
@@ -520,6 +524,7 @@ Trichromatic theory đã giải thích được sự pha trộn màu sắc và b
 Để có thể lí giải được những thiếu sót mà Trichromatic theory để lại, xin hãy đón chờ số tiếp theo, với sự góp mặt của Ewald Hering cùng Opponent - Process theory 😉
 
 ### [Part 06]
+[Table of content](#table-of-content)
 
 - Opponent-process theory (Thuyết xử lý đối nghịch) là gì?
 - Tại sao hai màu đối nhau khi pha trộn lại ra Xám (Grey)?
