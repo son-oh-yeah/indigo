@@ -30,6 +30,7 @@ isNav: false
                 </div>
                 {% for doc in site.ds-docs %}
                 <div class="tab-pane fade" id="{{doc.id}}" role="tabpanel" aria-labelledby="{{doc.id}}-tab">
+                    <br>
                     {{doc.content}}
                 </div>
                 {% endfor %}
