@@ -1,6 +1,6 @@
 ---
 title: "Data structure and Algorithm"
-layout: post-design-system
+layout: design-system/post-design-system
 date: 2021-02-15 11:06
 
 tag:
