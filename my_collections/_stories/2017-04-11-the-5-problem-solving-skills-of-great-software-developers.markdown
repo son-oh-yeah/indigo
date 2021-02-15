@@ -3,13 +3,11 @@ title: "The 5 Problem-Solving Skills of Great Software Developers"
 layout: post
 date: 2017-04-11 11:06
 
-image: 
-headerImage: false
 tag:
-- design
-- problem solving
-- software
-- skill
+- Design
+- Problem Solving
+- Software
+- Skills
 
 good-stories: true
 

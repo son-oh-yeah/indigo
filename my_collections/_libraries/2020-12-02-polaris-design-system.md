@@ -14,8 +14,9 @@ headerImage: true
 img-thumb: https://son-oh-yeah.github.io/assets/images/design-system/polaris-shopify-design-system.png
 
 tag:
-- design system
-- ux/ui
+- Design System
+- UX
+- UI
 externalLink: https://polaris.shopify.com/design/design
 ---
 

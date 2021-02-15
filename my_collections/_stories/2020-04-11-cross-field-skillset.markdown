@@ -3,14 +3,12 @@ title: "Cross-field skillset là gì? Ứng dụng nó trên con đường tự 
 layout: post
 date: 2020-04-11 12:17
 
-image: 
-headerImage: false
 tag:
-- knowledge
-- design
-- business
-- technology
-- skills
+- Knowledge
+- Design
+- Business
+- Technology
+- Skills
 
 good-stories: true
 

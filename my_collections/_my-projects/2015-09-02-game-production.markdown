@@ -2,7 +2,7 @@
 title: "🎮 Thiết kế game"
 layout: post
 date: 2017-09-15 04:30:15
-tag: [game, product, ux design]
+tag: [game, product, ux , design]
 image: https://son-oh-yeah.github.io/assets/images/Term-Game.jpg
 headerImage: true
 projects: true

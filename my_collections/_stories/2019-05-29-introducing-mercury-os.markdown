@@ -3,13 +3,11 @@ title: "Introducing Mercury OS"
 layout: post
 date: 2019-05-29 15:45:32
 
-image: 
-headerImage: false
 tag:
-- design system
-- ux
-- ui
-- OS
+- Design system
+- UX
+- UI
+- Design Principles
 
 good-stories: true
 

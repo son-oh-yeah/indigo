@@ -3,13 +3,12 @@ title: "Simplicable Encyclopedia "
 layout: post
 date: 2020-12-12 13:17
 
-image: 
-headerImage: false
 tag:
-- knowledge
-- design
-- business
-- technology
+- Knowledge
+- Design
+- Business
+- Technology
+- Research Methods
 
 good-stories: true
 

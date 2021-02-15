@@ -2,7 +2,7 @@
 title: "📚 Ứng dụng trắc nghiệm giải đố"
 layout: post
 date: 2018-04-01 12:30:45
-tag: [trivia, mobile application, ux, education]
+tag: [trivia, mobile, application, ux, education]
 image: https://son-oh-yeah.github.io/assets/images/banner-trivia.png
 headerImage: true
 projects: true

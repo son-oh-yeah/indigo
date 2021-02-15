@@ -2,7 +2,7 @@
 title: "Reminder for bill payment"
 layout: post
 date: 2021-02-05 12:06:05
-tag: [remminder,concept, ui, mobile, bill, payment]
+tag: [Remminder,Prototype, UI, Mobile, Payment]
 image: 
 headerImage: true
 

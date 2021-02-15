@@ -16,8 +16,9 @@ img-thumb: https://son-oh-yeah.github.io/assets/images/design-system/mailchimp.p
 externalLink: https://mailchimp.com/design
 
 tag:
-- design system
-- ux/ui
+- Design System
+- UX
+- UI
 externalLink: https://ux.mailchimp.com/
 ---
 

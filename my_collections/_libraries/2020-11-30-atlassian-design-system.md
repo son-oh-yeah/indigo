@@ -15,8 +15,9 @@ headerImage: true
 img-thumb: https://son-oh-yeah.github.io/assets/images/design-system/atlassian-homepage@2x.png
 
 tag:
-- design system
-- ux/ui
+- Design System
+- UX
+- UI
 externalLink: https://atlassian.design/
 ---
 

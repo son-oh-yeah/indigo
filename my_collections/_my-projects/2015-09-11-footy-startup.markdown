@@ -2,7 +2,7 @@
 title: "⚽ Footy"
 layout: post
 date: 2016-07-02 12:30:45
-tag: [startup, football, product, ux design]
+tag: [startup, football, product, ux, design]
 image: https://son-oh-yeah.github.io/assets/images/footy-logo.jpg
 headerImage: true
 projects: true

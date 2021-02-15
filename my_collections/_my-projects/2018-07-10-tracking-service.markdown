@@ -2,7 +2,7 @@
 title: "🚶 Phần mềm quản lý theo dõi"
 layout: post
 date: 2018-07-10 09:45:45
-tag: [enterprise software, tracking, ux]
+tag: [enterprise, software, tracking, ux]
 image: https://son-oh-yeah.github.io/assets/images/ScreenShot-of-VF-with-45k-vessels.jpg
 headerImage: true
 projects: true

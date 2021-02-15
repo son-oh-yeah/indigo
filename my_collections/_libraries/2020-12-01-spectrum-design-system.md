@@ -14,8 +14,9 @@ headerImage: true
 img-thumb: https://son-oh-yeah.github.io/assets/images/design-system/spectrum_illustration_desktop@2x.png
 
 tag:
-- design system
-- ux/ui
+- Design System
+- UX
+- UI
 externalLink: https://spectrum.adobe.com/
 ---
 

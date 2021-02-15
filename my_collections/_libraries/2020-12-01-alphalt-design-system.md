@@ -14,8 +14,9 @@ headerImage: true
 img-thumb: https://asphalt.gojek.io/static/animated.e5216b01.svg
 
 tag:
-- design system
-- ux/ui
+- Design System
+- UX
+- UI
 externalLink: https://asphalt.gojek.io/ 
 ---
 

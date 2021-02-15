@@ -3,12 +3,10 @@ title: "In Defense of Design Thinking, Which Is Terrible"
 layout: post
 date: 2018-04-02 11:06
 
-image: 
-headerImage: false
 tag:
-- design thinking
-- ux
-- design
+- Design Thinking
+- Ux
+- Design
 
 good-stories: true
 

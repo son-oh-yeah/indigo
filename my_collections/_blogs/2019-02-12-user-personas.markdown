@@ -6,9 +6,9 @@ date: 2019-02-12 17:56:34
 image: 
 headerImage: false
 tag:
-- user personas
-- ux/ui
-- web application
+- User personas
+- Application
+
 star: true
 blog: true
 

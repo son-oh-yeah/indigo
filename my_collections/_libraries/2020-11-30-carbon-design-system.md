@@ -14,8 +14,9 @@ headerImage: true
 img-thumb: https://son-oh-yeah.github.io/assets/images/design-system/poster-carbon-design-system.jpg
 
 tag:
-- design system
-- ux/ui
+- Design System
+- UX
+- UI
 externalLink: https://www.carbondesignsystem.com/
 ---
 
