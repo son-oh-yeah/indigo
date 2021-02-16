@@ -10,7 +10,7 @@ layout: page
 </div>
 <hr>
 
-As an experienced designer with three years of experience in game design and currently UX Designer has been 4 years.
+As an experienced designer with three years of experience in game design and currently UX Designer since 2016.
 
 I used to work on development projects from product production to packaging and publishing. Projects require many teams and development departments' coordination, ensuring all work is efficient, following the planned amount of time.
 
