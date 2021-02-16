@@ -10,6 +10,7 @@ tag:
 - Computer Science
 
 good-stories: true
+category: good-stories
 
 author: giaithuatlaptrinh.com
 description: "Tổng hợp và chia sẻ những kiến thức liên quan tới giải thuật nói chung và lý thuyết khoa học máy tính nói riêng."

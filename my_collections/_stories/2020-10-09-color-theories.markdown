@@ -9,6 +9,7 @@ tag:
 - Art
 
 good-stories: true
+category: good-stories
 
 author: HungDelnary
 description: "6 phần nội dung chia sẻ về Màu sắc từ anh [HungDelnary](https://www.behance.net/HungDelnary/)"
