@@ -34,3 +34,5 @@ I can collaborate with the back-end, front-end, and GUI design teams. Besides, I
 - Photoshop, Illustrator, After Effects
 
 #### My queue of book
+
+<iframe class="airtable-embed" src="https://airtable.com/embed/shrbF6hVIeEA1b3mD?backgroundColor=green" frameborder="0" onmousewheel="" width="100%" height="533" style="background: transparent; border: 1px solid #ccc;"></iframe>
