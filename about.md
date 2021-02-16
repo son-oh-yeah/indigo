@@ -19,7 +19,7 @@ I can collaborate with the back-end, front-end, and GUI design teams. Besides, I
 #### My experiences
 
 - Lean, Agile, Design Thinking
-- Bank / Fintech
+- Bank / Fintech, Game, Technology Solution
 - Web, Mobile app (CMS, Admin, Product)
 - SaaS
 
