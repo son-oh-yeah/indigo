@@ -12,9 +12,9 @@ description: ""
 author: sonohyeah
 ---
 
-<p>Chúng tôi tạo ra một ứng dụng trắc nghiệm giải đố dựa trên kho dữ liệu câu hỏi kiến thức phong phú. Mọi người từ mọi lứa tuổi, công việc đều có thể tham gia giải trí với nhiều chủ đề hấp dẫn, hot trend. Người dùng có thể rèn luyện kiến thức học được qua từng chủ đề câu hỏi và giải trí thi đấu với bạn bè.</p> 
+Chúng tôi tạo ra một ứng dụng trắc nghiệm giải đố dựa trên kho dữ liệu câu hỏi kiến thức phong phú. Mọi người từ mọi lứa tuổi, công việc đều có thể tham gia giải trí với nhiều chủ đề hấp dẫn, hot trend. Người dùng có thể rèn luyện kiến thức học được qua từng chủ đề câu hỏi và giải trí thi đấu với bạn bè.
 
-<h2>Công việc thực hiện</h2>
+### Công việc thực hiện
 - Quản lý sản phẩm
 - Thiết kế UX
 
