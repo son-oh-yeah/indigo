@@ -7,9 +7,9 @@ isNav: false
 <div class="container">
 <div class="text-center py-5">
     <h1 class="title text-center">{{ page.title }}</h1>
-    {% assign tags = site.stories | map: 'tags' | join: ',' | split: ','  | group_by: tag | sort: 'size' | reverse %}
+    {% assign tags = site.stories | map: 'tags' | join: ',' | split: ',' | uniq | group_by: tag | sort: 'size' | reverse %}
     {% for tag in tags %}
-    <a class="item btn" href="{{ site.url }}/tags/#{{ tag.name | slugify }}">{{ tag.name | join: ',' | split: ',' }}</a>
+    <a class="item btn" href="{{ site.url }}/tags/#{{ tag.name | slugify }}">{{ tag.name | split: ',' }}</a>
     {% endfor %}
 </div>
 <br>
