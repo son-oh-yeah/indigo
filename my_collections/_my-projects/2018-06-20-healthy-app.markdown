@@ -12,7 +12,7 @@ description: ""
 author: sonohyeah
 ---
 
-<p>Một ứng dụng hữu ích cho mọi người giúp họ quản lý sức khỏe cá nhân tốt hơn. Các chức năng cơ bản như: quản lý hồ sơ bệnh án, đơn thuốc, đo chu kì nguyệt san, ...</p>
+Một ứng dụng hữu ích cho mọi người giúp họ quản lý sức khỏe cá nhân tốt hơn. Các chức năng cơ bản như: quản lý hồ sơ bệnh án, đơn thuốc, đo chu kì nguyệt san, ...
 
 ![Picture 1](https://mir-s3-cdn-cf.behance.net/project_modules/fs/39376172499537.5be9c3b6d7ef7.png)
 
