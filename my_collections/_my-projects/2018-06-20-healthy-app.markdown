@@ -2,7 +2,7 @@
 title: "❤️ Ứng dụng quản lý hồ sơ sức khoẻ"
 layout: post
 date: 2018-06-20 12:30:45
-tag: [healthy, mobile application, ux design]
+tag: [Healthy, Mobile, Application, UX, Design]
 image: https://son-oh-yeah.github.io/assets/images/red-heartbeat-symbol-graphic-illustration_53876-8061.jpg
 headerImage: true
 projects: true

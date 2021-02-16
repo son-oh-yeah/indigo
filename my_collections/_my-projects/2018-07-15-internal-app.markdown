@@ -2,7 +2,7 @@
 title: "💼 Ứng dụng quản lý nhân viên"
 layout: post
 date: 2018-07-15 12:56:34
-tag: [business, mobile, application, ux, tools]
+tag: [Enterprise, Mobile, Application, UX, Tools]
 image: https://son-oh-yeah.github.io/assets/images/demo_app.png
 headerImage: true
 projects: true

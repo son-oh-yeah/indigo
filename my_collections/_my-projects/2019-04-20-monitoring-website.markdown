@@ -2,7 +2,7 @@
 title: "📈 Monitoring website"
 layout: post
 date: 2019-04-20 12:56:34
-tag: [service, dasboard, monitoring, tracking, software, administration]
+tag: [SaaS, Service, Dasboard, Monitoring, Tracking, Software, Administration]
 image: https://son-oh-yeah.github.io/assets/images/vodafone_V.jpg
 headerImage: true
 projects: true

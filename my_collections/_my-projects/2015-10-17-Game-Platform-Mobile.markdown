@@ -2,7 +2,7 @@
 title: "🎮 Game Platform on Mobile"
 layout: post
 date: 2015-10-17 22:10
-tag: [game,concept,design]
+tag: [SaaS, Game,Concept,Design]
 image: https://son-oh-yeah.github.io/assets/images/bracket-template1.png
 headerImage: true
 projects: true

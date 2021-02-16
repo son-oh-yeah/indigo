@@ -2,7 +2,7 @@
 title: "📑 ERP Dashboard"
 layout: post
 date: 2019-08-26 10:15:20
-tag: [service, ERP, monitoring, tracking, software, management]
+tag: [SaaS, Service, ERP, Monitoring, Tracking, Software, Management]
 image: https://son-oh-yeah.github.io/assets/images/erp-business.jpg
 headerImage: true
 projects: true

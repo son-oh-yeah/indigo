@@ -2,7 +2,7 @@
 title: "📖 Web Bookstore online"
 layout: post
 date: 2014-11-24 10:10:45
-tag: [books, website, design, e-commerce]
+tag: [Books, Website, Design, E-commerce]
 image: https://son-oh-yeah.github.io/assets/images/lovebook.png
 headerImage: true
 projects: true
