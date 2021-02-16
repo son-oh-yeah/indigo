@@ -9,7 +9,7 @@ isNav: false
     <h1 class="title text-center">{{ page.title }}</h1>
     {% assign tags = site.stories | map: 'tags' | join: ',' | split: ',' | uniq | group_by: tag | sort: 'name' %}
     {% for tag in tags %}
-    <a class="item btn" href="{{ site.url }}/tags/#{{ tag.name | slugify }}">{{ tag.name | split: ',' }}</a>
+    <a class="item btn" href="{{ site.url }}/tags/#{{ tag.name | slugify }}">{{ tag.name }}</a>
     {% endfor %}
 </div>
 <br>
@@ -50,7 +50,7 @@ isNav: false
                                     <h6 class="card-subtitle mb-2 text-muted text-uppercase">{{ post.author }}</h6>
                                     <h3 class="card-title">{{ post.title }}</h2>
                                     <p class="card-text">{{ post.description }}</p>
-                                    {{ post.tag }}
+                                    {{ post.tag | join: " - " }}
                                 </div>
                                 <div class="card-footer" style="background-color:transparent;">
                                     <time class="text-muted"
