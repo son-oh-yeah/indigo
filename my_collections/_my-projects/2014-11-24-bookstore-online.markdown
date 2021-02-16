@@ -11,13 +11,13 @@ description: "Web lovebook.vn"
 author: sonohyeah
 ---
 
-<p>Một dự án thiết kế website bán sách online. Chúng tôi đã rất thành công.</p> 
+Một dự án thiết kế website bán sách online. Chúng tôi đã rất thành công.
 
-<p>Trước khi bắt tay xây dựng website <a href="https://lovebook.vn/">lovebook.vn</a>, chúng tôi đã gây dựng được một cộng đồng các học sinh sinh viên trên toàn quốc, nhóm hoạt động về giáo dục và hoàn toàn miễn phí tên là <a href="http://sonkimdinhhust.wordpress.com/gstt/">GSTT</a>. Những cuốn sách ôn luyên được biên soạn bởi chính các sinh viên xuất sắc vừa tốt nghiệp đại học. Khác với các web e-commerce thông thường, chúng tôi gợi ý kèm các bộ sách ôn luyện phù hợp cho từng đối tượng học sinh theo chuyên ngành, cấp học.</p>
+Trước khi bắt tay xây dựng website <a href="https://lovebook.vn/">lovebook.vn</a>, chúng tôi đã gây dựng được một cộng đồng các học sinh sinh viên trên toàn quốc, nhóm hoạt động về giáo dục và hoàn toàn miễn phí tên là <a href="http://sonkimdinhhust.wordpress.com/gstt/">GSTT</a>. Những cuốn sách ôn luyên được biên soạn bởi chính các sinh viên xuất sắc vừa tốt nghiệp đại học. Khác với các web e-commerce thông thường, chúng tôi gợi ý kèm các bộ sách ôn luyện phù hợp cho từng đối tượng học sinh theo chuyên ngành, cấp học.
 
-<p>Tôi rời dự án sau một thời gian (1 năm) và hiện tại web vẫn tiếp tục phát triển với hệ thống mới.</p>
+Tôi rời dự án sau một thời gian và hiện tại web vẫn tiếp tục phát triển với hệ thống mới.
 
-<p>Website: <a href="https://lovebook.vn"> http://lovebook.vn</a> </p>
+Website: <a href="https://lovebook.vn"> http://lovebook.vn</a>
 
 ---
 
