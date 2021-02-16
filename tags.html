@@ -2,7 +2,6 @@
 layout: page
 title: Tags
 permalink: /tags/
-tags: jekyll
 ---
 
 {% assign alltags = site.documents | map: 'tags' | join: ','  | split: ','  | group_by: tag | sort: 'size' | reverse 
