@@ -30,9 +30,9 @@ permalink: /tags/
 		{% if document.tags contains tag.name %}
             {% if document.title != null %}            
                     <li class="item">
-                        <a class="url" href="{{ site.url }}{{ document.url }}">
+                        <a class="url" href="{% if document.externalLink %}{{ document.externalLink }}{% else %}{{ site.url }}{{ document.url }}{% endif %}">
                             <aside class="date"><time datetime="{{ document.date | date:"%d-%m-%Y" }}">{{ document.date | date: "%b %d %Y" }}</time></aside>
-                            <h4 class="title">{{ document.title }}</h4>
+                            <h3 class="title">{{ document.title }}</h3>
                         </a>
                     </li>
             {% endif %}
