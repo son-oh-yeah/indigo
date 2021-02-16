@@ -13,3 +13,4 @@ end
 gem "webrick"
 
 gem 'wdm', '~> 0.1.1', :install_if => Gem.win_platform?
+gem 'eventmachine', '~> 1.2', '>= 1.2.7'

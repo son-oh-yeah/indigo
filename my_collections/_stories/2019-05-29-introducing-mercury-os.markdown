@@ -4,7 +4,7 @@ layout: post
 date: 2019-05-29 15:45:32
 
 tag:
-- Design system
+- Design System
 - UX
 - UI
 - Design Principles
