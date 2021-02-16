@@ -5,7 +5,7 @@ date: 2018-04-02 11:06
 
 tag:
 - Design Thinking
-- Ux
+- UX
 - Design
 
 good-stories: true
