@@ -18,6 +18,7 @@ isNav: false
 <section class="list">
     <div class="container">
         <div class="row">
+            {% assign stories = site.stories | reverse %}
             {% if site.paginate %}
                 {% for post in paginator.posts %}
                     {% if post.good-stories %}
@@ -41,7 +42,7 @@ isNav: false
                 {% endfor %}
                 {% include pagination.html %}
             {% else %}    
-                {% for post in site.stories %}
+                {% for post in stories %}
                         {% if post.hidden != true %}
                             <a class="card col-md-4"
                                 href="{% if post.externalLink %}{{ post.externalLink }}{% else %}{{ site.url }}{{ post.url }}{% endif %}"
@@ -60,6 +61,7 @@ isNav: false
                     {% endif %}
             {% endfor %}
             {% endif %}
+            {% assign stories = nil %}
         </div>   
     </div>
 </section>
