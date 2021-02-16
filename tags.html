@@ -28,17 +28,17 @@ permalink: /tags/
 	<ul class="list">
 		{% for document in alldocs %}
 		{% if document.tags contains tag.name %}
-            {% if document.title != null %}            
-                    <li class="item">
-                        <a class="url" href="{% if document.externalLink %}{{ document.externalLink }}{% else %}{{ site.url }}{{ document.url }}{% endif %}">
-                            <aside class="date"><time datetime="{{ document.date | date:"%d-%m-%Y" }}">{{ document.date | date: "%b %d %Y" }}</time></aside>
-                            <h3 class="title">{{ document.title }}</h3>
-                        </a>
-                    </li>
-            {% endif %}
+        {% if document.title != null %}            
+        <li class="item">
+        	<a class="url" href="{% if document.externalLink %}{{ document.externalLink }}{% else %}{{ site.url }}{{ document.url }}{% endif %}">
+        		<aside class="date"><time datetime="{{ document.date | date:"%d-%m-%Y" }}">{{ document.date | date: "%b %d %Y" }}</time></aside>
+        		<h3 class="title">{{ document.title }}</h3>
+        	</a>
+        </li>
+        {% endif %}
         {% endif %}
         {% endfor %}
-        <li><a href="#page-title" class="tag-entry" style="display: block; font-size: 0.8em; text-align: right; text-transform: uppercase; text-decoration: none;">Back to Top &uarr;</a></li>
+        <li class="item"><a href="#page-title" class="tag-entry" style="display: block; font-size: 0.8em; text-align: right; text-transform: uppercase; text-decoration: none;">Back to Top &uarr;</a></li>
     </ul>
     <div class="breaker"></div>
     {% endfor %}
