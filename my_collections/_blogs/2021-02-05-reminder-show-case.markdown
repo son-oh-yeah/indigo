@@ -32,14 +32,14 @@ category: blog
 - Suggest user register reminder at the success screen after payment
 - User can change the day to remind monthly
 
-<iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FRUq8PKD1QoJFDNvMBB2Yq9%2FPS1_WS3-Bill-payment%3Fnode-id%3D46%253A8205" allowfullscreen></iframe>
+<iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FRUq8PKD1QoJFDNvMBB2Yq9%2FPS1_WS3-Bill-payment%3Fnode-id%3D46%253A9873%26viewport%3D348%252C537%252C0.08072768896818161%26scaling%3Dscale-down" allowfullscreen></iframe>
 
 ### Update and turn-off reminder
 
 - Change the day to remind
 - Turn Off reminder
  
-<iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FRUq8PKD1QoJFDNvMBB2Yq9%2FPS1_WS3-Bill-payment%3Fnode-id%3D82%253A605" allowfullscreen></iframe>
+<iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FRUq8PKD1QoJFDNvMBB2Yq9%2FPS1_WS3-Bill-payment%3Fnode-id%3D98%253A323%26viewport%3D315%252C490%252C0.1256456822156906%26scaling%3Dscale-down" allowfullscreen></iframe>
 
 ### Push notification
 
@@ -48,10 +48,10 @@ category: blog
 - If the user cancels (just view and does not anything), take user go to the dashboard screen.
 
 Push notification for a bill payment
-<iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FRUq8PKD1QoJFDNvMBB2Yq9%2FPS1_WS3-Bill-payment%3Fnode-id%3D44%253A4722" allowfullscreen></iframe>
+<iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FRUq8PKD1QoJFDNvMBB2Yq9%2FPS1_WS3-Bill-payment%3Fnode-id%3D46%253A4720%26viewport%3D476%252C263%252C0.14603278040885925%26scaling%3Dscale-down" allowfullscreen></iframe>
 
 Push notification for multiple bills payment
-<iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FRUq8PKD1QoJFDNvMBB2Yq9%2FPS1_WS3-Bill-payment%3Fnode-id%3D46%253A6460" allowfullscreen></iframe>
+<iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FRUq8PKD1QoJFDNvMBB2Yq9%2FPS1_WS3-Bill-payment%3Fnode-id%3D164%253A11026%26viewport%3D504%252C373%252C0.12897677719593048%26scaling%3Dscale-down" allowfullscreen></iframe>
 
 ### In-app message (IAM)
 
@@ -59,4 +59,4 @@ Push notification for multiple bills payment
 - User can make payment or view detailed message.
 - If the user cancels (just view and does not anything), take user go to the dashboard screen.
 
-<iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FRUq8PKD1QoJFDNvMBB2Yq9%2FPS1_WS3-Bill-payment%3Fnode-id%3D13%253A1983" allowfullscreen></iframe>
+<iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FRUq8PKD1QoJFDNvMBB2Yq9%2FPS1_WS3-Bill-payment%3Fnode-id%3D13%253A1984%26viewport%3D100%252C421%252C0.291262149810791%26scaling%3Dscale-down" allowfullscreen></iframe>
