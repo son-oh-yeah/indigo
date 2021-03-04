@@ -14,3 +14,4 @@ author: Kevin Dame
 description: "A six-step guide to supercharging product innovation and thinking big at YouTube."
 
 externalLink: https://design.google/library/youtube-visioning
+---
