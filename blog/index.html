@@ -16,13 +16,15 @@ title: Blog
 		{% for post in paginator.posts %}
 		    {% if post.blog %}
 			    {% if post.hidden != true %}
-				    <div class="item {% if post.star %}star{% endif %}">
-						<time datetime="{{ post.date | date:"%d-%m-%Y" }}">{{ post.date | date: "%b %d %Y" }}</time><br>
-                        <a class="url" href="{% if post.externalLink %}{{ post.externalLink }}{% else %}{{ site.url }}{{ post.url }}{% endif %}">
-                            <h3 class="title">{{ post.title }}</h3>
-                        </a>
-                    </div>
-                    <hr>
+		<div class="item {% if post.star %}star{% endif %}">
+            <a class="url"
+                href="{{ site.url }}{{ post.url }}">
+                <aside style="font-size:medium"><time
+                        datetime="{{ post.date | date:"%Y-%d-%m" }}">{{ post.date | date: "%Y, %b %d" }}</time>
+                </aside>
+                <h3 class="title">{{ post.title }}</h3>
+            </a>
+        </div>
 			    {% endif %}
 		    {% endif %}
 		{% endfor %}
@@ -30,14 +32,15 @@ title: Blog
     {% else %}
         {% for post in site.blogs reversed %}
                 {% if post.hidden != true %}
-                <div class="item {% if post.star %}star{% endif %}">
-                    <time datetime="{{ post.date | date:"%d-%m-%Y" }}">{{ post.date | date: "%b %d %Y" }}</time><br>
-                    <a class="url"
-                        href="{% if post.externalLink %}{{ post.externalLink }}{% else %}{{ site.url }}{{ post.url }}{% endif %}">
-                        <h3 class="title">{{ post.title }}</h3>
-                    </a>
-                </div>
-                <hr>
+		<div class="item {% if post.star %}star{% endif %}">
+            <a class="url"
+                href="{{ site.url }}{{ post.url }}">
+                <aside style="font-size:medium"><time
+                        datetime="{{ post.date | date:"%Y-%d-%m" }}">{{ post.date | date: "%Y, %b %d" }}</time>
+                </aside>
+                <h3 class="title">{{ post.title }}</h3>
+            </a>
+        </div>
                 {% endif %}
         {% endfor %}
     {% endif %}
