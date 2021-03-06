@@ -14,6 +14,8 @@ layout: page
     </span>
 </div>
 
+{{content}}
+
 {% if site.show-tags %}
     <div class="post-tags">
         {% for tag in page.tags %}
@@ -21,8 +23,6 @@ layout: page
         {% endfor %}
     </div>
 {% endif %}
-
-{{content}}
 
 {% if site.post-advance-links contains page.category %}
     <div class="blog-navigation">
