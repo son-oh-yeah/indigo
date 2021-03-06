@@ -14,6 +14,8 @@ hidden: false
 
 ---
 
+### Simplicity and Practice without theory
+
 My two favorite quotes by Leonardo Da Vinci: 
 > Simplicity is the ultimate sophistication. 
 and,
@@ -27,7 +29,7 @@ A pretty good quote mentioned in [this article](https://spiderum.com/bai-dang/Su
 
 When you have experienced and understood, the mastery of understanding the nature of object leads to simplicity. That means, when we explain the nature of objects carefully, we can see that it is simple, instead of simplifying the problem yourself to avoid the difficulty to find a gentle approach to yourself.
 
-###Practice Based Learning
+### Practice Based Learning
 
 I am not saying learn the theory then go to work, but we should use the knowledge of our predecessors that things imparted knowledge and experience to us.
 
