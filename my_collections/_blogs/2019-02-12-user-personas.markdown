@@ -10,7 +10,7 @@ tag:
 - Application
 
 star: true
-blog: true
+blog: false
 
 author: sonohyeah
 description: ""
