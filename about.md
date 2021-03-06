@@ -21,7 +21,6 @@ I can collaborate with the back-end, front-end, and GUI design teams. Besides, I
 
 #### My experiences
 
-- Lean, Agile, Design Thinking
 - Bank / Fintech, Game, Technology Solution
 - Web, Mobile app (CMS, Admin, Product)
 - Game Design
@@ -29,6 +28,7 @@ I can collaborate with the back-end, front-end, and GUI design teams. Besides, I
 
 #### Knowledge & Tools
 
+- Lean, Lean UX, Agile, Design Thinking
 - HTML, CSS, JS
 - Flex-box, Responsive, Wordpress
 - Design System	
