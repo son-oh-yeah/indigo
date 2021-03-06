@@ -2,8 +2,6 @@
 layout: page
 ---
 
-<button type="button" onclick=goBack()>← Back</button>
-
 {% if page.image and page.headerImage %}
     <img class="title-image" src="{{ page.image }}" alt="{{ page.title }}">
 {% endif %}
@@ -37,6 +35,8 @@ layout: page
         {% endif %}
     </div>
 {% endif %}
+
+<button type="button" onclick=goBack()>← Back</button>
 
 {% if site.related %}
     {% include related.html %}
