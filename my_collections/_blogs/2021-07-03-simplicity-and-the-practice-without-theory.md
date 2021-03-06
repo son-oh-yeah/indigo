@@ -28,6 +28,7 @@ A pretty good quote mentioned in [this article](https://spiderum.com/bai-dang/Su
 When you have experienced and understood, the mastery of understanding the nature of object leads to simplicity. That means, when we explain the nature of objects carefully, we can see that it is simple, instead of simplifying the problem yourself to avoid the difficulty to find a gentle approach to yourself.
 
 ###Practice Based Learning
+
 I am not saying learn the theory then go to work, but we should use the knowledge of our predecessors that things imparted knowledge and experience to us.
 
 I want to say less and do more, sharing my experiences and exploration with everyone. That's a way to save my time and validate my ideas when design. However, how to make them easy to understand for the ones who do not like theory much 😅. That’s a big deal and also is my mission in the design challenge.
