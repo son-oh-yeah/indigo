@@ -7,6 +7,10 @@ image:
 headerImage: false
 description: ""
 tag:
+- Design
+- Simplicity
+- Knowledge
+- Experience
 
 star: false
 blog: true
