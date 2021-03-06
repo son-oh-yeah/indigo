@@ -50,7 +50,7 @@ Updated on March 6, 2021 from Hanoi, Vietnam.
 ### Building [My Blog]({{ site.url }}/blog)
 I'd like to sharing and archive the knowledges of design in life, what things I observed and enlightened. Write more articles on Medium to reflect and improve myself about the experience, perception, and discovered things.
 
-### Study about Design Systemm
+### Study about Design System
 Build a methodology in designing system design.
 - [Apply OOAD in the building design system](https://medium.com/@sonkd/apply-ooad-in-the-building-design-system-with-figma-part-1-b31e64936083).
 - [Design Token](https://sonkd.medium.com/about-design-token-in-design-system-5c2a87c31ae4)
