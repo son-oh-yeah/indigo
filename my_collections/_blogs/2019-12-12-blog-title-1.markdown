@@ -10,7 +10,7 @@ tag:
 
 star: true
 blog: true
-category: blog
+category: draft
 
 ---
 
