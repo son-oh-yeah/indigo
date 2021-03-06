@@ -70,7 +70,7 @@ width: large
 
 # if you don't need pagination, comment the *paginate* configs below
 pagination:
-  enabled: false
+  enabled: true
   sort_reverse: true # display recent posts first
   title: ":title" # Changing this will mess up the header display logic
   per_page: 15
