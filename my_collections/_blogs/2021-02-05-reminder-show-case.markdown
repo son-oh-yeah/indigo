@@ -9,7 +9,7 @@ description: "- They do not know when their bill will be due, they can miss them
 - They were feeling in lost control when their bill was paid without a reminder."
 tag: [Remminder,Prototype, UI, Mobile, Payment]
 blog: true
-category: blog
+category: draft
 
 ---
 
