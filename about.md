@@ -52,7 +52,8 @@ I'd like to sharing and archive the knowledges of design in life, what things I 
 
 ### STUDYING ABOUT DESIGN SYSTEM
 Build a methodology in designing system design.
-- Apply OOAD in the building design system (Medium)[https://medium.com/@sonkd/apply-ooad-in-the-building-design-system-with-figma-part-1-b31e64936083].
+- [Apply OOAD in the building design system](https://medium.com/@sonkd/apply-ooad-in-the-building-design-system-with-figma-part-1-b31e64936083).
+- [Design Token](https://sonkd.medium.com/about-design-token-in-design-system-5c2a87c31ae4)
 - Build a Figma plugin to help my colleagues link the components and styles in our design system.
 
 ### MY UX
