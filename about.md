@@ -10,8 +10,9 @@ layout: page
 </div>
 <hr>
 
-#### Read [I'm doing now first](#now)
-
+<div class="mx-auto text-center">
+	#### Read [I'm doing now first](#now)
+</div>
 <div class="breaker"></div>
 
 As an experienced designer with three years of experience in game design and and UX designer from 2016 currently.
