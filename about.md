@@ -48,25 +48,26 @@ Updated on March 6, 2021 from Hanoi, Vietnam.
 
 <iframe class="airtable-embed" src="https://airtable.com/embed/shrbF6hVIeEA1b3mD?backgroundColor=green" frameborder="0" onmousewheel="" width="100%" height="533" style="background: transparent; border: 1px solid #ccc;"></iframe>
 
-### BUILDING [MY BLOG]({{ site.url }}/blog)
+
+### Building [My Blog]({{ site.url }}/blog)
 I'd like to sharing and archive the knowledges of design in life, what things I observed and enlightened. Write more articles on Medium to reflect and improve myself about the experience, perception, and discovered things.
 
-### STUDYING ABOUT DESIGN SYSTEM
+### Study about Design Systemm
 Build a methodology in designing system design.
 - [Apply OOAD in the building design system](https://medium.com/@sonkd/apply-ooad-in-the-building-design-system-with-figma-part-1-b31e64936083).
 - [Design Token](https://sonkd.medium.com/about-design-token-in-design-system-5c2a87c31ae4)
 - Build a Figma plugin to help my colleagues link the components and styles in our design system.
 
-### MY UX
+### My UX
 My career path is being a <a class="evidence">Product designer</a>. Now, I'm doing these bellow:
 - Practice more as a UX Researcher
 - Doing IDI, Survey, usability tesing, building customer journey of a customer in bill payment experience
 
-### HABITS TO KEEP
+### Habits to keep
 - Keep reading books and articles.
 - Spend as much time as I can with my family (My wife and I have the same hobby of staying at home instead of going outside so far, especially in the second Covid year :D ).
 
-### ASPIRATIONS FOR 2021
+### Aspirations for 2021
 - Off Facebook
 - Run every morning
 - Learning code (React and JS)
