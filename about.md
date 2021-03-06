@@ -17,8 +17,6 @@ layout: page
 
 As an experienced designer with three years of experience in game design and and UX designer from 2016 currently.
 
-I used to work on development projects from product production to packaging and publishing. Projects require many teams and development departments' coordination, ensuring all work is efficient, following the planned amount of time.
-
 I can collaborate with the back-end, front-end, and GUI design teams. Besides, I also do documentation design with computational skills and data analysis.
 
 #### My experiences
