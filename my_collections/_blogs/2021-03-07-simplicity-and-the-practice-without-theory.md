@@ -17,8 +17,10 @@ hidden: false
 ### What is the simplicity
 
 My two favorite quotes by Leonardo Da Vinci: 
-> Simplicity is the ultimate sophistication. 
+> Simplicity is the ultimate sophistication.
+
 and,
+
 > He who loves practice without theory is like the sailor who boards ship without a rudder and compass and never knows where he may cast.
 
 When I am thinking about simplicity, I always associate it with complication.
