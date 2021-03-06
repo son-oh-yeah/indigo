@@ -40,7 +40,8 @@ I can collaborate with the back-end, front-end, and GUI design teams. Besides, I
 
 #### [Now](#now)
 (This is a [now page](https://nownownow.com/about))
-Updated on March 6, 2021 from Hanoi Vietnam.
+
+Updated on March 6, 2021 from Hanoi, Vietnam.
 
 ### My queue of book
 
@@ -55,6 +56,7 @@ Build a methodology in designing system design.
 - Build a Figma plugin to help my colleagues link the components and styles in our design system.
 
 ### MY UX
+My career path is being a product designer.. Now, I'm doing these bellow:
 - Practice more as a UX Researcher
 - Doing IDI, Survey, usability tesing, building customer journey of a customer in bill payment experience
 
