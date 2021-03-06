@@ -32,6 +32,6 @@ When you have experienced and understood, the mastery of understanding the natur
 
 ### Practice Based Learning
 
-I am not saying learn the theory then go to work, but we should use the knowledge of our predecessors that knowledges and experience imparted to us.
+I am not saying learn the theory then go to work, but we should use the knowledge and experience of our predecessors imparted to us.
 
 I want to say less and do more, sharing my experiences and exploration with everyone. That's a way to save my time and validate my ideas when design. However, how to make them easy to understand for the ones who do not like theory much 😅. That’s a big deal and also is my mission in the design challenge.
