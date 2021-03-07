@@ -43,9 +43,9 @@ layout: page
 {% endif %}
 
 {% if page.blog %}
-<button type="button" onclick=goBack()>← More blogs</button>
+<button type="button" onclick=moreBlogs()>← More blogs</button>
 {% elsif page.projects %}
-<button type="button" onclick=goBack()>← More projects</button>    
+<button type="button" onclick=moreProjects()>← More projects</button>    
 {% endif %}
 
 {% if site.related %}
@@ -64,5 +64,11 @@ layout: page
 <script>
 function goBack() {
   window.history.back();
+}
+function moreBlogs() {
+  window.location.href='/blog';
+}
+function moreProjects() {
+  window.location.href='/projects';
 }
 </script>
