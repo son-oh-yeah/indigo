@@ -55,7 +55,7 @@ It's mean that ta thường lựa chọn hoặc là dựa trên kinh nghiệm b�
 
 Vậy khi nào thì dùng con người 1, khi nào thì dùng con người 2?
 
-Hãy tự hỏi Tại sao, lặp lại việc hỏi Tại sao lại có câu trả lời đó nhiều lần sẽ giúp chúng ta dẫn đến ý đồ cuối cùng - the ultimate goal.
+Lặp lại việc hỏi Tại sao theo cac câu trả lời đó nhiều lần sẽ giúp chúng ta dẫn đến ý đồ cuối cùng - the ultimate goal.
 
 ### Ultimate goal - sợi dây liên kết những bộ não
 
