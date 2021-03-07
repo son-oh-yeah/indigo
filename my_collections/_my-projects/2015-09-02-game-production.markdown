@@ -27,7 +27,7 @@ Là dòng game casual, social nên đòi hỏi phải có những câu chuyện 
 
 
 ### Viết tài liệu user flow, wireframe, công thức
-Ngoài việc chỉ ra các luồng hoạt động (user flow, use case (uml)), các bản wireframe, công thức tính toán cũng là cốt loi và mang yếu tố "độc quyền" của game. Không chỉ dừng lại việc hoạt động trơn tru, UX/UI đẹp và thuận tiện, <span class="evidence">cảm xúc của người chơi là do "công thức" game dan dat </span>. Dưới đây là một vài demo thiết kế:
+Ngoài việc chỉ ra các luồng hoạt động (user flow, use case), các bản wireframe, công thức tính toán cũng là cốt loi và mang yếu tố "độc quyền" của game. Không chỉ dừng lại việc hoạt động trơn tru, UX/UI đẹp và thuận tiện, mà còn cần quan tâm đến <span class="evidence">thiết kế cảm xúc của người chơi </span>. Dưới đây là một vài demo thiết kế:
 
 ![Picture 5](https://son-oh-yeah.github.io/assets/images/sketch-board.jpg)
 
