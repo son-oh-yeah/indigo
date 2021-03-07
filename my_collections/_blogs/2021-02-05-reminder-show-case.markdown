@@ -7,7 +7,7 @@ image:
 headerImage: true
 description: "- They do not know when their bill will be due, they can miss them through other channels such as email or SMS.
 - They were feeling in lost control when their bill was paid without a reminder."
-tag: [Remminder,Prototype, UI, Mobile, Payment]
+tag:
 blog: true
 category: 
 hidden: true
