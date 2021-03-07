@@ -37,6 +37,8 @@ I can collaborate with the back-end, front-end, and GUI design teams. Besides, I
 - Whimsical, Axure RP, Balsamiq, Visio, Digital handrawing
 - Photoshop, Illustrator, After Effects
 
+***
+
 #### [Now](#now)
 (This is a [now page](https://nownownow.com/about))
 
