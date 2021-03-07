@@ -5,44 +5,47 @@ isNav: false
 ---
 
 <div class="container pt-3">
-    <aside class="ds-sidebar">
-        <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
-            <a class="nav-link active show" id="introduction-tab" data-toggle="pill" href="#introduction" role="tab"
-                aria-controls="introduction" aria-selected="true">Introduction</a>
-            {% for doc in site.ds-docs %}
-            <a class="nav-link" id="{{doc.id}}-tab" data-toggle="pill" href="#{{doc.id}}" role="tab"
-                aria-controls="{{doc.id}}" aria-selected="false">{{ doc.title }}</a>
-            {% endfor %}
+
+    <div class="row">
+        <div class="col-md-3 col-sm-12">
+            <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+                <a class="nav-link active show" id="introduction-tab" data-toggle="pill" href="#introduction" role="tab"
+                    aria-controls="introduction" aria-selected="true">Introduction</a>
+                {% for doc in site.ds-docs %}
+                <a class="nav-link" id="{{doc.id}}-tab" data-toggle="pill" href="#{{doc.id}}" role="tab"
+                    aria-controls="{{doc.id}}" aria-selected="false">{{ doc.title }}</a>
+                {% endfor %}
+            </div>
         </div>
-    </aside>
-    <main class="order-1">
-        <div class="tab-content" id="v-pills-tabContent">
-            <div class="tab-pane fade active show" id="introduction" role="tabpanel"
-                aria-labelledby="introduction-tab">
-                <img src="{{site.url}}/assets/images/design-system/system1.png" class="img-fluid" alt="Design System">
-                <br>
-                <p>
-                    Have you ever performed a UI audit and found you’re using a few dozen similar hues of blue, or permutations of the same button? Multiply this by every piece of UI in your app, and you begin to realize how inconsistent, incomplete, and difficult to maintain your design has become.
-                </p>
-                <h1>What is a design system?</h1>
-                <p>
-                    Design systems enable teams to build better products faster by making design reusable—reusability makes scale possible. This is the heart and primary value of design systems. A design system is a collection of reusable components, guided by clear standards, that can be assembled together to build any number of applications.
-                </p>
-                <a href="https://www.designbetter.co/design-systems-handbook/introducing-design-systems">design-systems-handbook</a>
-                <br><br>
-                <h1>Why is a design system important?</h1>                   
-                <p>Having a solid design system can help to alleviate many issues that come from maintaining so many different applications. A design system can bring cohesion across your suite of applications and drastically reduce the engineering burden for each application.
+        <div class="col-md-9 col-sm-12">
+            <div class="tab-content" id="v-pills-tabContent">
+                <div class="tab-pane fade active show" id="introduction" role="tabpanel"
+                    aria-labelledby="introduction-tab">
+                    <img src="{{site.url}}/assets/images/design-system/system1.png" class="img-fluid" alt="Design System">
+                    <br>
+                    <p>
+                        Have you ever performed a UI audit and found you’re using a few dozen similar hues of blue, or permutations of the same button? Multiply this by every piece of UI in your app, and you begin to realize how inconsistent, incomplete, and difficult to maintain your design has become.
+                    </p>
+                    <h1>What is a design system?</h1>
+                    <p>
+                        Design systems enable teams to build better products faster by making design reusable—reusability makes scale possible. This is the heart and primary value of design systems. A design system is a collection of reusable components, guided by clear standards, that can be assembled together to build any number of applications.
+                    </p>
+                    <a href="https://www.designbetter.co/design-systems-handbook/introducing-design-systems">design-systems-handbook</a>
                     <br><br>
-                    The design system acts as a language that both designers and engineers can speak to align on how applications are built out. It also helps with onboarding new team members due to the documentation and examples outlined in your design system.
-                </p>
-                <a href="https://netflixtechblog.com/hawkins-diving-into-the-reasoning-behind-our-design-system-964a7357547">netflixtechblog</a>
+                    <h1>Why is a design system important?</h1>                   
+                    <p>Having a solid design system can help to alleviate many issues that come from maintaining so many different applications. A design system can bring cohesion across your suite of applications and drastically reduce the engineering burden for each application.
+                        <br><br>
+                        The design system acts as a language that both designers and engineers can speak to align on how applications are built out. It also helps with onboarding new team members due to the documentation and examples outlined in your design system.
+                    </p>
+                    <a href="https://netflixtechblog.com/hawkins-diving-into-the-reasoning-behind-our-design-system-964a7357547">netflixtechblog</a>
+                </div>
+                {% for doc in site.ds-docs %}
+                <div class="tab-pane fade" id="{{doc.id}}" role="tabpanel" aria-labelledby="{{doc.id}}-tab">
+                    <br>
+                    {{doc.content}}
+                </div>
+                {% endfor %}
             </div>
-            {% for doc in site.ds-docs %}
-            <div class="tab-pane fade" id="{{doc.id}}" role="tabpanel" aria-labelledby="{{doc.id}}-tab">
-                <br>
-                {{doc.content}}
-            </div>
-            {% endfor %}
         </div>
-    </main>
+    </div>
 </div>
