@@ -46,8 +46,7 @@ Updated on March 6, 2021 from Hanoi, Vietnam.
 
 ### My queue of book
 
-<iframe class="airtable-embed" src="https://airtable.com/embed/shrbF6hVIeEA1b3mD?backgroundColor=green" frameborder="0" onmousewheel="" width="100%" height="533" style="background: transparent; border: 1px solid #ccc;"></iframe>
-
+<iframe class="airtable-embed bigger-image" src="https://airtable.com/embed/shrbF6hVIeEA1b3mD?backgroundColor=green" frameborder="0" onmousewheel="" width="100%" height="533" style="background: transparent; border: 1px solid #ccc;"></iframe>
 
 ### Building [My Blog]({{ site.url }}/blog)
 I'd like to sharing and archive the knowledges of design in life, what things I observed and enlightened. Write more articles on Medium to reflect and improve myself about the experience, perception, and discovered things.
