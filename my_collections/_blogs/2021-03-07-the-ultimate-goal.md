@@ -26,6 +26,7 @@ Phương pháp mà tôi và các đồng nghiệp đang áp dụng dựa trên [
 
 ### Hay nói về "How" hơn là nói về 3Ws
 Những chủ đề mà chúng tôi hay bàn luận và gặp phải là:
+
 {% highlight html %}
     - Cái này các bước giải quyết là gì? Hỏi ai, nhờ ai (người đã từng gặp một vấn đề "tương tự") hướng dẫn?
     - Cách làm này "work" được với ví dụ này, chúng ta nên áp dụng luôn.
