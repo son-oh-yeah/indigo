@@ -20,7 +20,7 @@ hidden: false
 
 ### What is the simplicity
 
-My two favorite quotes by Leonardo Da Vinci: 
+My two favorite quotes by **Leonardo Da Vinci**: 
 > Simplicity is the ultimate sophistication.
 
 and,
