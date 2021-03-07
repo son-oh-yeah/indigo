@@ -26,4 +26,11 @@ Phương pháp mà tôi và các đồng nghiệp đang áp dụng dựa trên [
 
 ### Hay nói về How hơn là nói về 3Ws
 Những chủ đề mà chúng tôi hay bàn luận là:
-* Cái này
+* Cái này các bước giải quyết là gì? Hỏi ai, nhờ ai hướng dẫn?
+* 
+
+
+
+### Wise listeners - Người lắng nghe thông thái
+
+### Ultimate goal - sợi dây liên kết những bộ não
