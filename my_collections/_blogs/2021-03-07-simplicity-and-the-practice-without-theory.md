@@ -34,7 +34,7 @@ A pretty good quote mentioned in [this article](https://spiderum.com/bai-dang/Su
 > 
 > ― M. Scott Peck, The Road Less Traveled: A New Psychology of Love, Traditional Values and Spiritual Growth
 
-When you have experienced and understood, the mastery of understanding the nature of object leads to simplicity. That means, when we explain the nature of objects carefully, we can see that it is simple, instead of simplifying the problem yourself to avoid the difficulty to find a gentle approach to yourself.
+When you have experienced and understood, the mastery of understanding the nature of object leads to simplicity. That means, when we explain the nature of objects carefully, we can see that it is simple, instead of simplifying the problem yourself to avoid the difficulties- getting the adapted approach to yourself.
 
 ### Practice Based Learning
 
