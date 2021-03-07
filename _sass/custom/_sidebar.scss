@@ -1,0 +1,123 @@
+//
+// Left side navigation
+//
+
+.ds-links {
+    overflow: auto;
+    font-weight: 600
+}
+
+@media (min-width: 768px) {
+    .ds-links {
+        position: -webkit-sticky;
+        position: sticky;
+        top: 5rem;
+        display: block !important;
+        height: calc(100vh - 7rem);
+        padding-left: .25rem;
+        margin-left: -.25rem;
+        overflow-y: auto
+    }
+}
+
+@media (max-width: 767.98px) {
+    .ds-links>ul {
+        padding: 1.5rem .75rem;
+        background-color: #f8f9fa;
+        border-bottom: 1px solid #e9ecef
+    }
+}
+
+.ds-links a {
+    padding: .1875rem .5rem;
+    margin-top: .125rem;
+    margin-left: 1.25rem;
+    color: rgba(0, 0, 0, 0.65);
+    text-decoration: none
+}
+
+.ds-links a:hover,
+.ds-links a:focus {
+    color: rgba(0, 0, 0, 0.85);
+    background-color: rgba(121, 82, 179, 0.1)
+}
+
+.ds-links .btn {
+    padding: .25rem .5rem;
+    font-weight: 600;
+    color: rgba(0, 0, 0, 0.65);
+    background-color: transparent;
+    border: 0
+}
+
+.ds-links .btn:hover,
+.ds-links .btn:focus {
+    color: rgba(0, 0, 0, 0.85);
+    background-color: rgba(121, 82, 179, 0.1)
+}
+
+.ds-links .btn:focus {
+    box-shadow: 0 0 0 1px rgba(121, 82, 179, 0.7)
+}
+
+.ds-links .btn::before {
+    width: 1.25em;
+    line-height: 0;
+    content: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 16 16'%3e%3cpath fill='none' stroke='rgba%280,0,0,.5%29' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M5 14l6-6-6-6'/%3e%3c/svg%3e");
+    transition: transform 0.35s ease;
+    transform-origin: .5em 50%
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .ds-links .btn::before {
+        transition: none
+    }
+}
+
+.ds-links .btn[aria-expanded="true"] {
+    color: rgba(0, 0, 0, 0.85)
+}
+
+.ds-links .btn[aria-expanded="true"]::before {
+    transform: rotate(90deg)
+}
+
+.ds-links .active {
+    font-weight: 600;
+    color: rgba(0, 0, 0, 0.85)
+}
+
+.ds-sidebar-toggle {
+    color: #6c757d
+}
+
+.ds-sidebar-toggle:hover,
+.ds-sidebar-toggle:focus {
+    color: #7952b3
+}
+
+.ds-sidebar-toggle:focus {
+    box-shadow: 0 0 0 3px rgba(121, 82, 179, 0.25)
+}
+
+.ds-sidebar-toggle .bi-collapse {
+    display: none
+}
+
+.ds-sidebar-toggle:not(.collapsed) .bi-expand {
+    display: none
+}
+
+.ds-sidebar-toggle:not(.collapsed) .bi-collapse {
+    display: inline-block
+}
+
+@media (max-width: 767.98px) {
+    .ds-sidebar {
+        margin: 0 -.75rem 1rem
+    }
+}
+
+.ds-sidebar {
+    grid-area: sidebar;
+}
