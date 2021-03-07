@@ -6,22 +6,16 @@ isNav: false
 
 <div class="container pt-3">
     <aside class="ds-sidebar">
-        <nav class="ds-links nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
-            <ul>
-                <li>
-                    <a class="d-inline-flex align-items-center rounded active show" id="introduction-tab" data-toggle="pill" href="#introduction" role="tab"
-                    aria-controls="introduction" aria-selected="true">Introduction</a>
-                </li>          
-                {% for doc in site.ds-docs %}
-                <li>
-                    <a class="d-inline-flex align-items-center rounded" id="{{doc.id}}-tab" data-toggle="pill" href="#{{doc.id}}" role="tab"
-                    aria-controls="{{doc.id}}" aria-selected="false">{{ doc.title }}</a>
-                </li>
-                {% endfor %}
-            </ul>
-        </nav>
+        <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+            <a class="nav-link active show" id="introduction-tab" data-toggle="pill" href="#introduction" role="tab"
+                aria-controls="introduction" aria-selected="true">Introduction</a>
+            {% for doc in site.ds-docs %}
+            <a class="nav-link" id="{{doc.id}}-tab" data-toggle="pill" href="#{{doc.id}}" role="tab"
+                aria-controls="{{doc.id}}" aria-selected="false">{{ doc.title }}</a>
+            {% endfor %}
+        </div>
     </aside>
-    <main class="ds-main order-1">
+    <main class="order-1">
         <div class="tab-content" id="v-pills-tabContent">
             <div class="tab-pane fade active show" id="introduction" role="tabpanel"
                 aria-labelledby="introduction-tab">
