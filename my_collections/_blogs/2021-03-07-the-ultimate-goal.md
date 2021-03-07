@@ -1,5 +1,5 @@
 ---
-title: "The ultimate goal - Mục tiếu cuối cùng"
+title: "The ultimate goal - Mục tiếu "
 layout: post
 date: 2021-03-07 14:22:20
 author: sonohyeah
@@ -24,10 +24,15 @@ Phương pháp mà tôi và các đồng nghiệp đang áp dụng dựa trên [
 * WHAT?
 * WOW?
 
-### Hay nói về How hơn là nói về 3Ws
-Những chủ đề mà chúng tôi hay bàn luận là:
-* Cái này các bước giải quyết là gì? Hỏi ai, nhờ ai hướng dẫn?
-* 
+### Hay nói về "How" hơn là nói về 3Ws
+Những chủ đề mà chúng tôi hay bàn luận và gặp phải là:
+{% highlight html %}
+    - Cái này các bước giải quyết là gì? Hỏi ai, nhờ ai (người đã từng gặp một vấn đề "tương tự") hướng dẫn?
+    - Cách làm này "work" được với ví dụ này, chúng ta nên áp dụng luôn.
+    - Chuyên gia A tư vấn là làm như thế này, không làm như thế kia.
+    - Ý tưởng này của tôi đơn giản hơn mà cũng cho ra được kết quả.
+    - ...
+{% endhighlight %}
 
 
 
