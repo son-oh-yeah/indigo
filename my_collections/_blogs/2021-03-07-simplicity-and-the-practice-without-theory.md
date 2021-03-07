@@ -30,7 +30,7 @@ and,
 When I am thinking about simplicity, I always associate it with complication.
 A pretty good quote mentioned in [this article](https://spiderum.com/bai-dang/Suy-nghi-don-gian-khong-giup-cuoc-song-cua-ban-don-gian-8w0) that I liked.
 
-> “Whenever we seek to avoid the responsibility for our own behavior, we do so by attempting to give that responsibility to some other individual or organization or entity. But this means we then give away our power to that entity.”
+> “Life is difficult. This is a great truth, one of the greatest truths. It is a great truth because once we truly see this truth, we transcend it. Once we truly know that life is difficult-once we truly understand and accept it-then life is no longer difficult. Because once it is accepted, the fact that life is difficult no longer matters.”
 > 
 > ― M. Scott Peck, The Road Less Traveled: A New Psychology of Love, Traditional Values and Spiritual Growth
 
