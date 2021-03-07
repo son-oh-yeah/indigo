@@ -25,10 +25,14 @@ Phương pháp mà tôi và các đồng nghiệp đang áp dụng dựa trên [
 * WOW?
 
 ### Hay nói về How hơn là nói về 3Ws
-Những chủ đề mà chúng tôi hay bàn luận là:
-* Cái này các bước giải quyết là gì? Hỏi ai, nhờ ai hướng dẫn?
-* 
-
+Những chủ đề mà chúng tôi hay bàn luận và gặp phải là:
+{% highlight html %}
+    - Cái này các bước giải quyết là gì? Hỏi ai, nhờ ai (người đã từng gặp một vấn đề "tương tự") hướng dẫn?
+    - Cách làm này "work" được với ví dụ này, chúng ta nên áp dụng luôn.
+    - Chuyên gia A tư vấn là làm như thế này, không làm như thế kia.
+    - Ý tưởng này của tôi đơn giản hơn mà cũng cho ra được kết quả.
+    - ...
+{% endhighlight %}
 
 
 ### Wise listeners - Người lắng nghe thông thái
