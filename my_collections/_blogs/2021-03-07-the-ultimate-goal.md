@@ -51,7 +51,7 @@ Tình cờ hôm nay tôi đọc được bài review về cuốn <span class="ev
 
 Tôi rất tâm đắc với ý này: Con người 1 có xu hướng dùng bản năng, kinh nghiệm và trực giác, hành động bằng vô thức (unconscious). Con người 2 dựa vào dữ liệu, sự thật tai nghe, mắt thấy. Vì để muốn mau chóng chúng ta thường tư duy theo kiểu con người 1, một cách vô thức để giải quyết vấn đề. Con người 2 thì đòi hỏi sự kiên nhẫn và tỉ mỉ, mất nhiều thời gian để suy xét, hành động bằng tiềm thức (conscious).
 
-Vì để nhanh chóng giải quyết vấn đề, ta thường lựa chọn hoặc là dựa trên kinh nghiệm bản thân để suy đoán sớm, hoặc là “sao chép” từ những lời giải có sẵn, hoặc là đi tìm ngay sự tư vấn trực tiếp (nếu có).
+It's mean that ta thường lựa chọn hoặc là dựa trên kinh nghiệm bản thân để suy đoán sớm, hoặc là “sao chép” từ những lời giải có sẵn, hoặc là đi tìm ngay sự tư vấn trực tiếp (nếu có).
 
 Vậy khi nào thì dùng con người 1, khi nào thì dùng con người 2?
 
