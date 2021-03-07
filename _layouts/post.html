@@ -6,6 +6,7 @@ layout: page
     <img class="title-image" src="{{ page.image }}" alt="{{ page.title }}">
 {% endif %}
 
+
 <h1 class="title">{{ page.title }}</h1>
 <div class="mx-auto text-center">
     <span class="date">
@@ -37,7 +38,11 @@ layout: page
     </div>
 {% endif %}
 
+{% if page.blog %}
 <button type="button" onclick=goBack()>← More blogs</button>
+{% elseif page.projects %}
+<button type="button" onclick=goBack()>← More projects</button>    
+{% endif %}
 
 {% if site.related %}
     {% include related.html %}
