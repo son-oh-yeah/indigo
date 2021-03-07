@@ -38,14 +38,17 @@ Kinh nghiệm xương máu của tôi khi đối diện những tình huống n�
 
 Ham học hỏi không có nghĩa là hỏi nhiều, điều quan trọng là phải hỏi đúng. Khi hỏi đúng rồi tự khắc chúng ta sẽ có câu trả lời. 
 
-Tình cờ hôm nay tôi đọc được bài review về cuốn <span class="evidence">“Think fast and slow”</span> của Daniel Kahneman ( bản dịch tiếng Việt là "Tư duy nhanh và chậm" của NXB Thế giới).
+Tình cờ hôm nay tôi đọc được bài review về cuốn <span class="evidence">“Think fast and slow”</span> của Daniel Kahneman (bản dịch tiếng Việt là "Tư duy nhanh và chậm" của NXB Thế giới).
 
-> Có 1 đoạn nói rằng, con người chúng ta thường tồn tại 2 con người có 2 hệ thống tư duy khác biệt. Con người 1 có xu hướng dùng bản năng, kinh nghiệm, và trực giác như một phản xạ để đánh giá và phân tích. 
-> Con người thứ 2, thì sẽ dựa vào dữ liệu, sự thật, tai nghe mắt thấy để tư duy, trực giác hay cảm xúc là thứ yếu. 
+> Có 1 đoạn nói rằng, con người chúng ta thường tồn tại 2 con người có 2 hệ thống tư duy khác biệt. Con người 1 có xu hướng dùng bản năng, kinh nghiệm, và trực giác như một phản xạ để đánh giá và phân tích.
+>  
+> Con người thứ 2, thì sẽ dựa vào dữ liệu, sự thật, tai nghe mắt thấy để tư duy, trực giác hay cảm xúc là thứ yếu.
+> 
 > Thông thường để thực hiện cách tư duy theo con người thứ 2, chúng ta thường mất thời gian và dùng não rất nhiều để xử lý thông tin hơn. Chính vì thế hầu hết chúng ta có xu hướng sử dụng Con Người 1.
+> 
 > [Bolat Duisenov](https://www.facebook.com/1463522007/posts/10222814927989451)
 
-Tôi rất tâm đắc với ý này: Con người 1 có xu hướng dùng bản năng, kinh nghiệm và trực giác, hành động bằng vô thức (unconcious). Con người 2 dựa vào dữ liệu, sự thật tai nghe, mắt thấy. Vì để muốn mau chóng chúng ta thường tư duy theo kiểu con người 1, một cách vô thức để giải quyết vấn đề. Con người 2 thì đòi hỏi sự kiên nhẫn và tỉ mỉ, mất nhiều thời gian để suy xét, hành động bằng tiềm thức (concious).
+Tôi rất tâm đắc với ý này: Con người 1 có xu hướng dùng bản năng, kinh nghiệm và trực giác, hành động bằng vô thức (unconscious). Con người 2 dựa vào dữ liệu, sự thật tai nghe, mắt thấy. Vì để muốn mau chóng chúng ta thường tư duy theo kiểu con người 1, một cách vô thức để giải quyết vấn đề. Con người 2 thì đòi hỏi sự kiên nhẫn và tỉ mỉ, mất nhiều thời gian để suy xét, hành động bằng tiềm thức (conscious).
 
 Vì để nhanh chóng giải quyết vấn đề, ta thường lựa chọn hoặc là dựa trên kinh nghiệm bản thân để suy đoán sớm, hoặc là “sao chép” từ những lời giải có sẵn, hoặc là đi tìm ngay sự tư vấn trực tiếp (nếu có).
 
@@ -54,6 +57,7 @@ Vậy khi nào thì dùng con người 1, khi nào thì dùng con người 2?
 Hãy tự hỏi Tại sao, lặp lại việc hỏi Tại sao lại có câu trả lời đó nhiều lần sẽ giúp chúng ta dẫn đến ý đồ cuối cùng - the ultimate goal.
 
 ### Ultimate goal - sợi dây liên kết những bộ não
+
 Đằng sau mỗi hành động đều có một mục đích để làm động lực thôi thúc. Nếu không thể xác định được mục đích thực sự là gì thì những hành động của chúng ta chỉ đơn giản là thói quen, bản năng và trực giác, thiếu sở cứ chắc chắn khi muốn đào sâu và phân tích vấn để.
 
 
