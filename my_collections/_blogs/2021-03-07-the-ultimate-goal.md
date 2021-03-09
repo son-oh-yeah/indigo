@@ -61,6 +61,29 @@ Lặp lại việc hỏi Tại sao theo cac câu trả lời đó nhiều lần 
 
 Đằng sau mỗi hành động đều có một mục đích để làm động lực thôi thúc. Nếu không thể xác định được mục đích thực sự là gì thì những hành động của chúng ta chỉ đơn giản là thói quen, bản năng và trực giác, thiếu sở cứ chắc chắn khi muốn đào sâu và phân tích vấn để.
 
+<div class="side-by-side">
+    <div class="toleft">
+        <img class="image" src="{{site.url}}/assets/images/3868C946-3849-4B8F-8952-6FA76B93546C.png" alt="Goal levels">
+        <figcaption class="caption">Visualize your goal setting as a hierarchy with multiple levels. <a href="https://www.meetconstance.com/blog/grit-ch-4">Source</a></figcaption>
+    </div>
+    <div class="toright">
+        <p>Nếu chúng ta có cùng tầm nhìn, dù chúng ta mỗi người một công một việc, đều sẽ cùng nhau lèo lái con thuyền tiến đến đích. Có thể nói đơn giản như sau, mục tiêu của chúng ta sẽ được chia nhỏ dần theo “độ dài” của tầm nhìn, hay ta thường chia thành 2 loại long-term và short-term (ngắn và dài hạn). Mục tiêu “xa nhất” chính là the ultimate goal-mục tiêu tối thượng. Vì vậy nếu những bộ não đang trong cùng “vùng quan sát” nếu cùng “tầm nhìn” thì sẽ kết nối được với nhau mà ta hay gọi là cùng chí hướng, cùng mục tiêu.
+.</p>
+    </div>
+</div>
 
+Thus, my opinion is we should do this things:
+{% highlight html %}
+    - ~~Cái này các bước giải quyết là gì? Hỏi ai, nhờ ai (người đã từng gặp một vấn đề "tương tự") hướng dẫn?~~
+    - ~~Cách làm này "work" được với ví dụ này, chúng ta nên áp dụng luôn~~.
+    - ~~Chuyên gia A tư vấn là làm như thế này, không làm như thế kia~~.
+    - ~~Ý tưởng này của tôi đơn giản hơn mà cũng cho ra được kết quả~~.
+
+-> Chúng ta cần giải quyết vấn đề A, để giải quyết nó chúng ta phân rã thành các vấn đề nhỏ hơn A1, A2, A3, … phân rã đến mức cơ bản nhất có thể. Những mục tiêu nào thì hỏi chuyên gia tư vấn, mục tiêu nào tham khảo được các giải pháp tương tự, …
+{% endhighlight %}
+
+Trình tự đúng, theo tôi nên là: Trao đổi sâu và thống nhất về việc phân ra các mục tiêu trước để trả lời 3Ws, cuối cùng mới thảo luận về “How”
 
 ### Wise listeners - Người lắng nghe thông thái
+
+Cần kiên nhẫn, lắng nghe để chia sẻ, nhờ đó các bộ não mới liên kết được với nhau. Tôi nghĩ việc đi trực tiếp vào hỏi “How” và trình bày “What” khi các bộ não chưa được liên kết sẽ khiến chúng ta nảy sinh xung đột, làm việc mà không có chung mục đích, làm theo sự chỉ bảo, cho xong việc. It’s not my way!
