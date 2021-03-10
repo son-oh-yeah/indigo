@@ -72,17 +72,15 @@ Lặp lại việc hỏi Tại sao theo cac câu trả lời đó nhiều lần 
     </div>
 </div>
 
-Thus, my opinion is we should do this things:
-{% highlight html %}
+Vì vậy, ý kiến của tôi là chúng ta nên làm những điều này:
     - ~~Cái này các bước giải quyết là gì? Hỏi ai, nhờ ai (người đã từng gặp một vấn đề "tương tự") hướng dẫn?~~
     - ~~Cách làm này "work" được với ví dụ này, chúng ta nên áp dụng luôn~~.
     - ~~Chuyên gia A tư vấn là làm như thế này, không làm như thế kia~~.
     - ~~Ý tưởng này của tôi đơn giản hơn mà cũng cho ra được kết quả~~.
 
 -> Chúng ta cần giải quyết vấn đề A, để giải quyết nó chúng ta phân rã thành các vấn đề nhỏ hơn A1, A2, A3, … phân rã đến mức cơ bản nhất có thể. Những mục tiêu nào thì hỏi chuyên gia tư vấn, mục tiêu nào tham khảo được các giải pháp tương tự, …
-{% endhighlight %}
 
-Trình tự đúng, theo tôi nên là: Trao đổi sâu và thống nhất về việc phân ra các mục tiêu trước để trả lời 3Ws, cuối cùng mới thảo luận về “How”
+Trình tự đúng, theo tôi nên là: Trao đổi sâu và thống nhất về việc phân rã các mục tiêu trước để trả lời 3Ws, cuối cùng mới thảo luận về “How”
 
 ### Wise listeners - Người lắng nghe thông thái
 
