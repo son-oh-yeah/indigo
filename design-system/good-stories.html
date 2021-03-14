@@ -23,7 +23,7 @@ isNav: false
                 {% for post in paginator.posts %}
                     {% if post.good-stories %}
                         {% if post.hidden != true %}                        
-                            <a class="card col-lg-4 col-md-6 border-0"
+                            <a class="card col-lg-4 col-md-6 border-bottom border-top-0 border-right-0 border-left-0"
                                 href="{% if post.externalLink %}{{ post.externalLink }}{% else %}{{ site.url }}{{ post.url }}{% endif %}"
                                 style="text-decoration: none;background-color:transparent;">
                                 <div class="card-body">
@@ -31,12 +31,12 @@ isNav: false
                                     <h3 class="card-title" style="color: black">{{ post.title }}</h2>
                                     <p class="card-text">{{ post.description }}</p>
                                 </div>
+                                {{ post.tag | join: " - " }}
                                 <div class="card-footer" style="background-color:transparent;">
                                     <small class="text-muted"
                                         datetime="{{ post.date | date:"%d-%m-%Y" }}">{{ post.date | date: "%b %d %Y" }}</small>
-                                    {{ post.tag | join: " - " }}
-                                    <hr>
                                 </div>
+                                <hr>
                             </a>   
                         {% endif %}
                     {% endif %}
@@ -45,20 +45,20 @@ isNav: false
             {% else %}    
                 {% for post in stories %}
                         {% if post.hidden != true %}
-                            <a class="card col-lg-4 col-md-6 border-0"
+                            <a class="card col-lg-4 col-md-6 border-bottom border-top-0 border-right-0 border-left-0"
                                 href="{% if post.externalLink %}{{ post.externalLink }}{% else %}{{ site.url }}{{ post.url }}{% endif %}"
                                 style="text-decoration: none;background-color:transparent;">
                                 <div class="card-body">
                                     <h6 class="card-subtitle mb-2 text-muted text-uppercase">{{ post.author }}</h6>
                                     <h3 class="card-title" style="color: black">{{ post.title }}</h2>
                                     <p class="card-text">{{ post.description }}</p>
+                                    {{ post.tag | join: " - " }}
                                 </div>
                                 <div class="card-footer" style="background-color:transparent;">
                                     <small class="text-muted"
                                         datetime="{{ post.date | date:"%d-%m-%Y" }}">{{ post.date | date: "%b %d %Y" }}</small>
-                                    {{ post.tag | join: " - " }}
-                                    <hr>
                                 </div>
+                                <hr>
                             </a>
                     {% endif %}
             {% endfor %}

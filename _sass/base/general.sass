@@ -1,5 +1,5 @@
 body, html
-	font-size: 90%
+	font-size: 81%
 
 @function strip-unit($value)
 	@return $value / ($value * 0 + 1)
@@ -15,7 +15,7 @@ body, html
 			@media screen and (min-width: $min-vw)
 				font-size: calc(#{$min-font-size} + #{strip-unit($max-font-size - $min-font-size)} * ((100vw - #{$min-vw}) / #{strip-unit($max-vw - $min-vw)}))
 			@media screen and (min-width: $max-vw)
-					font-size: $max-font-size
+				font-size: $max-font-size
 
 html
 	height: 100%
@@ -27,6 +27,7 @@ body
 	line-height: $baseline
 	font: $min_font $fontSans
 	color: $alpha
+	background-image: linear-gradient(rgba(200, 50, 50, .25))
 
 h1,
 h2,
