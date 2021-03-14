@@ -33,7 +33,7 @@ layout: page
     <div class="blog-navigation">
         {% assign previous_page = page.previous %}
         {% if previous_page.url %}
-            <a class="prev" href="{% if previous_page.externalLink %}{{ previous_page.externalLink }}{% else %}{{ site.url }}{{ previous_page.url }}{{endif}}">&laquo; {{ previous_page.title }}</a>
+            <a class="prev" href="{% if previous_page.externalLink %}{{ previous_page.externalLink }}{% else %}{{ site.url }}{{ previous_page.url }}{% endif %}">&laquo; {{ previous_page.title }}</a>
         {% else %}
             <a class="prev"></a>
         {% endif %}
@@ -41,7 +41,7 @@ layout: page
         
         {% assign next_page = page.next %}
         {% if next_page.url %}
-            <a class="next" href="{% if next_page.externalLink %}{{ next_page.externalLink }}{% else %}{{ site.url }}{{ next_page.url }}{{endif}}">{{ next_page.title }} &raquo;</a>
+            <a class="next" href="{% if next_page.externalLink %}{{ next_page.externalLink }}{% else %}{{ site.url }}{{ next_page.url }}{% endif %}">{{ next_page.title }} &raquo;</a>
         {% endif %}
         {% assign next_page = nil %}
     </div>
