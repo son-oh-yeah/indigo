@@ -29,12 +29,13 @@ isNav: false
                                 <div class="card-body">
                                     <h6 class="card-subtitle mb-2 text-muted text-uppercase">{{ post.author }}</h6>
                                     <h3 class="card-title" style="color: black">{{ post.title }}</h2>
-                                    {{ post.tag }}
                                     <p class="card-text">{{ post.description }}</p>
                                 </div>
                                 <div class="card-footer" style="background-color:transparent;">
                                     <small class="text-muted"
                                         datetime="{{ post.date | date:"%d-%m-%Y" }}">{{ post.date | date: "%b %d %Y" }}</small>
+                                    {{ post.tag | join: " - " }}
+                                    <hr>
                                 </div>
                             </a>   
                         {% endif %}
@@ -51,11 +52,12 @@ isNav: false
                                     <h6 class="card-subtitle mb-2 text-muted text-uppercase">{{ post.author }}</h6>
                                     <h3 class="card-title" style="color: black">{{ post.title }}</h2>
                                     <p class="card-text">{{ post.description }}</p>
-                                    {{ post.tag | join: " - " }}
                                 </div>
                                 <div class="card-footer" style="background-color:transparent;">
                                     <small class="text-muted"
                                         datetime="{{ post.date | date:"%d-%m-%Y" }}">{{ post.date | date: "%b %d %Y" }}</small>
+                                    {{ post.tag | join: " - " }}
+                                    <hr>
                                 </div>
                             </a>
                     {% endif %}
