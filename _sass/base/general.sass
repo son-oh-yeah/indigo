@@ -2,35 +2,29 @@ body, html
 	font-size: 100%
 
 /* Fluid Typography */
-@function strip-unit($value) {
-  @return $value / ($value * 0 + 1)
-}
+@function strip-unit($value)
+	@return $value / ($value * 0 + 1)
 
-@mixin fluid-type($min-vw, $max-vw, $min-font-size, $max-font-size) {
-  $u1: unit($min-vw)
-  $u2: unit($max-vw)
-  $u3: unit($min-font-size)
-  $u4: unit($max-font-size)
+@mixin fluid-type($min-vw, $max-vw, $min-font-size, $max-font-size)
+	$u1: unit($min-vw)
+  	$u2: unit($max-vw)
+  	$u3: unit($min-font-size)
+  	$u4: unit($max-font-size)
 
-  @if $u1 == $u2 and $u1 == $u3 and $u1 == $u4 {
-    & {
-      font-size: $min-font-size
-      @media screen and (min-width: $min-vw) {
-        font-size: calc(#{$min-font-size} + #{strip-unit($max-font-size - $min-font-size)} * ((100vw - #{$min-vw}) / #{strip-unit($max-vw - $min-vw)}))
-      }
-      @media screen and (min-width: $max-vw) {
-        font-size: $max-font-size
-      }
-    }
-  }
-}
+  	@if $u1 == $u2 and $u1 == $u3 and $u1 == $u4 
+		&
+      		font-size: $min-font-size
+      		@media screen and (min-width: $min-vw)
+        		font-size: calc(#{$min-font-size} + #{strip-unit($max-font-size - $min-font-size)} * ((100vw - #{$min-vw}) / #{strip-unit($max-vw - $min-vw)}))
+   
+      		@media screen and (min-width: $max-vw)
+        		font-size: $max-font-size
 
-html {
+html
 	height: 100%
 	font-smoothing: antialiased
 	text-rendering: optimizeLegibility
   	@include fluid-type($min_width, $max_width, $min_font, $max_font)
-}
 
 body
 	line-height: $baseline
@@ -47,11 +41,10 @@ h1,
 h2,
 h3,
 h4,
-h5{
+h5
 	font-weight: 700
 	color: $beta
 	margin-bottom: $baseline
-}
 
 h1
   	font-size: $mod_1*$mod_1*$mod_1*$mod_1 *1rem
