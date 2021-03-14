@@ -1,6 +1,6 @@
 <div class="pagination">
-    {% assign prev_page = paginator.previous_page %}
-    {% if paginator.previous_page %}
+    {% assign previous_page = paginator.previous_page %}
+    {% if previous_page %}
         <a href="{% if previous_page.externalLink %}{{ previous_page.externalLink }}{% else %}{{ site.url }}{{ previous_page.url }}{{endif}}" class="previous">«</a>
     {% else %}
         <span class="previous hidden">«</span>
