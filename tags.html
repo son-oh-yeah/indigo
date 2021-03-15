@@ -21,9 +21,9 @@ permalink: /tags/
 
 <section class="tag-list">
     {% for tag in alltags  %}
-    <h3 id="{{ tag.name | slugify }}" class="linked-section">
+    <h4 id="{{ tag.name | slugify }}" class="linked-section">
         #{{ tag.name }}&nbsp;({{ tag.size }})
-	</h3>
+	</h4>
 	<ul class="list">
 		{% for document in alldocs %}
 		{% if document.tags contains tag.name %}
