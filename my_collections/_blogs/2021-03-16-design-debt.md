@@ -23,7 +23,9 @@ Rõ ràng trong đời không có ai là muốn nợ nần (tiền bạc) cả. 
 - Không thích nợ nần, nhưng vẫn nợ
 - (Nhận định của tôi) Thích nợ nần :)))
 
-Trong design cũng vậy, chúng ta cũng có thuật ngữ [Design Debt](https://uxdesign.cc/what-is-design-debt-and-why-you-should-treat-it-seriously-4366d33d3c89) ám chỉ việc thiết kế tập trung vào ngắn hạn mà gạt đi những ý tưởng tốt, có ích cho tương lai. Nói cách khác là những thiết kế tồi, không có tính bền vững, chỉ chăm chăm giải quyết vấn đề trước mắt. Điều này tôi thường thấy ở các beginner và intermediate designer.
+Trong design cũng vậy, chúng ta cũng có thuật ngữ [Design Debt](https://www.youtube.com/watch?v=pqeJFYwnkjE) ám chỉ việc thiết kế tập trung vào ngắn hạn mà gạt đi những ý tưởng tốt, có ích cho tương lai. Nói cách khác là những thiết kế tồi, không có tính bền vững, chỉ chăm chăm giải quyết vấn đề trước mắt. Điều này tôi thường thấy ở các beginner và intermediate designer.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/pqeJFYwnkjE?controls=0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 Nếu để design debt xảy ra, chúng ta-những người nhận mình là designer xin đừng vinh danh **"lấy người dùng làm trọng tâm"** để bảo vệ cho ý tưởng của mình, nó không giải quyết vấn đề chính nào và cũng không đủ thuyết phục khi nói chuyện với các stakehoder.
 
