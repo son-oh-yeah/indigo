@@ -31,7 +31,7 @@ permalink: /tags/
         <li class="item">
         	<a class="url" href="{% if document.externalLink %}{{ document.externalLink }}{% else %}{{ site.url }}{{ document.url }}{% endif %}">
         		<aside class="date"><time datetime="{{ document.date | date:"%d-%m-%Y" }}">{{ document.date | date: "%b %d %Y" }}</time></aside>
-        		<h5 class="title">{{ document.title }}</h5>
+        		<h5 class="">{{ document.title }}</h5>
         	</a>
         </li>
         {% endif %}
