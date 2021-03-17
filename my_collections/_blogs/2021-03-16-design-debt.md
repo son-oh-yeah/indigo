@@ -16,7 +16,7 @@ hidden: false
 
 ---
 
-### Có nợ thì phải trả. Sh💩.
+# Có nợ thì phải trả. Sh💩.
 
 Rõ ràng trong đời không có ai là muốn nợ nần (tiền bạc) cả. Dĩ nhiên đó là về mặt "lý thuyết". Có 3 kiểu người mà tôi đã quan sát được trong thực tế:
 - Không thích nợ nần, và không nợ gì cả
@@ -31,7 +31,7 @@ Nếu để design debt xảy ra, chúng ta-những người nhận mình là de
 
 Tình trạng mà tôi thấy mọi người hay gặp phải như câu chuyện "Đầu voi đuôi chuột". Chúng ta viện cớ những lý do khách quan như do vấn đề kĩ thuật hiện tại chưa đáp ứng, chiến lược kinh doanh chưa hoàn thiện, không có đủ budget, không có thời gian, ... và chúng ta vẫn "cố đấm ăn xôi" để cho ra một bản thiết kế với "life time" ngắn. Tất nhiên, chẳng mấy ai lại tiếp tục "trả nợ" vì luôn luôn lại vướng bận vào những vụ nợ nần khác (qua sprint này tới sprint khác, release này tới release khác).
 
-### Design Debt thực sự là gì
+# Design Debt thực sự là gì
 ![Picture 1](https://son-oh-yeah.github.io/assets/images/technical-debt-pentalog.png)
 
 Lấy vài ví dụ đơn giản như sau:
@@ -53,7 +53,7 @@ Những tác nhân chính có thể dẫn đến Design Debt
 
 > Đặc biệt, đối với in-house design team chúng ta luôn tỏ ra hào hứng với những tính năng mới, nói về những gì chúng ta sẽ đạt được "WOW" mà ít khi nghĩ tới chúng ta sẽ phải đối mặt những gì. Hay "quên" trả lời câu hỏi "WHY".
 
-### Ngăn ngừa Design Debt
+# Ngăn ngừa Design Debt
 
 Trong bài viết này liệt kê một số ví dụ điển hình những lý do dẫn đến **Design Debt**
 [What is design debt and why you should treat it seriously](https://uxdesign.cc/what-is-design-debt-and-why-you-should-treat-it-seriously-4366d33d3c89#2bf4)
