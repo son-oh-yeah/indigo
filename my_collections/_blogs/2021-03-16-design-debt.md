@@ -12,7 +12,7 @@ tag:
 
 star: false
 blog: true
-hidden: true
+hidden: false
 
 ---
 
