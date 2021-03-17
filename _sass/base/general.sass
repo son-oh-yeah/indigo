@@ -64,7 +64,8 @@ h4
 	margin-top: calc((#{$baseline} - #{$h4}) + #{$baseline}*2)
 
 h5
-	font-size: $h5
+	font-size: $mod_1
+	@include fluid-type($min_width, $max_width, $mod_1 *$min_font, $mod_2 *$min_font)
 	line-height: $h5
 	margin-top: calc((#{$baseline} - #{$h5}) + #{$baseline}*2)
 
