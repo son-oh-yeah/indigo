@@ -23,7 +23,7 @@ Rõ ràng trong đời không có ai là muốn nợ nần (tiền bạc) cả. 
 - Không thích nợ nần, nhưng vẫn nợ
 - (Nhận định của tôi) Thích nợ nần :)))
 
-Trong design cũng vậy, chúng ta cũng có thuật ngữ [Design Debt](https://www.youtube.com/watch?v=pqeJFYwnkjE) ám chỉ việc thiết kế tập trung vào ngắn hạn mà gạt đi những ý tưởng tốt, có ích cho tương lai. Nói cách khác là những thiết kế tồi, không có tính bền vững, chỉ chăm chăm giải quyết vấn đề trước mắt. Điều này tôi thường thấy ở các beginner và intermediate designer.
+Trong product design có thuật ngữ [Design Debt](https://www.youtube.com/watch?v=pqeJFYwnkjE) ám chỉ việc thiết kế tập trung vào ngắn hạn mà gạt đi những ý tưởng tốt, có ích cho tương lai. Nói cách khác là những thiết kế tồi, không có tính bền vững, chỉ chăm chăm giải quyết vấn đề trước mắt. Điều này tôi thường thấy ở các beginner và intermediate designer. Và cũng có những kiểu: không thích nợ thiết kế, không thích nợ thiết kế nhưng vẫn nợ và luôn thích nợ.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/pqeJFYwnkjE?controls=0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
@@ -40,13 +40,13 @@ Lấy vài ví dụ đơn giản như sau:
 - Một form thiết kế (quan trọng) không được chỉnh sửa nhất quán vì cả luồng sẽ được chỉnh sửa lại
 - Ý tưởng thiết kế chỉ tập trung cho những thứ mà team tech xác nhận làm được trong giai đoạn này, và gọi đó là một ý tưởng khả thi
 
-Những tác nhân chính có thể dẫn đến Design Debt
+## Những tác nhân chính có thể dẫn đến Design Debt
 
-## Các yếu tố khách quan
+### Các yếu tố khách quan
 - Các manager (thượng tầng) tập trung xây dựng roadmap với đầy đủ các features "hay ho" có value với khách hàng, thị trường và đặc biệt là về mặt business, không thể giám sát những thay đổi nhỏ "bên dưới".
 - Các leader (trung tầng) dẫn dắt để cân bằng thời gian thực thi, chi phí, sự cam kết, v.v dẫn đến việc trade-off các hạng mục.
 
-## Các yếu tố chủ quan
+### Các yếu tố chủ quan
 - Designer luôn design với tầm nhìn ngắn hạn, 
 - Chủ yếu focus vào **"WHAT"** thiếu sự tự vấn bản thân trả lời **"WHY"**, **"HOW"**
 - Không hiểu rõ context design và design goal [ultimate goal](https://son-oh-yeah.github.io/blog/2021-03-07-the-ultimate-goal)
