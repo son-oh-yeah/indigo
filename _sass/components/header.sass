@@ -1,3 +1,6 @@
+$header_home_1: 4rem
+$header_home_2: 1.85rem
+    
 .header-home
     display: block
     margin: 0 auto
@@ -18,11 +21,15 @@
             opacity: .8
 
     > .title
-        font-size: 4rem
+        font-size: $header_home_1
+        @include fluid-type($min_width, $max_width, $header_home_1*$min_font, $header_home_1*$max_font)
+        line-height: $header_home_1
         margin: 0 0 .875rem
 
     > .description
         font-size: 1.85rem
+        @include fluid-type($min_width, $max_width, $header_home_2*$min_font, $header_home_2*$max_font)
+        line-height: $header_home_2
         font-weight: 300
         font-style: normal
         color: $gama
