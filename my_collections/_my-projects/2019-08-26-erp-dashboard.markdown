@@ -15,7 +15,7 @@ author: sonohyeah
 
 ![Picture 1](https://son-oh-yeah.github.io/assets/images/erp-prototype-image.png)
 
-Link <a href="https://www.behance.net/gallery/84826385/Workplace-ERP-Dashboard">Behance</a>.
+_Private document_
 
 <h2> Các công việc thực hiện</h2>
 - Thiết kế UX: userflow, prototype, wireframe

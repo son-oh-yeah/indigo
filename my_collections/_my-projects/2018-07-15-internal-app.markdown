@@ -16,11 +16,14 @@ Là một ứng dụng phục vụ cho quản lý nội bộ doanh nghiệp nên
 
 Việc xác định mục tiêu của app nhanh chóng và không mất nhiều thời gian. Qua mỗi bản MVP, các tính năng dần được bổ sung và cải thiện. Giao diện thiết kế UI cũng linh hoạt với những thay đổi liên tục.
 
-<video src="https://son-oh-yeah.github.io/assets/images/app.mp4" width="100%" style ="margin: auto; background-color: white" controls autoplay loop></video>
+Các chức năng chính:
+- Chấm công bằng công nghệ nhận diện khuôn mặt (Face detection) và AI huấn luyện việc ghi nhớ khuôn mặt nhân viên.
+- Theo dõi số ngày đi muộn, đúng giờ.
+- Đăng ký ăn trưa hằng ngày (hoặc mặc định) với nhà ăn.
+- Tra cứu danh bạ nhân viên để tiện liên lạc khi cần trao đổi thông tin. Có thể gọi thoại (video call).
+- Bản tin tin tức nội bộ tập đoàn.
+- Đặt lịch và nhắc nhở cuộc họp.
 
-### Các công việc thực hiện
-- Thiết kế prototype: wireframe, userflow
-- Thiết kế UI
-- Triển khai
+<video src="https://son-oh-yeah.github.io/assets/images/app.mp4" width="100%" style ="margin: auto; background-color: white" controls autoplay loop></video>
 
 ---

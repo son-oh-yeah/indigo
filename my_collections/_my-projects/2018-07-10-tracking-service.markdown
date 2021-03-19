@@ -14,7 +14,7 @@ author: sonohyeah
 
 <p>Là một phần mềm giải pháp giúp doanh nghiệp, tổ chức quản lý và theo dõi hoạt động tàu thuyền trên biển (tương tự <a href="https://www.marinetraffic.com/"> Marine Traffic </a>).</p> 
 
-<p>Công việc thực hiện: thiết kế web application.</p>
+*Private document*
 
 ---
 
