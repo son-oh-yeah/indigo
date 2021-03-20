@@ -11,7 +11,7 @@ layout: page
 <hr>
 
 <div class="mx-auto text-center">
-<h1>Read <a href="#now"> I'm doing now first </a></h1>
+<h1>Read <a href="#now"> I'm doing now first →</a></h1>
 </div>
 <div class="breaker"></div>
 
