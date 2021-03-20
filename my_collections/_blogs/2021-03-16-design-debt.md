@@ -1,5 +1,5 @@
 ---
-title: "Design Debt - Đừng có đẽo cày giữa đường"
+title: "Design Debt"
 layout: post
 date: 2021-03-16 23:51:34
 author: sonohyeah
