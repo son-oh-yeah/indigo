@@ -27,7 +27,7 @@ Trong product design có thuật ngữ [Design Debt](https://www.youtube.com/wat
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/pqeJFYwnkjE?controls=0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-Nếu để design debt xảy ra, chúng ta-những người nhận mình là designer xin đừng vinh danh **"lấy người dùng làm trọng tâm"** để bảo vệ cho ý tưởng của mình, nó không giải quyết vấn đề chính nào và cũng không đủ thuyết phục khi nói chuyện với các stakehoder.
+Nếu để design debt xảy ra, chúng ta-những người nhận mình là designer xin đừng vinh danh **"lấy người dùng làm trọng tâm"** để bảo vệ cho ý tưởng của mình, nó không giải quyết vấn đề chính nào và cũng không đủ thuyết phục khi nói chuyện với các stakeholder.
 
 Tình trạng mà tôi thấy mọi người hay gặp phải như câu chuyện "Đầu voi đuôi chuột". Chúng ta viện cớ những lý do khách quan như do vấn đề kĩ thuật hiện tại chưa đáp ứng, chiến lược kinh doanh chưa hoàn thiện, không có đủ budget, không có thời gian, ... và chúng ta vẫn "cố đấm ăn xôi" để cho ra một bản thiết kế với "life time" ngắn. Tất nhiên, chẳng mấy ai lại tiếp tục "trả nợ" vì luôn luôn lại vướng bận vào những vụ nợ nần khác (qua sprint này tới sprint khác, release này tới release khác).
 
