@@ -76,9 +76,11 @@ Mấu chốt của mọi câu chuyện chính là những điểm *mâu thuẫn*
 Tôi rất ấn tượng với một câu nói rất thú vị trong phim [*Glass*](https://www.imdb.com/title/tt6823368/)
 
 > Elijah Price (Mr Glass): You’re nine forever, right?
+> 
 > Hedwig: Yeah.
+>
 > Elijah Price: That’s incredible. *You can see the world the way it really is*. Always. Kid who can never grow old.
 
-Con người là loài động vật bậc cao có trí thông minh nhất trên hành tinh. Cũng chính vì lẽ đó mà loài người nhìn nhận thế giới một cách sâu sắc và tỉ mỉ nhất. Nhưng không phải ai cũng có cách nhìn giống nhau. Có quá nhiều sự [thiên kiến] (https://en.wikipedia.org/wiki/List_of_cognitive_biases) trong mỗi chũng ta làm ngăn cản chúng ta nhìn nhận và đánh giá bản chất sự vật sự việc (điển hình như _confirmation bias_, _Halo effect_, ...). Phải chăng chúng ta càng trưởng thành, càng dễ thiên kiến hơn. Khi thiết kế sản phẩm, tôi phải nỗ lực chống lại những thiên kiến này, đó là lý do tôi trăn trở việc đi tìm "công thức" chung kể trên với một cái nhìn bản chất nhất. Có lẽ, chỉ có những đứa trẻ không bị "gây nhiễu" bởi sự những thứ của người lớn mới giữ được cái nhìn / quan sát thế giới đúng đắn nhất.
+Con người là loài động vật bậc cao có trí thông minh nhất trên hành tinh. Cũng chính vì lẽ đó mà loài người nhìn nhận thế giới một cách sâu sắc và tỉ mỉ nhất. Nhưng không phải ai cũng có cách nhìn giống nhau. Có quá nhiều bẫy [thiên kiến](https://en.wikipedia.org/wiki/List_of_cognitive_biases) trong mỗi chũng ta làm ngăn cản chúng ta nhìn nhận và đánh giá bản chất sự vật sự việc (điển hình như _confirmation bias_, _Halo effect_, ...). Phải chăng chúng ta càng trưởng thành, càng dễ thiên kiến hơn. Khi thiết kế sản phẩm, tôi phải nỗ lực chống lại những thiên kiến này, đó là lý do tôi trăn trở việc đi tìm "công thức" chung kể trên với một cái nhìn bản chất nhất. Có lẽ, chỉ có những đứa trẻ không bị "gây nhiễu" bởi sự những thứ của người lớn mới giữ được cái nhìn / quan sát thế giới đúng đắn nhất.
 
 Câu chuyện mà cháu gái tôi kể rất đơn giản. Bắt đầu bằng một thứ "khá hấp dẫn" với bất kì người nghe nào - ham muốn giàu có. Tuỳ từng mỗi người sẽ có những cách suy nghĩ về giàu có khác nhau, góc nhìn của người lớn sẽ phức tạp và rối rắm hơn về chuyện làm sao để giàu, ở đây ta muốn tò mò xem một đứa trẻ nghĩ sẽ "làm sao để giàu" ra sao. Và chúng ta ồ lên thừa nhận, sự giàu có là do ta tự định nghĩa, ta "mơ mộng" chứ bản chất, nó chỉ đơn giản là nhiều của cải, nhiều vật chất. Trẻ con nghĩ vàng là của cải, người lớn nghĩ là tiền/vàng, có người nghĩ là tri thức, là hạnh phúc ...
