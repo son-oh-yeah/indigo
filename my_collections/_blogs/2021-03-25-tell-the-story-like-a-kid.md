@@ -8,10 +8,11 @@ headerImage: false
 description: ""
 tag:
 - Design
+- Storytelling
 
 star: false
 blog: true
-hidden: true
+hidden: false
 
 ---
 
@@ -36,6 +37,13 @@ Tôi cũng chưa muốn đi tìm câu trả lời những câu hỏi đó vào l
 # Người dùng cũng yêu thích những câu chuyện
 
 > Stories are how we remember. We tend to forget bullet points ([Robert McKee on HBR](https://hbr.org/2003/06/storytelling-that-moves-people)).
+
+Chúng ta sẽ nhớ lâu những câu chuyện, bài thơ hay một ca khúc hơn là ghi nhớ những kiến thức khô khan được liệt kê trong một cuốn từ điển. Những thứ có tiết tấu và nhịp điệu sẽ giúp não bộ ghi nhớ một cách vô thức dễ dàng hơn ([Thơ](https://vi.wikipedia.org/wiki/Th%C6%A1)).
+
+[Norman's Three Levels of Design](https://www.interaction-design.org/literature/article/norman-s-three-levels-of-design).
+![Picture 1](https://son-oh-yeah.github.io/assets/images/blog/Normans-Three-Levels-of-Design.jpeg)
+
+Một người dùng sẽ tiếp nhận và phản chiếu một nguồn thông tin, họ sẽ giải nghĩa chúng và nhận thức lại sự vật/sự việc (chuyển thành tri thức nội tại-vô thức).
 
 ## Các nhân tố trong kể chuyện
 
@@ -65,5 +73,12 @@ Mấu chốt của mọi câu chuyện chính là những điểm *mâu thuẫn*
 
 # Kể chuyện như một đứa trẻ
 
-Câu chuyện mà cháu gái tôi kể rất đơn giản. 
-...
+Tôi rất ấn tượng với một câu nói rất thú vị trong phim [*Glass*](https://www.imdb.com/title/tt6823368/)
+
+> Elijah Price (Mr Glass): You’re nine forever, right?
+> Hedwig: Yeah.
+> Elijah Price: That’s incredible. *You can see the world the way it really is*. Always. Kid who can never grow old.
+
+Con người là loài động vật bậc cao có trí thông minh nhất trên hành tinh. Cũng chính vì lẽ đó mà loài người nhìn nhận thế giới một cách sâu sắc và tỉ mỉ nhất. Nhưng không phải ai cũng có cách nhìn giống nhau. Có quá nhiều sự [thiên kiến] (https://en.wikipedia.org/wiki/List_of_cognitive_biases) trong mỗi chũng ta làm ngăn cản chúng ta nhìn nhận và đánh giá bản chất sự vật sự việc (điển hình như _confirmation bias_, _Halo effect_, ...). Phải chăng chúng ta càng trưởng thành, càng dễ thiên kiến hơn. Khi thiết kế sản phẩm, tôi phải nỗ lực chống lại những thiên kiến này, đó là lý do tôi trăn trở việc đi tìm "công thức" chung kể trên với một cái nhìn bản chất nhất. Có lẽ, chỉ có những đứa trẻ không bị "gây nhiễu" bởi sự những thứ của người lớn mới giữ được cái nhìn / quan sát thế giới đúng đắn nhất.
+
+Câu chuyện mà cháu gái tôi kể rất đơn giản. Bắt đầu bằng một thứ "khá hấp dẫn" với bất kì người nghe nào - ham muốn giàu có. Tuỳ từng mỗi người sẽ có những cách suy nghĩ về giàu có khác nhau, góc nhìn của người lớn sẽ phức tạp và rối rắm hơn về chuyện làm sao để giàu, ở đây ta muốn tò mò xem một đứa trẻ nghĩ sẽ "làm sao để giàu" ra sao. Và chúng ta ồ lên thừa nhận, sự giàu có là do ta tự định nghĩa, ta "mơ mộng" chứ bản chất, nó chỉ đơn giản là nhiều của cải, nhiều vật chất. Trẻ con nghĩ vàng là của cải, người lớn nghĩ là tiền/vàng, có người nghĩ là tri thức, là hạnh phúc ...
