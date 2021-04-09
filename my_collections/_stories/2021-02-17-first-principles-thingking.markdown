@@ -1,15 +1,16 @@
 ---
-title: "First Principles: Elon Musk on the Power of Thinking for Yourself"
+title: "How to Write a Great Value Proposition"
 layout: post
-date: 2021-02-17 13:13
+date: 2018-06-05 21:04
 
 tag:
-- Mental Models
+- Brand Slogans
+- Design
 
 good-stories: true
 
-author: JAMES CLEAR
-description: "First principles thinking, which is sometimes called reasoning from first principles, is one of the most effective strategies you can employ for breaking down complicated problems and generating original solutions."
+author: Lindsay Kolowich Cox
+description: "Your value proposition is the core of your competitive advantage. It clearly articulates why someone would want to buy from your company instead of a competitor."
 
-externalLink: https://jamesclear.com/first-principles
+externalLink: https://blog.hubspot.com/marketing/write-value-proposition
 ---
