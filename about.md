@@ -63,7 +63,7 @@ Build a methodology in designing system design.
 My career path is being a <a class="evidence">Product designer</a>. Now, I'm doing these bellow:
 - Practice more as a Product designer
 - Doing UX Research (Usability Testing, IDI, Market research-Conduct the competitive audit)
-- Doing IDI, Survey, usability testing, building customer journey of a customer in bill payment experience
+- Building customer journey of a customer in bill payment experience
 
 ### Habits to keep
 - Keep reading books and articles.
