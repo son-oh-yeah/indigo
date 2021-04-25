@@ -69,8 +69,8 @@ My career path is being a <a class="evidence">Product designer</a>. Now, I'm doi
 - Spend as much time as I can with my family (My wife and I have the same hobby of staying at home instead of going outside so far, especially in the second Covid year :D ).
 
 ### Aspirations for 2021
-- Off Facebook
-- Run every morning
+- Off Facebook 🥊
+- Run every morning 🏃🏻‍♂️
 - Learning code (React and JS)
 
 <div class="breaker"></div>
