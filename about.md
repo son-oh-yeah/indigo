@@ -11,8 +11,6 @@ layout: page
 <hr>
 
 <div class="mx-auto text-center">
-<div class="badge-base LI-profile-badge" data-locale="en_US" data-size="large" data-theme="light" data-type="VERTICAL" data-vanity="kevinsonkd" data-version="v1"><a class="badge-base__link LI-simple-link" href="https://vn.linkedin.com/in/kevinsonkd?trk=profile-badge">Kim Dinh Son</a></div>
-<script src="https://platform.linkedin.com/badges/js/profile.js" async defer type="text/javascript"></script>
               
 <h1>Read <a href="#now"> I'm doing now first →</a></h1>
 </div>
